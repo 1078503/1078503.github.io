@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+ isso:
+  image: wonderfall/isso
+  environment:
+    - GID=1000
+    - UID=1000
+  volumes:
+    - /isso/config:/config
+    - /isso/db:/db
+  restart: always

@@ -1,0 +1,176 @@
+一键重装
+
+wget --no-check-certificate -qO AutoDD.sh 'https://zhujiwiki.com/wp-content/uploads/2019/07/autodd.sh' && bash AutoDD.sh
+
+查看版本
+
+cat /etc/centos-release
+
+yum clean all
+yum -y update && yum -y upgrade
+
+lsmod | grep bbr
+
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 9 -v 64 -a
+
+wget git.io/superbench.sh && chmod +x superbench.sh && ./superbench.sh
+
+中文版：
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh && bash ZBench-CN.sh
+
+
+英文版
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
+
+####################################################
+teddysun的Docker-ssr/ss:
+
+docker pull teddysun/shadowsocks-r
+mkdir ssr && vim ssr/config.json
+范例内容如下：
+{
+    "server":"0.0.0.0",
+    "server_ipv6":"::",
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "timeout":120,
+    "method":"none",
+    "protocol":"auth_chain_a",
+    "protocol_param":"",
+    "obfs":"tls1.2_ticket_auth",
+    "obfs_param":"",
+    "redirect":"",
+    "dns_ipv6":false,
+    "fast_open":true,
+    "workers":1,
+    "port_password":{
+        "65210":"1078503.org"
+    }
+}
+
+docker run --restart=always -d -p 65210:65210 -p 65210:65210/udp --name ssr -v /root/ssr:/etc/shadowsocks-r teddysun/shadowsocks-r 
+###############################################
+重装前环境准备
+当前已安装任意由GRUB or GRUB2引导Linux系统(RedHat/CentOS/Debian/Ubuntu/Etc.)
+安装重装系统的前提组件
+①. RedHat/CentOS:
+
+yum install -y xz openssl gawk file
+
+②. Debian/Ubuntu:
+apt-get install -y xz-utils openssl gawk file
+
+如果出现异常，请刷新Mirrors缓存或更换镜像源。
+yum makecache && yum update -y
+apt update -y && apt dist-upgrade -y
+
+下载SHELL脚本（通过root用户运行）:
+
+wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh
+
+【安装DD系统】:
+
+bash ~/Network-Reinstall-System-Modify.sh -DD "https://pan.dtz9.net/CentOS7/CentOS_7.vhd.gz"
+
+###############################################
+一键安装最新内核并开启 BBR 脚本    https://teddysun.com/489.html
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+
+验证BBR是否启动：
+lsmod | grep bbr
+
+CentOS 下最新版内核 headers 安装方法
+yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
+###############################################
+查看版本
+cat /etc/centos-release
+
+yum clean all
+yum -y update && yum -y upgrade
+
+运行以下命令来设置第一个内核为默认启动内核:
+grub2-set-default 0
+
+然后，运行以下命令看是否设置成功:
+grub2-editenv list
+
+最后，运行以下命令来重新生成 Grub 配置:
+grub2-mkconfig -o /boot/grub2/grub.cfg
+
+设置完成后，重启服务器，运行以下命令来查看一下当前系统所使用的是否为最新的内核:
+uname -sr
+
+查看系统中的全部内核：
+rpm -qa | grep kernel
+
+去自动筛选并删除当前无用的系统内核版本：
+yum remove $(rpm -qa | grep kernel | grep -v $(uname -r))
+
+######################################
+1、安装 Docker      ### https://teddysun.com/536.html
+
+操作系统内核大于等于 3.10 的都可以安装最新版 Docker，可以直接运行官方的安装脚本一键安装。
+执行脚本方法如下：
+
+wget -qO- get.docker.com | bash 
+
+安装完成后，运行下面的命令，验证是否安装成功。
+
+docker version 
+
+启动 Docker
+
+systemctl start docker 
+
+查看 Docker 启动状态
+
+systemctl status docker
+
+允许 Docker 开机自启
+
+systemctl enable docker
+
+# 验证
+sudo docker --version
+
+sudo docker run hello-world
+2、安装 docker-compose
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+#############################################
+ab 压力测试
+
+yum -y install httpd-tools
+
+ab -c 100 -n 5000 https://dtz9.net/index.html
+ab -c 5000 -n 10000 https://dtz9.net/index.html
+ulimit -n 655350
+##############################################
+探针
+
+wget https://raw.githubusercontent.com/cppla/ServerStatus/master/autodeploy/config.json
+
+docker run -d --restart=always --name=serverstatus -v ~/serverstatus/config.json:/ServerStatus/server/config.json -p 35610:80 -p 35601:35601 cppla/serverstatus
+
+wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=154.81.2.132 USER=s02  >/dev/null 2>&1 &
+
+wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh
+chmod +x superbench.sh
+./superbench.sh
+
+#################################################
+查询从本地到服务器的路由表状态
+
+tracert 156.236.119.1
+
+回程测试  https://www.moerats.com/archives/497/
+
+wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
+bash testrace.sh
+
+
+##################################################

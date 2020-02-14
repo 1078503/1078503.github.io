@@ -1,0 +1,32 @@
+hugo --theme=Mainroad --baseUrl="https://dtz9.net/"
+cd public
+git init
+git add --all
+git commit -m "Initial blog repo"
+git remote add origin root@137.220.138.224:/root/blog.git
+git remote set-url origin ssh://root@137.220.138.224:22/root/blog.git
+git push origin master
+
+========================================================================================
+在远程主机配置git仓库
+比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)
+
+
+git init --bare blog.git
+cd blog.git
+cd hooks
+vim post-receive
+
+直接删除原来,静态目录，把新的clone过去
+
+#!/bin/sh 
+GIT_REPO=/root/blog.git
+TMP_GIT_CLONE=/tmp/blog
+NGINX_HTML=/www/wwwroot/dtz9.net
+rm -rf ${TMP_GIT_CLONE}
+git clone $GIT_REPO $TMP_GIT_CLONE
+rm -rf ${NGINX_HTML}/*
+cp -rf ${TMP_GIT_CLONE}/* ${NGINX_HTML}
+
+赋予可执行权限
+chmod +x post-receive
