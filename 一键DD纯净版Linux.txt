@@ -156,7 +156,7 @@ wget https://raw.githubusercontent.com/cppla/ServerStatus/master/autodeploy/conf
 
 docker run -d --restart=always --name=serverstatus -v ~/serverstatus/config.json:/ServerStatus/server/config.json -p 35610:80 -p 35601:35601 cppla/serverstatus
 
-wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=154.81.2.132 USER=s02  >/dev/null 2>&1 &
+wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=154.81.2.132 USER=s01  >/dev/null 2>&1 &
 
 wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh
 chmod +x superbench.sh

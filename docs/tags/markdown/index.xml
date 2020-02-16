@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on 近视眼逛博客 DTZ9.NET</title>
+    <link>/tags/markdown/</link>
+    <description>Recent content in markdown on 近视眼逛博客 DTZ9.NET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Jun 2019 17:52:54 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【网站维护】经过几天的努力终于把静态博客搞上线了</title>
+      <link>/2019/06/6/</link>
+      <pubDate>Wed, 12 Jun 2019 17:52:54 +0800</pubDate>
+      
+      <guid>/2019/06/6/</guid>
+      <description>遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节是缺失的。并不是我一开始以为的拿来就可以用的，很多问题需要自己去解决。 这对于新手来说还真是个麻烦，也算是一个痛苦的学习和了解的过程。在这里提醒准备搞和想搞静态博客的朋友，从来就没有伸手就来的东西，只有通过学</description>
+    </item>
+    
+  </channel>
+</rss>

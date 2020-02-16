@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastodon on 近视眼逛博客 DTZ9.NET</title>
+    <link>/tags/mastodon/</link>
+    <description>Recent content in Mastodon on 近视眼逛博客 DTZ9.NET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 11 Aug 2019 20:15:51 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【分享】Mastodon：一个免费开源的分布式微博客社交网络</title>
+      <link>/2019/08/3/</link>
+      <pubDate>Sun, 11 Aug 2019 20:15:51 +0800</pubDate>
+      
+      <guid>/2019/08/3/</guid>
+      <description>什么是免费开源的分布式微博客社交网络？ 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站注册，就得到了一个独一无二的 ID 比如：@1078503@tzcafe.com。前半部分 @1078503 代表我在这个站点内独有的一个身份，站内其他人不能再用；后半部分 @tzcafe.com 则是这个站点的地址。 如果只是在站内发布内容，和同站的网友</description>
+    </item>
+    
+  </channel>
+</rss>
