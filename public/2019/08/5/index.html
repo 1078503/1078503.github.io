@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn"><meta charset="utf-8"><meta name="generator" content="Hugo 0.60.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark"><title>【分享】使用hugo搭建静态博客&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.529d24dbbb37b2fa3270e3d8f434d76013022d9ed3941dd84bdc0f5163b76cb690a87f09353115f18e91acfb185b25e6.css" integrity="sha384-Up0k27s3svoycOPY9DTXYBMCLZ7TlB3YS9wPUWO3bLaQqH8JNTEV8Y6RrPsYWyXm">
+<meta name="supported-color-schemes" content="light dark"><title>【分享】使用hugo搭建静态博客&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.d5a4680d145ac2e5541938b4bc6ab901437a85ac21d328773ec4348540388cccb57b55323af96c781f77e0e9e16500a9.css" integrity="sha384-1aRoDRRawuVUGTi0vGq5AUN6hawh0yh3PsQ0hUA4jMy1e1UyOvlseB934OnhZQCp">
 <link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200&display=swap&subset=chinese-simplified"
     rel="stylesheet">
 <link rel="stylesheet" href="https://dtz9.net/disqus/dist/iDisqus.min.css">
@@ -74,11 +74,11 @@
 </li>
 <li>
 <p>接下来打开系统<code>命令提示符</code>工具，切换到<code>D:/hugo</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd D:/hugo
 </code></pre></div></li>
 <li>
 <p>新建博客</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo new site blog
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site blog
 </code></pre></div></li>
 <li>
 <p>这样就会产生一个新的文件夹<code>D:/hugo/blog</code>，并且这个目录里面已经生成了静态博客的目录结构。里面有很多新的文件夹和一些文件：</p>
@@ -99,22 +99,22 @@
 <h4 id="5">5.创建您的第一篇文章或者页面并在本地预览</h4>
 <p>注意：以下都需要命令提示符<code>cd D:/hugo/blog</code>下运行命令</p>
 <p><strong>创建文章</strong></p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post<span class="se">\d</span>i-yi-pian-wen-zhang.md
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new post<span style="color:#ae81ff">\d</span>i-yi-pian-wen-zhang.md
 </code></pre></div><p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
 <p><strong>创建页面</strong></p>
 <p>比如创建关于我页面</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo new about.md
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new about.md
 </code></pre></div><p><strong>本地预览</strong></p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo server
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server
 </code></pre></div><p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
 <p>对了，这个预览命令需要博客的<code>config.yaml</code>文件正确配置了<code>theme</code>等参数。否则您需要在命令中加入一些参数，类似这样：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo server --theme<span class="o">=</span>hugo-theme-zozo --buildDrafts
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server --theme<span style="color:#f92672">=</span>hugo-theme-zozo --buildDrafts
 </code></pre></div><h4 id="6">6.渲染生成静态文件</h4>
 <p>以上操作并不能直接发布博客到网上，还需要生成静态文件并发布到网络。</p>
 <p><strong>本地生成静态文件</strong></p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo
 </code></pre></div><p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo --theme<span class="o">=</span>hugo-theme-zozo --baseUrl<span class="o">=</span><span class="s2">&#34;https://dtz9.net/&#34;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo --theme<span style="color:#f92672">=</span>hugo-theme-zozo --baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://dtz9.net/&#34;</span>
 </code></pre></div><p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
 <h4 id="7github">7.托管到GitHub</h4>
 <p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
@@ -126,34 +126,34 @@
 <p>SSH连接到VPS</p>
 <p>在远程主机配置git仓库，因为我使用的centos7自带git所以可以直接使用，如果你的系统没有的话请自行安装。
 比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ~
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd ~
 git init --bare blog.git
-<span class="nb">cd</span> blog.git
-<span class="nb">cd</span> hooks
+cd blog.git
+cd hooks
 vim post-receive
 </code></pre></div><p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/sh 
-</span><span class="cp"></span><span class="nv">GIT_REPO</span><span class="o">=</span>/root/blog.git
-<span class="nv">TMP_GIT_CLONE</span><span class="o">=</span>/tmp/blog
-<span class="nv">NGINX_HTML</span><span class="o">=</span>/www/wwwroot/dtz9.net
-rm -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>
-git clone <span class="nv">$GIT_REPO</span> <span class="nv">$TMP_GIT_CLONE</span>
-rm -rf <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>/*
-cp -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>/* <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#!/bin/sh 
+</span><span style="color:#75715e"></span>GIT_REPO<span style="color:#f92672">=</span>/root/blog.git
+TMP_GIT_CLONE<span style="color:#f92672">=</span>/tmp/blog
+NGINX_HTML<span style="color:#f92672">=</span>/www/wwwroot/dtz9.net
+rm -rf <span style="color:#e6db74">${</span>TMP_GIT_CLONE<span style="color:#e6db74">}</span>
+git clone $GIT_REPO $TMP_GIT_CLONE
+rm -rf <span style="color:#e6db74">${</span>NGINX_HTML<span style="color:#e6db74">}</span>/*
+cp -rf <span style="color:#e6db74">${</span>TMP_GIT_CLONE<span style="color:#e6db74">}</span>/* <span style="color:#e6db74">${</span>NGINX_HTML<span style="color:#e6db74">}</span>
 </code></pre></div><p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
 <p>赋予可执行权限</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">chmod +x post-receive
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">chmod +x post-receive
 </code></pre></div><p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo chown root:root /www/wwwroot/dtz9.net
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo chown root:root /www/wwwroot/dtz9.net
 </code></pre></div><h6 id="heading5">这一步到底需不需要我已经忘了，请自行尝试。</h6>
 <p><strong>Win 10 本地配置仓库并使用</strong></p>
 <p>如果本地系统已经有git可以直接编译下面的命令运行，如果没有请自行安装调试。命令提示符下运行：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo/blog
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd D:/hugo/blog
 hugo
-<span class="nb">cd</span> public
+cd public
 git init
 git add --all
-git commit -m <span class="s2">&#34;Initial blog repo&#34;</span>
+git commit -m <span style="color:#e6db74">&#34;Initial blog repo&#34;</span>
 git remote add origin root@您的IP:/root/blog.git
 git remote set-url origin ssh://root@您的IP:端口/root/blog.git
 git push origin master
@@ -207,7 +207,7 @@ git push origin master
     <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
         target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
         target="_blank">Notepadium</a></p>
-</div></section></div>
+</div></section><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
     <script type="text/javascript" src="https://js.users.51.la/19958321.js"></script>
     <script src="//instant.page/3.0.0" type="module" defer
         integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>

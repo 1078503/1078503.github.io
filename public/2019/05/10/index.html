@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn"><meta charset="utf-8"><meta name="generator" content="Hugo 0.60.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark"><title>【网站维护】忍不住换到了洛杉矶机房&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.529d24dbbb37b2fa3270e3d8f434d76013022d9ed3941dd84bdc0f5163b76cb690a87f09353115f18e91acfb185b25e6.css" integrity="sha384-Up0k27s3svoycOPY9DTXYBMCLZ7TlB3YS9wPUWO3bLaQqH8JNTEV8Y6RrPsYWyXm">
+<meta name="supported-color-schemes" content="light dark"><title>【网站维护】忍不住换到了洛杉矶机房&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.d5a4680d145ac2e5541938b4bc6ab901437a85ac21d328773ec4348540388cccb57b55323af96c781f77e0e9e16500a9.css" integrity="sha384-1aRoDRRawuVUGTi0vGq5AUN6hawh0yh3PsQ0hUA4jMy1e1UyOvlseB934OnhZQCp">
 <link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200&display=swap&subset=chinese-simplified"
     rel="stylesheet">
 <link rel="stylesheet" href="https://dtz9.net/disqus/dist/iDisqus.min.css">
@@ -26,22 +26,22 @@
 <p>VuLtr开新机器的内核太旧了…</p>
 <h4 id="heading">升级到最新版第三方内核库</h4>
 <p>查看内核版本：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">uname -sr
 </code></pre></div><p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
 <p>CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 </code></pre></div><p>安装最新的主线稳定内核：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">yum --enablerepo<span class="o">=</span>elrepo-kernel install kernel-ml
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">yum --enablerepo<span style="color:#f92672">=</span>elrepo-kernel install kernel-ml
 </code></pre></div><p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">uname -sr
 </code></pre></div><p>此时我们第三方内核库的升级操作就完成了。
 为了让新安装的内核成为<strong>默认启动选项</strong>，请修改 GRUB 配置：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">vim /etc/default/grub
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/default/grub
 </code></pre></div><p>如果你的系统没有vim编辑器请先安装:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">yum install vim
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">yum install vim
 </code></pre></div><p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">grub2-mkconfig -o /boot/grub2/grub.cfg
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">grub2-mkconfig -o /boot/grub2/grub.cfg
 </code></pre></div><p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
 <p>参考：<a href="https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html">https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html</a></p>
 <h4 id="bbr">开启BBR</h4>
@@ -62,28 +62,28 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 <li>
 <p>打包VPS1网站目录：</p>
 <p>进入网站目录</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/ 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd /www/wwwroot/ 
 </code></pre></div><p>打包dtz9.net文件夹为1078503.tar.gz</p>
 </li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
 </code></pre></div><ol>
 <li>导出VPS1 Mysql 数据库：</li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
 </code></pre></div><p>用户名是数据库用户名，导出数据库为1078503.sql</p>
 <p>我在这一步就没有操作成功，后来是面板导出数据库再导入新的数据库才完成。我估计是编译错误，或许就应该直接写成下面这样，供您参考，比如我的数据库名和用户名都是一样的：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
 </code></pre></div><p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
 <ol>
 <li>
 <p>VPS2 上wget获取远程文件</p>
 <p>进入网站目录</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd /www/wwwroot/
 </code></pre></div><p>从VPS1上获取文件,下载数据包到VPS2</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.tar.gz 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.tar.gz 
 </code></pre></div><p>解压1078503.tar.gz</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">tar zxvf 1078503.tar.gz   
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">tar zxvf 1078503.tar.gz   
 </code></pre></div></li>
 <li>
 <p>VPS2上MySQL数据导入</p>
@@ -91,9 +91,9 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 </ol>
 <p>请先在PHPMyAdmin新建相应数据库和用户（<strong>与原数据库、用户同名</strong>）
 下载数据包到VPS2</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.sql 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.sql 
 </code></pre></div><p>还原数据库</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
 </code></pre></div><p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
 <hr>
 <p>以我这种懒人的心性我本以为这就可以了，结果发现远不是想想的那么容易结束的，后来发现了各种不完善的地方。比如我在宝塔面板下放了好几个网站，而且都开启了SSL，最后在熬到早上四点左右才全部解决玩所有已知的问题，因为熬夜头大就没有做记录了。</p>
@@ -136,7 +136,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
     <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
         target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
         target="_blank">Notepadium</a></p>
-</div></section></div>
+</div></section><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
     <script type="text/javascript" src="https://js.users.51.la/19958321.js"></script>
     <script src="//instant.page/3.0.0" type="module" defer
         integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>

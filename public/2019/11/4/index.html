@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn"><meta charset="utf-8"><meta name="generator" content="Hugo 0.60.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark"><title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.529d24dbbb37b2fa3270e3d8f434d76013022d9ed3941dd84bdc0f5163b76cb690a87f09353115f18e91acfb185b25e6.css" integrity="sha384-Up0k27s3svoycOPY9DTXYBMCLZ7TlB3YS9wPUWO3bLaQqH8JNTEV8Y6RrPsYWyXm">
+<meta name="supported-color-schemes" content="light dark"><title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.d5a4680d145ac2e5541938b4bc6ab901437a85ac21d328773ec4348540388cccb57b55323af96c781f77e0e9e16500a9.css" integrity="sha384-1aRoDRRawuVUGTi0vGq5AUN6hawh0yh3PsQ0hUA4jMy1e1UyOvlseB934OnhZQCp">
 <link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200&display=swap&subset=chinese-simplified"
     rel="stylesheet">
 <link rel="stylesheet" href="https://dtz9.net/disqus/dist/iDisqus.min.css">
@@ -45,47 +45,47 @@
 <p>编辑该条目的shell命令并保存：</p>
 <p><img src="https://img.dtz9.net/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
 <p>命令内容参考：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
-</span><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;&#34;</span>
-<span class="c1">#输出当前时间</span>
-date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> <span class="s2">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
-<span class="nb">echo</span> <span class="s2">&#34;Start&#34;</span>
-<span class="c1">#判断宝塔WebHook参数是否存在</span>
-<span class="k">if</span> <span class="o">[</span> ! -n <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span>
-<span class="k">then</span>
-          <span class="nb">echo</span> <span class="s2">&#34;param参数错误&#34;</span>
-          <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-          <span class="nb">exit</span>
-<span class="k">fi</span>
-<span class="c1">#git项目路径</span>
-<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;</span><span class="s2">①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
-<span class="c1">#git 网址</span>
-<span class="nv">gitHttp</span><span class="o">=</span><span class="s2">&#34;②https://github.com/1078503/blog.git&#34;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>echo <span style="color:#e6db74">&#34;&#34;</span>
+<span style="color:#75715e">#输出当前时间</span>
+date --date<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;0 days ago&#39;</span> <span style="color:#e6db74">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
+echo <span style="color:#e6db74">&#34;Start&#34;</span>
+<span style="color:#75715e">#判断宝塔WebHook参数是否存在</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> ! -n <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>;
+<span style="color:#66d9ef">then</span>
+          echo <span style="color:#e6db74">&#34;param参数错误&#34;</span>
+          echo <span style="color:#e6db74">&#34;End&#34;</span>
+          exit
+<span style="color:#66d9ef">fi</span>
+<span style="color:#75715e">#git项目路径</span>
+gitPath<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">①/www/wwwroot/</span>$1<span style="color:#e6db74">&#34;</span>
+<span style="color:#75715e">#git 网址</span>
+gitHttp<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;②https://github.com/1078503/blog.git&#34;</span>
 
-<span class="nb">echo</span> <span class="s2">&#34;</span><span class="s2">Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
+echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Web站点路径：</span>$gitPath<span style="color:#e6db74">&#34;</span>
 
-<span class="c1">#判断项目路径是否存在</span>
-<span class="k">if</span> <span class="o">[</span> -d <span class="s2">&#34;</span><span class="nv">$gitPath</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-        <span class="nb">cd</span> <span class="nv">$gitPath</span>
-        <span class="c1">#判断是否存在git目录</span>
-        <span class="k">if</span> <span class="o">[</span> ! -d <span class="s2">&#34;.git&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-                <span class="nb">echo</span> <span class="s2">&#34;在该目录下克隆 git&#34;</span>
-                git clone <span class="nv">$gitHttp</span> gittemp
+<span style="color:#75715e">#判断项目路径是否存在</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -d <span style="color:#e6db74">&#34;</span>$gitPath<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+        cd $gitPath
+        <span style="color:#75715e">#判断是否存在git目录</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> ! -d <span style="color:#e6db74">&#34;.git&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+                echo <span style="color:#e6db74">&#34;在该目录下克隆 git&#34;</span>
+                git clone $gitHttp gittemp
                 mv gittemp/.git .
                 rm -rf gittemp
-        <span class="k">fi</span>
-        <span class="c1">#拉取最新的项目文件</span>
+        <span style="color:#66d9ef">fi</span>
+        <span style="color:#75715e">#拉取最新的项目文件</span>
         git reset --hard origin/master
         git pull
-        <span class="c1">#设置目录权限</span>
-        chown -R www:www <span class="nv">$gitPath</span>
-        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-        <span class="nb">exit</span>
-<span class="k">else</span>
-        <span class="nb">echo</span> <span class="s2">&#34;该项目路径不存在&#34;</span>
-        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-        <span class="nb">exit</span>
-<span class="k">fi</span>
+        <span style="color:#75715e">#设置目录权限</span>
+        chown -R www:www $gitPath
+        echo <span style="color:#e6db74">&#34;End&#34;</span>
+        exit
+<span style="color:#66d9ef">else</span>
+        echo <span style="color:#e6db74">&#34;该项目路径不存在&#34;</span>
+        echo <span style="color:#e6db74">&#34;End&#34;</span>
+        exit
+<span style="color:#66d9ef">fi</span>
 </code></pre></div><p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
 <p><code>②https://github.com/1078503/blog.git</code> ：你的GitHub仓库对应的拉取地址。</p>
 <p><img src="https://img.dtz9.net/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
@@ -151,7 +151,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
     <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
         target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
         target="_blank">Notepadium</a></p>
-</div></section></div>
+</div></section><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
     <script type="text/javascript" src="https://js.users.51.la/19958321.js"></script>
     <script src="//instant.page/3.0.0" type="module" defer
         integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>

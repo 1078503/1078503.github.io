@@ -9,64 +9,62 @@ paginate = "6" # Number of posts per page
 summaryLength = "145"
 defaultContentLanguage = "zh-cn"
 
-enableRobotsTXT = true
+[Blackfriday]
+  hrefTargetBlank = true
 
 # Enable Disqus
 #disqusShortname = "g1078503"
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    noClasses = true
 
-[markup.highlight]
-codeFences = true
-noClasses = false
-
-[markup.goldmark.renderer]
-unsafe = true  # enable raw HTML in Markdown
+  [markup.goldmark.renderer]
+    unsafe = true  # enable raw HTML in Markdown
 
 [params]
-style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "2006-01-02"  # if unset, default is "2006-01-02"
-logo = ""  # if you have a logo png
-slogan = "" # 副标题
-license = ""  # CC License
-
-[Blackfriday]
-  hrefTargetBlank = true
+  style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+  dateFormat = "2006-01-02"  # if unset, default is "2006-01-02"
+  logo = ""  # if you have a logo png
+  slogan = "" # 副标题
+  license = ""  # CC License
 
 [permalinks]
   post = "/:year/:month/:slug/"
 
 [params.comments]
-enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
+  enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
 [params.math]
-enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
-use = "katex"  # option: "katex", "mathjax". default: "katex"
+  enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+  use = "mathjax"  # option: "katex", "mathjax". default: "katex"
 
 [params.syntax]
-use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "xcode"
-darkTheme = "xcode-dark"  # apply this theme in dark mode
+  use = "hljs"  # builtin: "prismjs", "hljs". "none" means Chroma
+  theme = "xcode"
+  darkTheme = "xcode-dark"  # apply this theme in dark mode
 
 [params.nav]
-showCategories = true       # /categories/
-showTags = true             # /tags/
+  showCategories = true       # /categories/
+  showTags = true             # /tags/
 
 # custom navigation items
 
 [[params.nav.custom]]
-title = "分类"
-url = "/categories"
+   title = "分类"
+   url = "/categories"
 
 [[params.nav.custom]]
-title = "关于"
-url = "/about"
+   title = "关于"
+   url = "/about"
 
 [[params.nav.custom]]
-title = "群组"
-url = "https://t.me/link1078503"
+   title = "群组"
+   url = "https://t.me/link1078503"
 
 [[params.nav.custom]]
-title = "友链"
-url = "/links"
+   title = "友链"
+   url = "/links"
