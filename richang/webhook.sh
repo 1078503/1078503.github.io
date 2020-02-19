@@ -13,7 +13,7 @@ fi
 #git项目路径
 gitPath="/www/wwwroot/$1"
 #git 网址
-gitHttp="https://github.com/kulikl/kulikl.github.io.git"
+gitHttp="https://github.com/1078503/blog.git"
 
 echo "Web站点路径：$gitPath"
 
