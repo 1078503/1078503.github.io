@@ -5,7 +5,6 @@ theme = "Mainroad"
 paginate = "10" # Number of posts per page
 summaryLength = "145"
 defaultContentLanguage = "zh-cn"
-publishDir = "docs"
     
 [Params]
   description = "逛博客、科学上网、随笔"
