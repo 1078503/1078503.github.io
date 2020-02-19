@@ -8,7 +8,7 @@ html {
                 Ubuntu, Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans',
                 'Helvetica Neue', Helvetica, Arial, Verdana, 'Lucida Grande', 
                 sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.8;
 }
@@ -194,7 +194,7 @@ acronym {
 .base-body {
   display: block;
   margin: -1px auto;
-  max-width: 830px;
+  max-width: 960px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   overflow: hidden;
@@ -510,7 +510,7 @@ acronym {
 }
 
 .article.markdown-body {
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 .article.markdown-body {
@@ -518,6 +518,11 @@ acronym {
   
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.article.markdown-body p{
+  font-family: Noto Serif SC;
+  font-size: 16px;
 }
 
 .article.markdown-body h1,
