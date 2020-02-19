@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>错误屏蔽搜索爬虫 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/%E9%94%99%E8%AF%AF%E5%B1%8F%E8%94%BD%E6%90%9C%E7%B4%A2%E7%88%AC%E8%99%AB/</link>
+    <link>/tags/%E9%94%99%E8%AF%AF%E5%B1%8F%E8%94%BD%E6%90%9C%E7%B4%A2%E7%88%AC%E8%99%AB/</link>
     <description>Recent content in 错误屏蔽搜索爬虫 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Thu, 12 Sep 2019 00:41:40 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/%E9%94%99%E8%AF%AF%E5%B1%8F%E8%94%BD%E6%90%9C%E7%B4%A2%E7%88%AC%E8%99%AB/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/%E9%94%99%E8%AF%AF%E5%B1%8F%E8%94%BD%E6%90%9C%E7%B4%A2%E7%88%AC%E8%99%AB/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【随笔】好久没有来自Google搜索的来路访问了</title>
-      <link>https://dtz9.net/2019/09/3/</link>
+      <link>/2019/09/3/</link>
       <pubDate>Thu, 12 Sep 2019 00:41:40 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/09/3/</guid>
+      <guid>/2019/09/3/</guid>
       <description>最近Google对本博客的收录不怎么好。 最近的几次频繁改版肯定对收录的影响很大，加上将网址结构彻底改变了，这些都是对搜索引擎来说不太友好的行为。 最作死的是，错误的将测试用的屏蔽所有爬虫的robots.txt文件，当成博客用的文件使用了。这个作死的行为过来很久才发现，也是因为查看访问来路没有</description>
     </item>
     

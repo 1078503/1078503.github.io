@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>视频 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/categories/%E8%A7%86%E9%A2%91/</link>
+    <link>/categories/%E8%A7%86%E9%A2%91/</link>
     <description>Recent content in 视频 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Mon, 17 Jun 2019 14:44:36 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/categories/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【视频分享】油管视频分享之野人哥哥</title>
-      <link>https://dtz9.net/2019/06/9/</link>
+      <link>/2019/06/9/</link>
       <pubDate>Mon, 17 Jun 2019 14:44:36 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/06/9/</guid>
+      <guid>/2019/06/9/</guid>
       <description>有很多朋友喜欢看油管视频，我也喜欢看。 独乐乐不如众乐乐，没事儿的时候分享一些好看的视频给大家吧。 如果你也有正在看并且觉得不错的视频，欢迎在评论区留下链接分享给我。</description>
     </item>
     

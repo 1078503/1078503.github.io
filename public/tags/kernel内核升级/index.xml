@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kernel内核升级 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/kernel%E5%86%85%E6%A0%B8%E5%8D%87%E7%BA%A7/</link>
+    <link>/tags/kernel%E5%86%85%E6%A0%B8%E5%8D%87%E7%BA%A7/</link>
     <description>Recent content in kernel内核升级 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Thu, 26 Sep 2019 00:23:45 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/kernel%E5%86%85%E6%A0%B8%E5%8D%87%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/kernel%E5%86%85%E6%A0%B8%E5%8D%87%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【随笔】新开的VPS一般需要先做些什么</title>
-      <link>https://dtz9.net/2019/09/7/</link>
+      <link>/2019/09/7/</link>
       <pubDate>Thu, 26 Sep 2019 00:23:45 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/09/7/</guid>
+      <guid>/2019/09/7/</guid>
       <description>今天需要为博客换一个服务器，原因是vultr的余额即将耗尽。 虽然vultr的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。 真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别</description>
     </item>
     

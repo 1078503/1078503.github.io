@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo静态博客 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+    <link>/tags/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
     <description>Recent content in hugo静态博客 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Sat, 24 Aug 2019 03:37:20 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【分享】使用hugo搭建静态博客</title>
-      <link>https://dtz9.net/2019/08/5/</link>
+      <link>/2019/08/5/</link>
       <pubDate>Sat, 24 Aug 2019 03:37:20 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/08/5/</guid>
+      <guid>/2019/08/5/</guid>
       <description>是时候聊聊关于Hugo，关于静态博客的一些使用心得了。 静态博客生成器有很多，但最终我选择了hugo，就因为我喜欢它渲染生成速度快。 ♦ 优点 使用markdown 为什么我要使用markdown编辑文章？首先通过markdown编辑的文章可以直接保存在本地电脑中，这样通过静态博客生成器直接渲染生成</description>
     </item>
     

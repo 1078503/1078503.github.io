@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mainroad on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/mainroad/</link>
+    <link>/tags/mainroad/</link>
     <description>Recent content in Mainroad on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Sat, 07 Dec 2019 00:38:07 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/mainroad/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/mainroad/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【随笔】放弃人生换用Mainroad主题</title>
-      <link>https://dtz9.net/2019/12/2/</link>
+      <link>/2019/12/2/</link>
       <pubDate>Sat, 07 Dec 2019 00:38:07 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/12/2/</guid>
+      <guid>/2019/12/2/</guid>
       <description>可能大家已经注意到了，我的博客换主题了。 为什么换？之前的主题不好吗？不能说之前的不好，只是还不够完美，总觉得这里不合适哪里不舒服。本来打算继续折腾之前的主题，但仔细想了想，与其乱改，不如拿现成的优秀主题使用。毕竟自己不是专业人士，也没有那么多时间去研究网页设计。时间不充裕，加上我觉得更应该</description>
     </item>
     

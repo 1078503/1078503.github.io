@@ -1,134 +1,72 @@
-LanguageCode = "zh-cn"
+baseURL = "https://dtz9.net"
 title = "近视眼逛博客 DTZ9.NET"
+theme = "notepadium"
+copyright = "©2019 - 2020 近视眼逛博客."
+
+LanguageCode = "zh-cn"
 hasCJKLanguage = true
-theme = "Mainroad"
-paginate = "10" # Number of posts per page
+paginate = "8" # Number of posts per page
 summaryLength = "145"
 defaultContentLanguage = "zh-cn"
-    
-[Params]
-  description = "逛博客、科学上网、随笔"
-  subtitle = ""
-  keywords = "执迷不悟,Hugo,Docker,博客,静态博客，Disqus"
-  readmore = true
-  dateformat = "2006-01-02"
-  post_navigation = true
-  post_related = true
-  share_open = true
-  authorbox = false
-  friend_link_open = true
-  toc = true
-  share_top_show = true
-  to_top_show = true
-  
+
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = "g1078503"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "2006-01-02"  # if unset, default is "2006-01-02"
+logo = ""  # if you have a logo png
+slogan = "" # 副标题
+license = ""  # CC License
 
 [Blackfriday]
   hrefTargetBlank = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
-  
-[Author] # Used in authorbox
-  name = "文章作者:执迷不悟"
-  bio = "一个喜欢逛博客的屌丝单身老光棍儿。"
-  avatar = "img/avatar.png"
 
-[[Params.friendlink]]
-  link = "https://ditou.org"
-  title = "低头族"
-  desc = "一个专注学习的社区" 
+[params.comments]
+enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
-[[Params.friendlink]]
-link = "https://dtz9.com"
-  title = "影视推荐"
-  desc = "DTZ9.COM"
+[params.math]
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+use = "katex"  # option: "katex", "mathjax". default: "katex"
 
-[[Params.friendlink]]
-link = "https://dtz9.org"
-  title = "网址导航"
-  desc = "DTZ9.ORG"      
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "xcode"
+darkTheme = "xcode-dark"  # apply this theme in dark mode
 
-[[Params.friendlink]]
-  link = "https://youendless.com"
-  title = "君无止境"
-  desc = "一个专注于容器技术的博客"
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
 
-[[Params.friendlink]]
-  link = "http://stuit.cn/Xiaolu"
-  title = "行者晓路"
-  desc = "非著名历史学爱好者"   
+# custom navigation items
 
-[[Params.friendlink]]
-  link = "https://cyhour.com/"
-  title = "常时阳光"
-  desc = ""      
+[[params.nav.custom]]
+title = "分类"
+url = "/categories"
 
-[[Params.friendlink]]
-  link = "http://www.wuxiaohu.cn/"
-  title = "工程窝"
-  desc = "伍小虎专注于建筑智能化"      
+[[params.nav.custom]]
+title = "关于"
+url = "/about"
 
-[[Params.friendlink]]
-  link = "https://chriszheng.science/"
-  title = "M-x Chris-An-Emacser"
-  desc = "一个Emacs爱好者的闲言碎语" 
+[[params.nav.custom]]
+title = "群组"
+url = "https://t.me/link1078503"
 
-
-[[Params.friendlink]]
-  link = "https://www.yunjinquan.com/"
-  title = "景安快云"
-  desc = "最新景安服务器, 快云VPS优惠"    
-
-[[Params.friendlink]]
-  link = "/links"
-  title = "更多博客链接..."
-  desc = "内页博客友链"   
-
-[Params.sidebar]
-  home = "right"
-  list = "left"
-  single = "right"
-  widgets = ["search", "categories", "languages", "recent", "social", "friendlink"]
-
-[Params.widgets]
-  recent_num = 5
-  tags_counter = true
-
-[menu]
-[[menu.main]]
-  identifier = "post"
-	name = "首页"
-	url = "/"
-    weight = "1"
-
-[[menu.main]]
-  identifier = "about"
-	name = "关于本站"
-	title = "博客随想"
-	url = "/about/"
-    weight = "2"
-
-[[menu.main]]
-  identifier = "telegram"
-	name = "交流群组"
-	url = "https://t.me/link1078503"
-    weight = "3"
-
-[[menu.main]]
-  identifier = "links"
-	name = "友情链接"
-	title = "博客友链"
-	url = "/links/"
-    weight = "4"
-	
-[Params.widgets.social]
-  email = "1078503@gmail.com"
-  telegram = "link1078503"
-  
-[related]
-   threshold = 80
-   includeNewer = true
-   toLower = true
-   [[related.indices]]
-     name = "tags"
-	 weight = 100
+[[params.nav.custom]]
+title = "友链"
+url = "/links"

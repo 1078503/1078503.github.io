@@ -2,57 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电脑 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/categories/%E7%94%B5%E8%84%91/</link>
+    <link>/categories/%E7%94%B5%E8%84%91/</link>
     <description>Recent content in 电脑 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Thu, 26 Sep 2019 00:23:45 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/categories/%E7%94%B5%E8%84%91/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/%E7%94%B5%E8%84%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【随笔】新开的VPS一般需要先做些什么</title>
-      <link>https://dtz9.net/2019/09/7/</link>
+      <link>/2019/09/7/</link>
       <pubDate>Thu, 26 Sep 2019 00:23:45 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/09/7/</guid>
+      <guid>/2019/09/7/</guid>
       <description>今天需要为博客换一个服务器，原因是vultr的余额即将耗尽。 虽然vultr的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。 真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别</description>
     </item>
     
     <item>
       <title>【分享】Mastodon：一个免费开源的分布式微博客社交网络</title>
-      <link>https://dtz9.net/2019/08/3/</link>
+      <link>/2019/08/3/</link>
       <pubDate>Sun, 11 Aug 2019 20:15:51 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/08/3/</guid>
-      <description>什么是免费开源的分布式微博客社交网络？ 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站注册，就得到了一个独一无二的 ID 比如：@1078503@tzcafe.com。前半部分 @1078503 代表我在这个站点内独有的一个身份，站内其他人不能再用；后半部分 @tzcafe.com 则是这个站点的地址。 如果只是在站内发布内容，和同站的网友</description>
+      <guid>/2019/08/3/</guid>
+      <description>什么是免费开源的分布式微博客社交网络？ 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站注册，就得到了一个独一无二的 ID 比如：@1078503@tzcafe.com。前半部分 @1078503 代表我在这个站点内独有的一个身份，站内其他人不能再用；后半部分 `@tzcafe.com` 则是这个站点的地址。 如果只是在站内发布内容，和同站的网友</description>
     </item>
     
     <item>
       <title>【电脑】重磅推荐之 FeedDemon心灵博客重制版</title>
-      <link>https://dtz9.net/2019/06/4/</link>
+      <link>/2019/06/4/</link>
       <pubDate>Thu, 06 Jun 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/06/4/</guid>
+      <guid>/2019/06/4/</guid>
       <description>FeedDemon心灵博客重制版 RSS分在线阅读和本地阅读。 在线的服务有很多，并且很多支持全平台。但是，本地阅读的需要还是有的，你有必要尝试一下 FeedDemon心灵博客重制版，相信你肯定会爱上它的。 转到心灵博客就可以得到了：http://blog.dngz.net/rssfeeddemo</description>
     </item>
     
     <item>
       <title>【电脑】Win10关闭系统通知中心广告</title>
-      <link>https://dtz9.net/2019/06/1/</link>
+      <link>/2019/06/1/</link>
       <pubDate>Sun, 02 Jun 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/06/1/</guid>
+      <guid>/2019/06/1/</guid>
       <description>上了一些不应该浏览的网站之后，系统通知中心就每隔几分钟弹一些通知广告。 原以为只有国人喜欢搞这种事情，没想到老外也玩这种套路。那感觉实在是不怎么爽，就像喝粥的时候里面发现一颗老鼠屎一样&amp;hellip; 怎么办呢？总不能素手无策，任由他祸害我撒，肯定是要干掉的。 在Win10系统使用过程中，有时候</description>
     </item>
     
     <item>
       <title>【电脑】今天为chrome介绍一款扩展程序</title>
-      <link>https://dtz9.net/2019/05/9/</link>
+      <link>/2019/05/9/</link>
       <pubDate>Fri, 17 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/05/9/</guid>
+      <guid>/2019/05/9/</guid>
       <description>如果您不是Chrome浏览器的深度使用者，那么我建议你没必要折腾此款插件。 如果你跟我一样长期使用chrome浏览器，我觉得你很需要 Checker Plus for Gmail™ 这款扩展程序。 事情的起因是我之前使用的扩展程序并没有新邮件通知，导致我经常错过朋友们发送的邮件，有时候忙起来可能第二天才会想起来查看邮箱并处理</description>
     </item>
     

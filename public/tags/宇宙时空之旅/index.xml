@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>宇宙时空之旅 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/%E5%AE%87%E5%AE%99%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85/</link>
+    <link>/tags/%E5%AE%87%E5%AE%99%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85/</link>
     <description>Recent content in 宇宙时空之旅 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Thu, 20 Jun 2019 14:43:24 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/%E5%AE%87%E5%AE%99%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/%E5%AE%87%E5%AE%99%E6%97%B6%E7%A9%BA%E4%B9%8B%E6%97%85/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【网站维护】增加了对思源宋体的支持</title>
-      <link>https://dtz9.net/2019/06/14/</link>
+      <link>/2019/06/14/</link>
       <pubDate>Thu, 20 Jun 2019 14:43:24 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/06/14/</guid>
+      <guid>/2019/06/14/</guid>
       <description>是的，并不能直接显示，需要在您的设备中安装字体。 有的站点是直接在线加载的，但是考虑到汉字字库一般较大，即使动态加载也会严重拖慢加载速度，所以只对font-family做一个声明支持Noto Serif CJK SC。 具体怎么在设备中安装思源宋体您可以移步这里，介绍的非常详细。 另外在页脚也有注明和链接。 今天最</description>
     </item>
     

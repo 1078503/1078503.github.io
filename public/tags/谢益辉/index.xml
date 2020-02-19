@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>谢益辉 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/</link>
+    <link>/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/</link>
     <description>Recent content in 谢益辉 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Tue, 04 Jun 2019 01:16:33 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【随笔】今晚遇到两件令我不怎么开心的事情</title>
-      <link>https://dtz9.net/2019/06/2/</link>
+      <link>/2019/06/2/</link>
       <pubDate>Tue, 04 Jun 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/06/2/</guid>
+      <guid>/2019/06/2/</guid>
       <description>回家按惯例打开笔记本准备看一些新闻和博客。 关于关注的很多信息源的浏览方式 说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。 问题就出在这里，突然间我发现好多有更新的博客在freshrss阅读器中并不能很好的获取更新。我想了五分</description>
     </item>
     

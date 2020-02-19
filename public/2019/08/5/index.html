@@ -1,477 +1,159 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zh-cn">
-
-<head>
-	<meta charset="utf-8">
-	
-	
-	<meta name="renderer" content="webkit">
-	
-	<meta name="renderer" content="ie-comp">
-	
-	<meta name="renderer" content="ie-stand">
-	
-	<meta name="force-rendering" content="webkit">
-	
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
-	<title>【分享】使用hugo搭建静态博客 - 近视眼逛博客 DTZ9.NET</title>
-	<script>(function (d, e) { d[e] = d[e].replace("no-js", "js"); })(document.documentElement, "className");</script>
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
-	
-	<script src="/js/jquery.toTop.min.js"></script>
-	
-	<meta name="description"
-		content="">
-	<meta name="generator" content="Hugo 0.55.6" />
-	
-	
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/highlight.css">
-	<link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200&display=swap&subset=chinese-simplified"
-    rel="stylesheet">
-	<link rel="stylesheet" href="https://dtz9.net/disqus/dist/iDisqus.min.css">
-	<script src="https://dtz9.net/disqus/dist/iDisqus.min.js"></script>
-	
-	<link rel="stylesheet" href="/css/share.min.css">
-	<script src="/js/social-share.min.js"></script>
-	<script src="/js/qrcode.js"></script>
-	
-	
-	<link rel="shortcut icon" href="/favicon.ico">
-	
-	
-	<script data-ad-client="ca-pub-5883329460904326" async
-		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-
-<body class="body">
-	<div class="container container--outer">
-		<header class="header">
-	<div class="container">
-		<div class="logo">
-			<a class="logo__link" href="/" title="近视眼逛博客 DTZ9.NET" rel="home">
-				<div class="logo__title"> 近视眼逛博客 DTZ9.NET </div>
-				
-			</a>
-		</div>	
-		
-<nav class="menu">
-	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">选择</span>
-	</button>
-	<ul class="menu__list">
-		<li class="menu__item">
-			<a class="menu__link" href="/">首页</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/about/">关于本站</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="https://t.me/link1078503">交流群组</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/links/">友情链接</a>
-		</li>
-	</ul>
-</nav>
-
-	</div>
-</header>
-		<div class="wrapper flex">
-			<div class="primary">
-				
-<main class="main" role="main">
-	<article class="post">
-		<header class="post__header">
-			<h2 class="post__title">【分享】使用hugo搭建静态博客</h2>
-			<div class="post__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-08-24T03:37:20">2019-08-24</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/%e5%bb%ba%e7%ab%99" rel="category">建站</a></span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text">9 分钟</time>
-</div></div>
-		</header>
-		
-		
-  
-    <div class="toc">
-        <div class="toc__title"><span id="toc_menu_tip">展开书签</span></div>
-        <div class="toc__menu">
-          <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#优点">♦ 优点</a>
-<ul>
-<li><a href="#使用markdown">使用markdown</a></li>
-<li><a href="#生成速度快">生成速度快</a></li>
-<li><a href="#文章保存在本地">文章保存在本地</a></li>
-</ul></li>
-<li><a href="#缺点">♦ 缺点</a>
-<ul>
-<li><a href="#不方便使用评论">不方便使用评论</a></li>
-<li><a href="#主题不够丰富">主题不够丰富</a></li>
-<li><a href="#发布不太方便">发布不太方便</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#win-10本地搭建hugo静态博客">Win 10本地搭建hugo静态博客</a>
-<ul>
-<li>
-<ul>
-<li><a href="#1-在c盘创建文件夹-c-hugo-bin">1.在C盘创建文件夹 ： <code>C:\Hugo\bin</code></a></li>
-<li><a href="#2-将-下载-https-github-com-gohugoio-hugo-releases-download-v0-57-2-hugo-0-57-2-windows-64bit-zip-的最新版可执行文件解压到这个文件夹-更多版本您可以参考-这里-https-github-com-gohugoio-hugo-releases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip" target="_blank">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases" target="_blank">这里</a>。</a></li>
-<li><a href="#3-解压后得到三个文件-我们需要用到的是-hugo-exe-这个可执行文件-我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行-方法如下">3.解压后得到三个文件，我们需要用到的是<code>hugo.exe</code>这个可执行文件，我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行。方法如下：</a></li>
-<li><a href="#4-生成本地hugo静态博客目录">4.生成本地hugo静态博客目录。</a></li>
-<li><a href="#5-创建您的第一篇文章或者页面并在本地预览">5.创建您的第一篇文章或者页面并在本地预览</a></li>
-<li><a href="#6-渲染生成静态文件">6.渲染生成静态文件</a></li>
-<li><a href="#7-托管到github">7.托管到GitHub</a></li>
-<li><a href="#8-部署到vps">8.部署到VPS</a>
-<ul>
-<li>
-<ul>
-<li><a href="#这一步到底需不需要我已经忘了-请自行尝试">这一步到底需不需要我已经忘了，请自行尝试。</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
-        </div>  
-    </div>
-    <script type="text/javascript">
-    $(".toc__title").click( function () {
-      if($(".toc__menu").css('display') == 'none') {
-        $(".toc__menu").show(); 
-        $("#toc_menu_tip").html("收起书签");
-      } else {
-        $(".toc__menu").hide(); 
-        $("#toc_menu_tip").html("展开书签");
-      }
-    });
-    </script>
-  
-<div class="content post__content clearfix" style="font-family: Noto Serif SC;font-size: 16px;">
-			
-
-<p><img src="https://img.dtz9.net/imgs/2019/08/725d64661fed5a08.jpg" alt="" /></p>
-
+<html lang="zh-cn"><meta charset="utf-8"><meta name="generator" content="Hugo 0.60.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>【分享】使用hugo搭建静态博客&nbsp;&ndash;&nbsp;近视眼逛博客 DTZ9.NET</title><link rel="stylesheet" href="/css/core.min.23cf2408a7bbf383778ab163ca01c615250ed41c122a52c02d83618a440898a34d9584fae91a0a2c0da793b5121359c1.css" integrity="sha384-I88kCKe784N3irFjygHGFSUO1BwSKlLALYNhikQImKNNlYT66RoKLA2nk7USE1nB"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">近视眼逛博客 DTZ9.NET</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories">分类</a><a class="nav item" href="/about">关于</a><a class="nav item" href="https://t.me/link1078503"target="_blank">群组</a><a class="nav item" href="/links">友链</a></nav></div></span></div></section><div id="content"><section class="article header">
+    <h1 class="article title">【分享】使用hugo搭建静态博客</h1><p class="article date">2019-08-24</p></section><article class="article markdown-body"><p><img src="https://img.dtz9.net/imgs/2019/08/725d64661fed5a08.jpg" alt=""></p>
 <p>是时候聊聊关于Hugo，关于静态博客的一些使用心得了。</p>
-
 <p>静态博客生成器有很多，但最终我选择了hugo，就因为我喜欢它渲染生成速度快。</p>
-
-<h3 id="优点">♦ 优点</h3>
-
-<h4 id="使用markdown">使用markdown</h4>
-
+<h3 id="-">♦ 优点</h3>
+<h4 id="markdown">使用markdown</h4>
 <p>为什么我要使用markdown编辑文章？首先通过markdown编辑的文章可以直接保存在本地电脑中，这样通过静态博客生成器直接渲染生成为静态页面用于发布，源文件也就是markdown文件则直接变成备份。另外，使用markdown可以直接进行简单的排版，写文章更得心应手。Windows系统我日常使用喜欢用typora作为markdown编辑器。</p>
-
-<h4 id="生成速度快">生成速度快</h4>
-
+<h4 id="heading">生成速度快</h4>
 <p>hugo号称是静态博客生成器中目前渲染markdown到静态文件最快的系统。就这一点，就足以让我放弃其它生成器体验的愿望，毕竟大家的时间都是很宝贵的。</p>
-
-<h4 id="文章保存在本地">文章保存在本地</h4>
-
+<h4 id="heading1">文章保存在本地</h4>
 <p>再唠叨一次，保存在本地！大家都那么忙，备份什么的多麻烦，直接在本地写文章保存多好，如果加上自动同步到网盘备份就更加的万无一失了。我是直接hugo框架目录整个备份到网盘的，防止出现意外。已经不知多少次看见使用动态博客的朋友因为没有及时备份而前功尽弃的了，不得不说这是一种悲剧。</p>
-
-<h3 id="缺点">♦ 缺点</h3>
-
-<h4 id="不方便使用评论">不方便使用评论</h4>
-
+<h3 id="-1">♦ 缺点</h3>
+<h4 id="heading2">不方便使用评论</h4>
 <p>这是诟病最多的了，博客没有评论就等于没有了灵魂。当然有很多解决方案，但或多或少都有一些不方便和技术门槛，对小白来说需要很长的时间钻研和研究。不过，总会有大佬给出不错的方案，这就看每个人的选择了。</p>
-
-<h4 id="主题不够丰富">主题不够丰富</h4>
-
+<h4 id="heading3">主题不够丰富</h4>
 <p>相比于hexo，hugo的主题虽然也多，但功能设计上还是比hexo的主题方案要逊色不少。我观察到的，为hugo开发主题的大多数是外国人，这就不好了，很多设计不符合中国人的使用习惯。要想满意，自己折腾修改是不可避免的了，当然如果你要自己造轮子也不是不可以，干就完了！</p>
-
-<h4 id="发布不太方便">发布不太方便</h4>
-
+<h4 id="heading4">发布不太方便</h4>
 <p>部署到GitHub类的仓库还是比较简单的，网上搜一搜就会有教程了。</p>
-
 <p>但你如果要放在VPS上，对于小白来说就很蛋疼了，大佬们写的东西你都看不懂，因为我当时也是看不懂的，哈哈。</p>
-
 <p>不过，我有钻研的精神，在经过不懈的努力之后，我终于能简单的使用git仓库同步到服务器，然后使用hook拷贝文件到网站根目录。你要问我为什么不是直接同步到网站根目录，我也说不出个所以然来。不过，原理是这样的就对了。</p>
-
 <p>现在开始上干货了。</p>
-
-<h2 id="win-10本地搭建hugo静态博客">Win 10本地搭建hugo静态博客</h2>
-
-<p>hugo是由Go语言编写的，开发团队已经编译好一个文件，您只需要下载它被把它加入系统环境变量就可以在本地运行调试了。官方说明已经写的很清楚了：<a href="https://gohugo.io/getting-started/installing" target="_blank">https://gohugo.io/getting-started/installing</a></p>
-
+<h2 id="win-10hugo">Win 10本地搭建hugo静态博客</h2>
+<p>hugo是由Go语言编写的，开发团队已经编译好一个文件，您只需要下载它被把它加入系统环境变量就可以在本地运行调试了。官方说明已经写的很清楚了：https://gohugo.io/getting-started/installing</p>
 <p>照着步骤做的方法：</p>
-
-<h4 id="1-在c盘创建文件夹-c-hugo-bin">1.在C盘创建文件夹 ： <code>C:\Hugo\bin</code></h4>
-
-<h4 id="2-将-下载-https-github-com-gohugoio-hugo-releases-download-v0-57-2-hugo-0-57-2-windows-64bit-zip-的最新版可执行文件解压到这个文件夹-更多版本您可以参考-这里-https-github-com-gohugoio-hugo-releases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip" target="_blank">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases" target="_blank">这里</a>。</h4>
-
-<h4 id="3-解压后得到三个文件-我们需要用到的是-hugo-exe-这个可执行文件-我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行-方法如下">3.解压后得到三个文件，我们需要用到的是<code>hugo.exe</code>这个可执行文件，我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行。方法如下：</h4>
-
+<h4 id="1c--chugobin">1.在C盘创建文件夹 ： <code>C:\Hugo\bin</code></h4>
+<h4 id="2httpsgithubcomgohugoiohugoreleasesdownloadv0572hugo0572windows64bitziphttpsgithubcomgohugoiohugoreleases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases">这里</a>。</h4>
+<h4 id="3hugoexe">3.解压后得到三个文件，我们需要用到的是<code>hugo.exe</code>这个可执行文件，我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行。方法如下：</h4>
 <ul>
-<li>右键单击“ <strong>开始”</strong>按钮。</li>
+<li>右键单击“ **开始”**按钮。</li>
 <li>单击“ <strong>系统”</strong>。</li>
-<li>单击左侧的<strong>“高级系统设置”</strong>。</li>
-<li>单击底部的<strong>Environment Variables &hellip;</strong>按钮。</li>
+<li>单击左侧的**“高级系统设置”**。</li>
+<li>单击底部的**Environment Variables &hellip;**按钮。</li>
 <li>在“用户变量”部分中，找到以PATH开头的行（PATH将全部为大写）。</li>
 <li>双击<strong>PATH</strong>。</li>
-<li>单击“ <strong>新建&hellip;”</strong>按钮。</li>
+<li>单击“ **新建&hellip;”**按钮。</li>
 <li>输入<code>hugo.exe</code>提取的文件夹→<code>C:\Hugo\bin</code>如果按照上面的说明操作。*PATH条目应该是Hugo所在的文件夹，而不是二进制文件。*Enter完成打字后按。</li>
 <li>在每个窗口单击“确定”退出。</li>
 </ul>
-
 <p><code>以上是官方文档chrome浏览器自动翻译得来的说明</code>。<strong>我给出一个步骤：</strong></p>
-
 <ul>
 <li>如果你使用过Win 10 的系统搜索窗口的话，直接搜索<code>环境变量</code>就能快速进入了。</li>
 <li>在环境变量配置界面有上下两部分分为用户变量和系统变量。我们只需要打开编辑用户变量的<code>Path</code>变量。</li>
 <li>在编辑窗口依次点击<code>新建</code>→<code>浏览</code>，然后将该目录选中：<code>C:\Hugo\bin</code>。</li>
 <li>接下来一路点击确定保存。← 这步真的很重要😁</li>
 </ul>
-
 <p>请注意：重装系统或者错误删除等情况重复以上步骤就可以。如果你要频繁更换电脑使用也可以，将<code>hugo.exe</code>这个可执行文件保存在优盘或者其它便携设备随时复制到Win10系统然后加入系统环境变量就可以。当然，您还得把以下步骤产生的文件夹跟这个可执行文件放在一起。以下步骤产生的文件夹通过网盘同步也是可以的。只是，我怎么都觉得麻烦，只是这个思路可以防止意外发生所以在这里强调一下。</p>
-
-<h4 id="4-生成本地hugo静态博客目录">4.生成本地hugo静态博客目录。</h4>
-
+<h4 id="4hugo">4.生成本地hugo静态博客目录。</h4>
 <ul>
-<li><p>比如您在D盘新建一个文件夹<code>D:/hugo</code>用于静态博客的调试和生成。</p></li>
-
-<li><p>接下来打开系统<code>命令提示符</code>工具，切换到<code>D:/hugo</code></p></li>
+<li>
+<p>比如您在D盘新建一个文件夹<code>D:/hugo</code>用于静态博客的调试和生成。</p>
+</li>
+<li>
+<p>接下来打开系统<code>命令提示符</code>工具，切换到<code>D:/hugo</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo
+</code></pre></div></li>
+<li>
+<p>新建博客</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo new site blog
+</code></pre></div></li>
+<li>
+<p>这样就会产生一个新的文件夹<code>D:/hugo/blog</code>，并且这个目录里面已经生成了静态博客的目录结构。里面有很多新的文件夹和一些文件：</p>
+</li>
+<li>
+<p><code>config.yaml</code>或<code>config.tmol</code>是博客的配置文件，需要配合主题使用</p>
+</li>
+<li>
+<p><code>themes</code>就是主题文件夹，比如你使用<strong>hugo-theme-zozo</strong>这个主题，请将这个主题下载并放到<code>D:/hugo/blog/themes/hugo-theme-zozo</code>。更多主题您可以浏览官方网站的主题频道或者搜罗github，如果配合git直接从GitHub<code>git clone https://github.com/imzeuk/hugo-theme-zozo.git</code>这样会更方便。git clone之前请记得先<code>cd D:/hugo/blog/themes</code>到本地博客主题文件夹。有关在Win 10 系统安装并使用git请自行搜索教程，网上很多我就省略了。</p>
+</li>
+<li>
+<p><code>content</code>文件夹就是markdown文件保存目录，生成新的文章或页面都会自动产生在这个目录。推荐使用Typora编辑排版。</p>
+</li>
+<li>
+<p><code>public</code>文件夹是hugo渲染生成静态文件的保存目录，下面会提到生成方法。这个文件夹里面的文件就是博客根目录对应的文件了。</p>
+</li>
 </ul>
-
-<pre><code class="language-shell">  cd D:/hugo
-</code></pre>
-
-<ul>
-<li>新建博客</li>
-</ul>
-
-<pre><code class="language-shell">  hugo new site blog
-</code></pre>
-
-<ul>
-<li><p>这样就会产生一个新的文件夹<code>D:/hugo/blog</code>，并且这个目录里面已经生成了静态博客的目录结构。里面有很多新的文件夹和一些文件：</p></li>
-
-<li><p><code>config.yaml</code>或<code>config.tmol</code>是博客的配置文件，需要配合主题使用</p></li>
-
-<li><p><code>themes</code>就是主题文件夹，比如你使用<strong>hugo-theme-zozo</strong>这个主题，请将这个主题下载并放到<code>D:/hugo/blog/themes/hugo-theme-zozo</code>。更多主题您可以浏览官方网站的主题频道或者搜罗github，如果配合git直接从GitHub<code>git clone https://github.com/imzeuk/hugo-theme-zozo.git</code>这样会更方便。git clone之前请记得先<code>cd D:/hugo/blog/themes</code>到本地博客主题文件夹。有关在Win 10 系统安装并使用git请自行搜索教程，网上很多我就省略了。</p></li>
-
-<li><p><code>content</code>文件夹就是markdown文件保存目录，生成新的文章或页面都会自动产生在这个目录。推荐使用Typora编辑排版。</p></li>
-
-<li><p><code>public</code>文件夹是hugo渲染生成静态文件的保存目录，下面会提到生成方法。这个文件夹里面的文件就是博客根目录对应的文件了。</p></li>
-</ul>
-
-<h4 id="5-创建您的第一篇文章或者页面并在本地预览">5.创建您的第一篇文章或者页面并在本地预览</h4>
-
+<h4 id="5">5.创建您的第一篇文章或者页面并在本地预览</h4>
 <p>注意：以下都需要命令提示符<code>cd D:/hugo/blog</code>下运行命令</p>
-
 <p><strong>创建文章</strong></p>
-
-<pre><code class="language-shell">hugo new post\di-yi-pian-wen-zhang.md
-</code></pre>
-
-<p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post<span class="se">\d</span>i-yi-pian-wen-zhang.md
+</code></pre></div><p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
 <p><strong>创建页面</strong></p>
-
 <p>比如创建关于我页面</p>
-
-<pre><code class="language-shell">hugo new about.md
-</code></pre>
-
-<p><strong>本地预览</strong></p>
-
-<pre><code class="language-shell">hugo server
-</code></pre>
-
-<p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo new about.md
+</code></pre></div><p><strong>本地预览</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo server
+</code></pre></div><p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
 <p>对了，这个预览命令需要博客的<code>config.yaml</code>文件正确配置了<code>theme</code>等参数。否则您需要在命令中加入一些参数，类似这样：</p>
-
-<pre><code class="language-shell">hugo server --theme=hugo-theme-zozo --buildDrafts
-</code></pre>
-
-<h4 id="6-渲染生成静态文件">6.渲染生成静态文件</h4>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo server --theme<span class="o">=</span>hugo-theme-zozo --buildDrafts
+</code></pre></div><h4 id="6">6.渲染生成静态文件</h4>
 <p>以上操作并不能直接发布博客到网上，还需要生成静态文件并发布到网络。</p>
-
 <p><strong>本地生成静态文件</strong></p>
-
-<pre><code class="language-shell">hugo
-</code></pre>
-
-<p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
-
-<pre><code class="language-shell">hugo --theme=hugo-theme-zozo --baseUrl=&quot;https://dtz9.net/&quot;
-</code></pre>
-
-<p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
-
-<h4 id="7-托管到github">7.托管到GitHub</h4>
-
-<p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/" target="_blank">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
-
-<h4 id="8-部署到vps">8.部署到VPS</h4>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo
+</code></pre></div><p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">hugo --theme<span class="o">=</span>hugo-theme-zozo --baseUrl<span class="o">=</span><span class="s2">&#34;https://dtz9.net/&#34;</span>
+</code></pre></div><p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
+<h4 id="7github">7.托管到GitHub</h4>
+<p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
+<h4 id="8vps">8.部署到VPS</h4>
 <p>最简单的方法，跟上面的虚拟主机上传方法类似就不说明了。</p>
-
 <p>正在使用的方法，git仓库同步推送。这就回到了文章开头说到的部分，我在这一步研究了很久，分享出来给需要的朋友参考。</p>
-
 <p><strong>VPS上的仓库和配置</strong></p>
-
-<p>如果您是使用宝塔面板，Nginx配置文件不用管，新建网站就可以直接使用或者使用已经为博客准备好的宝塔面板对应的网站配置。没有使用任何面板就需要安装Nginx并编辑配置文件，请参考这个<a href="https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/" target="_blank">链接</a>。</p>
-
+<p>如果您是使用宝塔面板，Nginx配置文件不用管，新建网站就可以直接使用或者使用已经为博客准备好的宝塔面板对应的网站配置。没有使用任何面板就需要安装Nginx并编辑配置文件，请参考这个<a href="https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/">链接</a>。</p>
 <p>SSH连接到VPS</p>
-
 <p>在远程主机配置git仓库，因为我使用的centos7自带git所以可以直接使用，如果你的系统没有的话请自行安装。
 比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)</p>
-
-<pre><code class="language-shell">cd ~
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ~
 git init --bare blog.git
-cd blog.git
-cd hooks
+<span class="nb">cd</span> blog.git
+<span class="nb">cd</span> hooks
 vim post-receive
-</code></pre>
-
-<p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
-
-<pre><code class="language-shell">#!/bin/sh 
-GIT_REPO=/root/blog.git
-TMP_GIT_CLONE=/tmp/blog
-NGINX_HTML=/www/wwwroot/dtz9.net
-rm -rf ${TMP_GIT_CLONE}
-git clone $GIT_REPO $TMP_GIT_CLONE
-rm -rf ${NGINX_HTML}/*
-cp -rf ${TMP_GIT_CLONE}/* ${NGINX_HTML}
-</code></pre>
-
-<p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
-
+</code></pre></div><p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/sh 
+</span><span class="cp"></span><span class="nv">GIT_REPO</span><span class="o">=</span>/root/blog.git
+<span class="nv">TMP_GIT_CLONE</span><span class="o">=</span>/tmp/blog
+<span class="nv">NGINX_HTML</span><span class="o">=</span>/www/wwwroot/dtz9.net
+rm -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>
+git clone <span class="nv">$GIT_REPO</span> <span class="nv">$TMP_GIT_CLONE</span>
+rm -rf <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>/*
+cp -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>/* <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>
+</code></pre></div><p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
 <p>赋予可执行权限</p>
-
-<pre><code class="language-shell">chmod +x post-receive
-</code></pre>
-
-<p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
-
-<pre><code class="language-shell">sudo chown root:root /www/wwwroot/dtz9.net
-</code></pre>
-
-<h6 id="这一步到底需不需要我已经忘了-请自行尝试">这一步到底需不需要我已经忘了，请自行尝试。</h6>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">chmod +x post-receive
+</code></pre></div><p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo chown root:root /www/wwwroot/dtz9.net
+</code></pre></div><h6 id="heading5">这一步到底需不需要我已经忘了，请自行尝试。</h6>
 <p><strong>Win 10 本地配置仓库并使用</strong></p>
-
 <p>如果本地系统已经有git可以直接编译下面的命令运行，如果没有请自行安装调试。命令提示符下运行：</p>
-
-<pre><code class="language-shell">cd D:/hugo/blog
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo/blog
 hugo
-cd public
+<span class="nb">cd</span> public
 git init
 git add --all
-git commit -m &quot;Initial blog repo&quot;
+git commit -m <span class="s2">&#34;Initial blog repo&#34;</span>
 git remote add origin root@您的IP:/root/blog.git
 git remote set-url origin ssh://root@您的IP:端口/root/blog.git
 git push origin master
-</code></pre>
-
-<p><code>我是这样使用的，每次本地编辑写好文章并预览检查后，直接运行上面的命令完事儿。</code></p>
-
+</code></pre></div><p><code>我是这样使用的，每次本地编辑写好文章并预览检查后，直接运行上面的命令完事儿。</code></p>
 <p>说明：</p>
-
 <p>第一行    不解释，如果你只是在本地调试修改主题可能会新建一个目录，像这样：<code>D:/hugo/test</code></p>
-
 <p>第二行    渲染生成最新的静态文件用于推送到服务器</p>
-
 <p>第三行    切换到静态文件目录并准备在这个目录建立仓库用于同步推送这个目录</p>
-
 <p>第四行    建立仓库并初始化</p>
-
 <p>第五行    将这个目录的所有文件添加到仓库</p>
-
 <p>第六行    为这次添加的文件记录命名？我也说不清</p>
-
 <p>第七第八行    这我就更加说不明白了😄姑且认为是准备推送到对应服务器的仓库</p>
-
 <p>第九行    这个好理解，推送到服务器仓库</p>
-
 <p><code>这篇文章不尽完美，会在获得新的技巧后更新到这里并在这行提示最后更新时间</code></p>
-
-<hr />
-
+<hr>
 <p>当然，这些都是本人作为一个资深小白在不停的折腾后目前能掌握的使用方法。大佬们肯定能让这些运行的更优美更简单，欢迎大佬不吝赐教！比如，我该如何编译git同步命令并把它写入config，实现每次运行<code>hugo</code>直接推送到服务器仓库，而不是每次都需要复制粘贴这一大坨狗屎🤢。</p>
-
-		</div>
-		
-<div class="post__tags tags clearfix">
-	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
-	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/tags/%E5%88%86%E4%BA%AB/" rel="tag">分享</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/tags/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" rel="tag">hugo静态博客</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/tags/git%E9%83%A8%E7%BD%B2%E5%88%B0vps/" rel="tag">git部署到vps</a></li>
-	</ul>
-</div>
-	</article>
-</main>
-<div class="social-share"></div>
-  <br/>
-
-
-
-
-<aside class="sidebar">
-<h4>相关文章</h4>
-<div class="widget__content">
-		<ul class="widget__list">
-	
-	<li><a href="/2019/11/4/">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</a></li>
-	
-	<li><a href="/2019/10/5/">【分享】HostMem：洛杉矶CN2 GT KVM VPS按小时付费按需使用流量包</a></li>
-	
-	<li><a href="/2019/10/3/">【分享】俄罗斯便宜VPS最低5元支持微信付款</a></li>
-	
-	<li><a href="/2019/10/1/">【分享】ImgURL图床源码</a></li>
-	
-	<li><a href="/2019/08/3/">【分享】Mastodon：一个免费开源的分布式微博客社交网络</a></li>
-	
-	<li><a href="/2019/07/8/">【分享】二十年前的Win98电脑</a></li>
-	
-	<li><a href="/2019/07/7/">【分享】俄罗斯如何处理性教育？</a></li>
-	
-	<li><a href="/2019/07/5/">【分享】如果给你一辆房车你准备怎么去玩</a></li>
-	
-	<li><a href="/2019/07/4/">【分享】蚊子要出来咬人啦</a></li>
-	
-	<li><a href="/2019/05/14/">【精彩博文】低垂的果实</a></li>
-	
-</ul>
-</div>
-<br/>
-</aside>
-
-
-<nav class="post-nav flex">
-	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/2019/08/4/" rel="prev"><span class="post-nav__caption">«&thinsp;前一篇</span><p class="post-nav__post-title">【随笔】在后台放出来好几条“垃圾评论”</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/2019/08/6/" rel="next"><span class="post-nav__caption">后一篇&thinsp;»</span><p class="post-nav__post-title">【随笔】忙碌之余追了一部剧值得推荐</p></a>
-	</div>
-</nav>
-
+</article><section class="article labels"><a class="category" href=/categories/%E5%BB%BA%E7%AB%99/>建站</a><a class="tag" href=/tags/%E5%88%86%E4%BA%AB/>分享</a><a class="tag" href=/tags/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/>hugo静态博客</a><a class="tag" href=/tags/git%E9%83%A8%E7%BD%B2%E5%88%B0vps/>Git部署到VPS</a></section><section class="article navigation"><p><a class="link" href="/2019/08/6/"><span class="li">&larr;</span>【随笔】忙碌之余追了一部剧值得推荐</a></p><p><a class="link" href="/2019/08/4/"><span class="li">&rarr;</span>【随笔】在后台放出来好几条“垃圾评论”</a></p></section>
 <div align="center">
   <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5883329460904326"
     data-ad-slot="6466278453"></ins>
@@ -492,203 +174,12 @@ git push origin master
       init: true
     });
   </script>
-</div>
-
-
-
-			</div>
-			<aside class="sidebar"><div align="center">
-	<a href="https://www.6le.cc/page.aspx?c=referral&u=9044" target="_blank"><img src="https://img.dtz9.net/imgs/2020/02/4cc3eeece0ec3a46.png" /></a>
-</div><br>
-<div class="widget-search widget">
-	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<label>
-			<input class="widget-search__field" type="search" placeholder="搜索..." value="" name="q" aria-label="搜索...">
-		</label>
-		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://dtz9.net/" />
-	</form>
-</div>
-<div class="widget-taglist widget">
-	<h4 class="widget__title">分类</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e5%88%86%e4%ba%ab">分享</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e5%bb%ba%e7%ab%99">建站</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e6%96%b0%e9%97%bb">新闻</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e6%b1%bd%e8%bd%a6">汽车</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e7%94%b5%e5%bd%b1">电影</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e7%94%b5%e8%84%91">电脑</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e8%a7%86%e9%a2%91">视频</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e8%bd%ac%e8%bd%bd">转载</a>
-			<a class="widget-taglist__link widget__link btn" href="/categories/%e9%9a%8f%e7%ac%94">随笔</a>
-		</ul>
-	</div>
-</div>
-
-<div class="widget-recent widget">
-	<h4 class="widget__title">近期文章</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item" style="display: block;width: 285px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;"><a class="widget__link" href="/2020/02/4/">害怕作息毫无规律</a></li>
-			<li class="widget__item" style="display: block;width: 285px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;"><a class="widget__link" href="/2020/02/3/">我喜欢有些阳光和风景，总能照耀和宽慰人们的心灵</a></li>
-			<li class="widget__item" style="display: block;width: 285px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;"><a class="widget__link" href="/2020/02/2/">如果你是老板我回去复工你害怕吗</a></li>
-			<li class="widget__item" style="display: block;width: 285px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;"><a class="widget__link" href="/2020/02/1/">除下草不然怕你们以为我被隔离了</a></li>
-			<li class="widget__item" style="display: block;width: 285px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;"><a class="widget__link" href="/2020/01/1/">【随笔】回顾2019</a></li>
-		</ul>
-	</div>
-</div>
-<div class="widget-social widget">
-	<h4 class="widget-social__title widget__title">社群</h4>
-	<div class="widget-social__content widget__content">
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Telegram" rel="noopener noreferrer" href="https://t.me/link1078503" target="_blank">
-				<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="24" height="24"><path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
-				<span>Telegram</span>
-			</a>
-		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Email" href="mailto:1078503@gmail.com">
-				<svg class="widget-social__link-icon icon-mail" viewBox="0 0 416 288" width="24" height="24" fill="#fff"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
-				<span>1078503@gmail.com</span>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="widget-social widget">
-	<h4 class="widget-social__title widget__title">友情链接</h4>
-	<div class="widget-social__item widget__item">
-		<a class="widget-social__link widget__link btn" title="低头族" rel="noopener noreferrer"
-			href="https://ditou.org" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>低头族</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="影视推荐" rel="noopener noreferrer"
-			href="https://dtz9.com" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>影视推荐</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="网址导航" rel="noopener noreferrer"
-			href="https://dtz9.org" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>网址导航</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="君无止境" rel="noopener noreferrer"
-			href="https://youendless.com" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>君无止境</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="行者晓路" rel="noopener noreferrer"
-			href="http://stuit.cn/Xiaolu" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>行者晓路</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="常时阳光" rel="noopener noreferrer"
-			href="https://cyhour.com/" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>常时阳光</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="工程窝" rel="noopener noreferrer"
-			href="http://www.wuxiaohu.cn/" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>工程窝</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="M-x Chris-An-Emacser" rel="noopener noreferrer"
-			href="https://chriszheng.science/" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>M-x Chris-An-Emacser</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="景安快云" rel="noopener noreferrer"
-			href="https://www.yunjinquan.com/" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>景安快云</span>
-		</a>
-		<a class="widget-social__link widget__link btn" title="更多博客链接..." rel="noopener noreferrer"
-			href="/links" target="_blank">
-			<svg class="widget-social__link-icon icon-telegram" viewBox="0 0 132 110" width="12" height="12">
-				<path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52" />
-				<path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12" />
-				<path fill="#fff"
-					d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1" /></svg>
-			<span>更多博客链接...</span>
-		</a>
-	</div>
-</div>
-
-<div align="center">
-	<ins class="adsbygoogle" style="display:inline-block;width:285px;height:600px"
-		data-ad-client="ca-pub-5883329460904326" data-ad-slot="8410624631"></ins>
-	<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
-</aside>
-		</div>
-		<footer class="footer">
-	<div class="container footer__container flex">
-		
-		<div class="footer__copyright">
-			&copy; 2019 - 2020 近视眼逛博客 DTZ9.NET | 
-			<span class="footer__copyright-credits">使用 <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> 技术与 <a href="https://github.com/kingfsen/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> 主题</span>&nbsp;<span class="footer__copyright-credits"> | 欢迎使用免费的&nbsp;<a target="_blank" href="https://ditou.org/t/blog">博客托管</a>&nbsp;和&nbsp;<a target="_blank" href="https://img.dtz9.net/">图床</a>&nbsp;服务·&nbsp;<a target="_blank" href="https://dtz9.org">网址导航</a></span>
-			<script type="text/javascript" src="https://js.users.51.la/19958321.js"></script>
-		</div>
-	</div>
-</footer>
-
-	</div>
-	<script async defer src="/js/menu.js"></script>
-	<script async src="/js/highlight.js"></script>
-	
-	<script type="text/javascript">
-		(function () {
-			$("pre code").parent().addClass("line-numbers")
-		}())
-	</script>
-	
-	<a class="to-top"
-		style="background-color:#666;color:#fff;width:40px;height:40px;text-align:center;padding-top:3px;line-height:18px;">返回顶部</a>
-	<script type="text/javascript">
-		$('.to-top').toTop();
-	</script>
-	
-	<script src="//instant.page/3.0.0" type="module" defer
-		integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+</div></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">©2019 - 2020 近视眼逛博客.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section></div>
 </body>
 
 </html>

@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>非黑即白 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/%E9%9D%9E%E9%BB%91%E5%8D%B3%E7%99%BD/</link>
+    <link>/tags/%E9%9D%9E%E9%BB%91%E5%8D%B3%E7%99%BD/</link>
     <description>Recent content in 非黑即白 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Wed, 01 Jan 2020 00:29:33 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/%E9%9D%9E%E9%BB%91%E5%8D%B3%E7%99%BD/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/%E9%9D%9E%E9%BB%91%E5%8D%B3%E7%99%BD/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【随笔】回顾2019</title>
-      <link>https://dtz9.net/2020/01/1/</link>
+      <link>/2020/01/1/</link>
       <pubDate>Wed, 01 Jan 2020 00:29:33 +0800</pubDate>
       
-      <guid>https://dtz9.net/2020/01/1/</guid>
+      <guid>/2020/01/1/</guid>
       <description>2019年12月31日 23点00分 再过一个小时2019年就过去了，我该如何回顾2019年的自己呢？这一年经历了太多的事情。 有些可以说，有些只能放在心里。喜欢孤独的人大概都不喜欢把自己的事情写出来吧，特别是心迹，毕竟很多事情涉及到隐私。但大的方向还是可以说出来的。 关于工作，这一年诸事不顺。可</description>
     </item>
     

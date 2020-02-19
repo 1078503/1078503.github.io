@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>写作是最具可扩展性的活动 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/%E5%86%99%E4%BD%9C%E6%98%AF%E6%9C%80%E5%85%B7%E5%8F%AF%E6%89%A9%E5%B1%95%E6%80%A7%E7%9A%84%E6%B4%BB%E5%8A%A8/</link>
+    <link>/tags/%E5%86%99%E4%BD%9C%E6%98%AF%E6%9C%80%E5%85%B7%E5%8F%AF%E6%89%A9%E5%B1%95%E6%80%A7%E7%9A%84%E6%B4%BB%E5%8A%A8/</link>
     <description>Recent content in 写作是最具可扩展性的活动 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Fri, 03 May 2019 01:16:33 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/%E5%86%99%E4%BD%9C%E6%98%AF%E6%9C%80%E5%85%B7%E5%8F%AF%E6%89%A9%E5%B1%95%E6%80%A7%E7%9A%84%E6%B4%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/%E5%86%99%E4%BD%9C%E6%98%AF%E6%9C%80%E5%85%B7%E5%8F%AF%E6%89%A9%E5%B1%95%E6%80%A7%E7%9A%84%E6%B4%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【分享】写作是最具可扩展性的活动</title>
-      <link>https://dtz9.net/2019/05/3/</link>
+      <link>/2019/05/3/</link>
       <pubDate>Fri, 03 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/05/3/</guid>
+      <guid>/2019/05/3/</guid>
       <description>标题可能跟博文关系不是很大。 阮一峰在今天的文章中说到： 能够获得暴利的职业，都有一个共同特点：可扩展性（scaling）：一次劳动可以服务成千上万的人。 软件、电影、游戏行业都具有可扩展性，作品的生产成本是固定的，但可以被消费无数次，所以有巨大的获利空间，创造出许许多多的富豪。另一方面，理发师</description>
     </item>
     

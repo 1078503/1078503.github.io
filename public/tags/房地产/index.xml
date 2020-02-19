@@ -2,21 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>房地产 on 近视眼逛博客 DTZ9.NET</title>
-    <link>https://dtz9.net/tags/%E6%88%BF%E5%9C%B0%E4%BA%A7/</link>
+    <link>/tags/%E6%88%BF%E5%9C%B0%E4%BA%A7/</link>
     <description>Recent content in 房地产 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
     <lastBuildDate>Mon, 17 Jun 2019 15:35:29 +0800</lastBuildDate>
     
-	<atom:link href="https://dtz9.net/tags/%E6%88%BF%E5%9C%B0%E4%BA%A7/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/%E6%88%BF%E5%9C%B0%E4%BA%A7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【新闻】中国官方再次拉响房地产警报</title>
-      <link>https://dtz9.net/2019/06/10/</link>
+      <link>/2019/06/10/</link>
       <pubDate>Mon, 17 Jun 2019 15:35:29 +0800</pubDate>
       
-      <guid>https://dtz9.net/2019/06/10/</guid>
+      <guid>/2019/06/10/</guid>
       <description>配图来自网络，侵删 以下消息转载自 万维读者网 版权归原作者所有，不代表本博客观点立场 ​ 除了科创板的消息刷屏之外，还有一个人的讲话也被刷屏了，这就是中国银保监会的主席郭树清，他在讲话中再次拉响警报。郭树清强调，必须正视一些地方房地产金融化问题。近些年来，中国一些城市的住户部门杠杆率急速攀升，相当</description>
     </item>
     
