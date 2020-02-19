@@ -314,13 +314,13 @@
   </url>
   
   <url>
-    <loc>https://dtz9.net/categories/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>https://dtz9.net/tags/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2019-10-27T22:24:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dtz9.net/tags/%E7%94%B5%E5%BD%B1/</loc>
+    <loc>https://dtz9.net/categories/%E7%94%B5%E5%BD%B1/</loc>
     <lastmod>2019-10-27T22:24:08+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -436,13 +436,13 @@
   </url>
   
   <url>
-    <loc>https://dtz9.net/categories/%E6%B1%BD%E8%BD%A6/</loc>
+    <loc>https://dtz9.net/tags/%E6%B1%BD%E8%BD%A6/</loc>
     <lastmod>2019-09-16T02:10:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dtz9.net/tags/%E6%B1%BD%E8%BD%A6/</loc>
+    <loc>https://dtz9.net/categories/%E6%B1%BD%E8%BD%A6/</loc>
     <lastmod>2019-09-16T02:10:17+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -842,6 +842,12 @@
   </url>
   
   <url>
+    <loc>https://dtz9.net/tags/%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2019-06-18T14:22:19+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dtz9.net/2019/06/11/</loc>
     <lastmod>2019-06-18T14:22:19+08:00</lastmod>
   </url>
@@ -854,12 +860,6 @@
   
   <url>
     <loc>https://dtz9.net/categories/%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2019-06-18T14:22:19+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dtz9.net/tags/%E6%96%B0%E9%97%BB/</loc>
     <lastmod>2019-06-18T14:22:19+08:00</lastmod>
     <priority>0</priority>
   </url>
