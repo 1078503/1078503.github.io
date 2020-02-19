@@ -1,19 +1,26 @@
-一键重装
+###############################################
+重装前环境准备
+当前已安装任意由GRUB or GRUB2引导Linux系统(RedHat/CentOS/Debian/Ubuntu/Etc.)
+安装重装系统的前提组件
+①. RedHat/CentOS:
 
-wget --no-check-certificate -qO AutoDD.sh 'https://zhujiwiki.com/wp-content/uploads/2019/07/autodd.sh' && bash AutoDD.sh
+yum install -y xz openssl gawk file
 
-查看版本
+②. Debian/Ubuntu:
+apt-get install -y xz-utils openssl gawk file
 
-cat /etc/centos-release
+如果出现异常，请刷新Mirrors缓存或更换镜像源。
+yum makecache && yum update -y
+apt update -y && apt dist-upgrade -y
 
-yum clean all
-yum -y update && yum -y upgrade
+CentOS 7系统为cxthhhhh.com大佬制作。CentOS 7的root密码：cxthhhhh.com
 
-lsmod | grep bbr
+wget --no-check-certificate -qO InstallNET.sh 'https://pan.dtz9.com/CentOS7/InstallNET.sh' && bash InstallNET.sh -dd 'https://pan.dtz9.com/CentOS7/CentOS_7.vhd.gz'
 
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+https://moeclub.org/attachment/LinuxShell/InstallNET.sh
 
-bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 9 -v 64 -a
+bash InstallNET.sh  -dd 'https://pan.dtz9.com/CentOS7/CentOS_7.vhd.gz'
+#################################################################################
 
 wget git.io/superbench.sh && chmod +x superbench.sh && ./superbench.sh
 
@@ -51,32 +58,16 @@ mkdir ssr && vim ssr/config.json
 }
 
 docker run --restart=always -d -p 65210:65210 -p 65210:65210/udp --name ssr -v /root/ssr:/etc/shadowsocks-r teddysun/shadowsocks-r 
-###############################################
-重装前环境准备
-当前已安装任意由GRUB or GRUB2引导Linux系统(RedHat/CentOS/Debian/Ubuntu/Etc.)
-安装重装系统的前提组件
-①. RedHat/CentOS:
-
-yum install -y xz openssl gawk file
-
-②. Debian/Ubuntu:
-apt-get install -y xz-utils openssl gawk file
-
-如果出现异常，请刷新Mirrors缓存或更换镜像源。
-yum makecache && yum update -y
-apt update -y && apt dist-upgrade -y
-
-下载SHELL脚本（通过root用户运行）:
-
-wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh
-
-【安装DD系统】:
-
-bash ~/Network-Reinstall-System-Modify.sh -DD "https://pan.dtz9.net/CentOS7/CentOS_7.vhd.gz"
 
 ###############################################
 一键安装最新内核并开启 BBR 脚本    https://teddysun.com/489.html
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+###############################################
+网络优化加速一键脚本！！！！！！！！！！！！！！
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+####################################################################
 
 验证BBR是否启动：
 lsmod | grep bbr
@@ -142,6 +133,10 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 #############################################
+
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
+
+#################################################
 ab 压力测试
 
 yum -y install httpd-tools
@@ -156,7 +151,7 @@ wget https://raw.githubusercontent.com/cppla/ServerStatus/master/autodeploy/conf
 
 docker run -d --restart=always --name=serverstatus -v ~/serverstatus/config.json:/ServerStatus/server/config.json -p 35610:80 -p 35601:35601 cppla/serverstatus
 
-wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=154.81.2.132 USER=s01  >/dev/null 2>&1 &
+wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=154.81.2.132 USER=s03 PASSWORD=dtz9.net  >/dev/null 2>&1 &
 
 wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh
 chmod +x superbench.sh
@@ -174,3 +169,5 @@ bash testrace.sh
 
 
 ##################################################
+
+./sergate --config=config.json --web-dir=/www/wwwroot/stats.im
