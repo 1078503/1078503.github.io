@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/docs/admin"
-webhook_url: https://github.com/g1078503/blog/settings/hooks
+webhook_url: https://github.com/1078503/blog/settings/hooks
 sections:
 - type: directory
   path: content
