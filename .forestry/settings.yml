@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: "/public/admin"
+webhook_url: https://github.com/1078503/blog/settings/hooks
 sections:
 - type: directory
   path: content
@@ -28,5 +28,5 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
-    -d public
+    -d docs
 version: 0.55.6
