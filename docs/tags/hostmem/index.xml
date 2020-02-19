@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HostMem on 近视眼逛博客 DTZ9.NET</title>
-    <link>/tags/hostmem/</link>
+    <link>https://dtz9.net/tags/hostmem/</link>
     <description>Recent content in HostMem on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 27 Oct 2019 00:09:17 +0800</lastBuildDate>
     
-	<atom:link href="/tags/hostmem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dtz9.net/tags/hostmem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【分享】HostMem：洛杉矶CN2 GT KVM VPS按小时付费按需使用流量包</title>
-      <link>/2019/10/5/</link>
+      <link>https://dtz9.net/2019/10/5/</link>
       <pubDate>Sun, 27 Oct 2019 00:09:17 +0800</pubDate>
       
-      <guid>/2019/10/5/</guid>
+      <guid>https://dtz9.net/2019/10/5/</guid>
       <description>HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单独计算。可以购买流量包按需使用，对于个人用户来说大大节省了使用成本。 官网：https://www.hostmem.com 使用官方提供的优惠码“NOW80”享受八折优惠，最低配方案 1核/1GB内存/20GB S</description>
     </item>
     

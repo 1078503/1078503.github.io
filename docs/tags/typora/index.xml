@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typora on 近视眼逛博客 DTZ9.NET</title>
-    <link>/tags/typora/</link>
+    <link>https://dtz9.net/tags/typora/</link>
     <description>Recent content in Typora on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 06 Jun 2019 01:10:33 +0800</lastBuildDate>
     
-	<atom:link href="/tags/typora/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dtz9.net/tags/typora/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【网站维护】一些变化</title>
-      <link>/2019/06/3/</link>
+      <link>https://dtz9.net/2019/06/3/</link>
       <pubDate>Thu, 06 Jun 2019 01:10:33 +0800</pubDate>
       
-      <guid>/2019/06/3/</guid>
+      <guid>https://dtz9.net/2019/06/3/</guid>
       <description>是的，我也换主题了，一次大的改版。 拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是喜欢的，因为排版布局清晰。 但还是经不住这次用到的主题的诱惑，优点我就不说了，好看。 这次增加了一个音乐页面，直接引用网易云音乐，应该是很方便的。我没事儿的时候折腾一下手机，这个页面就会有相应的变化了，表现就是</description>
     </item>
     

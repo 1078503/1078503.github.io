@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>webhook on 近视眼逛博客 DTZ9.NET</title>
-    <link>/tags/webhook/</link>
+    <link>https://dtz9.net/tags/webhook/</link>
     <description>Recent content in webhook on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 21 Nov 2019 00:42:00 +0800</lastBuildDate>
     
-	<atom:link href="/tags/webhook/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dtz9.net/tags/webhook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
-      <link>/2019/11/4/</link>
+      <link>https://dtz9.net/2019/11/4/</link>
       <pubDate>Thu, 21 Nov 2019 00:42:00 +0800</pubDate>
       
-      <guid>/2019/11/4/</guid>
+      <guid>https://dtz9.net/2019/11/4/</guid>
       <description>今天博友云中君反馈，说他的博客又抽风了。 原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。 这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？ 他是通过Gridea客</description>
     </item>
     

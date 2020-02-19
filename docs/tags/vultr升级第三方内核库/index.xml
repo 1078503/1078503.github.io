@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vultr升级第三方内核库 on 近视眼逛博客 DTZ9.NET</title>
-    <link>/tags/vultr%E5%8D%87%E7%BA%A7%E7%AC%AC%E4%B8%89%E6%96%B9%E5%86%85%E6%A0%B8%E5%BA%93/</link>
+    <link>https://dtz9.net/tags/vultr%E5%8D%87%E7%BA%A7%E7%AC%AC%E4%B8%89%E6%96%B9%E5%86%85%E6%A0%B8%E5%BA%93/</link>
     <description>Recent content in vultr升级第三方内核库 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 May 2019 01:16:33 +0800</lastBuildDate>
     
-	<atom:link href="/tags/vultr%E5%8D%87%E7%BA%A7%E7%AC%AC%E4%B8%89%E6%96%B9%E5%86%85%E6%A0%B8%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dtz9.net/tags/vultr%E5%8D%87%E7%BA%A7%E7%AC%AC%E4%B8%89%E6%96%B9%E5%86%85%E6%A0%B8%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【网站维护】忍不住换到了洛杉矶机房</title>
-      <link>/2019/05/10/</link>
+      <link>https://dtz9.net/2019/05/10/</link>
       <pubDate>Tue, 21 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>/2019/05/10/</guid>
+      <guid>https://dtz9.net/2019/05/10/</guid>
       <description>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。 VuLtr</description>
     </item>
     

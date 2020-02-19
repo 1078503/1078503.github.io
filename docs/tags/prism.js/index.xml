@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>prism.js on 近视眼逛博客 DTZ9.NET</title>
-    <link>/tags/prism.js/</link>
+    <link>https://dtz9.net/tags/prism.js/</link>
     <description>Recent content in prism.js on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 06 Aug 2019 18:33:12 +0800</lastBuildDate>
     
-	<atom:link href="/tags/prism.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dtz9.net/tags/prism.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【网站维护】一些简单满意的调整</title>
-      <link>/2019/08/2/</link>
+      <link>https://dtz9.net/2019/08/2/</link>
       <pubDate>Tue, 06 Aug 2019 18:33:12 +0800</pubDate>
       
-      <guid>/2019/08/2/</guid>
+      <guid>https://dtz9.net/2019/08/2/</guid>
       <description>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。 代码高亮 就随便找了一个 prism.js ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新</description>
     </item>
     

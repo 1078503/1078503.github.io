@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>建站 on 近视眼逛博客 DTZ9.NET</title>
-    <link>/categories/%E5%BB%BA%E7%AB%99/</link>
+    <link>https://dtz9.net/categories/%E5%BB%BA%E7%AB%99/</link>
     <description>Recent content in 建站 on 近视眼逛博客 DTZ9.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 21 Nov 2019 00:42:00 +0800</lastBuildDate>
     
-	<atom:link href="/categories/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dtz9.net/categories/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
-      <link>/2019/11/4/</link>
+      <link>https://dtz9.net/2019/11/4/</link>
       <pubDate>Thu, 21 Nov 2019 00:42:00 +0800</pubDate>
       
-      <guid>/2019/11/4/</guid>
+      <guid>https://dtz9.net/2019/11/4/</guid>
       <description>今天博友云中君反馈，说他的博客又抽风了。 原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。 这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？ 他是通过Gridea客</description>
     </item>
     
     <item>
       <title>【分享】HostMem：洛杉矶CN2 GT KVM VPS按小时付费按需使用流量包</title>
-      <link>/2019/10/5/</link>
+      <link>https://dtz9.net/2019/10/5/</link>
       <pubDate>Sun, 27 Oct 2019 00:09:17 +0800</pubDate>
       
-      <guid>/2019/10/5/</guid>
+      <guid>https://dtz9.net/2019/10/5/</guid>
       <description>HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单独计算。可以购买流量包按需使用，对于个人用户来说大大节省了使用成本。 官网：https://www.hostmem.com 使用官方提供的优惠码“NOW80”享受八折优惠，最低配方案 1核/1GB内存/20GB S</description>
     </item>
     
     <item>
       <title>【分享】俄罗斯便宜VPS最低5元支持微信付款</title>
-      <link>/2019/10/3/</link>
+      <link>https://dtz9.net/2019/10/3/</link>
       <pubDate>Tue, 15 Oct 2019 01:01:33 +0800</pubDate>
       
-      <guid>/2019/10/3/</guid>
+      <guid>https://dtz9.net/2019/10/3/</guid>
       <description>俄罗斯便宜VPS最低5元支持微信付款 在大鸟博客看到他分享这家便宜VPS，然后又不淡定了，想弄一个玩玩&amp;hellip; 没办法，谁叫它便宜呢！这家最便宜的方案应该适合给新手练手学习VPS管理。该站支持中文和微信付款，算是对中文用户比较友好的了，虽然很多看不懂哈哈。 注意了，由于到中国的线路和机器</description>
     </item>
     
     <item>
       <title>【分享】ImgURL图床源码</title>
-      <link>/2019/10/1/</link>
+      <link>https://dtz9.net/2019/10/1/</link>
       <pubDate>Fri, 04 Oct 2019 17:04:09 +0800</pubDate>
       
-      <guid>/2019/10/1/</guid>
+      <guid>https://dtz9.net/2019/10/1/</guid>
       <description>ImgURL是一个简单、纯粹的图床程序，让个人图床多一个选择。使用PHP + SQLite 3开发。 主要功能 支持拽拖上传、多图上传、Ctrl + V粘贴上传、URL上传 支持图片裁剪，自动生成缩略图 限制访客上传数量 图片压缩/批量压缩 图片鉴黄/批量鉴黄 API支持 在线更新 外部存储 环境要求 PHP &amp;gt;= 5.6 PDO_SQLite GD2 ImageMagick fileinfo pathinfo 安装 常规安装</description>
     </item>
     
     <item>
       <title>【分享】使用hugo搭建静态博客</title>
-      <link>/2019/08/5/</link>
+      <link>https://dtz9.net/2019/08/5/</link>
       <pubDate>Sat, 24 Aug 2019 03:37:20 +0800</pubDate>
       
-      <guid>/2019/08/5/</guid>
+      <guid>https://dtz9.net/2019/08/5/</guid>
       <description>是时候聊聊关于Hugo，关于静态博客的一些使用心得了。 静态博客生成器有很多，但最终我选择了hugo，就因为我喜欢它渲染生成速度快。 ♦ 优点 使用markdown 为什么我要使用markdown编辑文章？首先通过markdown编辑的文章可以直接保存在本地电脑中，这样通过静态博客生成器直接渲染生成</description>
     </item>
     
     <item>
       <title>【网站维护】一些简单满意的调整</title>
-      <link>/2019/08/2/</link>
+      <link>https://dtz9.net/2019/08/2/</link>
       <pubDate>Tue, 06 Aug 2019 18:33:12 +0800</pubDate>
       
-      <guid>/2019/08/2/</guid>
+      <guid>https://dtz9.net/2019/08/2/</guid>
       <description>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。 代码高亮 就随便找了一个 prism.js ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新</description>
     </item>
     
     <item>
       <title>【网站维护】未雨绸缪启用自建图床</title>
-      <link>/2019/06/15/</link>
+      <link>https://dtz9.net/2019/06/15/</link>
       <pubDate>Fri, 21 Jun 2019 22:22:36 +0800</pubDate>
       
-      <guid>/2019/06/15/</guid>
+      <guid>https://dtz9.net/2019/06/15/</guid>
       <description>开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。 今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。 图床源码使用的是 ImgURL ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客在</description>
     </item>
     
     <item>
       <title>【网站维护】增加了对思源宋体的支持</title>
-      <link>/2019/06/14/</link>
+      <link>https://dtz9.net/2019/06/14/</link>
       <pubDate>Thu, 20 Jun 2019 14:43:24 +0800</pubDate>
       
-      <guid>/2019/06/14/</guid>
+      <guid>https://dtz9.net/2019/06/14/</guid>
       <description>是的，并不能直接显示，需要在您的设备中安装字体。 有的站点是直接在线加载的，但是考虑到汉字字库一般较大，即使动态加载也会严重拖慢加载速度，所以只对font-family做一个声明支持Noto Serif CJK SC。 具体怎么在设备中安装思源宋体您可以移步这里，介绍的非常详细。 另外在页脚也有注明和链接。 今天最</description>
     </item>
     
     <item>
       <title>【网站维护】经过几天的努力终于把静态博客搞上线了</title>
-      <link>/2019/06/6/</link>
+      <link>https://dtz9.net/2019/06/6/</link>
       <pubDate>Wed, 12 Jun 2019 17:52:54 +0800</pubDate>
       
-      <guid>/2019/06/6/</guid>
+      <guid>https://dtz9.net/2019/06/6/</guid>
       <description>遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节是缺失的。并不是我一开始以为的拿来就可以用的，很多问题需要自己去解决。 这对于新手来说还真是个麻烦，也算是一个痛苦的学习和了解的过程。在这里提醒准备搞和想搞静态博客的朋友，从来就没有伸手就来的东西，只有通过学</description>
     </item>
     
     <item>
       <title>【网站维护】一些变化</title>
-      <link>/2019/06/3/</link>
+      <link>https://dtz9.net/2019/06/3/</link>
       <pubDate>Thu, 06 Jun 2019 01:10:33 +0800</pubDate>
       
-      <guid>/2019/06/3/</guid>
+      <guid>https://dtz9.net/2019/06/3/</guid>
       <description>是的，我也换主题了，一次大的改版。 拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是喜欢的，因为排版布局清晰。 但还是经不住这次用到的主题的诱惑，优点我就不说了，好看。 这次增加了一个音乐页面，直接引用网易云音乐，应该是很方便的。我没事儿的时候折腾一下手机，这个页面就会有相应的变化了，表现就是</description>
     </item>
     
     <item>
       <title>【网站维护】忍不住换到了洛杉矶机房</title>
-      <link>/2019/05/10/</link>
+      <link>https://dtz9.net/2019/05/10/</link>
       <pubDate>Tue, 21 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>/2019/05/10/</guid>
+      <guid>https://dtz9.net/2019/05/10/</guid>
       <description>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。 VuLtr</description>
     </item>
     
     <item>
       <title>【网站维护】Google通过了我的Adsense账户</title>
-      <link>/2019/05/7/</link>
+      <link>https://dtz9.net/2019/05/7/</link>
       <pubDate>Sun, 12 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>/2019/05/7/</guid>
+      <guid>https://dtz9.net/2019/05/7/</guid>
       <description>很高心昨天收到了Google的邮件： 很惊喜！我一个不到一个月的新站，而且才有11篇文章的博主能够受到Google的青睐能不惊喜吗？这算是对我最大的鼓励了。晚上回到家配置好广告代码，大约2小时后，广告正式在博客展示了。 说说博客的基本情况。域名注册有几个年头了，中间间或使用过没有坚持下去，这次</description>
     </item>
     
