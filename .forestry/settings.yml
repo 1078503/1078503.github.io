@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/docs/admin"
-webhook_url: 
+webhook_url: http://137.220.138.224:8898/hook?access_key=AQpIG1ugtrsOrOYqLPtqEffHGm5XR7nAl6a06vvH8DJFpcOI&param=dtz9.net
 sections:
 - type: directory
   path: content
