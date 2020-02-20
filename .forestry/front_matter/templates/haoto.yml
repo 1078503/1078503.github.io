@@ -27,5 +27,3 @@ fields:
   config:
     required: false
   label: categories
-pages:
-- content/post/研究hugo-github-forestry.md
