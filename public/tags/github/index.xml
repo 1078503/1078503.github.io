@@ -1,16 +1,95 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>github on 近视眼逛博客 DTZ9.NET</title>
+   <title>GitHub on 近视眼逛博客 DTZ9.NET</title>
    <link>https://dtz9.net/tags/github/</link>
-   <description>Recent content in github on 近视眼逛博客 DTZ9.NET</description>
+   <description>Recent content in GitHub on 近视眼逛博客 DTZ9.NET</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>zh-cn</language>
    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
-   <lastBuildDate>Thu, 21 Nov 2019 00:42:00 +0800</lastBuildDate>
+   <lastBuildDate>Thu, 20 Feb 2020 10:06:00 +0000</lastBuildDate>
    
        <atom:link href="https://dtz9.net/tags/github/index.xml" rel="self" type="application/rss+xml" />
    
+   
+     <item>
+       <title>研究hugo&#43;Github&#43;Forestry</title>
+       <link>https://dtz9.net/2020/02/5/</link>
+       <pubDate>Thu, 20 Feb 2020 10:06:00 +0000</pubDate>
+       
+       <guid>https://dtz9.net/2020/02/5/</guid>
+       <description>&lt;p&gt;起因是看见这位博主提到的静态博客管理办法： &lt;a href=&#34;https://blog.jxtsai.info/post/hugo-and-forestry/&#34; title=&#34;https://blog.jxtsai.info/post/hugo-and-forestry/&#34;&gt;&lt;a href=&#34;https://blog.jxtsai.info/post/hugo-and-forestry/&#34;&gt;https://blog.jxtsai.info/post/hugo-and-forestry/&lt;/a&gt;&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。&lt;/p&gt;
+&lt;p&gt;要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。&lt;/p&gt;
+&lt;h3 id=&#34;git&#34;&gt;首先来复习一下什么是git&lt;/h3&gt;
+&lt;p&gt;维基百科：&lt;a href=&#34;https://zh.wikipedia.org/wiki/Git&#34; title=&#34;https://zh.wikipedia.org/wiki/Git&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/Git&#34;&gt;https://zh.wikipedia.org/wiki/Git&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;关键词：分布式版本控制。&lt;/p&gt;
+&lt;p&gt;说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。&lt;/p&gt;
+&lt;p&gt;那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：&lt;a href=&#34;https://www.jianshu.com/p/662d9bb9cadc&#34; title=&#34;https://www.jianshu.com/p/662d9bb9cadc&#34;&gt;&lt;a href=&#34;https://www.jianshu.com/p/662d9bb9cadc&#34;&gt;https://www.jianshu.com/p/662d9bb9cadc&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。&lt;/p&gt;
+&lt;h2 id=&#34;githubforestry&#34;&gt;Github与Forestry互通&lt;/h2&gt;
+&lt;p&gt;接下来就是搞定Github与Forestry互通，搞定后界面是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2020/02/add46b1cf550d00b.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;静态博客有了后台管理和创建文章是不是就方便多了？这样就能随时随地愉快的更新了哦。&lt;/p&gt;
+&lt;h3 id=&#34;forestry&#34;&gt;设置方面需要注意的地方，Forestry：&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2020/02/7ef1e0745e0201b6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;github&#34;&gt;GitHub有两个项目需要设置：&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2020/02/dc27096cdae985cc.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2020/02/48d2977d90377f09.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;不出意外，搞定这些基本就能工作了，更多Forestry的用法看看设置里面的说明基本就能玩好了，比如：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2020/02/4bd94957d63751e9.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。&lt;/p&gt;
+&lt;h3 id=&#34;githubwebhookvps&#34;&gt;GitHub上配置webhook与VPS服务器互通&lt;/h3&gt;
+&lt;p&gt;可以参考这个页面：&lt;a href=&#34;https://dtz9.net/2019/11/4/&#34; title=&#34;https://dtz9.net/2019/11/4/&#34;&gt;&lt;a href=&#34;https://dtz9.net/2019/11/4/&#34;&gt;https://dtz9.net/2019/11/4/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。&lt;/p&gt;
+&lt;p&gt;到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。&lt;/p&gt;
+&lt;h3 id=&#34;vpshugo&#34;&gt;VPS服务器上运行hugo定时任务&lt;/h3&gt;
+&lt;p&gt;并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？&lt;/p&gt;
+&lt;p&gt;Centos 7系统上安装运行hugo可以参考这个页面：&lt;a href=&#34;https://www.jianshu.com/p/bb2d483f4caf&#34; title=&#34;https://www.jianshu.com/p/bb2d483f4caf&#34;&gt;&lt;a href=&#34;https://www.jianshu.com/p/bb2d483f4caf&#34;&gt;https://www.jianshu.com/p/bb2d483f4caf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。&lt;/p&gt;
+&lt;p&gt;如果你不会，可以先学会在本地使用hugo，参考这个页面：&lt;a href=&#34;https://dtz9.net/2019/08/5/&#34; title=&#34;https://dtz9.net/2019/08/5/&#34;&gt;&lt;a href=&#34;https://dtz9.net/2019/08/5/&#34;&gt;https://dtz9.net/2019/08/5/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; cd /www/wwwroot/dtz9.net hugo cd ~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Building sites … 
+                   | ZH-CN  
++------------------+-------+
+  Pages            |   385
+  Paginator pages  |    &lt;span style=&#34;color:#ae81ff&#34;&gt;71&lt;/span&gt;  
+  Non-page files   |     0
+  Static files     |    80
+  Processed images |     0
+  Aliases          |   148
+  Sitemaps         |     1
+  Cleaned          |     0
+
+Total in &lt;span style=&#34;color:#ae81ff&#34;&gt;6202&lt;/span&gt; ms
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;heading&#34;&gt;总结一下&lt;/h2&gt;
+&lt;p&gt;我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。&lt;/p&gt;
+&lt;h4 id=&#34;heading1&#34;&gt;优点：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;静态网页的读取效率更高，访问速度优秀&lt;/li&gt;
+&lt;li&gt;基本没有网页安全性方面的忧虑（这都三方同步了&amp;hellip;），更不会被代码注入，不依赖数据库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;heading2&#34;&gt;缺点：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;配置环境过于复杂，需要大量的时间弄懂才能上手&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;没有动态博客的直观便捷&lt;/p&gt;
+&lt;p&gt;这是肯定的，光弄明白hugo就需要大量的学习，我到现在都没搞懂。有舍有得，很正常的事情。花一点时间搞明白这些配置，剩下的时间才能安心的玩耍。动态看似简单，其实更复杂，依赖开发人员过多，靠人不如靠己。说这些还是为了效率，因为我不喜欢冲突。PHP里面很多开发人员各自为战，总能看见各种代码冲突，有的实际上是把简单的事情复杂化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;没有好用的主题&lt;/p&gt;
+&lt;p&gt;真的是这样，静态博客的用户群相对还是很少的，当然主题方面还需要自己动手丰衣足食。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你有学习精神，相信这些都难不倒你。最后，写这篇文字前顺手把主题换了，实在看腻了。简单一点比较好。&lt;/p&gt;
+</description>
+     </item>
    
      <item>
        <title>害怕作息毫无规律</title>
