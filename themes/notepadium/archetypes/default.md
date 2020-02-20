@@ -7,6 +7,6 @@ categories:
   - ""
 tags:
   - ""
-comments = false  
+comments = true  
 draft: true   
 ---
