@@ -50,7 +50,9 @@
 &lt;p&gt;如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。&lt;/p&gt;
 &lt;p&gt;如果你不会，可以先学会在本地使用hugo，参考这个页面：&lt;a href=&#34;https://dtz9.net/2019/08/5/&#34; title=&#34;https://dtz9.net/2019/08/5/&#34;&gt;&lt;a href=&#34;https://dtz9.net/2019/08/5/&#34;&gt;https://dtz9.net/2019/08/5/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; cd /www/wwwroot/dtz9.net hugo cd ~
+&lt;pre&gt;&lt;code&gt; cd /www/wwwroot/dtz9.net 
+ hugo 
+ cd ~
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Building sites … 
@@ -88,6 +90,8 @@ Total in &lt;span style=&#34;color:#ae81ff&#34;&gt;6202&lt;/span&gt; ms
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;如果你有学习精神，相信这些都难不倒你。最后，写这篇文字前顺手把主题换了，实在看腻了。简单一点比较好。&lt;/p&gt;
+&lt;h4 id=&#34;heading3&#34;&gt;发布后更新：&lt;/h4&gt;
+&lt;p&gt;这篇文章我通过Forestry发布后经过观察，事实证明Forestry还是能够自动生成静态网页文件并推送出去的。由此可见，Forestry编辑文章发布依赖它的服务器，免费用户可能需要排队？因此，我的服务器上添加定时任务是正确的做法。&lt;/p&gt;
 </description>
      </item>
    

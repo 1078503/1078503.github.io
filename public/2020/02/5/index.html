@@ -54,7 +54,9 @@
 <p>如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。</p>
 <p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://dtz9.net/2019/08/5/" title="https://dtz9.net/2019/08/5/"><a href="https://dtz9.net/2019/08/5/">https://dtz9.net/2019/08/5/</a></a></p>
 <p>如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：</p>
-<pre><code> cd /www/wwwroot/dtz9.net hugo cd ~
+<pre><code> cd /www/wwwroot/dtz9.net 
+ hugo 
+ cd ~
 </code></pre>
 <p>执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Building sites … 
@@ -92,11 +94,13 @@ Total in <span style="color:#ae81ff">6202</span> ms
 </li>
 </ul>
 <p>如果你有学习精神，相信这些都难不倒你。最后，写这篇文字前顺手把主题换了，实在看腻了。简单一点比较好。</p>
+<h4 id="heading3">发布后更新：</h4>
+<p>这篇文章我通过Forestry发布后经过观察，事实证明Forestry还是能够自动生成静态网页文件并推送出去的。由此可见，Forestry编辑文章发布依赖它的服务器，免费用户可能需要排队？因此，我的服务器上添加定时任务是正确的做法。</p>
 </article><section class="article labels"><a class="category" href=/categories/%E5%BB%BA%E7%AB%99/>建站</a><a class="tag" href=/tags/hugo/>hugo</a><a class="tag" href=/tags/github/>GitHub</a><a class="tag" href=/tags/forestry/>Forestry</a></section><section class="article navigation"><p><a class="link" href="/2020/02/4/"><span class="li">&rarr;</span>害怕作息毫无规律</a></p></section><br>
 <div align="center">
   
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5883329460904326" data-ad-slot="6466278453"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5883329460904326"
+    data-ad-slot="6466278453"></ins>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
