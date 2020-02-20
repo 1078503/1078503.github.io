@@ -5,7 +5,7 @@ date: 2019-04-06
 ---
 ###### 随意的收录一些个人博客和主页🤦‍。
 
-欢迎在评论区留言申请加入列表。如果你乐意，还可以在这个页面提交您的博客：https://dtz9.org/contribute/
+欢迎在评论区留言申请加入列表。如果你乐意，还可以在这个页面提交您的博客：[https://dtz9.org/contribute/](https://dtz9.org/contribute/)
 
 ***
 
