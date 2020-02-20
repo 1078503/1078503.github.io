@@ -8,5 +8,24 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: 标签
+- name: slug
+  type: number
+  label: slug
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: categories
+  type: text
+  config:
+    required: false
+  label: categories
 pages:
 - content/post/研究hugo-github-forestry.md
