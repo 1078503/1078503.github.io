@@ -20,7 +20,7 @@ defaultContentLanguage = "zh-cn"
 [markup]
   [markup.highlight]
     codeFences = true
-    noClasses = true
+    noClasses = false
 
   [markup.goldmark.renderer]
     unsafe = true  # enable raw HTML in Markdown
@@ -40,10 +40,10 @@ defaultContentLanguage = "zh-cn"
 
 [params.math]
   enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
-  use = "mathjax"  # option: "katex", "mathjax". default: "katex"
+  use = "katex"  # option: "katex", "mathjax". default: "katex"
 
 [params.syntax]
-  use = "hljs"  # builtin: "prismjs", "hljs". "none" means Chroma
+  use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
   theme = "xcode"
   darkTheme = "xcode-dark"  # apply this theme in dark mode
 
