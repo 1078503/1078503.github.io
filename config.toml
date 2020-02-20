@@ -28,7 +28,7 @@ defaultContentLanguage = "zh-cn"
 [params]
   style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
   dateFormat = "2006-01-02"  # if unset, default is "2006-01-02"
-  logo = ""  # if you have a logo png
+  logo = "logo.png"  # if you have a logo png
   slogan = "" # 副标题
   license = ""  # CC License
 
