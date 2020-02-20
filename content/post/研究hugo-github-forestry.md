@@ -1,6 +1,8 @@
 +++
+categories = "建站"
 date = 2020-02-20T10:06:00Z
-draft = true
+slug = 5
+tags = ["hugo", "GitHub", "Forestry"]
 title = "研究hugo+Github+Forestry"
 
 +++
