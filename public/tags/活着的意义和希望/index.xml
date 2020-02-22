@@ -1,23 +1,23 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>活着的意义和希望 on 近视眼逛博客 DTZ9.NET</title>
-   <link>https://dtz9.net/tags/%E6%B4%BB%E7%9D%80%E7%9A%84%E6%84%8F%E4%B9%89%E5%92%8C%E5%B8%8C%E6%9C%9B/</link>
-   <description>Recent content in 活着的意义和希望 on 近视眼逛博客 DTZ9.NET</description>
+   <title>活着的意义和希望 on 近视眼逛博客</title>
+   <link>https://ditou.org/tags/%E6%B4%BB%E7%9D%80%E7%9A%84%E6%84%8F%E4%B9%89%E5%92%8C%E5%B8%8C%E6%9C%9B/</link>
+   <description>Recent content in 活着的意义和希望 on 近视眼逛博客</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>zh-cn</language>
    <copyright>©2019 - 2020 近视眼逛博客.</copyright>
    <lastBuildDate>Mon, 09 Sep 2019 22:52:13 +0800</lastBuildDate>
    
-       <atom:link href="https://dtz9.net/tags/%E6%B4%BB%E7%9D%80%E7%9A%84%E6%84%8F%E4%B9%89%E5%92%8C%E5%B8%8C%E6%9C%9B/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://ditou.org/tags/%E6%B4%BB%E7%9D%80%E7%9A%84%E6%84%8F%E4%B9%89%E5%92%8C%E5%B8%8C%E6%9C%9B/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
        <title>研究hugo&#43;Github&#43;Forestry</title>
-       <link>https://dtz9.net/2020/02/5/</link>
+       <link>https://ditou.org/2020/02/5/</link>
        <pubDate>Thu, 20 Feb 2020 10:06:00 +0000</pubDate>
        
-       <guid>https://dtz9.net/2020/02/5/</guid>
+       <guid>https://ditou.org/2020/02/5/</guid>
        <description>&lt;p&gt;起因是看见这位博主提到的静态博客管理办法： &lt;a href=&#34;https://blog.jxtsai.info/post/hugo-and-forestry/&#34; title=&#34;https://blog.jxtsai.info/post/hugo-and-forestry/&#34;&gt;&lt;a href=&#34;https://blog.jxtsai.info/post/hugo-and-forestry/&#34;&gt;https://blog.jxtsai.info/post/hugo-and-forestry/&lt;/a&gt;&lt;/a&gt; 。&lt;/p&gt;
 &lt;p&gt;静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。&lt;/p&gt;
 &lt;p&gt;要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。&lt;/p&gt;
@@ -97,10 +97,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>害怕作息毫无规律</title>
-       <link>https://dtz9.net/2020/02/4/</link>
+       <link>https://ditou.org/2020/02/4/</link>
        <pubDate>Sat, 15 Feb 2020 23:05:39 +0800</pubDate>
        
-       <guid>https://dtz9.net/2020/02/4/</guid>
+       <guid>https://ditou.org/2020/02/4/</guid>
        <description>&lt;p&gt;今天是2020年2月15日，是与世隔绝的第N天。&lt;/p&gt;
 &lt;p&gt;昨晚到很晚才有睡意，入眠怕是已经快天亮了吧。所以，今天睡到了下午快四点才起床，起床的一瞬间有很强的负罪感，就像是自己做错了事情一样的让自己无法接受。起床洗簌吃饭自省，然后就有了一个想法，是不是从明天开始早起锻炼呢？&lt;/p&gt;
 &lt;p&gt;这个想法是积极的，但面对当下不用上班干活的现状，只怕自己做起来会打折扣。但有这个想法总归是好的，比起城市人口密集地区，农村人口稀少条件便利，门口走走转转是非常方便的，这样想的话还是很幸福的。按目前的作息习惯，只怕疫情结束后，整个人都很难转换到工作状态中了吧！&lt;/p&gt;
@@ -111,10 +111,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>我喜欢有些阳光和风景，总能照耀和宽慰人们的心灵</title>
-       <link>https://dtz9.net/2020/02/3/</link>
+       <link>https://ditou.org/2020/02/3/</link>
        <pubDate>Fri, 07 Feb 2020 19:06:57 +0800</pubDate>
        
-       <guid>https://dtz9.net/2020/02/3/</guid>
+       <guid>https://ditou.org/2020/02/3/</guid>
        <description>&lt;p&gt;明天就是正月十五了，人都快废掉了。这个正月把所有能看不能看的电影电视剧全看了，实在太无聊了。这几天总想着把浏览器书签整理一下，但我弄来弄去还是觉得很乱，看来这个添加网址到书签的习惯需要改善一下。我总是喜欢把搜索到的一些有用的信息保存起来稍后继续查看研究，可是经常是添加完书签就很久不理它了。这样呢，就会有一个麻烦，那就是浏览器的书签栏被我塞的满满的，往往这时候就会感觉比较凌乱。我不知道我这样算不算强迫症，总喜欢添加，多了又总想着整理，可是无论我怎么整理感觉都是不满意的，看着烦起来想全部干掉的心思都有了。不过，冷静下来其实是舍不得的，每天总要跟书签栏纠结一会儿。&lt;/p&gt;
 &lt;p&gt;刚才蹲坑的时候我想了想，认真分析应该是跟我这人找不着北有关。啥叫找不着北呢？就是没有明确的想法和目标，看到这个想了解一下那个也想弄一下，总感觉自己是捡了芝麻丢了西瓜。没有目标的宅在家里就是在浪费生命，跟咸鱼有什么区别？&lt;/p&gt;
 &lt;p&gt;想到这里，不免让我来了点想法，是时候给自己定一些目标了。定目标这事儿不能是首脑发热瞎想瞎比划，还得深思熟虑才是。给自己一点时间想想这一年自己想做些什么，有哪些有机会是能够达成的，把这些分析分析梳理梳理，到时候记录下来。围绕这个目标去做事儿去消磨时间，或许我就不会像这几天一样感觉自己要完蛋了吧？&lt;/p&gt;
@@ -127,10 +127,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>如果你是老板我回去复工你害怕吗</title>
-       <link>https://dtz9.net/2020/02/2/</link>
+       <link>https://ditou.org/2020/02/2/</link>
        <pubDate>Tue, 04 Feb 2020 22:54:18 +0800</pubDate>
        
-       <guid>https://dtz9.net/2020/02/2/</guid>
+       <guid>https://ditou.org/2020/02/2/</guid>
        <description>&lt;p&gt;今天初几来着？看一眼手机，已经正月十一了，过完正月十五很多人心里怕是该慌了。&lt;/p&gt;
 &lt;p&gt;为什么呢，很简单，今年这个工不好开呀！&lt;/p&gt;
 &lt;p&gt;今天在网上看到一些关于复工的讨论，有打工者担心口袋里面的钞票不够花，也有企业主个体户担心手头现金流撑不到开工盈利的时候。当然，各有各的立场，但大家都有苦难言是肯定的，全国大面积开工后部分中小企业无法正常运转甚至无力开工也是肯定的。&lt;/p&gt;
@@ -147,10 +147,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>除下草不然怕你们以为我被隔离了</title>
-       <link>https://dtz9.net/2020/02/1/</link>
+       <link>https://ditou.org/2020/02/1/</link>
        <pubDate>Sun, 02 Feb 2020 16:49:50 +0800</pubDate>
        
-       <guid>https://dtz9.net/2020/02/1/</guid>
+       <guid>https://ditou.org/2020/02/1/</guid>
        <description>&lt;p&gt;发现离上一次更新已经整整一个月了，罪过罪过！&lt;/p&gt;
 &lt;p&gt;年前呢是没有办法，忙碌到失去自我。国人只怕都是如此，平日里忙碌也就罢了，但每到年底仿佛更加的忙碌。一年到头，大家总觉得时间不够用，有太多事情需要处理。有些，我觉得其实是不需要处理的，因为那是大家都应该做的。可是，总有一些事一些人做不到，最终，大家都需要花更多的时间去完成这些工作。我说的比较隐晦，但感觉大家似乎都习以为常了，这难道真的应该是这样吗？&lt;/p&gt;
 &lt;p&gt;多事之秋，恰逢肺炎封城，我也就乐得清闲，不用去走亲访友拜年。年底忙忙碌碌休息不好，趁着这几天大睡特睡，吃饭睡觉看电视，仿佛要把这一年没有好好休息的时间都补回来。人一旦啥也不想做真的可以颓废到自己都讨厌自己，猛然一看，发现已经很久没有更新博客了。&lt;/p&gt;
@@ -165,10 +165,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】回顾2019</title>
-       <link>https://dtz9.net/2020/01/1/</link>
+       <link>https://ditou.org/2020/01/1/</link>
        <pubDate>Wed, 01 Jan 2020 00:29:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2020/01/1/</guid>
+       <guid>https://ditou.org/2020/01/1/</guid>
        <description>&lt;p&gt;2019年12月31日 23点00分&lt;/p&gt;
 &lt;p&gt;再过一个小时2019年就过去了，我该如何回顾2019年的自己呢？这一年经历了太多的事情。&lt;/p&gt;
 &lt;p&gt;有些可以说，有些只能放在心里。喜欢孤独的人大概都不喜欢把自己的事情写出来吧，特别是心迹，毕竟很多事情涉及到隐私。但大的方向还是可以说出来的。&lt;/p&gt;
@@ -187,10 +187,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【分享】人生的意义</title>
-       <link>https://dtz9.net/2019/12/5/</link>
+       <link>https://ditou.org/2019/12/5/</link>
        <pubDate>Wed, 25 Dec 2019 23:18:15 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/12/5/</guid>
+       <guid>https://ditou.org/2019/12/5/</guid>
        <description>&lt;p&gt;我在&lt;a href=&#34;https://dtz9.net/2019/09/2/&#34;&gt;之前的文章&lt;/a&gt;中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，早上升起的太阳。活着的意义和希望就是见到明天的太阳。今天有幸看到了马未都老师的视频，主题讲的就是“人生的意义”。重要的是你自己的存在，其它问题或东西其实都不重要。以下是&lt;a href=&#34;https://www.youtube.com/watch?v=IcNZqZGdL7c&#34;&gt;观看视频&lt;/a&gt;做的小记：&lt;/p&gt;
 &lt;p&gt;人生的乐趣，它就是你生理上的乐趣（吃喝拉撒）。&lt;/p&gt;
 &lt;p&gt;人生中第一个痛苦来自于疾病（发烧感冒），人一生是躲过无数次可能置于你死地的疾病活过来的，你的痛苦也来自于医生告诉你的信息。癌症与嵒症。精神上的痛苦。&lt;/p&gt;
@@ -208,10 +208,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】更换域名</title>
-       <link>https://dtz9.net/2019/12/4/</link>
+       <link>https://ditou.org/2019/12/4/</link>
        <pubDate>Tue, 17 Dec 2019 23:04:02 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/12/4/</guid>
+       <guid>https://ditou.org/2019/12/4/</guid>
        <description>&lt;p&gt;已经忘记了是之前的哪一天，突然想查一查有没有短一点的域名没有被注册的。很不幸真的让我找到一个dtz9，com、net、org均可以注册。本着先下手为强的原则，立即注册到手。&lt;/p&gt;
 &lt;p&gt;注册完当时就头疼了，为什么？手里域名越来越多了呗！&lt;/p&gt;
 &lt;p&gt;不过，后来想想也好，弄一个短一点的域名用用也蛮好的。所以呢，之前手头的域名逐步都会被我抛弃。这就跟男人喜新厌旧一样，有了好的我越来越看不上之前的域名了。首当其冲的就是博客之前的域名dtz9.net被我换到了dtz9.net，也就是说这个域名放手里这些年，最终我还是放弃它了，直到2021年到期不再续费。过去的总该过去，该来的总还是要来的。&lt;/p&gt;
@@ -225,10 +225,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】得不到的才不会有持无恐</title>
-       <link>https://dtz9.net/2019/12/3/</link>
+       <link>https://ditou.org/2019/12/3/</link>
        <pubDate>Sat, 14 Dec 2019 20:03:15 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/12/3/</guid>
+       <guid>https://ditou.org/2019/12/3/</guid>
        <description>&lt;p&gt;日子如斯，一晃又好多天没有更新了。&lt;/p&gt;
 &lt;p&gt;在这几天，过完了自己的生日。虽然我从来不过生日，但我妈在某一天下午还是给我打电话，让我早点下班回家，直到晚饭的时候我才知道那一天是自己的农历生日。不过，并没有其它的人记得我的生日，这实在是太可悲了。&lt;/p&gt;
 &lt;p&gt;这也是没办法的事情，我没几个朋友，称得上知己的就更少了。加上我从来没有在生日的时候邀请朋友庆生，所以就算是关系比较好的朋友也不知道我的生日是哪一天。&lt;/p&gt;
@@ -249,10 +249,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】放弃人生换用Mainroad主题</title>
-       <link>https://dtz9.net/2019/12/2/</link>
+       <link>https://ditou.org/2019/12/2/</link>
        <pubDate>Sat, 07 Dec 2019 00:38:07 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/12/2/</guid>
+       <guid>https://ditou.org/2019/12/2/</guid>
        <description>&lt;p&gt;可能大家已经注意到了，我的博客换主题了。&lt;/p&gt;
 &lt;p&gt;为什么换？之前的主题不好吗？不能说之前的不好，只是还不够完美，总觉得这里不合适哪里不舒服。本来打算继续折腾之前的主题，但仔细想了想，与其乱改，不如拿现成的优秀主题使用。毕竟自己不是专业人士，也没有那么多时间去研究网页设计。时间不充裕，加上我觉得更应该把有限的时间花在该做的事情上面，比如看自己喜欢的视频以及玩更多新奇的东西。这也就是我为什么换到这个主题的原因。&lt;/p&gt;
 &lt;p&gt;当然，我自己觉得这款主题很好用，这是作为博主的身份的感受，我并不清楚作为访问者对这个设计的感受。可能之前经常来访的老博友会有短暂的不适吧？毕竟改变太大了点。请注意，我用了“短暂”一词，总会适应的是吧？因为我觉得内容才比较重要，以及作为博客的功能，我们有没有在有效和有用的交流。当然，更欢迎大家对这个主题指指点点，有可能主题的作者会根据大家的意见取长补短呢！那是我最希望的事情了，这样，就不需要我为了页面设计操心了，我直接拿来用多好。哈哈O(∩_∩)O，想想都开心。&lt;/p&gt;
@@ -264,10 +264,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】我为什么取名叫近视眼逛博客</title>
-       <link>https://dtz9.net/2019/12/1/</link>
+       <link>https://ditou.org/2019/12/1/</link>
        <pubDate>Thu, 05 Dec 2019 00:32:38 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/12/1/</guid>
+       <guid>https://ditou.org/2019/12/1/</guid>
        <description>&lt;p&gt;别的先不说，大胆的欣赏吧！😏大胆的意淫吧！意淫无罪😄。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/12/05e751a24ff5e815.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;本人，性别男，爱好女。祸害姑娘不敢，也就剩下看看美女图片这唯一可行的爱好了。😏这圆圆的屁股加上红裤裤，有点顶不住了嘻嘻O(∩_∩)O&lt;/p&gt;
@@ -282,10 +282,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】湿冷的冬天</title>
-       <link>https://dtz9.net/2019/11/8/</link>
+       <link>https://ditou.org/2019/11/8/</link>
        <pubDate>Fri, 29 Nov 2019 22:43:04 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/8/</guid>
+       <guid>https://ditou.org/2019/11/8/</guid>
        <description>&lt;p&gt;今天可能是入冬以来最冷的一天了，这一天可把我冻坏了。&lt;/p&gt;
 &lt;p&gt;早上出门的时候已经预见到今天白天气温不会升高，所以，终于是拿出了柜子里面的羊毛衫穿上了。但，工作的时候还是难受，冷！很冷！手脚冰凉的那种感觉。中间一度想找个取暖器还是啥的取取暖，周围逛了一圈发现他们都还没来得及用起来，看样子这个冬天来的确实是太快了。上周依稀记得白天干活的时候我都还是穿T恤的，然而这周就已经羊毛衫加棉袄了。&lt;/p&gt;
 &lt;p&gt;看天气预报明天应该还会有雨，还得熬一天。不过，后天就会天晴了，气温会有明显的上升，只怕到那天还得脱衣服才行。但我是喜欢温度升高的，毕竟气温合适的情况下工作效率会高很多。&lt;/p&gt;
@@ -297,10 +297,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】一头牛168万人民币</title>
-       <link>https://dtz9.net/2019/11/7/</link>
+       <link>https://ditou.org/2019/11/7/</link>
        <pubDate>Tue, 26 Nov 2019 01:01:07 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/7/</guid>
+       <guid>https://ditou.org/2019/11/7/</guid>
        <description>&lt;p&gt;我不要168，给我68万我这辈子就是你的了🙂。当然，仅限女性😎。&lt;/p&gt;
 &lt;p&gt;近日，日本和牛拍出天价合168万人民币！什么和牛以前只是听说过，还是在影视剧里面，尝这辈子肯定是很难了。不过看网上的介绍可以想象是何等的口感啊，但即便口感再好难道还能长生不老不成？卖这么贵！网上说这头牛重678公斤，我算一下啊，合每斤1239元差不多。那么，每一两是不是124元？一斤是十两吧？读书少记不清了。这么算下来其实也还好是吧，偶尔奢侈一下还是可以的，但这是没有加工的食材！经高级厨师之手做好端到我面前只怕是也不便宜了😭。&lt;/p&gt;
 &lt;p&gt;算了，不想了，也没人出68万，我还是接着欣赏美女好了。&lt;/p&gt;
@@ -314,10 +314,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】降温了</title>
-       <link>https://dtz9.net/2019/11/6/</link>
+       <link>https://ditou.org/2019/11/6/</link>
        <pubDate>Sun, 24 Nov 2019 22:16:21 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/6/</guid>
+       <guid>https://ditou.org/2019/11/6/</guid>
        <description>&lt;p&gt;2019年11月24日 今天周日，昨天看天气预报就知道今天有雨。&lt;/p&gt;
 &lt;p&gt;但我没想到今天的温度居然会这么低，因为昨日还有太阳出没，中午的时候我还只需要穿一件单衣就可以工作。今早开始下雨，因此早上完全不想起床，于是赖床到上午11点。隔壁的一家人因为需要搬家的缘故一早就通知今天上午杀猪，等我起床的时候他们都忙完了哈哈。&lt;/p&gt;
 &lt;p&gt;一想到有新鲜猪肉可以吃立马来了精神，迅速起床洗簌。下楼走过去一看菜都上桌了，那还客气啥吃呗！今年一年市面上闹非洲猪瘟都不敢在外卖吃猪肉，馋了都是回家吃自家的腊肉，这可好今天饱餐一顿新鲜的猪肉。可以想象周围的邻居在家的很有默契的都来了，有肉有酒大家也算是小聚一餐，在这个忙着卖桔子的时节能让大家坐在一起吃一顿慢悠悠的中午饭着实不易。&lt;/p&gt;
@@ -331,10 +331,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【随笔】收获的季节</title>
-       <link>https://dtz9.net/2019/11/5/</link>
+       <link>https://ditou.org/2019/11/5/</link>
        <pubDate>Thu, 21 Nov 2019 19:53:15 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/5/</guid>
+       <guid>https://ditou.org/2019/11/5/</guid>
        <description>&lt;p&gt;昨晚发了个关于静态博客客户端Gridea同步到VPS服务器提供访问的操作过程，里面有很多截图说明。但是呢，唯独缺少日常可见的美女诱惑😁。不如今天来补上？&lt;/p&gt;
 &lt;p&gt;看标题也知道今天多少要写一点其它内容的，那么，先从一些图片开始吧！（发图发上瘾了，没办法。）&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/11/46f012b6a21d841e.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -359,10 +359,10 @@ Total in &lt;span class=&#34;m&#34;&gt;6202&lt;/span&gt; ms
    
      <item>
        <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
-       <link>https://dtz9.net/2019/11/4/</link>
+       <link>https://ditou.org/2019/11/4/</link>
        <pubDate>Thu, 21 Nov 2019 00:42:00 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/4/</guid>
+       <guid>https://ditou.org/2019/11/4/</guid>
        <description>&lt;p&gt;今天博友&lt;a href=&#34;https://blog.shanbu.fun/&#34;&gt;云中君&lt;/a&gt;反馈，说他的博客又抽风了。&lt;/p&gt;
 &lt;p&gt;原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。&lt;/p&gt;
 &lt;p&gt;这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;等一些平台可以使用，但我觉得换个方式可能会更好也说不定？&lt;/p&gt;
@@ -460,10 +460,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】每天唤醒你的是闹钟还是你对这个世界的渴望</title>
-       <link>https://dtz9.net/2019/11/3/</link>
+       <link>https://ditou.org/2019/11/3/</link>
        <pubDate>Sun, 17 Nov 2019 11:35:58 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/3/</guid>
+       <guid>https://ditou.org/2019/11/3/</guid>
        <description>&lt;p&gt;感觉好久没有打开过编辑器写东西了。&lt;/p&gt;
 &lt;p&gt;关心我的朋友可能应该知道前段时间我的生活状态很不好，基本都是白天睡觉晚上工作。有博友评论区留言说羡慕我晚上做事的方式，其实我个人是不喜欢晚上工作的。太累！&lt;/p&gt;
 &lt;p&gt;随着年龄的增长，我早不能跟二十岁出头的年轻人比了。人过了三十岁，明显感觉身体素质不如从前。有人说三十多岁正是壮劳力，是人一辈子干活最有劲的时期，可我明显感觉精神状态跟不上了。这就是我说的不喜欢晚上做事的原因了，真的是影响很大的。如果是固定长期夜晚工作也就罢了，但偏偏我经常需要调整工作时间，有时候是晚上有时候不得不白天。这就麻烦了，生物钟很容易就出问题的。&lt;/p&gt;
@@ -478,10 +478,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】双十一过完了</title>
-       <link>https://dtz9.net/2019/11/2/</link>
+       <link>https://ditou.org/2019/11/2/</link>
        <pubDate>Tue, 12 Nov 2019 23:50:47 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/2/</guid>
+       <guid>https://ditou.org/2019/11/2/</guid>
        <description>&lt;p&gt;11月11日，其实对我来说应该是光棍节才对。毕竟如果作为购物节的话想想都觉得没意思🐷。&lt;/p&gt;
 &lt;p&gt;作为一只大龄单身狗来说买了也不能改变什么，是吧？&lt;/p&gt;
 &lt;p&gt;本想着约几个单身的女光棍儿喝喝酒啥的，一想算了，万一喝着喝着脱单了呢？那也太对不起庆祝节日的初衷了，玛德😭！&lt;/p&gt;
@@ -495,10 +495,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】十一月了哦</title>
-       <link>https://dtz9.net/2019/11/1/</link>
+       <link>https://ditou.org/2019/11/1/</link>
        <pubDate>Fri, 01 Nov 2019 03:51:20 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/11/1/</guid>
+       <guid>https://ditou.org/2019/11/1/</guid>
        <description>&lt;p&gt;最近都是白天睡觉晚上干活，天亮之前回家。&lt;/p&gt;
 &lt;p&gt;今晚呢，回家比较早。两点半就从做事的地方动身了，差不多三点十几分到家。&lt;/p&gt;
 &lt;p&gt;家里人都熟睡了，我轻手轻脚的开门上楼。对了，我住在二楼，所以为了不打扰家人休息我必须“偷偷摸摸”的上二楼😭。&lt;/p&gt;
@@ -512,10 +512,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【电影推荐】岁月风云之上海皇帝 BD 国粤双语中字</title>
-       <link>https://dtz9.net/2019/10/6/</link>
+       <link>https://ditou.org/2019/10/6/</link>
        <pubDate>Sun, 27 Oct 2019 22:24:08 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/10/6/</guid>
+       <guid>https://ditou.org/2019/10/6/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/10/428fd1c2605eaea1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;导演：潘文杰&lt;/p&gt;
 &lt;p&gt;编剧：麦当雄 / 萧若元&lt;/p&gt;
@@ -539,10 +539,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【分享】HostMem：洛杉矶CN2 GT KVM VPS按小时付费按需使用流量包</title>
-       <link>https://dtz9.net/2019/10/5/</link>
+       <link>https://ditou.org/2019/10/5/</link>
        <pubDate>Sun, 27 Oct 2019 00:09:17 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/10/5/</guid>
+       <guid>https://ditou.org/2019/10/5/</guid>
        <description>&lt;p&gt;HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单独计算。可以购买流量包按需使用，对于个人用户来说大大节省了使用成本。&lt;/p&gt;
 &lt;p&gt;官网：&lt;a href=&#34;https://www.hostmem.com/?ref=1078503&#34;&gt;&lt;a href=&#34;https://www.hostmem.com&#34;&gt;https://www.hostmem.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用官方提供的优惠码“NOW80”享受八折优惠，最低配方案 1核/1GB内存/20GB SSD硬盘/100Mbps峰值带宽，月费用1.8美金。当然，还有更低的优惠码，请自行搜索。&lt;/p&gt;
@@ -565,10 +565,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】由力帆汽车债务危机想到的</title>
-       <link>https://dtz9.net/2019/10/4/</link>
+       <link>https://ditou.org/2019/10/4/</link>
        <pubDate>Thu, 24 Oct 2019 21:23:04 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/10/4/</guid>
+       <guid>https://ditou.org/2019/10/4/</guid>
        <description>&lt;p&gt;有一条新闻是这样的，说力帆实业（集团）股份有限公司成立债委会，债委会成立的背后，是力帆汽车惨淡的销量，以及高筑的债台。来源：&lt;a href=&#34;https://www.thepaper.cn/newsDetail_forward_4733636&#34;&gt;澎湃新闻&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;为什么会这样？过去很多国产汽车品牌被寄予厚望，国人寄希望于汽车行业能够带领中国走向世界走向辉煌。汽车工业可以说是中国制造的开端，这才多少年就玩不下去了？联想到今年的几家国产汽车制造商纷纷爆出危机，不免让人心生失望。&lt;/p&gt;
 &lt;p&gt;问题出在哪里呢？作为一个在汽车行业熬了很多年的人，首先说说对国产汽车的认同感。说真话，我很不喜欢国产汽车。这没办法，质量跟价值摆在那里。市场的认同是理性的，不会因为爱国就放弃自己的利益，所以大多数人认同合资品牌或者进口车。由此，在贸易战各行各业危机四伏的状况下，国产汽车销量下滑也就顺理成章了。当然，都在下滑，只是国产品牌抵御风险的能力明显不够嘛~毕竟，就那么点底子，还不一定都放在主业。&lt;/p&gt;
@@ -586,10 +586,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【分享】俄罗斯便宜VPS最低5元支持微信付款</title>
-       <link>https://dtz9.net/2019/10/3/</link>
+       <link>https://ditou.org/2019/10/3/</link>
        <pubDate>Tue, 15 Oct 2019 01:01:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/10/3/</guid>
+       <guid>https://ditou.org/2019/10/3/</guid>
        <description>&lt;p&gt;俄罗斯便宜VPS最低5元支持微信付款&lt;/p&gt;
 &lt;p&gt;在大鸟博客看到他分享这家便宜VPS，然后又不淡定了，想弄一个玩玩&amp;hellip;&lt;/p&gt;
 &lt;p&gt;没办法，谁叫它便宜呢！这家最便宜的方案应该适合给新手练手学习VPS管理。该站支持中文和微信付款，算是对中文用户比较友好的了，虽然很多看不懂哈哈。&lt;/p&gt;
@@ -613,10 +613,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【电影推荐】我不是王毛</title>
-       <link>https://dtz9.net/2019/10/2/</link>
+       <link>https://ditou.org/2019/10/2/</link>
        <pubDate>Thu, 10 Oct 2019 00:39:39 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/10/2/</guid>
+       <guid>https://ditou.org/2019/10/2/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/10/d4e82d91fc683b6a.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;导演: 赵小溪&lt;/p&gt;
 &lt;p&gt;编剧: 李海江&lt;/p&gt;
@@ -646,10 +646,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【分享】ImgURL图床源码</title>
-       <link>https://dtz9.net/2019/10/1/</link>
+       <link>https://ditou.org/2019/10/1/</link>
        <pubDate>Fri, 04 Oct 2019 17:04:09 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/10/1/</guid>
+       <guid>https://ditou.org/2019/10/1/</guid>
        <description>&lt;p&gt;ImgURL是一个简单、纯粹的图床程序，让个人图床多一个选择。使用PHP + SQLite 3开发。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/ce792f4877c934249ad39cdd93115463ec7f0a24/68747470733a2f2f692e626d702e6f76682f696d67732f323031382f31322f303663663061633362373632356236622e706e67&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/14d75a635c2136ed58ecfbca61156c02cd97753b/68747470733a2f2f692e626d702e6f76682f696d67732f323031382f31322f303137633565363662353364623464312e706e67&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -692,10 +692,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】无标题但标题要长那就这样吧</title>
-       <link>https://dtz9.net/2019/09/8/</link>
+       <link>https://ditou.org/2019/09/8/</link>
        <pubDate>Sun, 29 Sep 2019 23:56:27 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/8/</guid>
+       <guid>https://ditou.org/2019/09/8/</guid>
        <description>&lt;p&gt;我要的不多，每天都能安稳，心情平静即可。&lt;/p&gt;
 &lt;p&gt;可是，总会遇到一些人一些事儿，让你很无语很糟心。&lt;/p&gt;
 &lt;p&gt;我想着每天能过上早上出门天黑回家的日子，那就是我最最满意的了。但往往事与愿违，日复一日的晚上加班早上难以起床，把我的生物钟彻底打乱了，连带的还有精气神儿。&lt;/p&gt;
@@ -712,10 +712,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】新开的VPS一般需要先做些什么</title>
-       <link>https://dtz9.net/2019/09/7/</link>
+       <link>https://ditou.org/2019/09/7/</link>
        <pubDate>Thu, 26 Sep 2019 00:23:45 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/7/</guid>
+       <guid>https://ditou.org/2019/09/7/</guid>
        <description>&lt;p&gt;今天需要为博客换一个服务器，原因是&lt;a href=&#34;https://www.vultr.com/?ref=7997010&#34;&gt;vultr&lt;/a&gt;的余额即将耗尽。&lt;/p&gt;
 &lt;p&gt;虽然&lt;a href=&#34;https://www.vultr.com/?ref=7997010&#34;&gt;vultr&lt;/a&gt;的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。&lt;/p&gt;
 &lt;p&gt;真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别的先不管，拿到IP第一时间看路由：https://tools.ipip.net/traceroute.php 。完成后看最后面的数字，一般在200以内就是很好的了，当然大家一般都是使用美西线路。不放心的话最好本地还是ping一下IP看看。&lt;/p&gt;
@@ -748,10 +748,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】前天刚说完没动力昨晚回家就发现好事情😄</title>
-       <link>https://dtz9.net/2019/09/6/</link>
+       <link>https://ditou.org/2019/09/6/</link>
        <pubDate>Thu, 19 Sep 2019 20:31:29 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/6/</guid>
+       <guid>https://ditou.org/2019/09/6/</guid>
        <description>&lt;p&gt;真是傻人有傻福。&lt;/p&gt;
 &lt;p&gt;我感觉就是自己抱怨了几句，昨晚回到家就发现Google正常收录了我的文章，今天发现主页收录也更新了。看来，搜索引擎也怕我水文章？哈哈。也算是最近一个月以来心里稍微能安心一点的时刻了，至少，已经在慢慢好转了。&lt;/p&gt;
 &lt;p&gt;回顾一下，自从大的改版后收录就一直不正常，加上错误的屏蔽了机器人的抓取能正常收录就真的是见了鬼了。屋漏偏逢连夜雨，这个时间段还发现被采集站采集，简直要抓狂。&lt;/p&gt;
@@ -766,10 +766,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】被降权后很难熬的想法</title>
-       <link>https://dtz9.net/2019/09/5/</link>
+       <link>https://ditou.org/2019/09/5/</link>
        <pubDate>Wed, 18 Sep 2019 01:19:55 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/5/</guid>
+       <guid>https://ditou.org/2019/09/5/</guid>
        <description>&lt;p&gt;前几天提到Google对本博客的收录现在变的很不积极。&lt;/p&gt;
 &lt;p&gt;这种状况持续到今日确实打击了本人更新的动力，众所周知写博客还是希望能够获得搜索引擎的认可的。当然，这跟博客内容有很大的关系。看着本来就少的浏览量突然变成每天只有几个ip的友情博友的访问，着实心里着急。&lt;/p&gt;
 &lt;p&gt;之前也说过被降权的原因，总结主要还是自己瞎折腾造成的。所以，提醒朋友们在做博客或者网站的时候一开始就要先规划好网站结构，不要随意改版和做过大的改动，这对搜索引擎来说是非常不友好的事情。在设计上面花的时间和功夫远没有内容来的有意义，除非你不在乎搜索引擎引来的流量。对于大多数玩博客的人来说，心里应该还是很在乎的。毕竟一个新的访客和留言总是能给你带来惊喜，并且能够激起你更新的动力，因为有人再看。说不在乎就变的有些虚伪了。&lt;/p&gt;
@@ -783,10 +783,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【汽车】一台可以合法上路的赛道车</title>
-       <link>https://dtz9.net/2019/09/4/</link>
+       <link>https://ditou.org/2019/09/4/</link>
        <pubDate>Mon, 16 Sep 2019 02:10:17 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/4/</guid>
+       <guid>https://ditou.org/2019/09/4/</guid>
        <description>&lt;p&gt;最近看视频，发现这台车重只有几百公斤可以合法上路的赛道车蛮有意思的。&lt;/p&gt;
 &lt;p&gt;到底几百公斤呢？lotus 7 时代三百多公斤，现在嘛，五百多公斤？没见过真车，更没碰过，光看网上的数据根本不准确吧。不过，现在它叫 Caterham 7。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/09/8983693b5ad99fa2.jpg&#34; alt=&#34;&#34;&gt;
@@ -808,10 +808,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】好久没有来自Google搜索的来路访问了</title>
-       <link>https://dtz9.net/2019/09/3/</link>
+       <link>https://ditou.org/2019/09/3/</link>
        <pubDate>Thu, 12 Sep 2019 00:41:40 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/3/</guid>
+       <guid>https://ditou.org/2019/09/3/</guid>
        <description>&lt;p&gt;最近Google对本博客的收录不怎么好。&lt;/p&gt;
 &lt;p&gt;最近的几次频繁改版肯定对收录的影响很大，加上将网址结构彻底改变了，这些都是对搜索引擎来说不太友好的行为。&lt;/p&gt;
 &lt;p&gt;最作死的是，错误的将测试用的屏蔽所有爬虫的robots.txt文件，当成博客用的文件使用了。这个作死的行为过来很久才发现，也是因为查看访问来路没有Google的关键词等来路，排查过程中发现那段时间新文章Google并没有收录。于是想起检查robots.txt文件，当看到设置错误的时候真想把自己割了&amp;hellip;😂&lt;/p&gt;
@@ -827,10 +827,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】活着的意义和希望是什么</title>
-       <link>https://dtz9.net/2019/09/2/</link>
+       <link>https://ditou.org/2019/09/2/</link>
        <pubDate>Mon, 09 Sep 2019 22:52:13 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/2/</guid>
+       <guid>https://ditou.org/2019/09/2/</guid>
        <description>&lt;p&gt;看到一条新闻，说安倍晋三宣布日本3-5岁的保育园、幼儿园所有费用全部免费。&lt;/p&gt;
 &lt;p&gt;初中毕业以前，学费全免、看病全免、每个月政府还给每个孩子发相当于1千多元人民币的“儿童工资”。&lt;/p&gt;
 &lt;p&gt;what？为了鼓励人民生孩子还可以这样的？这条件放在中国，如果确实认真执行没有潜规则等各种产业化的话，估计中国人怕是很乐意多生几个了吧？哈哈。&lt;/p&gt;
@@ -849,10 +849,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】这年头跑路的比跑步的还多</title>
-       <link>https://dtz9.net/2019/09/1/</link>
+       <link>https://ditou.org/2019/09/1/</link>
        <pubDate>Sat, 07 Sep 2019 21:30:02 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/09/1/</guid>
+       <guid>https://ditou.org/2019/09/1/</guid>
        <description>&lt;p&gt;这个月已经过去一周了，也没有更新博客，真的快长草了吧？哈哈&lt;/p&gt;
 &lt;p&gt;这一周忙忙碌碌，各种狗血，但总的来说是有进步的。这种进步是不是可持续的还有待验证，总归是有一些变化的。这种变化是好事情，过于陈旧的工作环境和方式确实很能消磨人的意志。&lt;/p&gt;
 &lt;p&gt;今年市场环境不好，一片哀嚎。前几天看到一句话，说这年头跑路的比跑步的还多，不得不小心谨慎啊！&lt;/p&gt;
@@ -865,10 +865,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【随笔】忙碌之余追了一部剧值得推荐</title>
-       <link>https://dtz9.net/2019/08/6/</link>
+       <link>https://ditou.org/2019/08/6/</link>
        <pubDate>Fri, 30 Aug 2019 23:20:50 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/08/6/</guid>
+       <guid>https://ditou.org/2019/08/6/</guid>
        <description>&lt;p&gt;最近着实忙碌，事情倒也不算多，但感觉累。&lt;/p&gt;
 &lt;p&gt;不过呢，忙过这段时间应该就好了，因为稳定的工作和时间安排确实能给我带来安全感。这段时间因为调整因为店面装修没日没夜的&amp;hellip;&lt;/p&gt;
 &lt;p&gt;忙归忙，空闲之余看了一部离不开眼的电视剧《小欢喜》，最近很火啊。&lt;/p&gt;
@@ -882,10 +882,10 @@ date --date&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#3
    
      <item>
        <title>【分享】使用hugo搭建静态博客</title>
-       <link>https://dtz9.net/2019/08/5/</link>
+       <link>https://ditou.org/2019/08/5/</link>
        <pubDate>Sat, 24 Aug 2019 03:37:20 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/08/5/</guid>
+       <guid>https://ditou.org/2019/08/5/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/08/725d64661fed5a08.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;是时候聊聊关于Hugo，关于静态博客的一些使用心得了。&lt;/p&gt;
 &lt;p&gt;静态博客生成器有很多，但最终我选择了hugo，就因为我喜欢它渲染生成速度快。&lt;/p&gt;
@@ -1039,10 +1039,10 @@ git push origin master
    
      <item>
        <title>【随笔】在后台放出来好几条“垃圾评论”</title>
-       <link>https://dtz9.net/2019/08/4/</link>
+       <link>https://ditou.org/2019/08/4/</link>
        <pubDate>Fri, 16 Aug 2019 02:17:28 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/08/4/</guid>
+       <guid>https://ditou.org/2019/08/4/</guid>
        <description>&lt;p&gt;这本来是几天前就想说的事情。&lt;/p&gt;
 &lt;p&gt;原因是有一天看评论后台，突然发现好多评论都被当作“垃圾评论”标记了，也就是说有些朋友的评论在没有被我允许的情况下暂时是不会显示在评论区的。当然，这并不是说你的评论不符合我的审美和态度，而是不符合评论系统的标准。这就比较麻烦了，因为我本人是不喜欢言论审查的，我更希望没有审查。有的朋友可能会说，那你关掉审查不就完了，抱歉，我左右不了系统，只能向系统妥协。&lt;/p&gt;
 &lt;p&gt;我的态度是不管是正常的评论还是人工发送的广告，我都是可以接受的，毕竟是您幸苦打字发表的。但我不喜欢机器批量发送的毫无诚意的广告，这算是我认为的垃圾评论。&lt;/p&gt;
@@ -1066,10 +1066,10 @@ git push origin master
    
      <item>
        <title>【分享】Mastodon：一个免费开源的分布式微博客社交网络</title>
-       <link>https://dtz9.net/2019/08/3/</link>
+       <link>https://ditou.org/2019/08/3/</link>
        <pubDate>Sun, 11 Aug 2019 20:15:51 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/08/3/</guid>
+       <guid>https://ditou.org/2019/08/3/</guid>
        <description>&lt;p&gt;什么是免费开源的分布式微博客社交网络？&lt;/p&gt;
 &lt;p&gt;假设我们搭建了一个长毛象站点 &lt;code&gt;tzcafe.com&lt;/code&gt; ，当你在这个网站注册，就得到了一个独一无二的 ID 比如：&lt;code&gt;@1078503@tzcafe.com&lt;/code&gt;。前半部分 &lt;code&gt;@1078503&lt;/code&gt; 代表我在这个站点内独有的一个身份，站内其他人不能再用；后半部分 &lt;a href=&#34;mailto:%60@tzcafe.com&#34;&gt;`@tzcafe.com&lt;/a&gt;` 则是这个站点的地址。&lt;/p&gt;
 &lt;p&gt;如果只是在站内发布内容，和同站的网友交流互动。那么这个长毛象站点只能算是一个仿品「新浪微博」。但是事实上长毛象站点特色远不止如此。&lt;/p&gt;
@@ -1087,10 +1087,10 @@ git push origin master
    
      <item>
        <title>【网站维护】一些简单满意的调整</title>
-       <link>https://dtz9.net/2019/08/2/</link>
+       <link>https://ditou.org/2019/08/2/</link>
        <pubDate>Tue, 06 Aug 2019 18:33:12 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/08/2/</guid>
+       <guid>https://ditou.org/2019/08/2/</guid>
        <description>&lt;p&gt;闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;代码高亮&lt;/h2&gt;
 &lt;p&gt;就随便找了一个 &lt;a href=&#34;https://prismjs.com/&#34;&gt;prism.js&lt;/a&gt; ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：&lt;/p&gt;
@@ -1169,10 +1169,10 @@ git push origin master
    
      <item>
        <title>【随笔】日更很难只能证明一下存在感了</title>
-       <link>https://dtz9.net/2019/08/1/</link>
+       <link>https://ditou.org/2019/08/1/</link>
        <pubDate>Sat, 03 Aug 2019 23:27:14 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/08/1/</guid>
+       <guid>https://ditou.org/2019/08/1/</guid>
        <description>&lt;p&gt;前几天刚说完日更，就消失了几天，罪过罪过！&lt;/p&gt;
 &lt;p&gt;好吧，我承认工作的人保持博客日更确实很困难，但努努力还是有可能经常更新的，只能这么说了。这几天太累了，回到家只想葛优躺😉。&lt;/p&gt;
 &lt;p&gt;由于太累这几天没怎么碰电脑，更别提看新闻或者逛博客了，所以，脑子里也没什么想法要说。&lt;/p&gt;
@@ -1188,10 +1188,10 @@ git push origin master
    
      <item>
        <title>【电影】顾长卫导演作品《孔雀》</title>
-       <link>https://dtz9.net/2019/07/12/</link>
+       <link>https://ditou.org/2019/07/12/</link>
        <pubDate>Tue, 30 Jul 2019 00:10:12 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/12/</guid>
+       <guid>https://ditou.org/2019/07/12/</guid>
        <description>&lt;p&gt;这是一部由顾长卫导演拍摄于2004年的电影，也是他的处女之作。&lt;/p&gt;
 &lt;p&gt;电影讲述生活在二十世纪七八十年代河南安阳（剧中称鹤阳）的一个极为平凡的五口之家，在一段时期内各人发生的故事。主线人物是家中姐姐（张静初饰）、哥哥（冯𬍛饰）和弟弟（吕玉来饰）。在安阳和开封取景拍摄。&lt;/p&gt;
 &lt;p&gt;本片获得了柏林电影节“银熊奖”。&lt;/p&gt;
@@ -1212,10 +1212,10 @@ git push origin master
    
      <item>
        <title>【随笔】穷则思变差则思勤</title>
-       <link>https://dtz9.net/2019/07/11/</link>
+       <link>https://ditou.org/2019/07/11/</link>
        <pubDate>Mon, 29 Jul 2019 01:42:39 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/11/</guid>
+       <guid>https://ditou.org/2019/07/11/</guid>
        <description>&lt;p&gt;喜欢逛博客真是一个好习惯，经常会发现一些有意思的话语。今天的标题就来自于某位博主的博客描述，非常抱歉当时忘记保存或者说添加一个标签了，所以无法提供围观链接。&lt;/p&gt;
 &lt;p&gt;是的，穷则思变差则思勤。穷则思变就不要想了，并不是什么事情努力了就一定会有结果的，所以改变现状的事情想想就算了，该干嘛还得干嘛。我始终相信，做事情都是水到渠成的，一个行业或者说一个工作环境待得越久对自己越有利。有限范围内的调整或许能改变现状提升自我，但变的太彻底不一定就是好事情。&lt;/p&gt;
 &lt;p&gt;不过，差则思勤这方面倒是可以做一做的。既然是玩博客，就得有写文字的能力，这方面说实话我是很欠缺的。正好个人博客给了我自己一个锻炼的舞台，可惜的是回顾了一下过去几个月的成果，真真是没写出什么像样的东西，或者可以说基本就没有怎么写。这肯定是一个需要改变的现状。&lt;/p&gt;
@@ -1236,10 +1236,10 @@ git push origin master
    
      <item>
        <title>【随笔】鲜花盛开的季节，可是太热了</title>
-       <link>https://dtz9.net/2019/07/10/</link>
+       <link>https://ditou.org/2019/07/10/</link>
        <pubDate>Thu, 25 Jul 2019 22:26:34 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/10/</guid>
+       <guid>https://ditou.org/2019/07/10/</guid>
        <description>&lt;p&gt;先看几张图片，来自我的 iPhone 6S 。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/07/5f75748588daf224.jpg&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/07/faaa73bcd22fa681.jpg&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://img.dtz9.net/imgs/2019/07/ee2c383212d8fc35.jpg&#34; alt=&#34;&#34;&gt;
@@ -1258,10 +1258,10 @@ git push origin master
    
      <item>
        <title>【随笔】有多少年轻人是习惯性晚睡的？</title>
-       <link>https://dtz9.net/2019/07/9/</link>
+       <link>https://ditou.org/2019/07/9/</link>
        <pubDate>Sun, 21 Jul 2019 18:45:40 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/9/</guid>
+       <guid>https://ditou.org/2019/07/9/</guid>
        <description>&lt;p&gt;其实我已经不算是年轻人了🤭。&lt;/p&gt;
 &lt;p&gt;最近有点累，然后回到家打开电脑发现群里面的小伙伴们都跟打了鸡血一样的兴奋🤩，有的人甚至凌晨三点四点都还没有入睡。其实我也不算是一个经常早睡的人，大多数时候是习惯性晚睡的。但有一点，是离不开电子产品的。“年轻人，别再熬夜了，真的会死”。&lt;/p&gt;
 &lt;h3 id=&#34;heading&#34;&gt;你是喜欢作息规律还是随心所欲&lt;/h3&gt;
@@ -1301,10 +1301,10 @@ git push origin master
    
      <item>
        <title>【分享】二十年前的Win98电脑</title>
-       <link>https://dtz9.net/2019/07/8/</link>
+       <link>https://ditou.org/2019/07/8/</link>
        <pubDate>Wed, 17 Jul 2019 15:56:01 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/8/</guid>
+       <guid>https://ditou.org/2019/07/8/</guid>
        <description>&lt;iframe height=498 width=100% src=&#39;http://player.youku.com/embed/XNDAzNTUzNDQ1Ng==&#39; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;
 视频从一台win98系统的电脑说起，带着我们回到了1998年。
 &lt;p&gt;这一年前后诞生了很多在今天非常有影响力的公司，还有很多经典的产品或作品。&lt;/p&gt;
@@ -1321,10 +1321,10 @@ git push origin master
    
      <item>
        <title>【分享】俄罗斯如何处理性教育？</title>
-       <link>https://dtz9.net/2019/07/7/</link>
+       <link>https://ditou.org/2019/07/7/</link>
        <pubDate>Mon, 15 Jul 2019 21:50:16 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/7/</guid>
+       <guid>https://ditou.org/2019/07/7/</guid>
        <description>&lt;p&gt;不只是转载还有对事物的看法&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;学生们通过文学作品和牧师讲授性爱，结果喜忧参半。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在一个普通的莫斯科公寓里，一个男孩和一个女孩坐在沙发上。两者都不超过16岁。空气中弥漫着淡淡的白葡萄酒气味和尴尬。在男孩的耳朵里是一个无线耳机 ，他的父亲和朋友正在通过隐藏的摄像头观察这对情侣，并提出何时采取行动的建议。但就在他开始亲吻之前，这条耳机线路突然死了，其中一个“助手”将咖啡洒在了设备上。儿子被迫单独行动。&lt;/p&gt;
@@ -1388,10 +1388,10 @@ git push origin master
    
      <item>
        <title>【随笔】自从有了博客折腾是日常习惯</title>
-       <link>https://dtz9.net/2019/07/6/</link>
+       <link>https://ditou.org/2019/07/6/</link>
        <pubDate>Sun, 14 Jul 2019 23:30:15 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/6/</guid>
+       <guid>https://ditou.org/2019/07/6/</guid>
        <description>&lt;p&gt;有多少人像我一样？&lt;/p&gt;
 &lt;p&gt;一言不合就折腾代码，哪里不爽改哪里🤭。&lt;/p&gt;
 &lt;p&gt;今晚只做了一件事，把网址结构从 /20190714.html 这样的改到了 /2019/07/1/ 这种纯目录结构，个人感觉好看也便于管理。如果继续使用之前的目录结构，以后时间长了根目录列表可能会很长很长，这样找个文件或者排查错误就会无从下手。现在的结构应该是好很多了，解释一下就是 &lt;strong&gt;域名/年/月/id排序&lt;/strong&gt;，那么就是以月为单位id排序的思路，每个月一个文件夹的静态网页目录存放形式。这下心里的担忧暂时可以放下了。&lt;/p&gt;
@@ -1408,10 +1408,10 @@ git push origin master
    
      <item>
        <title>【分享】如果给你一辆房车你准备怎么去玩</title>
-       <link>https://dtz9.net/2019/07/5/</link>
+       <link>https://ditou.org/2019/07/5/</link>
        <pubDate>Sun, 14 Jul 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/5/</guid>
+       <guid>https://ditou.org/2019/07/5/</guid>
        <description>&lt;p&gt;不只是转载还有对事物的看法&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;一辆小轿车究竟能装多少个人呢？😁&lt;/p&gt;
@@ -1434,10 +1434,10 @@ git push origin master
    
      <item>
        <title>【分享】蚊子要出来咬人啦</title>
-       <link>https://dtz9.net/2019/07/4/</link>
+       <link>https://ditou.org/2019/07/4/</link>
        <pubDate>Sat, 13 Jul 2019 13:13:24 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/4/</guid>
+       <guid>https://ditou.org/2019/07/4/</guid>
        <description>&lt;p&gt;不只是转载还有对事务的看法。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;刚刚看到这张图片，莫名喜感🤭&lt;/p&gt;
@@ -1453,10 +1453,10 @@ git push origin master
    
      <item>
        <title>【随笔】中国的垃圾分类任重道远</title>
-       <link>https://dtz9.net/2019/07/3/</link>
+       <link>https://ditou.org/2019/07/3/</link>
        <pubDate>Thu, 11 Jul 2019 17:56:23 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/3/</guid>
+       <guid>https://ditou.org/2019/07/3/</guid>
        <description>&lt;p&gt;最近垃圾分类的话题很火，各种言论到处乱飞，成为了网友们茶余饭后的谈资。&lt;/p&gt;
 &lt;h4 id=&#34;heading&#34;&gt;为什么要进行垃圾分类&lt;/h4&gt;
 &lt;p&gt;我们知道垃圾处理的问题一直是国人比较头疼的问题，笔者所在的城市2000年以前垃圾乱堆乱放问题尤为突出。记忆里那个时候上街基本各个路口和路边都有大堆的垃圾存放，由此带来的蚊虫苍蝇以及恶臭到现在还记忆犹新。本地号称旅游城市，这给前来观光的游客的印象着实是不好的，因此之后的很多年政府在这上面下了很多功夫。变化是这些年垃圾清扫和处理方面大大改观，终于如愿获得卫生城市称号。&lt;/p&gt;
@@ -1492,10 +1492,10 @@ git push origin master
    
      <item>
        <title>【精彩博文】周天勇：未来中国十几亿居民都要住在几十层高的楼宇中吗？</title>
-       <link>https://dtz9.net/2019/07/2/</link>
+       <link>https://ditou.org/2019/07/2/</link>
        <pubDate>Tue, 09 Jul 2019 13:14:12 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/2/</guid>
+       <guid>https://ditou.org/2019/07/2/</guid>
        <description>&lt;p&gt;文/新浪财经意见领袖专栏作家 &lt;a href=&#34;http://finance.sina.com.cn/zl/author.d.html?uid=1785075601&#34;&gt;周天勇&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这是作者有关中国城市和农村住宅高楼化进程的系列文章，笔者将以《中国人民以后都要居住在几十层的高楼上吗？》为总题，陆续发表之一《国外多是城乡再造，我们却是大拆大建》、之二《几十层楼住宅建设的七大问题》、之三《我们的住宅楼为什么会越建越高？》和之四《城乡房地建设体制怎么改革，方式怎么扭转？》。&lt;/p&gt;
 &lt;ol&gt;
@@ -1522,10 +1522,10 @@ git push origin master
    
      <item>
        <title>【随笔】我胡汉三又回来了</title>
-       <link>https://dtz9.net/2019/07/1/</link>
+       <link>https://ditou.org/2019/07/1/</link>
        <pubDate>Sat, 06 Jul 2019 22:33:32 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/07/1/</guid>
+       <guid>https://ditou.org/2019/07/1/</guid>
        <description>&lt;p&gt;老规矩，先上图：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/07/cecbd783ccda9e80.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;说说这段时间我怎么了，为什么这么久没有更新？&lt;/p&gt;
@@ -1539,10 +1539,10 @@ git push origin master
    
      <item>
        <title>【随笔】感觉累了就放空自己</title>
-       <link>https://dtz9.net/2019/06/16/</link>
+       <link>https://ditou.org/2019/06/16/</link>
        <pubDate>Mon, 24 Jun 2019 13:01:22 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/16/</guid>
+       <guid>https://ditou.org/2019/06/16/</guid>
        <description>&lt;p&gt;是的，这几天放空了自己。&lt;/p&gt;
 &lt;iframe height=480 width=650 src=&#39;http://player.youku.com/embed/XMzI1MzkwMDg2OA==&#39; frameborder=0 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;
 每天睡到九点醒，慢悠悠的收拾一下自己然后出门做事，罪过罪过。
@@ -1557,10 +1557,10 @@ git push origin master
    
      <item>
        <title>【网站维护】未雨绸缪启用自建图床</title>
-       <link>https://dtz9.net/2019/06/15/</link>
+       <link>https://ditou.org/2019/06/15/</link>
        <pubDate>Fri, 21 Jun 2019 22:22:36 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/15/</guid>
+       <guid>https://ditou.org/2019/06/15/</guid>
        <description>&lt;p&gt;开始前先来一张图镇楼
 &lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/b9e2f2d79e9e4b1c.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。&lt;/p&gt;
@@ -1582,10 +1582,10 @@ git push origin master
    
      <item>
        <title>【网站维护】增加了对思源宋体的支持</title>
-       <link>https://dtz9.net/2019/06/14/</link>
+       <link>https://ditou.org/2019/06/14/</link>
        <pubDate>Thu, 20 Jun 2019 14:43:24 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/14/</guid>
+       <guid>https://ditou.org/2019/06/14/</guid>
        <description>&lt;p&gt;是的，并不能直接显示，需要在您的设备中安装字体。&lt;/p&gt;
 &lt;p&gt;有的站点是直接在线加载的，但是考虑到汉字字库一般较大，即使动态加载也会严重拖慢加载速度，所以只对font-family做一个声明支持Noto Serif CJK SC。&lt;/p&gt;
 &lt;p&gt;具体怎么在设备中安装思源宋体您可以移步&lt;a href=&#34;https://sspai.com/post/38705&#34;&gt;这里&lt;/a&gt;，介绍的非常详细。&lt;/p&gt;
@@ -1606,10 +1606,10 @@ git push origin master
    
      <item>
        <title>【随笔】一次愉快的苹果客服电话沟通过程</title>
-       <link>https://dtz9.net/2019/06/13/</link>
+       <link>https://ditou.org/2019/06/13/</link>
        <pubDate>Wed, 19 Jun 2019 21:10:56 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/13/</guid>
+       <guid>https://ditou.org/2019/06/13/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/a8d594657e3f7d26.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图片来自网络，侵删。&lt;/p&gt;
 &lt;p&gt;一次愉快的苹果客服电话沟通过程&lt;/p&gt;
@@ -1621,10 +1621,10 @@ git push origin master
    
      <item>
        <title>【随笔】祝天下女司机早日出师</title>
-       <link>https://dtz9.net/2019/06/12/</link>
+       <link>https://ditou.org/2019/06/12/</link>
        <pubDate>Wed, 19 Jun 2019 18:21:01 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/12/</guid>
+       <guid>https://ditou.org/2019/06/12/</guid>
        <description>&lt;p&gt;表妹又打电话叫我帮她把车开去做钣金油漆了。&lt;/p&gt;
 &lt;p&gt;写这个标题没有歧视女性的意思，事实上很多女司机水平还不错。但总的来说，我见过太多奇葩女司机了，相信大家也在各种视频中见过女司机的强大技能，专治各种不服。当然，女司机只是一个称呼，泛指那些驾驶技术不过硬也不虚心求教还堂而皇之招摇过市的人群，包括男司机。我经常在路上见到那些龟速前进还占两个车道的牛人，还不能超他的车，否则他是肯定会追上来别你一下的。都说安全驾驶，但这类驾驶员也太安全了，挡道不说还逞能。我只想说，注意素质。&lt;/p&gt;
 &lt;p&gt;当然我是不会在路上跟他们计较的，没这个必要，我让着你好了，你牛你先走。我等你文明让路的时候再超过去，不超过去是傻逼。最后，祝愿所有驾驶员都能练就一身好本领，安全回家。&lt;/p&gt;
@@ -1648,10 +1648,10 @@ git push origin master
    
      <item>
        <title>【新闻】已经是付费会员了，为啥还得再掏钱买东西</title>
-       <link>https://dtz9.net/2019/06/11/</link>
+       <link>https://ditou.org/2019/06/11/</link>
        <pubDate>Tue, 18 Jun 2019 14:22:19 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/11/</guid>
+       <guid>https://ditou.org/2019/06/11/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/ac648c17bca0ab28.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;heading&#34;&gt;已经是付费会员了，为啥还得再掏钱买东西&lt;/h4&gt;
 &lt;p&gt;此标题文章 &lt;a href=&#34;https://www.cnbeta.com/articles/tech/858201.htm&#34;&gt;请看这里&lt;/a&gt;&lt;/p&gt;
@@ -1675,10 +1675,10 @@ git push origin master
    
      <item>
        <title>【新闻】中国官方再次拉响房地产警报</title>
-       <link>https://dtz9.net/2019/06/10/</link>
+       <link>https://ditou.org/2019/06/10/</link>
        <pubDate>Mon, 17 Jun 2019 15:35:29 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/10/</guid>
+       <guid>https://ditou.org/2019/06/10/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/c139170da4e934d3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;配图来自&lt;a href=&#34;http://www.sohu.com/a/220056322_714642&#34;&gt;网络&lt;/a&gt;，侵删&lt;/p&gt;
 &lt;p&gt;以下消息转载自 &lt;a href=&#34;http://news.creaders.net/china/2019/06/16/2102989.html&#34;&gt;万维读者网&lt;/a&gt;  版权归原作者所有，不代表本博客观点立场&lt;/p&gt;
@@ -1702,10 +1702,10 @@ git push origin master
    
      <item>
        <title>【视频分享】油管视频分享之野人哥哥</title>
-       <link>https://dtz9.net/2019/06/9/</link>
+       <link>https://ditou.org/2019/06/9/</link>
        <pubDate>Mon, 17 Jun 2019 14:44:36 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/9/</guid>
+       <guid>https://ditou.org/2019/06/9/</guid>
        <description>&lt;p&gt;有很多朋友喜欢看油管视频，我也喜欢看。&lt;/p&gt;
 &lt;p&gt;独乐乐不如众乐乐，没事儿的时候分享一些好看的视频给大家吧。&lt;/p&gt;
 &lt;iframe width=&#34;789&#34; height=&#34;444&#34; src=&#34;https://www.youtube.com/embed/M4QF2rsG8XM&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -1714,10 +1714,10 @@ git push origin master
    
      <item>
        <title>【随笔】不日常的日常随笔</title>
-       <link>https://dtz9.net/2019/06/8/</link>
+       <link>https://ditou.org/2019/06/8/</link>
        <pubDate>Sat, 15 Jun 2019 23:27:46 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/8/</guid>
+       <guid>https://ditou.org/2019/06/8/</guid>
        <description>&lt;p&gt;感觉自己这几天变懒了。&lt;/p&gt;
 &lt;p&gt;说好的坚持打字发博客检查了一下发现也没什么成果，人有的时候就是这样，不鞭打一下永远都是在给自己找借口偷懒。时间嘛，这个东西就像女人的乳沟，挤挤总会有的，何况男人们都喜欢摸奶，越摸沟就更深了。&lt;/p&gt;
 &lt;p&gt;这几天工作生活一塌糊涂，感觉什么都没有计划或者说超出了计划。工作上的事情就不说了，熬日子而已，说说博客说说业余时间的利用。静态博客体验下来还是有很多优势的，目前唯一不太满意的地方就是评论。这段时间每天回家都是做这方面的研究和测试 ，目前测试到的都不太理想，只能继续使用来必力。想了想，与其把时间花在这上面不如多做一些更有意义的事情，评论的问题现在没办法解决可以慢慢来，一切随缘吧，说不定哪天就有更成熟合理的方案适合我了。确实是这样的，人的弦一旦绷得太紧反而容易断，欲速则不达嘛。&lt;/p&gt;
@@ -1728,10 +1728,10 @@ git push origin master
    
      <item>
        <title>【新闻】开局一张图其它全靠编</title>
-       <link>https://dtz9.net/2019/06/7/</link>
+       <link>https://ditou.org/2019/06/7/</link>
        <pubDate>Fri, 14 Jun 2019 13:22:10 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/7/</guid>
+       <guid>https://ditou.org/2019/06/7/</guid>
        <description>&lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/27edbe5fae97f090.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图片来自网络，如果您是图片所有者可以联系我加上备注和链接。&lt;/p&gt;
 &lt;p&gt;说这是深圳电动出租车充电时的场景，看着真让人揪心。不免让我产生一个奇怪的疑问，新能源到底是为了什么？挣几个钱真的是太不容易了，时间都浪费在不必要的事情上面了，值得反思。&lt;/p&gt;
@@ -1743,10 +1743,10 @@ git push origin master
    
      <item>
        <title>【网站维护】经过几天的努力终于把静态博客搞上线了</title>
-       <link>https://dtz9.net/2019/06/6/</link>
+       <link>https://ditou.org/2019/06/6/</link>
        <pubDate>Wed, 12 Jun 2019 17:52:54 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/6/</guid>
+       <guid>https://ditou.org/2019/06/6/</guid>
        <description>&lt;p&gt;遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节是缺失的。并不是我一开始以为的拿来就可以用的，很多问题需要自己去解决。&lt;/p&gt;
 &lt;p&gt;这对于新手来说还真是个麻烦，也算是一个痛苦的学习和了解的过程。在这里提醒准备搞和想搞静态博客的朋友，从来就没有伸手就来的东西，只有通过学习和付出才能有所收获。&lt;/p&gt;
 &lt;p&gt;搞这个hugo静态博客框架，一开始在本地做了大量的测试，总的来说很方便。有朋友说换电脑和设备更新内容不方便，我一开始也是这样以为的，毕竟php博客已经让很多人习惯了在任何环境任何设备上使用。但诟病也很多，大家可能都是在忍受吧，毕竟没有多少更好的选择。&lt;/p&gt;
@@ -1768,10 +1768,10 @@ git push origin master
    
      <item>
        <title>【精彩博文】从电子屏幕手中夺回大脑</title>
-       <link>https://dtz9.net/2019/06/5/</link>
+       <link>https://ditou.org/2019/06/5/</link>
        <pubDate>Sat, 08 Jun 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/5/</guid>
+       <guid>https://ditou.org/2019/06/5/</guid>
        <description>&lt;h4 id=&#34;heading&#34;&gt;从电子屏幕手中夺回大脑&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;电脑屏幕让大脑停转，所以想要保持思考，必须远离电子屏幕。&lt;/p&gt;
@@ -1790,10 +1790,10 @@ git push origin master
    
      <item>
        <title>【电脑】重磅推荐之 FeedDemon心灵博客重制版</title>
-       <link>https://dtz9.net/2019/06/4/</link>
+       <link>https://ditou.org/2019/06/4/</link>
        <pubDate>Thu, 06 Jun 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/4/</guid>
+       <guid>https://ditou.org/2019/06/4/</guid>
        <description>&lt;h4 id=&#34;feeddemonhttpblogdngznetrssfeeddemonhtm&#34;&gt;&lt;a href=&#34;http://blog.dngz.net/rssfeeddemon.htm&#34;&gt;FeedDemon心灵博客重制版&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://ae01.alicdn.com/kf/HTB1bwhabG1s3KVjSZFAq6x_ZXXax.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;RSS分在线阅读和本地阅读。
@@ -1815,10 +1815,10 @@ git push origin master
    
      <item>
        <title>【网站维护】一些变化</title>
-       <link>https://dtz9.net/2019/06/3/</link>
+       <link>https://ditou.org/2019/06/3/</link>
        <pubDate>Thu, 06 Jun 2019 01:10:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/3/</guid>
+       <guid>https://ditou.org/2019/06/3/</guid>
        <description>&lt;p&gt;是的，我也换主题了，一次大的改版。&lt;/p&gt;
 &lt;p&gt;拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是喜欢的，因为排版布局清晰。
 但还是经不住这次用到的主题的诱惑，优点我就不说了，好看。
@@ -1847,10 +1847,10 @@ git push origin master
    
      <item>
        <title>【随笔】今晚遇到两件令我不怎么开心的事情</title>
-       <link>https://dtz9.net/2019/06/2/</link>
+       <link>https://ditou.org/2019/06/2/</link>
        <pubDate>Tue, 04 Jun 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/2/</guid>
+       <guid>https://ditou.org/2019/06/2/</guid>
        <description>&lt;p&gt;回家按惯例打开笔记本准备看一些新闻和博客。&lt;/p&gt;
 &lt;h4 id=&#34;heading&#34;&gt;关于关注的很多信息源的浏览方式&lt;/h4&gt;
 &lt;p&gt;说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。
@@ -1886,10 +1886,10 @@ git push origin master
    
      <item>
        <title>【电脑】Win10关闭系统通知中心广告</title>
-       <link>https://dtz9.net/2019/06/1/</link>
+       <link>https://ditou.org/2019/06/1/</link>
        <pubDate>Sun, 02 Jun 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/06/1/</guid>
+       <guid>https://ditou.org/2019/06/1/</guid>
        <description>&lt;p&gt;上了一些不应该浏览的网站之后，系统通知中心就每隔几分钟弹一些通知广告。&lt;/p&gt;
 &lt;p&gt;原以为只有国人喜欢搞这种事情，没想到老外也玩这种套路。那感觉实在是不怎么爽，就像喝粥的时候里面发现一颗老鼠屎一样&amp;hellip;&lt;/p&gt;
 &lt;p&gt;怎么办呢？总不能素手无策，任由他祸害我撒，肯定是要干掉的。&lt;/p&gt;
@@ -1907,10 +1907,10 @@ git push origin master
    
      <item>
        <title>【新闻】基因分析揭开日本人起源之谜</title>
-       <link>https://dtz9.net/2019/05/19/</link>
+       <link>https://ditou.org/2019/05/19/</link>
        <pubDate>Fri, 31 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/19/</guid>
+       <guid>https://ditou.org/2019/05/19/</guid>
        <description>&lt;p&gt;刚刚被下面这条消息吸引了眼球，我很好奇日本人这个神奇的人类群体是从哪里发展起源的。特别是那些好看又可爱的日本小姐姐，陪伴我度过了多少个寂寞的夜晚呢。本着对喜欢的人的关注和在乎的心理，请看原文：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;日本研究团队成功完成了绳文人的全基因组解读，推断绳文人是在 3.8 万～1.8 万年前从大陆集团中分离出来的。绳文人是大约 1.6 万年前至 3000 年前生活在日本列岛上的人群。通过对绳文人基因组的完全解读，探寻日本人起源的研究有望加速。诞生于非洲大陆的现代人类在 4 万～5 万年前进入东亚地区。部分人经过西南诸岛、朝鲜半岛、库页岛等迁往日本列岛。这些古人通过狩猎和采集生活，广泛分布于日本各地。自 3000 年前之后又有弥生人这一新的人类集团从大陆迁到日本，不断推进与绳文人的混血。&lt;/p&gt;
@@ -1924,10 +1924,10 @@ git push origin master
    
      <item>
        <title>【随笔】六一快乐</title>
-       <link>https://dtz9.net/2019/05/18/</link>
+       <link>https://ditou.org/2019/05/18/</link>
        <pubDate>Fri, 31 May 2019 01:10:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/18/</guid>
+       <guid>https://ditou.org/2019/05/18/</guid>
        <description>&lt;p&gt;再过一会儿就是2019年6月1日了。
 祝大家节日快乐！所有大孩子们。&lt;/p&gt;
 &lt;p&gt;是的，每个人都有一个孩童的内心，希望自己无忧无虑快快乐乐。
@@ -1938,10 +1938,10 @@ git push origin master
    
      <item>
        <title>【随笔】建立一个博客其实并没有那么难</title>
-       <link>https://dtz9.net/2019/05/17/</link>
+       <link>https://ditou.org/2019/05/17/</link>
        <pubDate>Wed, 29 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/17/</guid>
+       <guid>https://ditou.org/2019/05/17/</guid>
        <description>&lt;p&gt;早上的太阳很快就会升起，但是现在的我依然没有入睡。
 这是为什么呢？感冒了&amp;hellip;&lt;/p&gt;
 &lt;p&gt;这些天过的并不怎么好，主要是不开心。我也不清楚这些不开心是源自于哪里，可能是工作？也可能是生活。
@@ -1967,10 +1967,10 @@ git push origin master
    
      <item>
        <title>【精彩博文】听说你事事都不想吃亏</title>
-       <link>https://dtz9.net/2019/05/16/</link>
+       <link>https://ditou.org/2019/05/16/</link>
        <pubDate>Tue, 28 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/16/</guid>
+       <guid>https://ditou.org/2019/05/16/</guid>
        <description>&lt;p&gt;作者: 夏知凉&lt;br&gt;
 注：暂时找不到作者原文链接，来源也是转载就不贴了。作者或粉丝知道原文链接的可以评论告知我添加。&lt;/p&gt;
 &lt;hr&gt;
@@ -2025,10 +2025,10 @@ git push origin master
    
      <item>
        <title>【电影】经典高分剧情《天注定》</title>
-       <link>https://dtz9.net/2019/05/15/</link>
+       <link>https://ditou.org/2019/05/15/</link>
        <pubDate>Sun, 26 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/15/</guid>
+       <guid>https://ditou.org/2019/05/15/</guid>
        <description>&lt;p&gt;◎片　　名　天注定&lt;/p&gt;
 &lt;p&gt;◎译　　名　A Touch of Sin&lt;/p&gt;
 &lt;p&gt;◎年　　代　2013&lt;/p&gt;
@@ -2081,10 +2081,10 @@ git push origin master
    
      <item>
        <title>【精彩博文】低垂的果实</title>
-       <link>https://dtz9.net/2019/05/14/</link>
+       <link>https://ditou.org/2019/05/14/</link>
        <pubDate>Sat, 25 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/14/</guid>
+       <guid>https://ditou.org/2019/05/14/</guid>
        <description>&lt;p&gt;这篇文章来自 &lt;a href=&#34;http://yangqinyuan.com/essay/xd.html&#34;&gt;杨钦元博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;之所以转载是觉得写的很好，说出了很多人的痛点。
 很喜欢文章说到的“问题拖得越久，越难完成”这个观点。&lt;/p&gt;
@@ -2114,10 +2114,10 @@ git push origin master
    
      <item>
        <title>【[新闻看点】20190523&#34;</title>
-       <link>https://dtz9.net/2019/05/12/</link>
+       <link>https://ditou.org/2019/05/12/</link>
        <pubDate>Thu, 23 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/12/</guid>
+       <guid>https://ditou.org/2019/05/12/</guid>
        <description>&lt;h4 id=&#34;heading&#34;&gt;为什么网约车司机已经成为稀缺资源&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tmtpost.com/3959776.html&#34;&gt;点我看这条新闻&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-&#34;&gt;杭州2男子买卖比特币被刑拘 涉非法吸收公众存款&lt;/h4&gt;
@@ -2134,10 +2134,10 @@ git push origin master
    
      <item>
        <title>【汽车看点】20190523</title>
-       <link>https://dtz9.net/2019/05/13/</link>
+       <link>https://ditou.org/2019/05/13/</link>
        <pubDate>Thu, 23 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/13/</guid>
+       <guid>https://ditou.org/2019/05/13/</guid>
        <description>&lt;p&gt;&lt;a href=&#34;https://www.autohome.com.cn/news/201905/936362.html&#34;&gt;汽车之家消息&lt;/a&gt;，新款北汽勇士三门版（短轴距）车型将于5月26日在北京通州漷县越野基地举办越野大赛并于当日正式上市。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/817698c6e2544bdf.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;图片以及消息来源：汽车之家&lt;/p&gt;
@@ -2152,10 +2152,10 @@ git push origin master
    
      <item>
        <title>【精彩博文】周蓬安：中小学生睡眠不足，这种害人教育该休矣</title>
-       <link>https://dtz9.net/2019/05/11/</link>
+       <link>https://ditou.org/2019/05/11/</link>
        <pubDate>Wed, 22 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/11/</guid>
+       <guid>https://ditou.org/2019/05/11/</guid>
        <description>&lt;p&gt;（该文写于4月29日）29日，国家卫健委举办新闻发布会，介绍2018年儿童青少年近视调查结果。据介绍，监测发现，中国学生近视相关危害因素广泛存在。比如，67%的学生每天户外活动时间不足2小时，29%的学生不足1个小时，73%的学生每天睡眠时间不达标（4月29日《微博话题》）&lt;/p&gt;
 &lt;p&gt;国家卫健委宣布“73%的学生每天睡眠时间不达标”，大家一定会认为这个问题非常严重。但如果你直接去小学高年级课堂、中学课堂做个调查，你一定会发现问题更加严重，因为这个比例犹如“失业率”，也是被大大压缩过的。&lt;/p&gt;
 &lt;p&gt;教育部2017年印发的《义务教育学校管理标准》，就明确“家校配合保证每天小学生10小时、初中生9小时睡眠时间。”而实际情况是，能保证9小时睡眠时间的或许只有两种人，一种是学习成绩太差，已经处于“破罐子破摔”状态；另一种就是不太花费时间学习，也能确保“学霸”地位的天才。几年前，零点研究咨询集团调查结果显示，十城中小学生平均每天睡眠时间(小时)：大连7.7、沈阳8、西安8.1、济南8.2、北京8.3、厦门8.3、武汉8.3、成都8.5、广州8.5、上海8.7。几年过去后，估计情况更糟了。&lt;/p&gt;
@@ -2172,10 +2172,10 @@ git push origin master
    
      <item>
        <title>【网站维护】忍不住换到了洛杉矶机房</title>
-       <link>https://dtz9.net/2019/05/10/</link>
+       <link>https://ditou.org/2019/05/10/</link>
        <pubDate>Tue, 21 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/10/</guid>
+       <guid>https://ditou.org/2019/05/10/</guid>
        <description>&lt;p&gt;5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。&lt;/p&gt;
 &lt;p&gt;VuLtr开新机器的内核太旧了…&lt;/p&gt;
 &lt;h4 id=&#34;heading&#34;&gt;升级到最新版第三方内核库&lt;/h4&gt;
@@ -2258,10 +2258,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【电脑】今天为chrome介绍一款扩展程序</title>
-       <link>https://dtz9.net/2019/05/9/</link>
+       <link>https://ditou.org/2019/05/9/</link>
        <pubDate>Fri, 17 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/9/</guid>
+       <guid>https://ditou.org/2019/05/9/</guid>
        <description>&lt;p&gt;如果您不是Chrome浏览器的深度使用者，那么我建议你没必要折腾此款插件。
 如果你跟我一样长期使用chrome浏览器，我觉得你很需要 &lt;a href=&#34;https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj&#34;&gt;Checker Plus for Gmail™&lt;/a&gt; 这款扩展程序。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/6650e6e63145cce0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -2275,10 +2275,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【随笔】朋友的笔记本电脑</title>
-       <link>https://dtz9.net/2019/05/8/</link>
+       <link>https://ditou.org/2019/05/8/</link>
        <pubDate>Tue, 14 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/8/</guid>
+       <guid>https://ditou.org/2019/05/8/</guid>
        <description>&lt;p&gt;说点题外话。
 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。
 物是人非，听到了一些消息，让我颇为感慨！出于隐私我就不说具体是什么了。&lt;/p&gt;
@@ -2334,10 +2334,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【网站维护】Google通过了我的Adsense账户</title>
-       <link>https://dtz9.net/2019/05/7/</link>
+       <link>https://ditou.org/2019/05/7/</link>
        <pubDate>Sun, 12 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/7/</guid>
+       <guid>https://ditou.org/2019/05/7/</guid>
        <description>&lt;p&gt;很高心昨天收到了Google的邮件：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.dtz9.net/imgs/2019/06/32614575e59d80cf.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;很惊喜！我一个不到一个月的新站，而且才有11篇文章的博主能够受到Google的青睐能不惊喜吗？这算是对我最大的鼓励了。晚上回到家配置好广告代码，大约2小时后，广告正式在博客展示了。&lt;/p&gt;
@@ -2350,10 +2350,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【新闻看点】20190510</title>
-       <link>https://dtz9.net/2019/05/6/</link>
+       <link>https://ditou.org/2019/05/6/</link>
        <pubDate>Fri, 10 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/6/</guid>
+       <guid>https://ditou.org/2019/05/6/</guid>
        <description>&lt;h4 id=&#34;heading&#34;&gt;特朗普推特宣布加征关税，据说全球股市震荡&amp;hellip;&lt;/h4&gt;
 &lt;p&gt;对，你没看错，只是据说，我才懒得考证呢！我！又！没！钱！炒！股！&lt;/p&gt;
 &lt;h4 id=&#34;15&#34;&gt;微信悄然升级：朋友圈支持上传15秒视频&lt;/h4&gt;
@@ -2403,10 +2403,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【随笔】独立博客才刚刚开始</title>
-       <link>https://dtz9.net/2019/05/5/</link>
+       <link>https://ditou.org/2019/05/5/</link>
        <pubDate>Tue, 07 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/5/</guid>
+       <guid>https://ditou.org/2019/05/5/</guid>
        <description>&lt;p&gt;今天的标题来自于这里：http://www.liuyingqiang.com/post/531.html   这不重要，重要的是我突然想说些什么。&lt;/p&gt;
 &lt;p&gt;最近一直在想我为什么要把这个博客做起来，有没有意义。
 这可能源自于有一天推特突然锁定了我的账号，虽然我的账号没什么价值，但使用权确实是我的，虽然后来解锁了。
@@ -2435,10 +2435,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【新闻看点】20190504</title>
-       <link>https://dtz9.net/2019/05/4/</link>
+       <link>https://ditou.org/2019/05/4/</link>
        <pubDate>Sat, 04 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/4/</guid>
+       <guid>https://ditou.org/2019/05/4/</guid>
        <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;h4 id=&#34;google&#34;&gt;自宫版”Google中国搜寻引擎计划正式宣告失败&lt;/h4&gt;
@@ -2479,10 +2479,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【分享】写作是最具可扩展性的活动</title>
-       <link>https://dtz9.net/2019/05/3/</link>
+       <link>https://ditou.org/2019/05/3/</link>
        <pubDate>Fri, 03 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/3/</guid>
+       <guid>https://ditou.org/2019/05/3/</guid>
        <description>&lt;p&gt;标题可能跟博文关系不是很大。&lt;/p&gt;
 &lt;p&gt;阮一峰在今天的文章中说到：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -2505,10 +2505,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【汽车】猎豹新CS10，值得买吗？</title>
-       <link>https://dtz9.net/2019/05/2/</link>
+       <link>https://ditou.org/2019/05/2/</link>
        <pubDate>Thu, 02 May 2019 01:16:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/2/</guid>
+       <guid>https://ditou.org/2019/05/2/</guid>
        <description>&lt;h4 id=&#34;cs10&#34;&gt;猎豹新CS10，值得买吗？&lt;/h4&gt;
 &lt;p&gt;今天看到一款新车，叫猎豹新CS10，看命名难道还有老款猎豹CS10？没有考证，也没必要去考证，完全不关心。&lt;/p&gt;
 &lt;h4 id=&#34;heading&#34;&gt;这是个啥车？&lt;/h4&gt;
@@ -2528,10 +2528,10 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
    
      <item>
        <title>【转载】给处女的一个忠告！</title>
-       <link>https://dtz9.net/2019/05/1/</link>
+       <link>https://ditou.org/2019/05/1/</link>
        <pubDate>Thu, 02 May 2019 01:10:33 +0800</pubDate>
        
-       <guid>https://dtz9.net/2019/05/1/</guid>
+       <guid>https://ditou.org/2019/05/1/</guid>
        <description>&lt;p&gt;非处女们，就算你说出一万个理由，理由都带花了，把我驳倒了，但也仅仅是驳倒了这篇文章。 
 你也改变不了一个“非处女，绝对不娶”，这个在男人心里根深蒂固的思想 　 
 再问各位一个问题，你到饭店吃饭，服务员给你两双筷子。一双是包装的完好无损的， 
