@@ -1,0 +1,3 @@
+{{- if .Scratch.Get "production" | and .IsPage | and (ne .Site.Params.comment.enable false) | and (ne .Params.comment false) -}}
+    {{- $CDN := .Scratch.Get "CDN" -}}
+{{- end -}}

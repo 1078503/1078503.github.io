@@ -1,0 +1,47 @@
+<div class="footer">
+    <p><b>友情链接</b>：<span><a href="https://dtz9.com" 
+        target="_blank" style="color: blue;">大头针</a></span> | <span><a href="https://dtz9.org" 
+            target="_blank" style="color: blue;">大头针网址</a></span> | <span><a href="http://stuit.cn/Xiaolu" 
+                target="_blank" style="color: blue;">行者晓路</a></span> | <span><a href="https://cyhour.com/" 
+                    target="_blank" style="color: blue;">常时阳光</a></span> | <span><a href="http://www.wuxiaohu.cn/" 
+                        target="_blank" style="color: blue;">工程窝</a></span> | <span><a href="https://chriszheng.science/" 
+                            target="_blank" style="color: blue;">M-x Chris-An-Emacser</a></span> | <span><a href="/links/"  style="color: red;">更多...</a></span></p>
+</div>
+
+<footer class="footer">
+
+    <div class="copyright">
+        {{- /* Hugo and LoveIt */ -}}
+        <div class="copyright-line">
+            {{- printf (T "powered") `<a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a>` | safeHTML }} | {{ T "theme" }}<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        </div>
+
+        <div class="copyright-line">
+            {{- /* Copyright year */ -}}
+            <i class="far fa-copyright fa-fw"></i>
+            {{- with .Site.Params.footer.since -}}
+                <span itemprop="copyrightYear">
+                    {{- if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year -}}
+                </span>
+            {{- else -}}
+                <span itemprop="copyrightYear">{{ now.Year }}</span>
+            {{- end -}}
+
+            {{- /* Author */ -}}
+            {{- with .Site.Author.name -}}
+                <span class="author" itemprop="copyrightHolder">&nbsp;<a href="{{ $.Site.Author.link | default (relLangURL `/`) }}" target="_blank">{{ . }}</a></span>
+            {{- end -}}
+
+            {{- /* License */ -}}
+            {{- with .Site.Params.footer.license -}}
+                &nbsp;|&nbsp;<span class="license">{{ . | safeHTML }}</span>
+            {{- end -}}
+
+            {{- /* ICP */ -}}
+            {{- with .Site.Params.footer.icp -}}
+                <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                <span class="icp">{{ . | safeHTML }}</span>
+            {{- end -}}
+        </div>
+    </div>
+</footer>

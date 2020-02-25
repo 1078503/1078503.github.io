@@ -1,31 +1,144 @@
 <!DOCTYPE html>
-<html lang="zh-cn"><meta charset="utf-8"><meta name="generator" content="Hugo 0.60.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark"><title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新&nbsp;&ndash;&nbsp;近视眼逛博客</title><link rel="stylesheet" href="/css/core.min.fab3f9cea37b7cd3be04e2f880803d9518936865fe637659e3c5a0f9eb5450bd7e222a4b95a9ac18ca8ea9fbe5dfce1e.css" integrity="sha384-&#43;rP5zqN7fNO&#43;BOL4gIA9lRiTaGX&#43;Y3ZZ48Wg&#43;etUUL1&#43;IipLlamsGMqOqfvl384e">
-<link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200&display=swap&subset=chinese-simplified"
-    rel="stylesheet">
-<link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
-<script data-ad-client="ca-pub-5883329460904326" async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<link href="https://fonts.loli.net/css?family=Noto+Serif+SC:500&display=swap&subset=chinese-simplified"
-    rel="stylesheet"><body>
-    <div class="base-body"><section id="header" class="site header">
-    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><img class="site logo" src="/logo.png" alt /><span class="site name">近视眼逛博客</span></a></span>
-        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories">分类</a><a class="nav item" href="/about">关于</a><a class="nav item" href="https://t.me/link1078503"target="_blank">群组</a><a class="nav item" href="/links">友链</a></nav></div></span></div>
-       
-    
-    <div align="center">
-        <a href="https://www.6le.cc/page.aspx?c=referral&u=9044" target="_blank"><img src="https://img.1078503.org/imgs/2020/02/800c24daafa17fa2.png" /></a>
-    </div></section><div id="content"><section class="article header">
-    <h1 class="article title">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</h1><p class="article date">2019-11-21</p></section><article class="article markdown-body"><p>今天博友<a href="https://blog.shanbu.fun/">云中君</a>反馈，说他的博客又抽风了。</p>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新 | 低头族</title>
+        <meta name="Description" content="低头族">
+        
+        <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+        <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+        <script data-ad-client="ca-pub-5883329460904326" async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:title" content="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新" />
+<meta property="og:description" content="今天博友云中君 反馈，说他的博客又抽风了。 原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。 这就很蛋疼" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2019/11/4/" />
+<meta property="article:published_time" content="2019-11-21T00:42:00+08:00" />
+<meta property="article:modified_time" content="2019-11-21T00:42:00+08:00" /><meta property="og:site_name" content="低头族" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新"/>
+<meta name="twitter:description" content="今天博友云中君 反馈，说他的博客又抽风了。 原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。 这就很蛋疼"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="canonical" href="/2019/11/4/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="prev" href="/2019/11/3/" /><link rel="next" href="/2019/11/5/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/2019\/11\/4\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "分享, 宝塔webhook, Gridea同步到VPS服务器, 云中君, webhook, github, Gridea","wordcount":  1970 ,
+        "url": "\/2019\/11\/4\/","datePublished": "2019-11-21T00:42:00\x2b08:00","dateModified": "2019-11-21T00:42:00\x2b08:00","license": "低头族.","publisher": {
+                "@type": "Organization",
+                "name": "执迷不悟",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"description": ""
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = 'light' === 'dark';} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title animated bounceIn">
+            <a href="/">低头族</a>
+        </div>
+        <div class="menu"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/posts/">归档</a><a class="menu-item" href="/categories/">分类</a><a class="menu-item" href="/about/">关于本站</a><a class="menu-item" href="/links/">友情链接</a><a href="javascript:void(0);" class="theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-rotate-180 fa-fw"></i>
+            </a>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title animated bounceIn">
+                <a href="/">低头族</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/" title="">首页</a><a class="menu-item" href="/posts/" title="">归档</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于本站</a><a class="menu-item" href="/links/" title="">友情链接</a><a href="javascript:void(0);" class="theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-rotate-180 fa-fw"></i>
+            </a>
+        </div>
+    </div>
+</header>
+
+<script>
+    window.desktopHeaderMode = "fixed";
+    window.mobileHeaderMode = "auto";
+</script>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author">
+                    <a class="author" href="https://ditou.org/" rel="author" target="_blank">
+                        <i class="fas fa-user-circle fa-fw"></i>低头族
+                    </a>
+                </span>&nbsp;<span class="post-category">收录于&nbsp;
+                            <span>
+                                <a href="/categories/%E5%BB%BA%E7%AB%99">
+                                    <i class="far fa-folder fa-fw"></i>建站
+                                </a>
+                            </span></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2019-11-21>2019-11-21</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>约 1970 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>预计阅读 4 分钟&nbsp;</div>
+        </div><div class="toc" id="toc-auto">
+                <h2 class="toc-title">目录</h2>
+                <div class="toc-content" id="toc-content-auto"></div>
+            </div>
+            <div class="toc" id="toc-static">
+                <details>
+                    <summary>
+                        <div class="toc-title">
+                            <span>目录</span>
+                            <span><i class="details icon fas fa-angle-down"></i></span>
+                        </div>
+                    </summary>
+                    <div class="toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1确保gridea同步推送接口使用github">1.确保Gridea同步推送接口使用GitHub</a></li>
+    <li><a href="#2宝塔面板新建网站并启用">2.宝塔面板新建网站并启用</a></li>
+    <li><a href="#3宝塔面板使用webhook插件">3.宝塔面板使用webhook插件</a></li>
+    <li><a href="#4github配置webhook调用">4.GitHub配置webhook调用</a></li>
+    <li><a href="#5gridea中修改或新建文件写文章也可以同步推送后验证">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</a></li>
+  </ul>
+</nav></div>
+                </details>
+            </div><div class="content"><p>今天博友<a href="https://blog.shanbu.fun/" target="_blank" rel="noopener noreffer">云中君</a>
+反馈，说他的博客又抽风了。</p>
 <p>原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。</p>
-<p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a href="https://github.com/">GitHub</a>等一些平台可以使用，但我觉得换个方式可能会更好也说不定？</p>
-<p>他是通过<a href="https://gridea.dev/">Gridea</a>客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。</p>
+<p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>
+等一些平台可以使用，但我觉得换个方式可能会更好也说不定？</p>
+<p>他是通过<a href="https://gridea.dev/" target="_blank" rel="noopener noreffer">Gridea</a>
+客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。</p>
 <p>那么，接下来就来完成这个工作，让他与我分享这个资源吧。</p>
-<h2 id="1grideagithub">1.确保Gridea同步推送接口使用GitHub</h2>
-<p>这里我因为不使用该客户端所以不做说明，因为它的<a href="https://gridea.dev/">官网</a>已经介绍的非常详细了。</p>
-<h2 id="2">2.宝塔面板新建网站并启用</h2>
+<h2 id="1确保gridea同步推送接口使用github">1.确保Gridea同步推送接口使用GitHub</h2>
+<p>这里我因为不使用该客户端所以不做说明，因为它的<a href="https://gridea.dev/" target="_blank" rel="noopener noreffer">官网</a>
+已经介绍的非常详细了。</p>
+<h2 id="2宝塔面板新建网站并启用">2.宝塔面板新建网站并启用</h2>
 <p>我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。</p>
 <p>CentOS 7 安装方法：<code>yum install git</code> ，其它系统请自行搜索和研究安装方式。</p>
 <p>需要注意的地方：</p>
@@ -33,15 +146,66 @@
 <li>域名需要解析到宝塔面板所在服务器的IP</li>
 <li>启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用</li>
 </ul>
-<h2 id="3webhook">3.宝塔面板使用webhook插件</h2>
-<p><img src="https://img.1078503.org/imgs/2019/11/c3fe9bfa4196d113.png" alt=""></p>
+<h2 id="3宝塔面板使用webhook插件">3.宝塔面板使用webhook插件</h2>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/c3fe9bfa4196d113.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>如上图。</p>
 <p>在宝塔面板的<code>软件商店</code>中搜索<code>webhook</code>安装并启用，在webhook插件的设置中添加一个调用条目：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/12fecd83901de133.png" alt=""></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/12fecd83901de133.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>编辑该条目的shell命令并保存：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/fd3c9d3f1af3ef16.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>命令内容参考：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
 </span><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;&#34;</span>
 <span class="c1">#输出当前时间</span>
 date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> <span class="s2">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
@@ -54,11 +218,11 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
           <span class="nb">exit</span>
 <span class="k">fi</span>
 <span class="c1">#git项目路径</span>
-<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;</span><span class="s2">①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
 <span class="c1">#git 网址</span>
 <span class="nv">gitHttp</span><span class="o">=</span><span class="s2">&#34;②https://github.com/1078503/blog.git&#34;</span>
 
-<span class="nb">echo</span> <span class="s2">&#34;</span><span class="s2">Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
+<span class="nb">echo</span> <span class="s2">&#34;Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
 
 <span class="c1">#判断项目路径是否存在</span>
 <span class="k">if</span> <span class="o">[</span> -d <span class="s2">&#34;</span><span class="nv">$gitPath</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
@@ -82,18 +246,30 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
         <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
         <span class="nb">exit</span>
 <span class="k">fi</span>
-</code></pre></div><p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
+</code></pre></td></tr></table>
+</div>
+</div><p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
 <p><code>②https://github.com/1078503/blog.git</code> ：你的GitHub仓库对应的拉取地址。</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/fdb87be7a455883c.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>查看密钥：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/faf73f831b0ce66e.png" alt=""></p>
-<h2 id="4githubwebhook">4.GitHub配置webhook调用</h2>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/faf73f831b0ce66e.png" alt="" title="" class="lazyload">
+</figure>
+</p>
+<h2 id="4github配置webhook调用">4.GitHub配置webhook调用</h2>
 <p>打开GitHub对应仓库的<code>Settings</code>：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/ef2f6ddf8ec3c79a.png" alt=""></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/ef2f6ddf8ec3c79a.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>找到webhooks并Add webhook：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/de16c8f206705c3d.png" alt=""></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/de16c8f206705c3d.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>如下图填写相关信息并保持：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/decba050e45dffa7.png" alt=""></p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/decba050e45dffa7.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p><code>Payload URL</code>：<code> http://IP:端口/hook?access_key=密钥&amp;param=目录名</code></p>
 <p>IP:端口：修改为宝塔面板对应的</p>
 <p>密钥：为宝塔面板中webhook条目“查看密钥”获得的密钥，前文图中箭头所指。</p>
@@ -103,14 +279,73 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <p><code>Content type</code> 按图示选择</p>
 <p><code>Secret</code> 密钥同上</p>
 <p>按图示检查设置好后保存。</p>
-<h2 id="5gridea">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</h2>
-<p><a href="https://blog.shanbu.fun/">云中君</a>的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/37ad8cf5521924b0.png" alt=""></p>
+<h2 id="5gridea中修改或新建文件写文章也可以同步推送后验证">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</h2>
+<p><a href="https://blog.shanbu.fun/" target="_blank" rel="noopener noreffer">云中君</a>
+的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
+<p><figure><img src="/svg/loading.min.svg" data-sizes="auto" data-src="https://img.1078503.org/imgs/2019/11/37ad8cf5521924b0.png" alt="" title="" class="lazyload">
+</figure>
+</p>
 <p>画了个难看的箭头请无视😂。</p>
 <p>通过上面的操作所有工作已经完成，接下来写博客就好。Gridea客户端正常同步后访问博客域名就能验证操作是否有效。注意由于涉及到服务器与GitHub仓库的通信，偶尔可能会有拉取不成功或缓慢的情况，这取决于你的服务器与GitHub之间的通信线路是否阻塞。不过，这种情况几乎可以忽略不计，除非你的服务器在国内。</p>
 <p>最后，突然想到我自己使用的hugo静态博客其实也可以这样推送更新，原理是一样的，我只是绕过了GitHub仓库直接与服务器的git仓库通信而已。我之前没有把博客直接放在GitHub上面提供访问是因为听多了经常抽风的传闻，所以直接放在了VPS上。另外还有独立博客中“独立”二字的考虑。</p>
 <p>参考：https://www.bt.cn/bbs/thread-5348-1-1.html</p>
-</article><section class="article labels"><a class="category" href=/categories/%E5%BB%BA%E7%AB%99/>建站</a><a class="tag" href=/tags/%E5%88%86%E4%BA%AB/>分享</a><a class="tag" href=/tags/%E5%AE%9D%E5%A1%94webhook/>宝塔webhook</a><a class="tag" href=/tags/gridea%E5%90%8C%E6%AD%A5%E5%88%B0vps%E6%9C%8D%E5%8A%A1%E5%99%A8/>Gridea同步到VPS服务器</a><a class="tag" href=/tags/%E4%BA%91%E4%B8%AD%E5%90%9B/>云中君</a><a class="tag" href=/tags/webhook/>webhook</a><a class="tag" href=/tags/github/>github</a><a class="tag" href=/tags/gridea/>Gridea</a></section><section class="article navigation"><p><a class="link" href="/2019/11/5/"><span class="li">&larr;</span>【随笔】收获的季节</a></p><p><a class="link" href="/2019/11/3/"><span class="li">&rarr;</span>【随笔】每天唤醒你的是闹钟还是你对这个世界的渴望</a></p></section><br>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>本文于 2019-11-21 更新</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"><span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="/2019/11/4/" data-title="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新" data-hashtags="分享,宝塔webhook,Gridea同步到VPS服务器,云中君,webhook,github,Gridea"><i class="fab fa-twitter fa-fw"></i>
+</a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="/2019/11/4/" data-hashtag="分享"><i class="fab fa-facebook-square fa-fw"></i>
+</a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="/2019/11/4/" data-title="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新"><i class="fab fa-weibo fa-fw"></i>
+</a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="/2019/11/4/" data-title="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新"><i class="loveit it-baidu-fill"></i>
+</a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="/2019/11/4/" data-title="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新"><i class="fab fa-evernote fa-fw"></i>
+</a></span></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section><span>
+                        <a href="/tags/%E5%88%86%E4%BA%AB">
+                            <i class="fas fa-tag fa-fw"></i>分享
+                        </a>
+                    </span>&nbsp;<span>
+                        <a href="/tags/%E5%AE%9D%E5%A1%94webhook">
+                            <i class="fas fa-tag fa-fw"></i>宝塔webhook
+                        </a>
+                    </span>&nbsp;<span>
+                        <a href="/tags/gridea%E5%90%8C%E6%AD%A5%E5%88%B0vps%E6%9C%8D%E5%8A%A1%E5%99%A8">
+                            <i class="fas fa-tag fa-fw"></i>Gridea同步到VPS服务器
+                        </a>
+                    </span>&nbsp;<span>
+                        <a href="/tags/%E4%BA%91%E4%B8%AD%E5%90%9B">
+                            <i class="fas fa-tag fa-fw"></i>云中君
+                        </a>
+                    </span>&nbsp;<span>
+                        <a href="/tags/webhook">
+                            <i class="fas fa-tag fa-fw"></i>webhook
+                        </a>
+                    </span>&nbsp;<span>
+                        <a href="/tags/github">
+                            <i class="fas fa-tag fa-fw"></i>github
+                        </a>
+                    </span>&nbsp;<span>
+                        <a href="/tags/gridea">
+                            <i class="fas fa-tag fa-fw"></i>Gridea
+                        </a>
+                    </span>&nbsp;</section>
+        <section>
+            <span><a href="javascript:window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2019/11/3/" class="prev" rel="prev" title="【随笔】每天唤醒你的是闹钟还是你对这个世界的渴望"><i class="fas fa-angle-left fa-fw"></i>【随笔】每天唤醒你的是闹钟还是你对这个世界的渴望</a>
+            <a href="/2019/11/5/" class="next" rel="next" title="【随笔】收获的季节">【随笔】收获的季节<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div><br>
 <div align="center">
   
   <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5883329460904326"
@@ -133,24 +368,40 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
       init: true
     });
   </script>
-</div></div><section id="footer" class="footer"><div class="footer-wrap">
-    <p class="powerby">友情链接：<span><a href="https://ditou.org" 
-        target="_blank">低头族</a></span> | <span><a href="https://dtz9.org" 
-            target="_blank">网址导航</a></span> | <span><a href="http://stuit.cn/Xiaolu" 
-                target="_blank">行者晓路</a></span> | <span><a href="https://cyhour.com/" 
-                    target="_blank">常时阳光</a></span> | <span><a href="http://www.wuxiaohu.cn/" 
-                        target="_blank">工程窝</a></span> | <span><a href="https://chriszheng.science/" 
-                            target="_blank">M-x Chris-An-Emacser</a></span>
+</div><div class="comment"></div>
+    </article></div>
+            </main><div class="footer">
+    <p><b>友情链接</b>：<span><a href="https://dtz9.com" 
+        target="_blank" style="color: blue;">大头针</a></span> | <span><a href="https://dtz9.org" 
+            target="_blank" style="color: blue;">大头针网址</a></span> | <span><a href="http://stuit.cn/Xiaolu" 
+                target="_blank" style="color: blue;">行者晓路</a></span> | <span><a href="https://cyhour.com/" 
+                    target="_blank" style="color: blue;">常时阳光</a></span> | <span><a href="http://www.wuxiaohu.cn/" 
+                        target="_blank" style="color: blue;">工程窝</a></span> | <span><a href="https://chriszheng.science/" 
+                            target="_blank" style="color: blue;">M-x Chris-An-Emacser</a></span> | <span><a href="/links/"  style="color: red;">更多...</a></span></p>
 </div>
-<br><div class="footer-wrap">
-    <p class="copyright">©2019 - 2020 近视眼逛博客.</p>
-    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
-        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
-        target="_blank">Notepadium</a></p>
-</div></section><script src="/js/prism.min.28f2bfd6dfaa7ad0e8b973373bb7db234d27a2faafc26d5ffd2de4c2b1b5f2bf80011f2e2976dc9fb364abb13f63ebdc.js" integrity="sha384-KPK/1t&#43;qetDouXM3O7fbI00novqvwm1f/S3kwrG18r&#43;AAR8uKXbcn7Nkq7E/Y&#43;vc"></script></div>
-    <script type="text/javascript" src="https://js.users.51.la/19958321.js"></script>
+
+<footer class="footer">
+
+    <div class="copyright"><div class="copyright-line">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://ditou.org/" target="_blank">低头族</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <span>&nbsp;</span>
+        </a><script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$", right: "$", display: false },
+                    { left: "$$", right: "$$", display: true },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true },]
+            });
+        });
+    </script><link rel="stylesheet" href="/css/lib/iconfont/iconfont.min.css"><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/js/lib/sharer/sharer.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/katex/katex.min.js"></script><script src="/js/lib/katex/auto-render.min.js"></script><script src="/js/lib/katex/copy-tex.min.js"></script><script src="/js/lib/katex/mhchem.min.js"></script><script src=/js/theme.min.js></script><script type="text/javascript" src="https://js.users.51.la/19958321.js"></script>
     <script src="//instant.page/3.0.0" type="module" defer
         integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-</body>
-
+    </body>
 </html>
