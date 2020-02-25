@@ -7,9 +7,9 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', 'Segoe UI', 
                 Ubuntu, Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans',
                 'Helvetica Neue', Helvetica, Arial, Verdana, 'Lucida Grande', 
-                sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+                sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';         
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.8;
 }
 
@@ -34,7 +34,7 @@ body {
   padding-top: env(safe-area-inset-top);
   padding-right: env(safe-area-inset-right);
   padding-bottom: env(safe-area-inset-bottom);
-  padding-left: env(safe-area-inset-left);
+  padding-left: env(safe-area-inset-left); 
 }
 
 h1,
@@ -510,7 +510,7 @@ acronym {
 }
 
 .article.markdown-body {
-  background-color: rgb(212, 252, 227);
+  background-color: rgb(239, 255, 245);
 }
 
 .article.markdown-body {
@@ -521,7 +521,7 @@ acronym {
 }
 
 .article.markdown-body p{
-  font-family: Noto Serif SC;
+  font-family:"Tahoma","Noto Serif SC";    
   font-size: 16px;
 }
 

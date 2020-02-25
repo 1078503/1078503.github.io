@@ -12,10 +12,14 @@ apt-get install -y xz-utils openssl gawk file
 如果出现异常，请刷新Mirrors缓存或更换镜像源。
 yum makecache && yum update -y
 apt update -y && apt dist-upgrade -y
+####################################################
+wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh && bash AutoReinstall.sh
 
 CentOS 7系统为cxthhhhh.com大佬制作。CentOS 7的root密码：cxthhhhh.com
 
 wget --no-check-certificate -qO InstallNET.sh 'https://pan.dtz9.com/CentOS7/InstallNET.sh' && bash InstallNET.sh -dd 'https://pan.dtz9.com/CentOS7/CentOS_7.vhd.gz'
+
+wget --no-check-certificate -qO InstallNET.sh 'https://pan.dtz9.com/CentOS7/InstallNET.sh' && bash InstallNET.sh --ip-addr 172.247.123.140 --ip-gate 172.247.123.1 --ip-mask 255.255.255.0 -dd 'https://pan.dtz9.com/CentOS7/CentOS_7.vhd.gz'
 
 https://moeclub.org/attachment/LinuxShell/InstallNET.sh
 
@@ -30,35 +34,6 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZB
 
 英文版
 wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
-
-####################################################
-teddysun的Docker-ssr/ss:
-
-docker pull teddysun/shadowsocks-r
-mkdir ssr && vim ssr/config.json
-范例内容如下：
-{
-    "server":"0.0.0.0",
-    "server_ipv6":"::",
-    "local_address":"127.0.0.1",
-    "local_port":1080,
-    "timeout":120,
-    "method":"none",
-    "protocol":"auth_chain_a",
-    "protocol_param":"",
-    "obfs":"tls1.2_ticket_auth",
-    "obfs_param":"",
-    "redirect":"",
-    "dns_ipv6":false,
-    "fast_open":true,
-    "workers":1,
-    "port_password":{
-        "65210":"1078503.org"
-    }
-}
-
-docker run --restart=always -d -p 65210:65210 -p 65210:65210/udp --name ssr -v /root/ssr:/etc/shadowsocks-r teddysun/shadowsocks-r 
-
 ###############################################
 一键安装最新内核并开启 BBR 脚本    https://teddysun.com/489.html
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
@@ -172,3 +147,20 @@ bash testrace.sh
 
 ./sergate --config=config.json --web-dir=/www/wwwroot/stats.im
 
+######################################################
+安装V2ray
+
+bash <(curl -L -s https://install.direct/go.sh)
+
+systemctl enable v2ray
+
+systemctl start v2ray
+
+location /SoftDown {
+proxy_redirect off;
+proxy_pass http://127.0.0.1:29609;
+proxy_http_version 1.1;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection "upgrade";
+proxy_set_header Host $http_host;
+}
