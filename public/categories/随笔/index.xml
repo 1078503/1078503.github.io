@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>低头族.</copyright>
-    <lastBuildDate>Sat, 15 Feb 2020 23:05:39 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 21:30:35 +0800</lastBuildDate>
     
 	<atom:link href="/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我又干了啥</title>
+      <link>/2020/02/6/</link>
+      <pubDate>Wed, 26 Feb 2020 21:30:35 +0800</pubDate>
+      
+      <guid>/2020/02/6/</guid>
+      <description>整理浏览器书签和网址站 精简浏览器书签栏，把一些好的添加进网址站。 目前大部分整理完成，分类真难。继续跟书签栏战斗~ 解决博客外链不在新标签打开的</description>
+    </item>
     
     <item>
       <title>害怕作息毫无规律</title>
