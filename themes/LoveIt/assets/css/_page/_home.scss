@@ -6,7 +6,7 @@
     @if $profile {
       .home-profile {
         transform: translateY(if($posts, 0, 16vh));
-        padding: if($posts, 2rem, 0) 0;
+        padding: if($posts, 0.1rem, 0) 0;
         text-align: center;
 
         .home-avatar {
