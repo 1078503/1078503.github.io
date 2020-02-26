@@ -275,7 +275,7 @@ enableEmoji = true
         height = 600
       # 评论系统设置
       [languages.zh.params.comment]
-        enable = true
+        enable = false
         # Disqus 评论系统设置 (https://disqus.com/)
         [languages.zh.params.comment.disqus]
           # Disqus 的用户名，用来在文章中启用 Disqus 评论系统
