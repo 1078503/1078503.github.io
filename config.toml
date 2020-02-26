@@ -71,7 +71,7 @@ enableEmoji = true
       # 网站关键词
       keywords = ["Theme", "Hugo"]
       # 网站默认主题 ("light", "dark", "auto")
-      defaultTheme = "light"
+      defaultTheme = "auto"
       # 用于生成文章上次修改时间的公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
       gitRepo = ""
       # 页面头部导航栏信息
