@@ -23,3 +23,5 @@ fields:
 - type: boolean
   name: toc
   label: toc
+pages:
+- content/posts/测试文章.md
