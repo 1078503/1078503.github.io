@@ -7,7 +7,7 @@ defaultContentLanguage = "zh"
 theme = "LoveIt"
 # themes directory
 # 主题目录
-
+metaDataFormat = "yaml"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
