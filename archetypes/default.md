@@ -3,9 +3,9 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: false
-slug: ""
-tags: []
-categories: []
+slug:
+tags:
+categories:
 
 toc: true
 autoCollapseToc: true
