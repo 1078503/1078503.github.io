@@ -1,6 +1,6 @@
 hugo
 git add -A
-git commit -m "first commit"
+git commit -m "更新"
 git push origin master
 
 git pull origin master
