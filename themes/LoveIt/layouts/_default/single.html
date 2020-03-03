@@ -6,10 +6,13 @@
         <h1 class="single-title animated pulse faster">
             {{- .Title -}}
         </h1>
-
+        <hr>  
         {{- /* Content */ -}}
         <div class="content">
             {{- partial "single/content.html" .Content -}}
         </div>
+        <hr>
+        {{- partial "pinglun.html" . -}}
+
     </div>
 {{- end -}}

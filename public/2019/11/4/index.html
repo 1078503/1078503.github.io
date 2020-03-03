@@ -153,7 +153,8 @@
   </ul>
 </nav></div>
                 </details>
-            </div><div class="content"><p>今天博友<a href="https://blog.shanbu.fun/" target="_blank" rel="noopener noreffer">云中君</a>
+            </div><div class="content">
+            <br><p>今天博友<a href="https://blog.shanbu.fun/" target="_blank" rel="noopener noreffer">云中君</a>
 反馈，说他的博客又抽风了。</p>
 <p>原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。</p>
 <p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>
@@ -244,11 +245,11 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
           <span class="nb">exit</span>
 <span class="k">fi</span>
 <span class="c1">#git项目路径</span>
-<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;</span><span class="s2">①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
 <span class="c1">#git 网址</span>
 <span class="nv">gitHttp</span><span class="o">=</span><span class="s2">&#34;②https://github.com/1078503/blog.git&#34;</span>
 
-<span class="nb">echo</span> <span class="s2">&#34;</span><span class="s2">Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
+<span class="nb">echo</span> <span class="s2">&#34;Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
 
 <span class="c1">#判断项目路径是否存在</span>
 <span class="k">if</span> <span class="o">[</span> -d <span class="s2">&#34;</span><span class="nv">$gitPath</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
@@ -381,18 +382,21 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <div align="center">
   <font color="red">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂</font>
 </div>
-<div id="comment" style="background-color: #f5f5f5;">
-  <script>
-    var disq = new iDisqus('comment', {
-      forum: '1078503',
-      api: 'https://api.ditou.org/disqus/api/',
-      site: 'https://ditou.org',
-      mode: 2,
-      init: true
-    });
-  </script>
-</div><div class="comment"></div>
-    </article></div>
+<div style="background-color: #f5f5f5;">
+  <center>
+    <div id="comment" style="width: 90%;">
+      <script>
+        var disq = new iDisqus('comment', {
+          forum: '1078503',
+          api: 'https://api.ditou.org/disqus/api/',
+          site: 'https://ditou.org',
+          mode: 2,
+          init: true
+        });
+      </script>
+    </div>
+  </center>
+</div></article></div>
             </main><div class="footer">
     <p><b>友情链接</b>：<span><a href="https://dtz9.com" 
         target="_blank">大头针</a></span> | <span><a href="https://dtz9.org" 

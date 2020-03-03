@@ -131,7 +131,8 @@
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2019-07-14>2019-07-14</time>&nbsp;
                 <i class="fas fa-pencil-alt fa-fw"></i>约 505 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>预计阅读 2 分钟&nbsp;</div>
-        </div><div class="content"><p>有多少人像我一样？</p>
+        </div><div class="content">
+            <br><p>有多少人像我一样？</p>
 <p>一言不合就折腾代码，哪里不爽改哪里🤭。</p>
 <p>今晚只做了一件事，把网址结构从 /20190714.html 这样的改到了 /2019/07/1/ 这种纯目录结构，个人感觉好看也便于管理。如果继续使用之前的目录结构，以后时间长了根目录列表可能会很长很长，这样找个文件或者排查错误就会无从下手。现在的结构应该是好很多了，解释一下就是 <strong>域名/年/月/id排序</strong>，那么就是以月为单位id排序的思路，每个月一个文件夹的静态网页目录存放形式。这下心里的担忧暂时可以放下了。</p>
 <p>不过，我这样暴力改变网址结构有一个损失就是很多以前的文章链接失效了。本来可以做一些补充的，但考虑到没多少内容也就无所谓了，长痛不如短痛。</p>
@@ -193,18 +194,21 @@
 <div align="center">
   <font color="red">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂</font>
 </div>
-<div id="comment" style="background-color: #f5f5f5;">
-  <script>
-    var disq = new iDisqus('comment', {
-      forum: '1078503',
-      api: 'https://api.ditou.org/disqus/api/',
-      site: 'https://ditou.org',
-      mode: 2,
-      init: true
-    });
-  </script>
-</div><div class="comment"></div>
-    </article></div>
+<div style="background-color: #f5f5f5;">
+  <center>
+    <div id="comment" style="width: 90%;">
+      <script>
+        var disq = new iDisqus('comment', {
+          forum: '1078503',
+          api: 'https://api.ditou.org/disqus/api/',
+          site: 'https://ditou.org',
+          mode: 2,
+          init: true
+        });
+      </script>
+    </div>
+  </center>
+</div></article></div>
             </main><div class="footer">
     <p><b>友情链接</b>：<span><a href="https://dtz9.com" 
         target="_blank">大头针</a></span> | <span><a href="https://dtz9.org" 

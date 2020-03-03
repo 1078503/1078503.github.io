@@ -77,17 +77,12 @@
 
         {{- /* Content */ -}}
         <div class="content">
+            <br>
             {{- partial "single/content.html" .Content -}}
         </div>
 
         {{- /* Footer */ -}}
         {{- partial "single/footer.html" . -}}
-
-        {{- /* Comment */ -}}
-        <div class="comment">
-            {{- if ( .Params.comment | default true ) -}}
-                {{- partial "comment.html" . -}}
-            {{- end -}}
-        </div>
+    
     </article>
 {{- end -}}
