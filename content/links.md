@@ -13,7 +13,7 @@ date: 2019-04-06
 
 <ol>
 
-<li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a>  - 这是一个描述的例子，尽量长长长长长长长长长长长长长长长长长，但不得造成换行。</li>
+<li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a>  - 这是一个描述的例子，尽量长长长长长长长长长长长长长，但不得造成换行。</li>
 
 <li><a href="http://gojira.net/" target="_blank">哥斯拉</a></li>
 
@@ -39,7 +39,7 @@ date: 2019-04-06
 
 <li><a href="https://www.huhexian.com/" target="_blank">青山绿水</a> - 胡和先的个人博客。</li>
 
-<li><a href="https://xiaolei.blog/" target="_blank">小蕾影集</a> - 一个独立的个人摄影博客。 分享自己拍的照片，写几篇与工作和生活相关的文章。</li>
+<li><a href="https://xiaolei.blog/" target="_blank">小蕾影集</a> - 一个独立的个人摄影博客。 分享自己拍的照片，与工作和生活相关的文章。</li>
 
 <li><a href="http://stuit.cn/Xiaolu/" target="_blank">行者晓路</a> - 非著名历史学爱好者。主要包括历史，时评，地理旅游摄影等方面内容。</li>
 
