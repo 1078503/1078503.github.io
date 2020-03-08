@@ -67,4 +67,6 @@ date: 2019-04-06
 
 <li><a href="https://wbt5.com/" target="_blank">乌帮图</a> - 这是一个基于WordPress的独立博客，记录乌帮图的学习和生活。</li>
 
+<li><a href="https://www.fiisi.com/" target="_blank">风萧萧兮易水寒</a> - so bad,yet so good.</li>
+
 </ol>
