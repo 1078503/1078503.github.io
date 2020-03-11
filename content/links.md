@@ -69,4 +69,6 @@ date: 2019-04-06
 
 <li><a href="https://www.fiisi.com/" target="_blank">风萧萧兮易水寒</a> - so bad,yet so good.</li>
 
+<li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a> - 一个记录学习过程，分享学习知识的博客.</li>
+
 </ol>

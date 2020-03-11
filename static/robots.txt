@@ -40,4 +40,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /bin/
-Sitemap: https://dtz9.net/sitemap.xml
+Sitemap: https://ditou.org/sitemap.xml

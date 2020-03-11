@@ -11,10 +11,10 @@ metaDataFormat = "yaml"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false
 # whether to use git commit log to generate lastmod record
 # 是否使用 git 信息来生成文章的上次修改时间
-enableGitInfo = false
+enableGitInfo = true
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
@@ -102,7 +102,7 @@ enableEmoji = true
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
-          social = true
+          social = false
         # 主页文章列表
         [languages.zh.params.home.posts]
           enable = true
