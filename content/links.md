@@ -71,4 +71,6 @@ date: 2019-04-06
 
 <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a> - 一个记录学习过程，分享学习知识的博客.</li>
 
+<li><a href="https://chralpha.com/" target="_blank">ChrAlpha 的幻想乡</a> - 愿明天又是更好的一天！</li>
+
 </ol>
