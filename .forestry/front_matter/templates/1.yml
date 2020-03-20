@@ -23,3 +23,5 @@ fields:
 - type: boolean
   name: toc
   label: toc
+pages:
+- content/posts/离上一次更新又过去大半个月了.md
