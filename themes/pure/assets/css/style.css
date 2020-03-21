@@ -6612,6 +6612,12 @@ body.no-sidebar .sidebar {
   margin-left: 20px;
 }
 
+.marked-body p {
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #333;
+}
 /*
  * We are hiding the invisible nav outside the screen
  * so we need to avoid the horizontal scroll
