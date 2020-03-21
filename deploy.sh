@@ -1,6 +1,6 @@
 hugo
 git add -A
-git commit -m "修修补补"
+git commit -m "修补"
 git push origin master
 
 git pull origin master
