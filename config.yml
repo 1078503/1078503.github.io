@@ -132,7 +132,7 @@ params:
       url: favicon.ico
     title: Hugo # 页面title
     favicon: favicon.ico
-    board: <!-- 博客首页 --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5883329460904326" data-ad-slot="6443208942" data-ad-format="auto" data-full-width-responsive="true"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> # 公告牌
+    board:  # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
@@ -205,7 +205,7 @@ params:
 
   # Sidebar only the following widgets. you can remove any you don't like it.
   widgets:
-    - board
+    #- board
     #- recent_posts
     #- category
     - tag
