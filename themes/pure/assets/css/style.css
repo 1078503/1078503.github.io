@@ -327,7 +327,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #d4d4d4;
 }
 
 .sr-only {
@@ -3260,7 +3260,7 @@ body {
   font-size: 14px;
   line-height: 1.57143;
   color: #333333;
-  background-color: #fff;
+  background-color: #f5f5d5;
 }
 
 a {
@@ -5740,7 +5740,7 @@ pre:after {
 }
 
 .sidebar {
-  background-color: #fdfdfd;
+  background-color: #f5f5f5;
 }
 
 .sidebar .slimContent {
@@ -6614,8 +6614,9 @@ body.no-sidebar .sidebar {
 
 .marked-body p {
   font-family: 'EB Garamond', 'Noto Serif SC', serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.5rem;
+  letter-spacing: 1px;
   color: #333;
 }
 /*
