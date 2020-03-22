@@ -5,7 +5,7 @@
     <link>https://ditou.org/tags/forestry/</link>
     <description>Recent content in Forestry on 低头族</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Feb 2020 10:06:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2020 10:06:00 +0800</lastBuildDate>
     
         <atom:link href="https://ditou.org/tags/forestry/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,7 +40,7 @@
     <item>
       <title>研究hugo&#43;Github&#43;Forestry</title>
       <link>https://ditou.org/2020/02/5/</link>
-      <pubDate>Thu, 20 Feb 2020 10:06:00 +0000</pubDate>
+      <pubDate>Thu, 20 Feb 2020 10:06:00 +0800</pubDate>
       
       <guid>https://ditou.org/2020/02/5/</guid>
       <description>起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。 静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，</description>
