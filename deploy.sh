@@ -5,7 +5,8 @@ git push origin master
 
 git pull origin master
 
-
+git config  credential.helper store
+git config --global credential.helper store
 #################################### https://zhuanlan.zhihu.com/p/46973701
 export http_proxy=http://127.0.0.1:1081
 export https_proxy=http://127.0.0.1:1081
