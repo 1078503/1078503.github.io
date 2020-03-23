@@ -6614,10 +6614,12 @@ body.no-sidebar .sidebar {
 
 .marked-body p {
   font-family: 'EB Garamond', 'Noto Serif SC', serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
+  text-align: justify;
+  font-size: 1.8rem;
   color: #333;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1.9;
 }
 /*
  * We are hiding the invisible nav outside the screen
