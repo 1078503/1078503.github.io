@@ -7,7 +7,7 @@ slug:
 tags:
 categories:
 
-toc: true
+toc: false
 autoCollapseToc: true
 math: false
 comment: true

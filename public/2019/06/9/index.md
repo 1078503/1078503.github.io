@@ -1,9 +1,0 @@
-# 【视频分享】油管视频分享之野人哥哥
-
-
-有很多朋友喜欢看油管视频，我也喜欢看。
-
-独乐乐不如众乐乐，没事儿的时候分享一些好看的视频给大家吧。
-
-<iframe width="789" height="444" src="https://www.youtube.com/embed/M4QF2rsG8XM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-如果你也有正在看并且觉得不错的视频，欢迎在评论区留下链接分享给我。
