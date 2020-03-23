@@ -1,14 +1,4 @@
 <div class="content">
-
-  <center>
-    <!-- 博客首页 -->
-    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5883329460904326"
-      data-ad-slot="6443208942"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </center>
-
   <article id="{{ .Params.layout }}-{{ .Params.slug }}" class="article article-type-{{ .Params.layout }}" itemscope
     itemtype="http://schema.org/BlogPosting">
     <!-- TODO gallary -->
@@ -28,7 +18,17 @@
             class="article-comment-link">{{T "article_comments" }}</a></span>
         {{- partial "post/wc.html" . }}
       </div>
+      <hr>
     </div>
+    <center>
+      <!-- 博客首页 -->
+      <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5883329460904326"
+        data-ad-slot="6443208942"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </center>
+    <hr>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       {{ .Content }}
     </div>
