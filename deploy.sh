@@ -26,4 +26,6 @@ git config --global user.name "1078503"
 git config --global user.email "1078503@gmail.com"
 
 ssh-keygen -t rsa -C "1078503@gmail.com"
+
+git rm -r --cached "themes"
 #####################################
