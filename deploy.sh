@@ -5,6 +5,8 @@ git push origin master
 
 git pull origin master
 
+git remote add origin git@github.com:1078503/blog.git
+
 git config  credential.helper store
 git config --global credential.helper store
 ####################################  https://zhuanlan.zhihu.com/p/46973701
