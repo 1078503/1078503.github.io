@@ -1,7 +1,7 @@
 hugo
 git add -A
 git commit -m "update"
-git push origin master
+git push -u origin master
 
 git pull origin master
 
