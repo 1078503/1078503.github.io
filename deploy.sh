@@ -1,6 +1,6 @@
 hugo
 git add -A
-git commit -m "重大主题更换操作"
+git commit -m "update"
 git push origin master
 
 git pull origin master
