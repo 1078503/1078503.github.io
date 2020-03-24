@@ -24,4 +24,6 @@ set https_proxy=http://127.0.0.1:10809
 
 git config --global user.name "1078503"
 git config --global user.email "1078503@gmail.com"
+
+ssh-keygen -t rsa -C "1078503@gmail.com"
 #####################################
