@@ -22,6 +22,10 @@ toc: false
 
 ## 更新日志
 
+##### 2020年3月25日
+
+更换主题：[MemE](https://github.com/reuixiy/hugo-theme-meme)
+
 ##### 2020年3月20日
 
 这期间博客域名在1078503.org、dtz9.net、ditou.org之间更换，最终确定使用ditou.org作为博客域名，同时更换了主题：LoveIt。
@@ -34,7 +38,7 @@ DTZ9.NET 暂时跳转到博客等待时机启用。
 
 ##### 2019年12月17日
 
-买了dtz9的com，net，组织这三个域名。博客换用dtz9.net，dtz9.com暂时使用发记录片，剩下一个组织备用。
+注册了dtz9的com，net，org这三大顶级域名。博客换用dtz9.net，dtz9.com暂时使用发记录片，剩下一个org备用。
 
 ##### 2019年12月7日
 
