@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">低头族</title>
     <subtitle type="html">个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</subtitle>
-    <updated>2020-03-25T19:06:22+08:00</updated>
+    <updated>2020-03-25T22:42:09+08:00</updated>
     <id>https://ditou.org/</id>
     <link rel="alternate" type="text/html" href="https://ditou.org/" />
     <link rel="self" type="application/atom+xml" href="https://ditou.org/atom.xml" />
@@ -2697,7 +2697,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
             <title type="text">【分享】使用hugo搭建静态博客</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/5/" />
             <id>https://ditou.org/2019/08/5/</id>
-            <updated>2020-03-25T03:42:55+08:00</updated>
+            <updated>2020-03-25T22:40:14+08:00</updated>
             <published>2019-08-24T03:37:20+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2804,7 +2804,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post<span class="se">\d</span>i-yi-pian-wen-zhang.md
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post/di-yi-pian-wen-zhang.md
 </code></pre></td></tr></table>
 </div>
 </div><p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
