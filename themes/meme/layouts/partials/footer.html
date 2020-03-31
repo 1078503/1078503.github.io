@@ -2,6 +2,16 @@
 {{ if or (and .IsHome .Site.Params.displayFooterInHome) (and (not .IsHome) .Site.Params.enableFooter) }}
     <footer id="footer" class="footer">
         <div class="footer-inner">
+
+            <center>
+                <!-- hugo-footer -->
+                <ins class="adsbygoogle" style="display:inline-block;width:650px;height:90px"
+                    data-ad-client="ca-pub-5883329460904326" data-ad-slot="7365718151"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </center>
+
             {{- if .Site.Params.displayCopyrightSymbol -}}
                 {{- .Scratch.Set "siteInfoCopyright" "©&nbsp;" -}}
             {{- else -}}
