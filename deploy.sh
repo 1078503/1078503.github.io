@@ -32,5 +32,5 @@ ssh-keygen -t rsa -C "1078503@gmail.com"
 ssh -T git@github.com
 
 git rm -r --cached "themes"
-#####################################
+######################################
 dtrx wenjianming.tar.gz
