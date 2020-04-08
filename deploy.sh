@@ -21,8 +21,8 @@ export ALL_PROXY=socks5://127.0.0.1:1080
 unset http_proxy
 unset https_proxy
 
-set http_proxy=http://127.0.0.1:1081
-set https_proxy=http://127.0.0.1:1081
+set http_proxy=http://127.0.0.1:10809
+set https_proxy=http://127.0.0.1:10809
 
 git config --global user.name "1078503"
 git config --global user.email "1078503@gmail.com"
