@@ -4,5 +4,5 @@
 
 如果你也希望拥有一个一样的博客主页，你可去原作者仓库拉取最新版并在原作者处获得文档支持：[MemE](https://github.com/reuixiy/hugo-theme-meme)。
 
-需要说明的是我的博客是通过 [hugo](https://gohugo.io/) 静态博客生成器实现的，MemE 主题亦是如此。
+需要说明的是我的博客是通过 [hugo](https://gohugo.io/) 静态博客生成器实现的，MemE 主题亦是如此~
 
