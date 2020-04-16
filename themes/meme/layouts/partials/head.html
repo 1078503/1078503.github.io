@@ -1,54 +1,54 @@
-<head{{ if .Site.Params.openGraph }} prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#"{{ end }}>
+<head{{ if .Site.Params.openGraph }} prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" {{ end }}>
     <meta charset="UTF-8" />
 
     {{ hugo.Generator }}
 
     {{- with .Site.Params.defaultTheme | default "light" -}}
-        {{- if eq . "light" -}}
-            <meta name="theme-color" content="{{ $.Site.Params.themeColor }}" />
-        {{- else -}}
-            <meta name="theme-color" content="{{ $.Site.Params.themeColorDark }}" />
-        {{- end -}}
+    {{- if eq . "light" -}}
+    <meta name="theme-color" content="{{ $.Site.Params.themeColor }}" />
+    {{- else -}}
+    <meta name="theme-color" content="{{ $.Site.Params.themeColorDark }}" />
+    {{- end -}}
     {{- end -}}
 
     <!-- Dark Mode -->
     {{- if .Site.Params.enableDarkMode }}
-        <script>
-            const userPrefers = localStorage.getItem('theme');
-            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-            const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-            if (userPrefers === 'dark') {
-                changeModeMeta('dark');
-            } else if (userPrefers === 'light') {
-                changeModeMeta('light');
-            } else if (darkModeMediaQuery.matches) {
-                changeModeMeta('dark');
-            } else if (lightModeMediaQuery.matches) {
-                changeModeMeta('light');
+    <script>
+        const userPrefers = localStorage.getItem('theme');
+        const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
+        if (userPrefers === 'dark') {
+            changeModeMeta('dark');
+        } else if (userPrefers === 'light') {
+            changeModeMeta('light');
+        } else if (darkModeMediaQuery.matches) {
+            changeModeMeta('dark');
+        } else if (lightModeMediaQuery.matches) {
+            changeModeMeta('light');
+        }
+        function changeModeMeta(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            if (theme === 'dark') {
+                changeThemeColor('{{ .Site.Params.themeColorDark }}');
+            } else {
+                changeThemeColor('{{ .Site.Params.themeColor }}');
             }
-            function changeModeMeta(theme) {
-                document.documentElement.setAttribute('data-theme', theme);
-                if (theme === 'dark') {
-                    changeThemeColor('{{ .Site.Params.themeColorDark }}');
-                } else {
-                    changeThemeColor('{{ .Site.Params.themeColor }}');
-                }
-            }
-            function changeThemeColor(themeColor) {
-                document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
-            }
-        </script>
+        }
+        function changeThemeColor(themeColor) {
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
+        }
+    </script>
     {{- end }}
 
     <!-- Force HTTPS Redirection -->
     {{- if and .Site.Params.enableForceHTTPS (eq hugo.Environment "production") }}
-        {{ $url := urls.Parse .Site.BaseURL }}
-        {{ $host := $url.Host }}
-        <script>
-            if (window.location.host == "{{ $host | safeJS }}" && window.location.protocol != "https:") {
-                window.location.protocol = "https";
-            }
-        </script>
+    {{ $url := urls.Parse .Site.BaseURL }}
+    {{ $host := $url.Host }}
+    <script>
+        if (window.location.host == "{{ $host | safeJS }}" && window.location.protocol != "https:") {
+            window.location.protocol = "https";
+        }
+    </script>
     {{- end }}
 
     <!-- Responsive Web Design -->
@@ -69,10 +69,11 @@
 
     <!-- Fonts -->
     {{- with .Site.Params.fontsLink -}}
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <link rel="stylesheet" href="{{ . }}" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="{{ . }}" /></noscript>
+    <link rel="stylesheet" href="{{ . }}" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="{{ . }}" /></noscript>
     {{- end }}
 
     <meta name="author" content="{{ .Params.author | default .Site.Author.name }}" />
@@ -108,10 +109,10 @@
 
     <!-- Atom / RSS -->
     {{ with .OutputFormats.Get "SectionsAtom" -}}
-        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
     {{ with .OutputFormats.Get "SectionsRSS" -}}
-        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $.Site.Title | safeHTML }}
     {{ end }}
 
     <!-- SEO -->
@@ -119,36 +120,36 @@
     {{- $Deliver := . -}}
     <!-- JSON-LD -->
     {{- with .Site.Params.jsonLD -}}
-        {{ partial "utils/json-ld.html" (dict "Deliver" $Deliver "description" $description) }}
+    {{ partial "utils/json-ld.html" (dict "Deliver" $Deliver "description" $description) }}
     {{- end }}
 
     <!-- Twitter Cards -->
     {{- with .Site.Params.twitterCards -}}
-        {{ partial "utils/twitter-cards.html" (dict "Deliver" $Deliver) }}
+    {{ partial "utils/twitter-cards.html" (dict "Deliver" $Deliver) }}
     {{- end }}
     <!-- Open Graph -->
     {{- with .Site.Params.openGraph -}}
-        {{ partial "utils/open-graph.html" (dict "Deliver" $Deliver "description" $description) }}
+    {{ partial "utils/open-graph.html" (dict "Deliver" $Deliver "description" $description) }}
     {{- end }}
 
     {{- with .Site.Params.googleSiteVerification }}
-        <meta name="google-site-verification" content="{{ . }}" />
+    <meta name="google-site-verification" content="{{ . }}" />
     {{- end }}
 
     {{- if and .Site.Params.enableGoogleAnalytics (eq hugo.Environment "production") }}
-        <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
 
-        {{ partial "third-party/google-analytics.html" . }}
+    {{ partial "third-party/google-analytics.html" . }}
     {{- end }}
 
     {{- if or .Site.Params.enableGoogleAutoAds .Site.Params.enableGoogleAdUnits }}
-        {{ if eq hugo.Environment "production" }}
-            {{ partial "third-party/google-adsense.html" . }}
-        {{ end }}
+    {{ if eq hugo.Environment "production" }}
+    {{ partial "third-party/google-adsense.html" . }}
+    {{ end }}
     {{- end }}
 
     {{- if and .Site.Params.enableGoogleAutoAds (eq hugo.Environment "production") -}}
-        {{ partial "third-party/google-adsense-auto.html" . }}
+    {{ partial "third-party/google-adsense-auto.html" . }}
     {{- end }}
 
     {{ partial "custom/head.html" . }}
@@ -157,4 +158,14 @@
     <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-</head>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?01e0d1d2c581434d69102eee7db90277";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    </head>
