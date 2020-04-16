@@ -2,35 +2,35 @@
 <html lang="zh-CN"
      data-theme="dark"
     >
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" >
     <meta charset="UTF-8" />
 
     <meta name="generator" content="Hugo 0.65.3" /><meta name="theme-color" content="#1c1c21" />
-        <script>
-            const userPrefers = localStorage.getItem('theme');
-            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-            const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-            if (userPrefers === 'dark') {
-                changeModeMeta('dark');
-            } else if (userPrefers === 'light') {
-                changeModeMeta('light');
-            } else if (darkModeMediaQuery.matches) {
-                changeModeMeta('dark');
-            } else if (lightModeMediaQuery.matches) {
-                changeModeMeta('light');
+    <script>
+        const userPrefers = localStorage.getItem('theme');
+        const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
+        if (userPrefers === 'dark') {
+            changeModeMeta('dark');
+        } else if (userPrefers === 'light') {
+            changeModeMeta('light');
+        } else if (darkModeMediaQuery.matches) {
+            changeModeMeta('dark');
+        } else if (lightModeMediaQuery.matches) {
+            changeModeMeta('light');
+        }
+        function changeModeMeta(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            if (theme === 'dark') {
+                changeThemeColor('#1c1c21');
+            } else {
+                changeThemeColor('#fff');
             }
-            function changeModeMeta(theme) {
-                document.documentElement.setAttribute('data-theme', theme);
-                if (theme === 'dark') {
-                    changeThemeColor('#1c1c21');
-                } else {
-                    changeThemeColor('#fff');
-                }
-            }
-            function changeThemeColor(themeColor) {
-                document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
-            }
-        </script>
+        }
+        function changeThemeColor(themeColor) {
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
+        }
+    </script>
 
     
 
@@ -49,8 +49,9 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <link rel="stylesheet" href="https://fonts.loli.net/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.loli.net/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.loli.net/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
     <meta name="author" content="执迷不悟" />
     
@@ -151,8 +152,17 @@
     <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-</head>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?01e0d1d2c581434d69102eee7db90277";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
+    </head>
 
 <body>
     <div class="container">
