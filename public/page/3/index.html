@@ -129,16 +129,22 @@
     <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
     <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    <script>
-        var _hmt = _hmt || [];
+    
+    
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+         
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
         (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?01e0d1d2c581434d69102eee7db90277";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
+            var u = "//status.ditou.org/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
         })();
     </script>
+    
 
     </head>
 
