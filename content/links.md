@@ -18,5 +18,5 @@ date: 2019-04-06
 | [浮白载笔](http://www.winature.com/) |   [逆时针博客](http://www.mydes.top/)    |       [赫赫文王](https://kqh.me/)       |    [格子老师](https://manman.qian.lu/)     |  [三毛的毛](https://www.seoyx.cn/)  |
 | [生活的左上角](https://bwskyer.com/) |    [梦幻辰风](https://www.mhcf.net/)     |     [王志勇](https://www.mhcf.net/)     |   [Debug客栈](https://www.debuginn.cn/)    |  [牧羊人](https://www.shephe.com/)  |
 |     [乌帮图](https://wbt5.com/)      | [风萧萧兮易水寒](https://www.fiisi.com/) | [蓝天个人博客](http://www.along168.cn/) | [ChrAlpha 的幻想乡](https://chralpha.com/) |  [TSBBLOG](https://tsb2blog.com/)   |
-| [大缺缺](https://www.daqueque.com/)  |                                          |                                         |                                            |                                     |
+| [大缺缺](https://www.daqueque.com/)  |    [Ray's Blog](https://raycoder.me/)    |                                         |                                            |                                     |
 
