@@ -1,135 +1,36 @@
 <!DOCTYPE html>
-<html lang="zh-CN"
-     data-theme="dark"
-    >
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" >
-    <meta charset="UTF-8" />
+<html>
 
-    <meta name="generator" content="Hugo 0.65.3" /><meta name="theme-color" content="#1c1c21" />
-    <script>
-        const userPrefers = localStorage.getItem('theme');
-        const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-        if (userPrefers === 'dark') {
-            changeModeMeta('dark');
-        } else if (userPrefers === 'light') {
-            changeModeMeta('light');
-        } else if (darkModeMediaQuery.matches) {
-            changeModeMeta('dark');
-        } else if (lightModeMediaQuery.matches) {
-            changeModeMeta('light');
-        }
-        function changeModeMeta(theme) {
-            document.documentElement.setAttribute('data-theme', theme);
-            if (theme === 'dark') {
-                changeThemeColor('#1c1c21');
-            } else {
-                changeThemeColor('#fff');
-            }
-        }
-        function changeThemeColor(themeColor) {
-            document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
-        }
-    </script>
-
-    
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    
-    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
-    
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-
+<head>
     <title>低头族</title>
 
-    <link rel="stylesheet" href="/css/meme.min.9c77460f6093c38b5187e305c464de7ef91a0874d431510f7f260a3a6a448a99.css" integrity="sha256-nHdGD2CTw4tRh+MFxGTefvkaCHTUMVEPfyYKOmpEipk=" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link rel="stylesheet" href="https://fonts.loli.net/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.loli.net/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
-
-    <meta name="author" content="执迷不悟" />
-    <meta name="description" content="个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。" />
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="低头族" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="低头族" />
-    <meta name="msapplication-starturl" content="./" />
-    <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="./icons/mstile-150x150.png" />
-    <link rel="manifest" href="/manifest.json" />
-
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     
-    <link rel="alternate" type="application/atom+xml" href="https://ditou.org/atom.xml" title="低头族" />
-    <link rel="alternate" type="application/rss+xml" href="https://ditou.org/index.xml" title="低头族" />
+    
     
 
-    
-    <link rel="canonical" href="https://ditou.org/" />
-
-
-
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "datePublished": "2019-05-01T20:17:43+00:00",
-        "dateModified": "2020-04-27T22:10:41+08:00",
-        "url": "https://ditou.org/",
-        "description": "个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。",
-        "image": "https://ditou.org/avatar.png",
-        "author": {
-            "@type": "Person",
-            "description": "我从壁橱里取出被褥，让她躺好，一边吸烟一边看着窗外的绵绵春雨。",
-            "email": "1078503@gmail.com",
-            "image": "https://ditou.org/avatar.png",
-            "url": "https://ditou.org/",
-            "name": "执迷不悟"
-        },
-        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
-        "name": "低头族"
-    }
-</script>
-
-    
-
-
-
-<meta name="twitter:card" content="summary" />
-
-<meta name="twitter:site" content="@g1078503" />
-<meta name="twitter:creator" content="@g1078503" />
-
-    
-
-
-
-
-
-<meta property="og:title" content="低头族" />
-<meta property="og:description" content="个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。" />
-<meta property="og:url" content="https://ditou.org/" />
-<meta property="og:site_name" content="低头族" />
-<meta property="og:locale" content="zh" /><meta property="og:image" content="https://ditou.org/avatar.png" />
+        <meta property="og:title" content="低头族" />
+    <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
-
-
+    <meta property="og:locale" content="zh" />
+    <meta property="og:url" content="https://ditou.org/" />
     
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    
+
+    <meta name="generator" content="Hugo 0.65.3" />
 
     <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
     <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
+
     
     <script type="text/javascript">
         var _paq = window._paq || [];
@@ -145,450 +46,661 @@
         })();
     </script>
     
-
-    </head>
+</head>
 
 <body>
-    <div class="container">
-        
-    <header class="header" data-scroll-header>
-        
-            <div class="header-wrapper">
-                <div class="header-inner">
-                    
-    <div class="site-brand">
-        
-            <a href="/" class="brand">低头族</a>
-        
+    <div id="returntop"></div>
+    <div id="container">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div id="header-inner" class="inner">
+            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+            <a id="logo" class="logo-text" href="https://ditou.org/">低头族</a>
+            <nav id="main-nav">
+                
+                <a class="main-nav-link" href="/categories">分类</a>
+                
+                <a class="main-nav-link" href="/tags">标签</a>
+                
+                <a class="main-nav-link" href="/about">关于</a>
+                
+                <a class="main-nav-link" href="/links">友链</a>
+                
+                <a class="main-nav-link" href=""></a>
+                
+                <a class="main-nav-link" href=""></a>
+                
+            </nav>
+            <nav id="sub-nav">
+                <div id="search-form-wrap">
+                </div>
+            </nav>
+        </div>
     </div>
+</header>
 
-                    <nav class="nav">
-    <ul class="menu" id="menu">
-        
+        <section id="main" class="outer">
             
-        
-        
-        
-        
-            
-                <li class="menu-item"><a href="/categories/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon "><path d="M149.333 56v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zm181.334 240v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm32-240v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24zm-32 80V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.256 0 24.001-10.745 24.001-24zm-205.334 56H24c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm386.667-56H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm0 160H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H386.667c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zM181.333 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24z"/></svg><span class="menu-item-name">分类</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/tags/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="icon "><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg><span class="menu-item-name">标签</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon "><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">关于</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/links/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon "><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg><span class="menu-item-name">友链</span></a>
-                </li>
-            
-        
-            
-                
-                    <li class="menu-item">
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/7/">【新闻】开局一张图其它全靠编</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/7/" class="article-date">
+                            <time datetime='2019-06-14T13:22:10.000&#43;08:00'
+                                itemprop="datePublished">2019-06-14</time>
+                        </a>
                         
-    
-        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E6%96%B0%E9%97%BB">新闻</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            图片来自网络，如果您是图片所有者可以联系我加上备注和链接。 说这是深圳电动出租车充电时
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/7/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%87%BA%E7%A7%9F%E8%BD%A6%E5%85%85%E7%94%B5">出租车充电
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%BB%9C%E8%B5%8C%E5%8D%9A">网络赌博
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%9C%B0%E4%B8%8B%E9%92%B1%E5%BA%84">地下钱庄
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E6%96%B0%E9%97%BB">新闻
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
             
-        
-        <div id="theme-switcher">🌙</div>
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/6/">【网站维护】经过几天的努力终于把静态博客搞上线了</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/6/" class="article-date">
+                            <time datetime='2019-06-12T17:52:54.000&#43;08:00'
+                                itemprop="datePublished">2019-06-12</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/6/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/hugo">hugo
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2">静态博客
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/markdown">markdown
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4">网站维护
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/5/">【精彩博文】从电子屏幕手中夺回大脑</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/5/" class="article-date">
+                            <time datetime='2019-06-08T01:16:33.000&#43;08:00'
+                                itemprop="datePublished">2019-06-08</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E8%BD%AC%E8%BD%BD">转载</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            从电子屏幕手中夺回大脑 电脑屏幕让大脑停转，所以想要保持思考，必须远离电子屏幕。 手机放
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/5/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E4%BB%8E%E7%94%B5%E5%AD%90%E5%B1%8F%E5%B9%95%E6%89%8B%E4%B8%AD%E5%A4%BA%E5%9B%9E%E5%A4%A7%E8%84%91">从电子屏幕手中夺回大脑
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%B2%BE%E5%BD%A9%E5%8D%9A%E6%96%87">精彩博文
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/4/">【电脑】重磅推荐之 FeedDemon心灵博客重制版</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/4/" class="article-date">
+                            <time datetime='2019-06-06T01:16:33.000&#43;08:00'
+                                itemprop="datePublished">2019-06-06</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E7%94%B5%E8%84%91">电脑</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            FeedDemon心灵博客重制版 RSS分在线阅读和本地阅读。 在线的服务有很多，并且很
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/4/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/feeddemon%E5%BF%83%E7%81%B5%E5%8D%9A%E5%AE%A2%E9%87%8D%E5%88%B6%E7%89%88">FeedDemon心灵博客重制版
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%88%87%E5%B0%94%E8%AF%BA%E8%B4%9D%E5%88%A9">切尔诺贝利
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%94%B5%E8%84%91">电脑
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/3/">【网站维护】一些变化</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/3/" class="article-date">
+                            <time datetime='2019-06-06T01:10:33.000&#43;08:00'
+                                itemprop="datePublished">2019-06-06</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            是的，我也换主题了，一次大的改版。 拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/3/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/wikiwp">wikiwp
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/wp-editor.md">WP Editor.md
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/typora">Typora
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/gridea">Gridea
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4">网站维护
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/2/">【随笔】今晚遇到两件令我不怎么开心的事情</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/2/" class="article-date">
+                            <time datetime='2019-06-04T01:16:33.000&#43;08:00'
+                                itemprop="datePublished">2019-06-04</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E9%9A%8F%E7%AC%94">随笔</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            回家按惯例打开笔记本准备看一些新闻和博客。 关于关注的很多信息源的浏览方式 说起来起因是
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/2/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/freshrss">freshrss
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2">静态博客
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/hugo">hugo
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD">秘密花园
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E8%B0%A2%E7%9B%8A%E8%BE%89">谢益辉
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9A%8F%E7%AC%94">随笔
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4">网站维护
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/06/1/">【电脑】Win10关闭系统通知中心广告</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/06/1/" class="article-date">
+                            <time datetime='2019-06-02T01:16:33.000&#43;08:00'
+                                itemprop="datePublished">2019-06-02</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E7%94%B5%E8%84%91">电脑</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            上了一些不应该浏览的网站之后，系统通知中心就每隔几分钟弹一些通知广告。 原以为只有国人
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/06/1/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/win10%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83%E5%B9%BF%E5%91%8A">Win10关闭系统通知中心广告
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%94%B5%E8%84%91">电脑
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    
+                    <header class="article-header">
+                        <h1 itemprop="name"><a class="article-title" href="/2019/05/19/">【新闻】基因分析揭开日本人起源之谜</a></h1>
+                    </header>
+                    
+                    <div class="article-meta">
+                        <a href="/2019/05/19/" class="article-date">
+                            <time datetime='2019-05-31T01:16:33.000&#43;08:00'
+                                itemprop="datePublished">2019-05-31</time>
+                        </a>
+                        
+                        
+                        <div class="post-categories">
+                            <div class="article-category">
+                                
+                                
+                                <a class="article-category-link"
+                                    href="https://ditou.org//categories/%E6%96%B0%E9%97%BB">新闻</a>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            
+                            刚刚被下面这条消息吸引了眼球，我很好奇日本人这个神奇的人类群体是从哪里发展起源的。特
+                        </p>
+                        <p class="article-more-link">
+                            <a href="/2019/05/19/"></a>
+                        </p>
+                    </div>
+
+                    
+                    <footer class="article-footer">
+                        <ul class="article-tag-list">
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%BC%A5%E7%94%9F%E4%BA%BA">弥生人
+                                </a>
+                            </li>
+                            
+                            <li class="article-tag-list-item">
+                                <a class="article-tag-list-link" href="https://ditou.org//tags/%E6%96%B0%E9%97%BB">新闻
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </footer>
+                    
+                </div>
+            </article>
+            
+
+            
+
+<nav id="page-nav">
+    
+    <a href="/page/8/" rel="prev" class="extend prev">&laquo; </a>
+    
+    
+    
+    <a href="/">1</a>
+    
+    
+    
+    <a href="/page/2/">2</a>
+    
+    
+    
+    <a href="/page/3/">3</a>
+    
+    
+    
+    <a href="/page/4/">4</a>
+    
+    
+    
+    <a href="/page/5/">5</a>
+    
+    
+    
+    <a href="/page/6/">6</a>
+    
+    
+    
+    <a href="/page/7/">7</a>
+    
+    
+    
+    <a href="/page/8/">8</a>
+    
+    
+    
+    <span class="page-number current">9</span>
+    
+    
+    
+    <a href="/page/10/">10</a>
+    
+    
+    
+    <a href="/page/11/">11</a>
+    
+    
+    
+    <a href="/page/12/">12</a>
+    
     
 
-
-                    </li>
-                
-            
-        
-            
-                
-            
-        
-    </ul>
+    
+    <a href="/page/10/" rel="next" class="extend next"> &raquo;</a>
+    
 </nav>
 
-                </div>
-            </div>
-            
-    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
-    <label for="nav-toggle" class="nav-toggle"></label>
-    <label for="nav-toggle" class="nav-curtain"></label>
 
-
-        
-    </header>
-
-
-
-
-        
-        
-    
-    
-    
-    
-    
-    
-        <main class="main single" id="main">
-    <div class="main-inner">
-        
-        
-            <article class="content post home">
-                <h2 class="post-title">
-                    <a href="/2019/08/3/" class="summary-title-link">【分享】Mastodon：一个免费开源的分布式微博客社交网络</a>
-                </h2>
-                
-                    
-
-<div class="post-meta">
-    
-        
-        <time datetime="2019-08-11T20:15:51+08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2019.8.11</time>
-    
-    
-        
-        <time datetime="2020-04-09T04:14:43+08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.4.9</time>
-    
-    
-    
-        
-        
-        
-            
-                
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/%E7%94%B5%E8%84%91/" class="category-link">电脑</a></span>
-            
-        
-    
-    
-        
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;972</span>
-    
-    
-        
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2&nbsp;分钟</span>
-    
-    
-</div>
-                
-                <summary class="summary">
-                    
-    
-    
-                    
-                    什么是免费开源的分布式微博客社交网络？ 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站……
-                </summary>
-                
-                    <div class="read-more-container">
-                        <a href="/2019/08/3/" class="read-more-link">阅读全文 »</a>
-                    </div>
-                
-            </article>
-        
-            <article class="content post home">
-                <h2 class="post-title">
-                    <a href="/2019/08/2/" class="summary-title-link">【网站维护】一些简单满意的调整</a>
-                </h2>
-                
-                    
-
-<div class="post-meta">
-    
-        
-        <time datetime="2019-08-06T18:33:12+08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2019.8.6</time>
-    
-    
-        
-        <time datetime="2020-04-09T04:14:43+08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.4.9</time>
-    
-    
-    
-        
-        
-        
-            
-                
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/%E5%BB%BA%E7%AB%99/" class="category-link">建站</a></span>
-            
-        
-    
-    
-        
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1007</span>
-    
-    
-        
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;3&nbsp;分钟</span>
-    
-    
-</div>
-                
-                <summary class="summary">
-                    
-    
-    
-                    
-                    闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想……
-                </summary>
-                
-                    <div class="read-more-container">
-                        <a href="/2019/08/2/" class="read-more-link">阅读全文 »</a>
-                    </div>
-                
-            </article>
-        
-            <article class="content post home">
-                <h2 class="post-title">
-                    <a href="/2019/08/1/" class="summary-title-link">【随笔】日更很难只能证明一下存在感了</a>
-                </h2>
-                
-                    
-
-<div class="post-meta">
-    
-        
-        <time datetime="2019-08-03T23:27:14+08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2019.8.3</time>
-    
-    
-        
-        <time datetime="2020-04-09T04:14:43+08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.4.9</time>
-    
-    
-    
-        
-        
-        
-            
-                
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/%E9%9A%8F%E7%AC%94/" class="category-link">随笔</a></span>
-            
-        
-    
-    
-        
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;371</span>
-    
-    
-        
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;1&nbsp;分钟</span>
-    
-    
-</div>
-                
-                <summary class="summary">
-                    
-    
-    
-                    
-                    前几天刚说完日更，就消失了几天，罪过罪过！ 好吧，我承认工作的人保持博客日更确实很困难……
-                </summary>
-                
-                    <div class="read-more-container">
-                        <a href="/2019/08/1/" class="read-more-link">阅读全文 »</a>
-                    </div>
-                
-            </article>
-        
-            <article class="content post home">
-                <h2 class="post-title">
-                    <a href="/2019/07/12/" class="summary-title-link">【电影】顾长卫导演作品《孔雀》</a>
-                </h2>
-                
-                    
-
-<div class="post-meta">
-    
-        
-        <time datetime="2019-07-30T00:10:12+08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2019.7.30</time>
-    
-    
-        
-        <time datetime="2020-04-09T04:14:43+08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.4.9</time>
-    
-    
-    
-        
-        
-        
-            
-                
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/%E7%94%B5%E5%BD%B1/" class="category-link">电影</a></span>
-            
-        
-    
-    
-        
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;719</span>
-    
-    
-        
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2&nbsp;分钟</span>
-    
-    
-</div>
-                
-                <summary class="summary">
-                    
-    
-    
-                    
-                    这是一部由顾长卫导演拍摄于2004年的电影，也是他的处女之作。 电影讲述生活在二十世纪……
-                </summary>
-                
-                    <div class="read-more-container">
-                        <a href="/2019/07/12/" class="read-more-link">阅读全文 »</a>
-                    </div>
-                
-            </article>
-        
-            <article class="content post home">
-                <h2 class="post-title">
-                    <a href="/2019/07/11/" class="summary-title-link">【随笔】穷则思变差则思勤</a>
-                </h2>
-                
-                    
-
-<div class="post-meta">
-    
-        
-        <time datetime="2019-07-29T01:42:39+08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2019.7.29</time>
-    
-    
-        
-        <time datetime="2020-04-09T04:14:43+08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.4.9</time>
-    
-    
-    
-        
-        
-        
-            
-                
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/%E9%9A%8F%E7%AC%94/" class="category-link">随笔</a></span>
-            
-        
-    
-    
-        
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;962</span>
-    
-    
-        
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2&nbsp;分钟</span>
-    
-    
-</div>
-                
-                <summary class="summary">
-                    
-    
-    
-                    
-                    喜欢逛博客真是一个好习惯，经常会发现一些有意思的话语。今天的标题就来自于某位博主的博……
-                </summary>
-                
-                    <div class="read-more-container">
-                        <a href="/2019/07/11/" class="read-more-link">阅读全文 »</a>
-                    </div>
-                
-            </article>
-        
-        
-            <ul class="pagination">
-                
-                    <li class="pagination-prev">
-                        <a href="/page/8/" rel="prev">< 上一页</a>
-                    </li>
-                
-                
-                    <li class="pagination-next">
-                        <a href="/page/10/" rel="next">下一页 ></a>
-                    </li>
-                
-            </ul>
-        
-    </div>
-</main>
-
-    
-    
-    
-
-        
-    <div id="back-to-top" class="back-to-top">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
-    </div>
-
-        
-    <footer id="footer" class="footer">
-        <div class="footer-inner">
-
-            <center>
-                
-                <ins class="adsbygoogle" style="display:inline-block;width:600px;height:60px"
-                    data-ad-client="ca-pub-5883329460904326" data-ad-slot="7365718151"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </center><div class="site-info">©&nbsp;2019–2020&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;执迷不悟</div>
-
-            
+        </section>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2019 - 2020 执迷不悟
+            <br />
+            <a href="https://gohugo.io" target="_blank">Hugo</a> 生成的博客 | 主题： <a
+                href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml"
+                target="_blank">RSS</a>
         </div>
-    </footer>
-
-
     </div>
-    <script src="/js/meme.min.e173d917b4d2012bf68b1ff9d69316b4067c8f101bc3edf8d126cded554538b6.js" integrity="sha256-4XPZF7TSASv2ix/51pMWtAZ8jxAbw+340SbN7VVFOLY="></script>
+    
 
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css"
+        integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"
+        integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    
+    <script>
+        document.getElementById('main-nav-toggle').addEventListener('click', function () {
+            var header = document.getElementById('header');
+            if (header.classList.contains('mobile-on')) {
+                header.classList.remove('mobile-on');
+            } else {
+                header.classList.add('mobile-on');
+            }
+        });
+    </script>
+</footer>
+<div id="backtop">
+    <a href="#">TOP</a>
+</div>
+    </div>
+</body>
 
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]', {
-        speedAsDuration: true,
-        header: '[data-scroll-header]'
-    });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
-
-<script>
-    mediumZoom(document.querySelectorAll('div.post-body img'), {
-        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
-    })
-</script>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
-
-
-
-
-
-
-
-
-
-
-
-    </body>
 </html>

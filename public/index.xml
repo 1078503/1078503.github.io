@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 27 Apr 2020 22:12:33 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2020 01:57:59 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://ditou.org/index.xml" />
         
@@ -363,39 +363,21 @@
  cd ~
 </code></pre>
 <p>执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Building sites … 
-                   <span class="p">|</span> ZH-CN  
+<pre><code class="language-shell">Building sites … 
+                   | ZH-CN  
 +------------------+-------+
-  Pages            <span class="p">|</span>   385
-  Paginator pages  <span class="p">|</span>    <span class="m">71</span>  
-  Non-page files   <span class="p">|</span>     0
-  Static files     <span class="p">|</span>    80
-  Processed images <span class="p">|</span>     0
-  Aliases          <span class="p">|</span>   148
-  Sitemaps         <span class="p">|</span>     1
-  Cleaned          <span class="p">|</span>     0
+  Pages            |   385
+  Paginator pages  |    71  
+  Non-page files   |     0
+  Static files     |    80
+  Processed images |     0
+  Aliases          |   148
+  Sitemaps         |     1
+  Cleaned          |     0
 
-Total in <span class="m">6202</span> ms
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="总结一下">总结一下</h2>
+Total in 6202 ms
+</code></pre>
+<h2 id="总结一下">总结一下</h2>
 <p>我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。</p>
 <h3 id="优点">优点：</h3>
 <ul>
@@ -1260,95 +1242,49 @@ Total in <span class="m">6202</span> ms
 <p>编辑该条目的shell命令并保存：</p>
 <p><img src="https://img.1078503.org/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
 <p>命令内容参考：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
-</span><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;&#34;</span>
-<span class="c1">#输出当前时间</span>
-date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> <span class="s2">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
-<span class="nb">echo</span> <span class="s2">&#34;Start&#34;</span>
-<span class="c1">#判断宝塔WebHook参数是否存在</span>
-<span class="k">if</span> <span class="o">[</span> ! -n <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span>
-<span class="k">then</span>
-          <span class="nb">echo</span> <span class="s2">&#34;param参数错误&#34;</span>
-          <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-          <span class="nb">exit</span>
-<span class="k">fi</span>
-<span class="c1">#git项目路径</span>
-<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
-<span class="c1">#git 网址</span>
-<span class="nv">gitHttp</span><span class="o">=</span><span class="s2">&#34;②https://github.com/1078503/blog.git&#34;</span>
+<pre><code class="language-shell">#!/bin/bash
+echo &quot;&quot;
+#输出当前时间
+date --date='0 days ago' &quot;+%Y-%m-%d %H:%M:%S&quot;
+echo &quot;Start&quot;
+#判断宝塔WebHook参数是否存在
+if [ ! -n &quot;$1&quot; ];
+then
+          echo &quot;param参数错误&quot;
+          echo &quot;End&quot;
+          exit
+fi
+#git项目路径
+gitPath=&quot;①/www/wwwroot/$1&quot;
+#git 网址
+gitHttp=&quot;②https://github.com/1078503/blog.git&quot;
 
-<span class="nb">echo</span> <span class="s2">&#34;Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
+echo &quot;Web站点路径：$gitPath&quot;
 
-<span class="c1">#判断项目路径是否存在</span>
-<span class="k">if</span> <span class="o">[</span> -d <span class="s2">&#34;</span><span class="nv">$gitPath</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-        <span class="nb">cd</span> <span class="nv">$gitPath</span>
-        <span class="c1">#判断是否存在git目录</span>
-        <span class="k">if</span> <span class="o">[</span> ! -d <span class="s2">&#34;.git&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-                <span class="nb">echo</span> <span class="s2">&#34;在该目录下克隆 git&#34;</span>
-                git clone <span class="nv">$gitHttp</span> gittemp
+#判断项目路径是否存在
+if [ -d &quot;$gitPath&quot; ]; then
+        cd $gitPath
+        #判断是否存在git目录
+        if [ ! -d &quot;.git&quot; ]; then
+                echo &quot;在该目录下克隆 git&quot;
+                git clone $gitHttp gittemp
                 mv gittemp/.git .
                 rm -rf gittemp
-        <span class="k">fi</span>
-        <span class="c1">#拉取最新的项目文件</span>
+        fi
+        #拉取最新的项目文件
         git reset --hard origin/master
         git pull
-        <span class="c1">#设置目录权限</span>
-        chown -R www:www <span class="nv">$gitPath</span>
-        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-        <span class="nb">exit</span>
-<span class="k">else</span>
-        <span class="nb">echo</span> <span class="s2">&#34;该项目路径不存在&#34;</span>
-        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-        <span class="nb">exit</span>
-<span class="k">fi</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
+        #设置目录权限
+        chown -R www:www $gitPath
+        echo &quot;End&quot;
+        exit
+else
+        echo &quot;该项目路径不存在&quot;
+        echo &quot;End&quot;
+        exit
+fi
+</code></pre>
+<p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
 <p><code>②https://github.com/1078503/blog.git</code> ：你的GitHub仓库对应的拉取地址。</p>
 <p><img src="https://img.1078503.org/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
 <p>查看密钥：</p>
@@ -2073,54 +2009,26 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <p>真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别的先不管，拿到IP第一时间看路由：https://tools.ipip.net/traceroute.php 。完成后看最后面的数字，一般在200以内就是很好的了，当然大家一般都是使用美西线路。不放心的话最好本地还是ping一下IP看看。</p>
 <p>以上是为了验证IP在国内是否可用，为下一步继续配置系统做准备。</p>
 <p>终端(比如xshell)连接到服务器运行<code>uname -r</code> 得到当前的系统版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@1078503 ~<span class="o">]</span><span class="c1"># uname -r</span>
+<pre><code class="language-shell">[root@1078503 ~]# uname -r
 3.10.0-957.21.3.el7.x86_64
-<span class="o">[</span>root@1078503 ~<span class="o">]</span># 
-</code></pre></td></tr></table>
-</div>
-</div><p>如果你需要开启并使用BBR加速，就需要升级内核到最新版本；如果你需要使用docker更需要升级。</p>
+[root@1078503 ~]# 
+</code></pre>
+<p>如果你需要开启并使用BBR加速，就需要升级内核到最新版本；如果你需要使用docker更需要升级。</p>
 <p>最新稳定版内核查看地址：https://www.kernel.org/</p>
 <p>如果能一步就安装最新内核并开启 BBR 那最方便了，我先想到<a href="https://teddysun.com/489.html">秋水逸冰</a>大佬的脚本，跑一下看看：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh <span class="o">&amp;&amp;</span> chmod +x bbr.sh <span class="o">&amp;&amp;</span> ./bbr.sh
-</code></pre></td></tr></table>
-</div>
-</div><p>跑完<code>uname -r</code>验证一下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@1078503 ~<span class="o">]</span><span class="c1"># uname -r</span>
+<pre><code class="language-shell">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh
+</code></pre>
+<p>跑完<code>uname -r</code>验证一下：</p>
+<pre><code class="language-shell">[root@1078503 ~]# uname -r
 5.3.1-1.el7.elrepo.x86_64
-<span class="o">[</span>root@1078503 ~<span class="o">]</span># 
-</code></pre></td></tr></table>
-</div>
-</div><p>如果你发现不是最新版本可能需要设置<code>grub2-set-default 0</code>，将升级的内核应用到启动项并重启机器验证。如果大佬的脚本你无法跑起来，可以考虑手动将内核库添加到系统，然后手动安装最新的内核。当然你还需要手动安装BBR加速等，这里只是提供思路，一般centos 7系统是可以完美运行的。</p>
+[root@1078503 ~]# 
+</code></pre>
+<p>如果你发现不是最新版本可能需要设置<code>grub2-set-default 0</code>，将升级的内核应用到启动项并重启机器验证。如果大佬的脚本你无法跑起来，可以考虑手动将内核库添加到系统，然后手动安装最新的内核。当然你还需要手动安装BBR加速等，这里只是提供思路，一般centos 7系统是可以完美运行的。</p>
 <p>有了最新的系统内核和BBR加速，无论你是要搭梯子还是跑博客服务都会很流畅很科学了😁。我经常遇到IP没有被墙但梯子速度很慢或者没什么速度的情况，这时候我每次检查都是系统版本降级了，升级一下内核就又飞起来了（大多数情况是自己瞎折腾后没有检查造成的）。</p>
 <p>当然，有些功能还需要安装最新版内核 headers ：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum --enablerepo<span class="o">=</span>elrepo-kernel -y install kernel-ml-headers
-</code></pre></td></tr></table>
-</div>
-</div><p>记得有朋友问我为什么你自己搭的梯子速度这么快，这一篇内容就是了。最新的系统内核加上BBR加速能不快吗？😄</p>
+<pre><code class="language-shell">yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
+</code></pre>
+<p>记得有朋友问我为什么你自己搭的梯子速度这么快，这一篇内容就是了。最新的系统内核加上BBR加速能不快吗？😄</p>
 <p>如果只是放个博客其实这就无所谓了。不说了，我要去把我的博客搬到这台服务器上面了，保守估计放六个月的费用应该是够了。如果这期间它稳定我就一直放下去，反正便宜。</p>
 <p>不过，当你看到这篇文章的时候我肯定已经搬完了。😁</p>
 <hr>
@@ -2642,26 +2550,14 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 </li>
 <li>
 <p>接下来打开系统<code>命令提示符</code>工具，切换到<code>D:/hugo</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo
-</code></pre></td></tr></table>
-</div>
-</div></li>
+<pre><code class="language-shell">cd D:/hugo
+</code></pre>
+</li>
 <li>
 <p>新建博客</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new site blog
-</code></pre></td></tr></table>
-</div>
-</div></li>
+<pre><code class="language-shell">hugo new site blog
+</code></pre>
+</li>
 <li>
 <p>这样就会产生一个新的文件夹<code>D:/hugo/blog</code>，并且这个目录里面已经生成了静态博客的目录结构。里面有很多新的文件夹和一些文件：</p>
 </li>
@@ -2681,65 +2577,29 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <h4 id="5创建您的第一篇文章或者页面并在本地预览">5.创建您的第一篇文章或者页面并在本地预览</h4>
 <p>注意：以下都需要命令提示符<code>cd D:/hugo/blog</code>下运行命令</p>
 <p><strong>创建文章</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post/di-yi-pian-wen-zhang.md
-</code></pre></td></tr></table>
-</div>
-</div><p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
+<pre><code class="language-shell">hugo new post/di-yi-pian-wen-zhang.md
+</code></pre>
+<p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
 <p><strong>创建页面</strong></p>
 <p>比如创建关于我页面</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new about.md
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>本地预览</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo server
-</code></pre></td></tr></table>
-</div>
-</div><p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
+<pre><code class="language-shell">hugo new about.md
+</code></pre>
+<p><strong>本地预览</strong></p>
+<pre><code class="language-shell">hugo server
+</code></pre>
+<p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
 <p>对了，这个预览命令需要博客的<code>config.yaml</code>文件正确配置了<code>theme</code>等参数。否则您需要在命令中加入一些参数，类似这样：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo server --theme<span class="o">=</span>hugo-theme-zozo --buildDrafts
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="6渲染生成静态文件">6.渲染生成静态文件</h4>
+<pre><code class="language-shell">hugo server --theme=hugo-theme-zozo --buildDrafts
+</code></pre>
+<h4 id="6渲染生成静态文件">6.渲染生成静态文件</h4>
 <p>以上操作并不能直接发布博客到网上，还需要生成静态文件并发布到网络。</p>
 <p><strong>本地生成静态文件</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo
-</code></pre></td></tr></table>
-</div>
-</div><p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo --theme<span class="o">=</span>hugo-theme-zozo --baseUrl<span class="o">=</span><span class="s2">&#34;https://dtz9.net/&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
+<pre><code class="language-shell">hugo
+</code></pre>
+<p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
+<pre><code class="language-shell">hugo --theme=hugo-theme-zozo --baseUrl=&quot;https://dtz9.net/&quot;
+</code></pre>
+<p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
 <h4 id="7托管到github">7.托管到GitHub</h4>
 <p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
 <h4 id="8部署到vps">8.部署到VPS</h4>
@@ -2750,92 +2610,43 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <p>SSH连接到VPS</p>
 <p>在远程主机配置git仓库，因为我使用的centos7自带git所以可以直接使用，如果你的系统没有的话请自行安装。
 比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ~
+<pre><code class="language-shell">cd ~
 git init --bare blog.git
-<span class="nb">cd</span> blog.git
-<span class="nb">cd</span> hooks
+cd blog.git
+cd hooks
 vim post-receive
-</code></pre></td></tr></table>
-</div>
-</div><p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/sh 
-</span><span class="cp"></span><span class="nv">GIT_REPO</span><span class="o">=</span>/root/blog.git
-<span class="nv">TMP_GIT_CLONE</span><span class="o">=</span>/tmp/blog
-<span class="nv">NGINX_HTML</span><span class="o">=</span>/www/wwwroot/dtz9.net
-rm -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>
-git clone <span class="nv">$GIT_REPO</span> <span class="nv">$TMP_GIT_CLONE</span>
-rm -rf <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>/*
-cp -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>/* <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
+</code></pre>
+<p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
+<pre><code class="language-shell">#!/bin/sh 
+GIT_REPO=/root/blog.git
+TMP_GIT_CLONE=/tmp/blog
+NGINX_HTML=/www/wwwroot/dtz9.net
+rm -rf ${TMP_GIT_CLONE}
+git clone $GIT_REPO $TMP_GIT_CLONE
+rm -rf ${NGINX_HTML}/*
+cp -rf ${TMP_GIT_CLONE}/* ${NGINX_HTML}
+</code></pre>
+<p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
 <p>赋予可执行权限</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">chmod +x post-receive
-</code></pre></td></tr></table>
-</div>
-</div><p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo chown root:root /www/wwwroot/dtz9.net
-</code></pre></td></tr></table>
-</div>
-</div><h6 id="这一步到底需不需要我已经忘了请自行尝试">这一步到底需不需要我已经忘了，请自行尝试。</h6>
+<pre><code class="language-shell">chmod +x post-receive
+</code></pre>
+<p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
+<pre><code class="language-shell">sudo chown root:root /www/wwwroot/dtz9.net
+</code></pre>
+<h6 id="这一步到底需不需要我已经忘了请自行尝试">这一步到底需不需要我已经忘了，请自行尝试。</h6>
 <p><strong>Win 10 本地配置仓库并使用</strong></p>
 <p>如果本地系统已经有git可以直接编译下面的命令运行，如果没有请自行安装调试。命令提示符下运行：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo/blog
+<pre><code class="language-shell">cd D:/hugo/blog
 hugo
-<span class="nb">cd</span> public
+cd public
 git init
 git add --all
-git commit -m <span class="s2">&#34;Initial blog repo&#34;</span>
+git commit -m &quot;Initial blog repo&quot;
 git remote add origin root@您的IP:/root/blog.git
 git remote set-url origin ssh://root@您的IP:端口/root/blog.git
 git push origin master
-</code></pre></td></tr></table>
-</div>
-</div><p><code>我是这样使用的，每次本地编辑写好文章并预览检查后，直接运行上面的命令完事儿。</code></p>
+</code></pre>
+<p><code>我是这样使用的，每次本地编辑写好文章并预览检查后，直接运行上面的命令完事儿。</code></p>
 <p>说明：</p>
 <p>第一行    不解释，如果你只是在本地调试修改主题可能会新建一个目录，像这样：<code>D:/hugo/test</code></p>
 <p>第二行    渲染生成最新的静态文件用于推送到服务器</p>
@@ -3043,158 +2854,78 @@ git push origin master
                     <description><![CDATA[<p>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。</p>
 <h2 id="代码高亮">代码高亮</h2>
 <p>就随便找了一个 <a href="https://prismjs.com/">prism.js</a> ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
     ...
-    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;css/prism.css&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="p">/&gt;</span>
-<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    &lt;link href=&quot;css/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
     ...
-    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;js/prism.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>以上就是引用的方法和效果展示🙂。</p>
+    &lt;script src=&quot;js/prism.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>以上就是引用的方法和效果展示🙂。</p>
 <p>页面上需要下面的代码，才会被高亮。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">pre</span><span class="p">&gt;&lt;</span><span class="nt">code</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;language-css&#34;</span><span class="p">&gt;</span>p { color: red }<span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;&lt;/</span><span class="nt">pre</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>markdown编辑器Typora只需要在编辑代码的时候选择语言就没有问题。其它编辑器环境没有测试。</p>
+<pre><code class="language-html">&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;p { color: red }&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+<p>markdown编辑器Typora只需要在编辑代码的时候选择语言就没有问题。其它编辑器环境没有测试。</p>
 <h2 id="vps内存占用过高">VPS内存占用过高</h2>
 <p>最近VPS出现很多次内存占用高的情况，前次通过修改Nginx的配置得以解决，最近一次直接内存超高服务器卡死了。不得不重启后查看内存占用情况，我使用的内存占用查看方法，Xshell连上VPS：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum install htop -y <span class="o">&amp;&amp;</span> htop
-</code></pre></td></tr></table>
-</div>
-</div><p>经过观察是MySQL占用比较高导致的，Google了一下配置方法，做了一些调整并观察了一段时间，基本解决问题。不同的环境配置不一定一样所以这里就不分享配置参数了，有需要的可以Google相关。</p>
+<pre><code class="language-shell">yum install htop -y &amp;&amp; htop
+</code></pre>
+<p>经过观察是MySQL占用比较高导致的，Google了一下配置方法，做了一些调整并观察了一段时间，基本解决问题。不同的环境配置不一定一样所以这里就不分享配置参数了，有需要的可以Google相关。</p>
 <h2 id="制作加载评论按钮">制作加载评论按钮</h2>
 <p>代码高亮也做了，反正是折腾，于是顺便给首页添加一个<code>加载评论</code>按钮。</p>
 <p>半路出家的选手，玩代码水平差的自己都看不下去，制作过程一波三折总是不完美。最后看到底部的友情链接样式于是就直接拿来修改了😭</p>
 <p><code>css</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">anniu</span> <span class="nt">li</span> <span class="p">{</span>
-  <span class="k">float</span><span class="p">:</span> <span class="kc">left</span>
-<span class="p">}</span>
+<pre><code class="language-css">.anniu li {
+  float: left
+}
 
-<span class="p">.</span><span class="nc">anniu</span> <span class="nt">li</span> <span class="nt">a</span> <span class="p">{</span>
-  <span class="k">background</span><span class="p">:</span> <span class="n">SeaGreen</span><span class="p">;</span>
-  <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="n">SeaGreen</span><span class="p">;</span>
-  <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
-  <span class="k">text-align</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
-  <span class="k">margin-left</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">margin-bottom</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">border-radius</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">300</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="p">:</span> <span class="mi">35</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">white-space</span><span class="p">:</span> <span class="kc">nowrap</span><span class="p">;</span>
-  <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span>
-  <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-  <span class="k">font-size</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span>
-<span class="p">}</span>
+.anniu li a {
+  background: SeaGreen;
+  border: 1px solid SeaGreen;
+  display: block;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  padding: 0 4px;
+  border-radius: 2px;
+  width: 300px;
+  color: #fff;
+  line-height: 35px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 14px
+}
 
-<span class="p">.</span><span class="nc">anniu</span> <span class="nt">li</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-  <span class="k">background</span><span class="p">:</span> <span class="n">LightPink</span><span class="p">;</span>
-  <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="n">LightPink</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><code>页面引入</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&#34;0&#34;</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;padding: 12px 13px 10px 0px;list-style-type:none;&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;anniu&#34;</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-                <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}#comment&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;font-family:Microsoft YaHei; serif;&#34;</span><span class="p">&gt;</span>加 载 评 论<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-                <span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
-            <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-          <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
-        <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>仅供参考，不保证任何环境都能完美实现。</p>
+.anniu li a:hover {
+  color: #fff;
+  background: LightPink;
+  border: 1px solid LightPink;
+}
+</code></pre>
+<p><code>页面引入</code></p>
+<pre><code class="language-html">&lt;div align=&quot;center&quot;&gt;
+    &lt;table border=&quot;0&quot; align=&quot;center&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;ul style=&quot;padding: 12px 13px 10px 0px;list-style-type:none;&quot; class=&quot;anniu&quot;&gt;
+            &lt;li&gt;
+                &lt;b&gt;
+                    &lt;a href=&quot;{{ .Permalink }}#comment&quot; style=&quot;font-family:Microsoft YaHei; serif;&quot;&gt;加 载 评 论&lt;/a&gt;
+                &lt;/b&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+</code></pre>
+<p>仅供参考，不保证任何环境都能完美实现。</p>
 <p>本来<code>width</code>准备设置到<code>700px</code>的，想法是越宽越能方便用户点击，发现手机端不合适，于是设置了<code>300px</code>，有问题欢迎报错和交流😏</p>
 <h2 id="调整页脚友情链接样式">调整页脚友情链接样式</h2>
 <p>以上按钮比较满意，那就再顺手把友情链接表格样式一起调整一下，去掉了超链接的下划线，通过修改表格背景和边框颜色实现了无边框😭，没办法，弱鸡只会这么玩哈哈。欢迎交换首页链接，要求必须首页，必须是页脚位置且醒目😏，网站类型原则上不限制，但看我心情🐶。有专用的内页<a href="https://dtz9.net/links/">博客友链</a>，对于首页友链符合要求的可以申请首页友链。最后再说一句，欢迎随便交换友情链接😁</p>
@@ -5819,73 +5550,30 @@ git push origin master
 <p>VuLtr开新机器的内核太旧了…</p>
 <h4 id="升级到最新版第三方内核库">升级到最新版第三方内核库</h4>
 <p>查看内核版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
-</code></pre></td></tr></table>
-</div>
-</div><p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
+<pre><code class="language-shell">uname -sr
+</code></pre>
+<p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
 <p>CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+<pre><code class="language-shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
-</code></pre></td></tr></table>
-</div>
-</div><p>安装最新的主线稳定内核：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum --enablerepo<span class="o">=</span>elrepo-kernel install kernel-ml
-</code></pre></td></tr></table>
-</div>
-</div><p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
-</code></pre></td></tr></table>
-</div>
-</div><p>此时我们第三方内核库的升级操作就完成了。
+</code></pre>
+<p>安装最新的主线稳定内核：</p>
+<pre><code class="language-shell">yum --enablerepo=elrepo-kernel install kernel-ml
+</code></pre>
+<p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
+<pre><code class="language-shell">uname -sr
+</code></pre>
+<p>此时我们第三方内核库的升级操作就完成了。
 为了让新安装的内核成为<strong>默认启动选项</strong>，请修改 GRUB 配置：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">vim /etc/default/grub
-</code></pre></td></tr></table>
-</div>
-</div><p>如果你的系统没有vim编辑器请先安装:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum install vim
-</code></pre></td></tr></table>
-</div>
-</div><p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">grub2-mkconfig -o /boot/grub2/grub.cfg
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
+<pre><code class="language-shell">vim /etc/default/grub
+</code></pre>
+<p>如果你的系统没有vim编辑器请先安装:</p>
+<pre><code class="language-shell">yum install vim
+</code></pre>
+<p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
+<pre><code class="language-shell">grub2-mkconfig -o /boot/grub2/grub.cfg
+</code></pre>
+<p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
 <p>参考：<a href="https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html">https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html</a></p>
 <h4 id="开启bbr">开启BBR</h4>
 <p>参考： <a href="https://teddysun.com/489.html">https://teddysun.com/489.html</a></p>
@@ -5905,102 +5593,48 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 <li>
 <p>打包VPS1网站目录：</p>
 <p>进入网站目录</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/ 
-</code></pre></td></tr></table>
-</div>
-</div><p>打包dtz9.net文件夹为1078503.tar.gz</p>
+<pre><code class="language-shell">cd /www/wwwroot/ 
+</code></pre>
+<p>打包dtz9.net文件夹为1078503.tar.gz</p>
 </li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
-</code></pre></td></tr></table>
-</div>
-</div><ol>
+<pre><code class="language-shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
+</code></pre>
+<ol>
 <li>导出VPS1 Mysql 数据库：</li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
-</code></pre></td></tr></table>
-</div>
-</div><p>用户名是数据库用户名，导出数据库为1078503.sql</p>
+<pre><code class="language-shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
+</code></pre>
+<p>用户名是数据库用户名，导出数据库为1078503.sql</p>
 <p>我在这一步就没有操作成功，后来是面板导出数据库再导入新的数据库才完成。我估计是编译错误，或许就应该直接写成下面这样，供您参考，比如我的数据库名和用户名都是一样的：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
+<pre><code class="language-shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
+</code></pre>
+<p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
 <ol>
 <li>
 <p>VPS2 上wget获取远程文件</p>
 <p>进入网站目录</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/
-</code></pre></td></tr></table>
-</div>
-</div><p>从VPS1上获取文件,下载数据包到VPS2</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.tar.gz 
-</code></pre></td></tr></table>
-</div>
-</div><p>解压1078503.tar.gz</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">tar zxvf 1078503.tar.gz   
-</code></pre></td></tr></table>
-</div>
-</div></li>
+<pre><code class="language-shell">cd /www/wwwroot/
+</code></pre>
+<p>从VPS1上获取文件,下载数据包到VPS2</p>
+<pre><code class="language-shell">wget https://dtz9.net/1078503.tar.gz 
+</code></pre>
+<p>解压1078503.tar.gz</p>
+<pre><code class="language-shell">tar zxvf 1078503.tar.gz   
+</code></pre>
+</li>
 <li>
 <p>VPS2上MySQL数据导入</p>
 </li>
 </ol>
 <p>请先在PHPMyAdmin新建相应数据库和用户（<strong>与原数据库、用户同名</strong>）
 下载数据包到VPS2</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.sql 
-</code></pre></td></tr></table>
-</div>
-</div><p>还原数据库</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
-</code></pre></td></tr></table>
-</div>
-</div><p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
+<pre><code class="language-shell">wget https://dtz9.net/1078503.sql 
+</code></pre>
+<p>还原数据库</p>
+<pre><code class="language-shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
+</code></pre>
+<p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
 <hr>
 <p>以我这种懒人的心性我本以为这就可以了，结果发现远不是想想的那么容易结束的，后来发现了各种不完善的地方。比如我在宝塔面板下放了好几个网站，而且都开启了SSL，最后在熬到早上四点左右才全部解决玩所有已知的问题，因为熬夜头大就没有做记录了。</p>
 <p>但还有一个问题困惑着我：我是用这台机器搭的梯子访问这台机器上的wordpress也就是本站会出现不能连接的问题，另一个wordpress就没有这个问题。</p>

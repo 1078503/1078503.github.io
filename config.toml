@@ -9,7 +9,7 @@ hasCJKLanguage = true
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # 主题选择
-theme = "meme"
+theme = "hugo-theme-minos"
 
 # `hugo new` 新建文章自动打开的文本编辑器
 newContentEditor = ""
@@ -37,7 +37,7 @@ enableGitInfo = false
 enableRobotsTXT = false
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
-paginate = 5
+paginate = 8
 
 # URL 相关
 disablePathToLower = false
@@ -82,7 +82,7 @@ metaDataFormat = "yaml"
             unsafe = true
             xHTML = false
     [markup.highlight]
-        codeFences = true
+        codeFences = false
         guessSyntax = false
         lineNos = true
         lineNumbersInTable = true
@@ -191,25 +191,25 @@ metaDataFormat = "yaml"
     #    pre = "internal"
     #    post = "archive"
     [[menu.main]]
-        url = "/categories/"
+        url = "/categories"
         name = "分类"
         weight = 3
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/tags/"
+        url = "/tags"
         name = "标签"
         weight = 4
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        url = "/about/"
+        url = "/about"
         name = "关于"
         weight = 5
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        url = "/links/"
+        url = "/links"
         name = "友链"
         weight = 6
         pre = "internal"
@@ -228,6 +228,7 @@ metaDataFormat = "yaml"
 
 [params]
     ######################################
+
     # 顶栏
 
     # 是否开启
@@ -236,6 +237,9 @@ metaDataFormat = "yaml"
     # 是否在首页显示
     displayHeaderInHome = true
     # 说明：对弹性布局的顶栏无效
+    
+    # 智能目录
+    smartToc = true
 
     # 背景
     headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
@@ -743,10 +747,8 @@ metaDataFormat = "yaml"
 
     ######################################
     # Markdown 相关
-
     # 在新标签页打开外链？
     hrefTargetBlank = true
-
 
     ######################################
     # 文章目录

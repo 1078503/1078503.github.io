@@ -1,0 +1,61 @@
+baseURL = "https://ditou.org/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "低头族"
+theme = "minos"
+pygmentsCodefences = true
+pygmentsStyle = "pygments"
+hasCJKLanguage = true                # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+enableEmoji = true
+disqusShortname = "hugo-1078503"                 # your disquss shortname
+paginate = 8
+PaginatePath = "page"
+
+# 声明md文件头格式
+metaDataFormat = "yaml"   
+
+[blackfriday]
+  angledQuotes = true
+  hrefTargetBlank = true    # 控制外链通过新的标签打开
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[params]
+  author = "执迷不悟"
+  description = "个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。"
+  contentBackgroundColor = "#fff"
+  contentTextColor = "#212529"
+  contentLinkColor = "#007bff"
+  contentLinkHoverColor = "#0056b3"
+  navbarBackgroundColor = "#2E8B57"
+  navbarLinkColor = "rgba(255, 255, 255, 0.75)"
+  navbarLinkHoverColor = "rgba(255, 255, 255, 1)"
+  wrapperMaxWidth = "800px"
+  customDateFormat = "2006-1-2"
+  customCodeStyle = true
+  customBlockquoteStyle = true
+  showPostSummary = true                             # 文章摘要
+  # googleAnalytics = "UA-141674223-1"                 # google Analytics
+  cookieConsent = false
+  includeBootstrapJs = false                         
+  faviconSafariPinnedTabColor = "#5bbad5"
+  faviconMsApplicationTileColor = "#da532c"
+  faviconThemeColor = "#ffffff"
+  enableGitalk = false                               # Gitalk评论
+
+[menu]
+  [[menu.main]]
+  name = "标签分类"
+  url = "/tags/"
+  weight = 1
+  [[menu.main]]
+  name = "关于本站"
+  url = "/about/"
+  weight = 2
+  [[menu.main]]
+  name = "友情链接"
+  url = "/links"
+  weight = 3    

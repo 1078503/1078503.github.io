@@ -6,9 +6,9 @@ draft: false
 slug:
 tags:
 categories:
-
 toc: false
 autoCollapseToc: true
 math: false
 comment: true
+featuredImage: fuxi.png
 ---

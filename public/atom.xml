@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">低头族</title>
     <subtitle type="html">个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</subtitle>
-    <updated>2020-04-27T22:12:32+08:00</updated>
+    <updated>2020-05-11T01:57:59+08:00</updated>
     <id>https://ditou.org/</id>
     <link rel="alternate" type="text/html" href="https://ditou.org/" />
     <link rel="self" type="application/atom+xml" href="https://ditou.org/atom.xml" />
@@ -29,7 +29,7 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[不知不觉已经2020年4月22日了。 最近还算忙碌充实，虽然收效甚微，好在生活和工作还……]]></summary>
+    <summary type="html"><![CDATA[不知不觉已经2020年4月22日了。 最近还算忙碌充实，虽然收效甚微，好在生活和工作还]]></summary>
             
                 <content type="html"><![CDATA[<p>不知不觉已经2020年4月22日了。</p>
 <p>最近还算忙碌充实，虽然收效甚微，好在生活和工作还算过得去。我估计我个人的这个标准是极低的，大概也就活着就好了。</p>
@@ -94,7 +94,7 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[时隔多日，离上一次更新又过去大半个月了。 都知道这期间国内疫情严重，应该是时间很多才是……]]></summary>
+    <summary type="html"><![CDATA[时隔多日，离上一次更新又过去大半个月了。 都知道这期间国内疫情严重，应该是时间很多才是]]></summary>
             
                 <content type="html"><![CDATA[<p>时隔多日，离上一次更新又过去大半个月了。</p>
 <p>都知道这期间国内疫情严重，应该是时间很多才是，确实是这样。不说偷懒不写博客的问题，说说这些天我都做了些啥吧！</p>
@@ -193,7 +193,7 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[注意，此文是以博客或个人主页为中心来谈的。 有那么几天，完全不想打开我自己搭建的TT-……]]></summary>
+    <summary type="html"><![CDATA[注意，此文是以博客或个人主页为中心来谈的。 有那么几天，完全不想打开我自己搭建的TT-]]></summary>
             
                 <content type="html"><![CDATA[<p>注意，此文是以博客或个人主页为中心来谈的。</p>
 <p>有那么几天，完全不想打开我自己搭建的TT-RSS服务。为什么呢？那么多未读文章，以我的效率永远是看不完的，索性就想看就看不想看就拉倒了。不过，后来想想，人不能懒惰，该获取知识博闻天下的时候还是要去做的。毕竟，整天待在家里什么也不干也不是什么好事情吧！</p>
@@ -269,7 +269,7 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[整理浏览器书签和网址站 精简浏览器书签栏，把一些好的添加进网址站。 目前大部分整理完成，……]]></summary>
+    <summary type="html"><![CDATA[整理浏览器书签和网址站 精简浏览器书签栏，把一些好的添加进网址站。 目前大部分整理完成，]]></summary>
             
                 <content type="html"><![CDATA[<h2 id="整理浏览器书签和网址站">整理浏览器书签和网址站</h2>
 <p>精简浏览器书签栏，把一些好的添加进网址站。</p>
@@ -337,7 +337,7 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。 静态博客发布和管理如果能做到随时随地的……]]></summary>
+    <summary type="html"><![CDATA[起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。 静态博客发布和管理如果能做到随时随地的]]></summary>
             
                 <content type="html"><![CDATA[<p>起因是看见这位博主提到的静态博客管理办法： <a href="https://blog.jxtsai.info/post/hugo-and-forestry/" title="https://blog.jxtsai.info/post/hugo-and-forestry/">https://blog.jxtsai.info/post/hugo-and-forestry/</a> 。</p>
 <p>静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。</p>
@@ -376,39 +376,21 @@
  cd ~
 </code></pre>
 <p>执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Building sites … 
-                   <span class="p">|</span> ZH-CN  
+<pre><code class="language-shell">Building sites … 
+                   | ZH-CN  
 +------------------+-------+
-  Pages            <span class="p">|</span>   385
-  Paginator pages  <span class="p">|</span>    <span class="m">71</span>  
-  Non-page files   <span class="p">|</span>     0
-  Static files     <span class="p">|</span>    80
-  Processed images <span class="p">|</span>     0
-  Aliases          <span class="p">|</span>   148
-  Sitemaps         <span class="p">|</span>     1
-  Cleaned          <span class="p">|</span>     0
+  Pages            |   385
+  Paginator pages  |    71  
+  Non-page files   |     0
+  Static files     |    80
+  Processed images |     0
+  Aliases          |   148
+  Sitemaps         |     1
+  Cleaned          |     0
 
-Total in <span class="m">6202</span> ms
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="总结一下">总结一下</h2>
+Total in 6202 ms
+</code></pre>
+<h2 id="总结一下">总结一下</h2>
 <p>我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。</p>
 <h3 id="优点">优点：</h3>
 <ul>
@@ -490,7 +472,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[今天是2020年2月15日，是与世隔绝的第N天。 昨晚到很晚才有睡意，入眠怕是已经快天……]]></summary>
+    <summary type="html"><![CDATA[今天是2020年2月15日，是与世隔绝的第N天。 昨晚到很晚才有睡意，入眠怕是已经快天]]></summary>
             
                 <content type="html"><![CDATA[<p>今天是2020年2月15日，是与世隔绝的第N天。</p>
 <p>昨晚到很晚才有睡意，入眠怕是已经快天亮了吧。所以，今天睡到了下午快四点才起床，起床的一瞬间有很强的负罪感，就像是自己做错了事情一样的让自己无法接受。起床洗簌吃饭自省，然后就有了一个想法，是不是从明天开始早起锻炼呢？</p>
@@ -542,7 +524,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[明天就是正月十五了，人都快废掉了。这个正月把所有能看不能看的电影电视剧全看了，实在太……]]></summary>
+    <summary type="html"><![CDATA[明天就是正月十五了，人都快废掉了。这个正月把所有能看不能看的电影电视剧全看了，实在太]]></summary>
             
                 <content type="html"><![CDATA[<p>明天就是正月十五了，人都快废掉了。这个正月把所有能看不能看的电影电视剧全看了，实在太无聊了。这几天总想着把浏览器书签整理一下，但我弄来弄去还是觉得很乱，看来这个添加网址到书签的习惯需要改善一下。我总是喜欢把搜索到的一些有用的信息保存起来稍后继续查看研究，可是经常是添加完书签就很久不理它了。这样呢，就会有一个麻烦，那就是浏览器的书签栏被我塞的满满的，往往这时候就会感觉比较凌乱。我不知道我这样算不算强迫症，总喜欢添加，多了又总想着整理，可是无论我怎么整理感觉都是不满意的，看着烦起来想全部干掉的心思都有了。不过，冷静下来其实是舍不得的，每天总要跟书签栏纠结一会儿。</p>
 <p>刚才蹲坑的时候我想了想，认真分析应该是跟我这人找不着北有关。啥叫找不着北呢？就是没有明确的想法和目标，看到这个想了解一下那个也想弄一下，总感觉自己是捡了芝麻丢了西瓜。没有目标的宅在家里就是在浪费生命，跟咸鱼有什么区别？</p>
@@ -599,7 +581,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[今天初几来着？看一眼手机，已经正月十一了，过完正月十五很多人心里怕是该慌了。 为什么呢……]]></summary>
+    <summary type="html"><![CDATA[今天初几来着？看一眼手机，已经正月十一了，过完正月十五很多人心里怕是该慌了。 为什么呢]]></summary>
             
                 <content type="html"><![CDATA[<p>今天初几来着？看一眼手机，已经正月十一了，过完正月十五很多人心里怕是该慌了。</p>
 <p>为什么呢，很简单，今年这个工不好开呀！</p>
@@ -661,7 +643,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[发现离上一次更新已经整整一个月了，罪过罪过！ 年前呢是没有办法，忙碌到失去自我。国人只……]]></summary>
+    <summary type="html"><![CDATA[发现离上一次更新已经整整一个月了，罪过罪过！ 年前呢是没有办法，忙碌到失去自我。国人只]]></summary>
             
                 <content type="html"><![CDATA[<p>发现离上一次更新已经整整一个月了，罪过罪过！</p>
 <p>年前呢是没有办法，忙碌到失去自我。国人只怕都是如此，平日里忙碌也就罢了，但每到年底仿佛更加的忙碌。一年到头，大家总觉得时间不够用，有太多事情需要处理。有些，我觉得其实是不需要处理的，因为那是大家都应该做的。可是，总有一些事一些人做不到，最终，大家都需要花更多的时间去完成这些工作。我说的比较隐晦，但感觉大家似乎都习以为常了，这难道真的应该是这样吗？</p>
@@ -721,7 +703,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[2019年12月31日 23点00分 再过一个小时2019年就过去了，我该如何回顾201……]]></summary>
+    <summary type="html"><![CDATA[2019年12月31日 23点00分 再过一个小时2019年就过去了，我该如何回顾201]]></summary>
             
                 <content type="html"><![CDATA[<p>2019年12月31日 23点00分</p>
 <p>再过一个小时2019年就过去了，我该如何回顾2019年的自己呢？这一年经历了太多的事情。</p>
@@ -779,7 +761,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[我在之前的文章中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，……]]></summary>
+    <summary type="html"><![CDATA[我在之前的文章中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，]]></summary>
             
                 <content type="html"><![CDATA[<p>我在<a href="https://dtz9.net/2019/09/2/">之前的文章</a>中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，早上升起的太阳。活着的意义和希望就是见到明天的太阳。今天有幸看到了马未都老师的视频，主题讲的就是“人生的意义”。重要的是你自己的存在，其它问题或东西其实都不重要。以下是<a href="https://www.youtube.com/watch?v=IcNZqZGdL7c">观看视频</a>做的小记：</p>
 <p>人生的乐趣，它就是你生理上的乐趣（吃喝拉撒）。</p>
@@ -842,7 +824,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[已经忘记了是之前的哪一天，突然想查一查有没有短一点的域名没有被注册的。很不幸真的让我……]]></summary>
+    <summary type="html"><![CDATA[已经忘记了是之前的哪一天，突然想查一查有没有短一点的域名没有被注册的。很不幸真的让我]]></summary>
             
                 <content type="html"><![CDATA[<p>已经忘记了是之前的哪一天，突然想查一查有没有短一点的域名没有被注册的。很不幸真的让我找到一个dtz9，com、net、org均可以注册。本着先下手为强的原则，立即注册到手。</p>
 <p>注册完当时就头疼了，为什么？手里域名越来越多了呗！</p>
@@ -895,7 +877,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[日子如斯，一晃又好多天没有更新了。 在这几天，过完了自己的生日。虽然我从来不过生日，但……]]></summary>
+    <summary type="html"><![CDATA[日子如斯，一晃又好多天没有更新了。 在这几天，过完了自己的生日。虽然我从来不过生日，但]]></summary>
             
                 <content type="html"><![CDATA[<p>日子如斯，一晃又好多天没有更新了。</p>
 <p>在这几天，过完了自己的生日。虽然我从来不过生日，但我妈在某一天下午还是给我打电话，让我早点下班回家，直到晚饭的时候我才知道那一天是自己的农历生日。不过，并没有其它的人记得我的生日，这实在是太可悲了。</p>
@@ -961,7 +943,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[可能大家已经注意到了，我的博客换主题了。 为什么换？之前的主题不好吗？不能说之前的不好……]]></summary>
+    <summary type="html"><![CDATA[可能大家已经注意到了，我的博客换主题了。 为什么换？之前的主题不好吗？不能说之前的不好]]></summary>
             
                 <content type="html"><![CDATA[<p>可能大家已经注意到了，我的博客换主题了。</p>
 <p>为什么换？之前的主题不好吗？不能说之前的不好，只是还不够完美，总觉得这里不合适哪里不舒服。本来打算继续折腾之前的主题，但仔细想了想，与其乱改，不如拿现成的优秀主题使用。毕竟自己不是专业人士，也没有那么多时间去研究网页设计。时间不充裕，加上我觉得更应该把有限的时间花在该做的事情上面，比如看自己喜欢的视频以及玩更多新奇的东西。这也就是我为什么换到这个主题的原因。</p>
@@ -1018,7 +1000,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[别的先不说，大胆的欣赏吧！😏大胆的意淫吧！意淫无罪😄。 本人，性别男，爱好女。祸害姑娘……]]></summary>
+    <summary type="html"><![CDATA[别的先不说，大胆的欣赏吧！😏大胆的意淫吧！意淫无罪😄。 本人，性别男，爱好女。祸害姑娘]]></summary>
             
                 <content type="html"><![CDATA[<p>别的先不说，大胆的欣赏吧！😏大胆的意淫吧！意淫无罪😄。</p>
 <p><img src="https://img.1078503.org/imgs/2019/12/05e751a24ff5e815.png" alt=""></p>
@@ -1078,7 +1060,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[今天可能是入冬以来最冷的一天了，这一天可把我冻坏了。 早上出门的时候已经预见到今天白天……]]></summary>
+    <summary type="html"><![CDATA[今天可能是入冬以来最冷的一天了，这一天可把我冻坏了。 早上出门的时候已经预见到今天白天]]></summary>
             
                 <content type="html"><![CDATA[<p>今天可能是入冬以来最冷的一天了，这一天可把我冻坏了。</p>
 <p>早上出门的时候已经预见到今天白天气温不会升高，所以，终于是拿出了柜子里面的羊毛衫穿上了。但，工作的时候还是难受，冷！很冷！手脚冰凉的那种感觉。中间一度想找个取暖器还是啥的取取暖，周围逛了一圈发现他们都还没来得及用起来，看样子这个冬天来的确实是太快了。上周依稀记得白天干活的时候我都还是穿T恤的，然而这周就已经羊毛衫加棉袄了。</p>
@@ -1135,7 +1117,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[我不要168，给我68万我这辈子就是你的了🙂。当然，仅限女性😎。 近日，日本和牛拍出天……]]></summary>
+    <summary type="html"><![CDATA[我不要168，给我68万我这辈子就是你的了🙂。当然，仅限女性😎。 近日，日本和牛拍出天]]></summary>
             
                 <content type="html"><![CDATA[<p>我不要168，给我68万我这辈子就是你的了🙂。当然，仅限女性😎。</p>
 <p>近日，日本和牛拍出天价合168万人民币！什么和牛以前只是听说过，还是在影视剧里面，尝这辈子肯定是很难了。不过看网上的介绍可以想象是何等的口感啊，但即便口感再好难道还能长生不老不成？卖这么贵！网上说这头牛重678公斤，我算一下啊，合每斤1239元差不多。那么，每一两是不是124元？一斤是十两吧？读书少记不清了。这么算下来其实也还好是吧，偶尔奢侈一下还是可以的，但这是没有加工的食材！经高级厨师之手做好端到我面前只怕是也不便宜了😭。</p>
@@ -1194,7 +1176,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[2019年11月24日 今天周日，昨天看天气预报就知道今天有雨。 但我没想到今天的温度居……]]></summary>
+    <summary type="html"><![CDATA[2019年11月24日 今天周日，昨天看天气预报就知道今天有雨。 但我没想到今天的温度居]]></summary>
             
                 <content type="html"><![CDATA[<p>2019年11月24日 今天周日，昨天看天气预报就知道今天有雨。</p>
 <p>但我没想到今天的温度居然会这么低，因为昨日还有太阳出没，中午的时候我还只需要穿一件单衣就可以工作。今早开始下雨，因此早上完全不想起床，于是赖床到上午11点。隔壁的一家人因为需要搬家的缘故一早就通知今天上午杀猪，等我起床的时候他们都忙完了哈哈。</p>
@@ -1253,7 +1235,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[昨晚发了个关于静态博客客户端Gridea同步到VPS服务器提供访问的操作过程，里面有……]]></summary>
+    <summary type="html"><![CDATA[昨晚发了个关于静态博客客户端Gridea同步到VPS服务器提供访问的操作过程，里面有]]></summary>
             
                 <content type="html"><![CDATA[<p>昨晚发了个关于静态博客客户端Gridea同步到VPS服务器提供访问的操作过程，里面有很多截图说明。但是呢，唯独缺少日常可见的美女诱惑😁。不如今天来补上？</p>
 <p>看标题也知道今天多少要写一点其它内容的，那么，先从一些图片开始吧！（发图发上瘾了，没办法。）</p>
@@ -1323,7 +1305,7 @@ Total in <span class="m">6202</span> ms
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[今天博友云中君反馈，说他的博客又抽风了。 原因是他将静态博客托管在coding上面，可……]]></summary>
+    <summary type="html"><![CDATA[今天博友云中君反馈，说他的博客又抽风了。 原因是他将静态博客托管在coding上面，可]]></summary>
             
                 <content type="html"><![CDATA[<p>今天博友<a href="https://blog.shanbu.fun/">云中君</a>反馈，说他的博客又抽风了。</p>
 <p>原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。</p>
@@ -1348,95 +1330,49 @@ Total in <span class="m">6202</span> ms
 <p>编辑该条目的shell命令并保存：</p>
 <p><img src="https://img.1078503.org/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
 <p>命令内容参考：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
-</span><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;&#34;</span>
-<span class="c1">#输出当前时间</span>
-date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> <span class="s2">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
-<span class="nb">echo</span> <span class="s2">&#34;Start&#34;</span>
-<span class="c1">#判断宝塔WebHook参数是否存在</span>
-<span class="k">if</span> <span class="o">[</span> ! -n <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span>
-<span class="k">then</span>
-          <span class="nb">echo</span> <span class="s2">&#34;param参数错误&#34;</span>
-          <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-          <span class="nb">exit</span>
-<span class="k">fi</span>
-<span class="c1">#git项目路径</span>
-<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
-<span class="c1">#git 网址</span>
-<span class="nv">gitHttp</span><span class="o">=</span><span class="s2">&#34;②https://github.com/1078503/blog.git&#34;</span>
+<pre><code class="language-shell">#!/bin/bash
+echo &quot;&quot;
+#输出当前时间
+date --date='0 days ago' &quot;+%Y-%m-%d %H:%M:%S&quot;
+echo &quot;Start&quot;
+#判断宝塔WebHook参数是否存在
+if [ ! -n &quot;$1&quot; ];
+then
+          echo &quot;param参数错误&quot;
+          echo &quot;End&quot;
+          exit
+fi
+#git项目路径
+gitPath=&quot;①/www/wwwroot/$1&quot;
+#git 网址
+gitHttp=&quot;②https://github.com/1078503/blog.git&quot;
 
-<span class="nb">echo</span> <span class="s2">&#34;Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
+echo &quot;Web站点路径：$gitPath&quot;
 
-<span class="c1">#判断项目路径是否存在</span>
-<span class="k">if</span> <span class="o">[</span> -d <span class="s2">&#34;</span><span class="nv">$gitPath</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-        <span class="nb">cd</span> <span class="nv">$gitPath</span>
-        <span class="c1">#判断是否存在git目录</span>
-        <span class="k">if</span> <span class="o">[</span> ! -d <span class="s2">&#34;.git&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
-                <span class="nb">echo</span> <span class="s2">&#34;在该目录下克隆 git&#34;</span>
-                git clone <span class="nv">$gitHttp</span> gittemp
+#判断项目路径是否存在
+if [ -d &quot;$gitPath&quot; ]; then
+        cd $gitPath
+        #判断是否存在git目录
+        if [ ! -d &quot;.git&quot; ]; then
+                echo &quot;在该目录下克隆 git&quot;
+                git clone $gitHttp gittemp
                 mv gittemp/.git .
                 rm -rf gittemp
-        <span class="k">fi</span>
-        <span class="c1">#拉取最新的项目文件</span>
+        fi
+        #拉取最新的项目文件
         git reset --hard origin/master
         git pull
-        <span class="c1">#设置目录权限</span>
-        chown -R www:www <span class="nv">$gitPath</span>
-        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-        <span class="nb">exit</span>
-<span class="k">else</span>
-        <span class="nb">echo</span> <span class="s2">&#34;该项目路径不存在&#34;</span>
-        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
-        <span class="nb">exit</span>
-<span class="k">fi</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
+        #设置目录权限
+        chown -R www:www $gitPath
+        echo &quot;End&quot;
+        exit
+else
+        echo &quot;该项目路径不存在&quot;
+        echo &quot;End&quot;
+        exit
+fi
+</code></pre>
+<p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
 <p><code>②https://github.com/1078503/blog.git</code> ：你的GitHub仓库对应的拉取地址。</p>
 <p><img src="https://img.1078503.org/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
 <p>查看密钥：</p>
@@ -1543,7 +1479,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[感觉好久没有打开过编辑器写东西了。 关心我的朋友可能应该知道前段时间我的生活状态很不好……]]></summary>
+    <summary type="html"><![CDATA[感觉好久没有打开过编辑器写东西了。 关心我的朋友可能应该知道前段时间我的生活状态很不好]]></summary>
             
                 <content type="html"><![CDATA[<p>感觉好久没有打开过编辑器写东西了。</p>
 <p>关心我的朋友可能应该知道前段时间我的生活状态很不好，基本都是白天睡觉晚上工作。有博友评论区留言说羡慕我晚上做事的方式，其实我个人是不喜欢晚上工作的。太累！</p>
@@ -1603,7 +1539,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[11月11日，其实对我来说应该是光棍节才对。毕竟如果作为购物节的话想想都觉得没意思🐷……]]></summary>
+    <summary type="html"><![CDATA[11月11日，其实对我来说应该是光棍节才对。毕竟如果作为购物节的话想想都觉得没意思🐷]]></summary>
             
                 <content type="html"><![CDATA[<p>11月11日，其实对我来说应该是光棍节才对。毕竟如果作为购物节的话想想都觉得没意思🐷。</p>
 <p>作为一只大龄单身狗来说买了也不能改变什么，是吧？</p>
@@ -1662,7 +1598,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[最近都是白天睡觉晚上干活，天亮之前回家。 今晚呢，回家比较早。两点半就从做事的地方动身……]]></summary>
+    <summary type="html"><![CDATA[最近都是白天睡觉晚上干活，天亮之前回家。 今晚呢，回家比较早。两点半就从做事的地方动身]]></summary>
             
                 <content type="html"><![CDATA[<p>最近都是白天睡觉晚上干活，天亮之前回家。</p>
 <p>今晚呢，回家比较早。两点半就从做事的地方动身了，差不多三点十几分到家。</p>
@@ -1715,7 +1651,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[导演：潘文杰 编剧：麦当雄 / 萧若元 主演：吕良伟 / 郑则仕 / 徐锦江 / 刘嘉玲 / 叶童 / 郭亮 / 沈……]]></summary>
+    <summary type="html"><![CDATA[导演：潘文杰 编剧：麦当雄 / 萧若元 主演：吕良伟 / 郑则仕 / 徐锦江 / 刘嘉玲 / 叶童 / 郭亮 / 沈]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/10/428fd1c2605eaea1.png" alt=""></p>
 <p>导演：潘文杰</p>
@@ -1784,7 +1720,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单……]]></summary>
+    <summary type="html"><![CDATA[HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单]]></summary>
             
                 <content type="html"><![CDATA[<p>HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单独计算。可以购买流量包按需使用，对于个人用户来说大大节省了使用成本。</p>
 <p>官网：<a href="https://www.hostmem.com/?ref=1078503">https://www.hostmem.com</a></p>
@@ -1852,7 +1788,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[有一条新闻是这样的，说力帆实业（集团）股份有限公司成立债委会，债委会成立的背后，是力……]]></summary>
+    <summary type="html"><![CDATA[有一条新闻是这样的，说力帆实业（集团）股份有限公司成立债委会，债委会成立的背后，是力]]></summary>
             
                 <content type="html"><![CDATA[<p>有一条新闻是这样的，说力帆实业（集团）股份有限公司成立债委会，债委会成立的背后，是力帆汽车惨淡的销量，以及高筑的债台。来源：<a href="https://www.thepaper.cn/newsDetail_forward_4733636">澎湃新闻</a></p>
 <p>为什么会这样？过去很多国产汽车品牌被寄予厚望，国人寄希望于汽车行业能够带领中国走向世界走向辉煌。汽车工业可以说是中国制造的开端，这才多少年就玩不下去了？联想到今年的几家国产汽车制造商纷纷爆出危机，不免让人心生失望。</p>
@@ -1915,7 +1851,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[俄罗斯便宜VPS最低5元支持微信付款 在大鸟博客看到他分享这家便宜VPS，然后又不淡定……]]></summary>
+    <summary type="html"><![CDATA[俄罗斯便宜VPS最低5元支持微信付款 在大鸟博客看到他分享这家便宜VPS，然后又不淡定]]></summary>
             
                 <content type="html"><![CDATA[<p>俄罗斯便宜VPS最低5元支持微信付款</p>
 <p>在大鸟博客看到他分享这家便宜VPS，然后又不淡定了，想弄一个玩玩...</p>
@@ -1984,7 +1920,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[导演: 赵小溪 编剧: 李海江 主演: 王大治 / 郭金杰 / 葛晓凤 / 苏丽 / 罗京民 ... 类型: 喜剧 / 战争……]]></summary>
+    <summary type="html"><![CDATA[导演: 赵小溪 编剧: 李海江 主演: 王大治 / 郭金杰 / 葛晓凤 / 苏丽 / 罗京民 ... 类型: 喜剧 / 战争]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/10/d4e82d91fc683b6a.jpg" alt=""></p>
 <p>导演: 赵小溪</p>
@@ -2059,7 +1995,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[ImgURL是一个简单、纯粹的图床程序，让个人图床多一个选择。使用PHP + SQLite 3开发。……]]></summary>
+    <summary type="html"><![CDATA[ImgURL是一个简单、纯粹的图床程序，让个人图床多一个选择。使用PHP + SQLite 3开发。]]></summary>
             
                 <content type="html"><![CDATA[<p>ImgURL是一个简单、纯粹的图床程序，让个人图床多一个选择。使用PHP + SQLite 3开发。</p>
 <p><img src="https://camo.githubusercontent.com/ce792f4877c934249ad39cdd93115463ec7f0a24/68747470733a2f2f692e626d702e6f76682f696d67732f323031382f31322f303663663061633362373632356236622e706e67" alt=""></p>
@@ -2147,7 +2083,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[我要的不多，每天都能安稳，心情平静即可。 可是，总会遇到一些人一些事儿，让你很无语很糟……]]></summary>
+    <summary type="html"><![CDATA[我要的不多，每天都能安稳，心情平静即可。 可是，总会遇到一些人一些事儿，让你很无语很糟]]></summary>
             
                 <content type="html"><![CDATA[<p>我要的不多，每天都能安稳，心情平静即可。</p>
 <p>可是，总会遇到一些人一些事儿，让你很无语很糟心。</p>
@@ -2209,61 +2145,33 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[今天需要为博客换一个服务器，原因是vultr的余额即将耗尽。 虽然vultr的服务一直……]]></summary>
+    <summary type="html"><![CDATA[今天需要为博客换一个服务器，原因是vultr的余额即将耗尽。 虽然vultr的服务一直]]></summary>
             
                 <content type="html"><![CDATA[<p>今天需要为博客换一个服务器，原因是<a href="https://www.vultr.com/?ref=7997010">vultr</a>的余额即将耗尽。</p>
 <p>虽然<a href="https://www.vultr.com/?ref=7997010">vultr</a>的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。</p>
 <p>真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别的先不管，拿到IP第一时间看路由：https://tools.ipip.net/traceroute.php 。完成后看最后面的数字，一般在200以内就是很好的了，当然大家一般都是使用美西线路。不放心的话最好本地还是ping一下IP看看。</p>
 <p>以上是为了验证IP在国内是否可用，为下一步继续配置系统做准备。</p>
 <p>终端(比如xshell)连接到服务器运行<code>uname -r</code> 得到当前的系统版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@1078503 ~<span class="o">]</span><span class="c1"># uname -r</span>
+<pre><code class="language-shell">[root@1078503 ~]# uname -r
 3.10.0-957.21.3.el7.x86_64
-<span class="o">[</span>root@1078503 ~<span class="o">]</span># 
-</code></pre></td></tr></table>
-</div>
-</div><p>如果你需要开启并使用BBR加速，就需要升级内核到最新版本；如果你需要使用docker更需要升级。</p>
+[root@1078503 ~]# 
+</code></pre>
+<p>如果你需要开启并使用BBR加速，就需要升级内核到最新版本；如果你需要使用docker更需要升级。</p>
 <p>最新稳定版内核查看地址：https://www.kernel.org/</p>
 <p>如果能一步就安装最新内核并开启 BBR 那最方便了，我先想到<a href="https://teddysun.com/489.html">秋水逸冰</a>大佬的脚本，跑一下看看：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh <span class="o">&amp;&amp;</span> chmod +x bbr.sh <span class="o">&amp;&amp;</span> ./bbr.sh
-</code></pre></td></tr></table>
-</div>
-</div><p>跑完<code>uname -r</code>验证一下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>root@1078503 ~<span class="o">]</span><span class="c1"># uname -r</span>
+<pre><code class="language-shell">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh
+</code></pre>
+<p>跑完<code>uname -r</code>验证一下：</p>
+<pre><code class="language-shell">[root@1078503 ~]# uname -r
 5.3.1-1.el7.elrepo.x86_64
-<span class="o">[</span>root@1078503 ~<span class="o">]</span># 
-</code></pre></td></tr></table>
-</div>
-</div><p>如果你发现不是最新版本可能需要设置<code>grub2-set-default 0</code>，将升级的内核应用到启动项并重启机器验证。如果大佬的脚本你无法跑起来，可以考虑手动将内核库添加到系统，然后手动安装最新的内核。当然你还需要手动安装BBR加速等，这里只是提供思路，一般centos 7系统是可以完美运行的。</p>
+[root@1078503 ~]# 
+</code></pre>
+<p>如果你发现不是最新版本可能需要设置<code>grub2-set-default 0</code>，将升级的内核应用到启动项并重启机器验证。如果大佬的脚本你无法跑起来，可以考虑手动将内核库添加到系统，然后手动安装最新的内核。当然你还需要手动安装BBR加速等，这里只是提供思路，一般centos 7系统是可以完美运行的。</p>
 <p>有了最新的系统内核和BBR加速，无论你是要搭梯子还是跑博客服务都会很流畅很科学了😁。我经常遇到IP没有被墙但梯子速度很慢或者没什么速度的情况，这时候我每次检查都是系统版本降级了，升级一下内核就又飞起来了（大多数情况是自己瞎折腾后没有检查造成的）。</p>
 <p>当然，有些功能还需要安装最新版内核 headers ：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum --enablerepo<span class="o">=</span>elrepo-kernel -y install kernel-ml-headers
-</code></pre></td></tr></table>
-</div>
-</div><p>记得有朋友问我为什么你自己搭的梯子速度这么快，这一篇内容就是了。最新的系统内核加上BBR加速能不快吗？😄</p>
+<pre><code class="language-shell">yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
+</code></pre>
+<p>记得有朋友问我为什么你自己搭的梯子速度这么快，这一篇内容就是了。最新的系统内核加上BBR加速能不快吗？😄</p>
 <p>如果只是放个博客其实这就无所谓了。不说了，我要去把我的博客搬到这台服务器上面了，保守估计放六个月的费用应该是够了。如果这期间它稳定我就一直放下去，反正便宜。</p>
 <p>不过，当你看到这篇文章的时候我肯定已经搬完了。😁</p>
 <hr>
@@ -2319,7 +2227,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[真是傻人有傻福。 我感觉就是自己抱怨了几句，昨晚回到家就发现Google正常收录了我的……]]></summary>
+    <summary type="html"><![CDATA[真是傻人有傻福。 我感觉就是自己抱怨了几句，昨晚回到家就发现Google正常收录了我的]]></summary>
             
                 <content type="html"><![CDATA[<p>真是傻人有傻福。</p>
 <p>我感觉就是自己抱怨了几句，昨晚回到家就发现Google正常收录了我的文章，今天发现主页收录也更新了。看来，搜索引擎也怕我水文章？哈哈。也算是最近一个月以来心里稍微能安心一点的时刻了，至少，已经在慢慢好转了。</p>
@@ -2373,7 +2281,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[前几天提到Google对本博客的收录现在变的很不积极。 这种状况持续到今日确实打击了本……]]></summary>
+    <summary type="html"><![CDATA[前几天提到Google对本博客的收录现在变的很不积极。 这种状况持续到今日确实打击了本]]></summary>
             
                 <content type="html"><![CDATA[<p>前几天提到Google对本博客的收录现在变的很不积极。</p>
 <p>这种状况持续到今日确实打击了本人更新的动力，众所周知写博客还是希望能够获得搜索引擎的认可的。当然，这跟博客内容有很大的关系。看着本来就少的浏览量突然变成每天只有几个ip的友情博友的访问，着实心里着急。</p>
@@ -2426,7 +2334,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[最近看视频，发现这台车重只有几百公斤可以合法上路的赛道车蛮有意思的。 到底几百公斤呢？……]]></summary>
+    <summary type="html"><![CDATA[最近看视频，发现这台车重只有几百公斤可以合法上路的赛道车蛮有意思的。 到底几百公斤呢？]]></summary>
             
                 <content type="html"><![CDATA[<p>最近看视频，发现这台车重只有几百公斤可以合法上路的赛道车蛮有意思的。</p>
 <p>到底几百公斤呢？lotus 7 时代三百多公斤，现在嘛，五百多公斤？没见过真车，更没碰过，光看网上的数据根本不准确吧。不过，现在它叫 Caterham 7。</p>
@@ -2505,7 +2413,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[最近Google对本博客的收录不怎么好。 最近的几次频繁改版肯定对收录的影响很大，加上……]]></summary>
+    <summary type="html"><![CDATA[最近Google对本博客的收录不怎么好。 最近的几次频繁改版肯定对收录的影响很大，加上]]></summary>
             
                 <content type="html"><![CDATA[<p>最近Google对本博客的收录不怎么好。</p>
 <p>最近的几次频繁改版肯定对收录的影响很大，加上将网址结构彻底改变了，这些都是对搜索引擎来说不太友好的行为。</p>
@@ -2572,7 +2480,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[看到一条新闻，说安倍晋三宣布日本3-5岁的保育园、幼儿园所有费用全部免费。 初中毕业以……]]></summary>
+    <summary type="html"><![CDATA[看到一条新闻，说安倍晋三宣布日本3-5岁的保育园、幼儿园所有费用全部免费。 初中毕业以]]></summary>
             
                 <content type="html"><![CDATA[<p>看到一条新闻，说安倍晋三宣布日本3-5岁的保育园、幼儿园所有费用全部免费。</p>
 <p>初中毕业以前，学费全免、看病全免、每个月政府还给每个孩子发相当于1千多元人民币的“儿童工资”。</p>
@@ -2636,7 +2544,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[这个月已经过去一周了，也没有更新博客，真的快长草了吧？哈哈 这一周忙忙碌碌，各种狗血，……]]></summary>
+    <summary type="html"><![CDATA[这个月已经过去一周了，也没有更新博客，真的快长草了吧？哈哈 这一周忙忙碌碌，各种狗血，]]></summary>
             
                 <content type="html"><![CDATA[<p>这个月已经过去一周了，也没有更新博客，真的快长草了吧？哈哈</p>
 <p>这一周忙忙碌碌，各种狗血，但总的来说是有进步的。这种进步是不是可持续的还有待验证，总归是有一些变化的。这种变化是好事情，过于陈旧的工作环境和方式确实很能消磨人的意志。</p>
@@ -2694,7 +2602,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[最近着实忙碌，事情倒也不算多，但感觉累。 不过呢，忙过这段时间应该就好了，因为稳定的工……]]></summary>
+    <summary type="html"><![CDATA[最近着实忙碌，事情倒也不算多，但感觉累。 不过呢，忙过这段时间应该就好了，因为稳定的工]]></summary>
             
                 <content type="html"><![CDATA[<p>最近着实忙碌，事情倒也不算多，但感觉累。</p>
 <p>不过呢，忙过这段时间应该就好了，因为稳定的工作和时间安排确实能给我带来安全感。这段时间因为调整因为店面装修没日没夜的...</p>
@@ -2771,7 +2679,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[是时候聊聊关于Hugo，关于静态博客的一些使用心得了。 静态博客生成器有很多，但最终我……]]></summary>
+    <summary type="html"><![CDATA[是时候聊聊关于Hugo，关于静态博客的一些使用心得了。 静态博客生成器有很多，但最终我]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/08/725d64661fed5a08.jpg" alt=""></p>
 <p>是时候聊聊关于Hugo，关于静态博客的一些使用心得了。</p>
@@ -2825,26 +2733,14 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 </li>
 <li>
 <p>接下来打开系统<code>命令提示符</code>工具，切换到<code>D:/hugo</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo
-</code></pre></td></tr></table>
-</div>
-</div></li>
+<pre><code class="language-shell">cd D:/hugo
+</code></pre>
+</li>
 <li>
 <p>新建博客</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new site blog
-</code></pre></td></tr></table>
-</div>
-</div></li>
+<pre><code class="language-shell">hugo new site blog
+</code></pre>
+</li>
 <li>
 <p>这样就会产生一个新的文件夹<code>D:/hugo/blog</code>，并且这个目录里面已经生成了静态博客的目录结构。里面有很多新的文件夹和一些文件：</p>
 </li>
@@ -2864,65 +2760,29 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <h4 id="5创建您的第一篇文章或者页面并在本地预览">5.创建您的第一篇文章或者页面并在本地预览</h4>
 <p>注意：以下都需要命令提示符<code>cd D:/hugo/blog</code>下运行命令</p>
 <p><strong>创建文章</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new post/di-yi-pian-wen-zhang.md
-</code></pre></td></tr></table>
-</div>
-</div><p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
+<pre><code class="language-shell">hugo new post/di-yi-pian-wen-zhang.md
+</code></pre>
+<p>这个命令生成的文件在<code>content/post/</code>文件夹，使用markdown编辑器比如Typora打开会看到文件已经包含了一个头部yaml信息，有关配置写法请自行参阅官方文档或者搜索相关信息。接下来就可以边写文章边排版了。</p>
 <p><strong>创建页面</strong></p>
 <p>比如创建关于我页面</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new about.md
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>本地预览</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo server
-</code></pre></td></tr></table>
-</div>
-</div><p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
+<pre><code class="language-shell">hugo new about.md
+</code></pre>
+<p><strong>本地预览</strong></p>
+<pre><code class="language-shell">hugo server
+</code></pre>
+<p>提示会有一个类似于这样的地址：<code>http://localhost:1313/</code>，如果你的1313端口没被占用的话就是这样的地址。复制到浏览器打开就可以看到博客在本地的样子了。</p>
 <p>对了，这个预览命令需要博客的<code>config.yaml</code>文件正确配置了<code>theme</code>等参数。否则您需要在命令中加入一些参数，类似这样：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo server --theme<span class="o">=</span>hugo-theme-zozo --buildDrafts
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="6渲染生成静态文件">6.渲染生成静态文件</h4>
+<pre><code class="language-shell">hugo server --theme=hugo-theme-zozo --buildDrafts
+</code></pre>
+<h4 id="6渲染生成静态文件">6.渲染生成静态文件</h4>
 <p>以上操作并不能直接发布博客到网上，还需要生成静态文件并发布到网络。</p>
 <p><strong>本地生成静态文件</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo
-</code></pre></td></tr></table>
-</div>
-</div><p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">hugo --theme<span class="o">=</span>hugo-theme-zozo --baseUrl<span class="o">=</span><span class="s2">&#34;https://dtz9.net/&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
+<pre><code class="language-shell">hugo
+</code></pre>
+<p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
+<pre><code class="language-shell">hugo --theme=hugo-theme-zozo --baseUrl=&quot;https://dtz9.net/&quot;
+</code></pre>
+<p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
 <h4 id="7托管到github">7.托管到GitHub</h4>
 <p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
 <h4 id="8部署到vps">8.部署到VPS</h4>
@@ -2933,92 +2793,43 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
 <p>SSH连接到VPS</p>
 <p>在远程主机配置git仓库，因为我使用的centos7自带git所以可以直接使用，如果你的系统没有的话请自行安装。
 比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ~
+<pre><code class="language-shell">cd ~
 git init --bare blog.git
-<span class="nb">cd</span> blog.git
-<span class="nb">cd</span> hooks
+cd blog.git
+cd hooks
 vim post-receive
-</code></pre></td></tr></table>
-</div>
-</div><p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/sh 
-</span><span class="cp"></span><span class="nv">GIT_REPO</span><span class="o">=</span>/root/blog.git
-<span class="nv">TMP_GIT_CLONE</span><span class="o">=</span>/tmp/blog
-<span class="nv">NGINX_HTML</span><span class="o">=</span>/www/wwwroot/dtz9.net
-rm -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>
-git clone <span class="nv">$GIT_REPO</span> <span class="nv">$TMP_GIT_CLONE</span>
-rm -rf <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>/*
-cp -rf <span class="si">${</span><span class="nv">TMP_GIT_CLONE</span><span class="si">}</span>/* <span class="si">${</span><span class="nv">NGINX_HTML</span><span class="si">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
+</code></pre>
+<p>vim是编辑器，你可以替换你习惯使用的编辑器将这段配置编译修改好后替换进去：</p>
+<pre><code class="language-shell">#!/bin/sh 
+GIT_REPO=/root/blog.git
+TMP_GIT_CLONE=/tmp/blog
+NGINX_HTML=/www/wwwroot/dtz9.net
+rm -rf ${TMP_GIT_CLONE}
+git clone $GIT_REPO $TMP_GIT_CLONE
+rm -rf ${NGINX_HTML}/*
+cp -rf ${TMP_GIT_CLONE}/* ${NGINX_HTML}
+</code></pre>
+<p>以上<code>/www/wwwroot/dtz9.net</code>是我的博客根目录，你需要修改成您自己的Nginx配置文件对应的目录。</p>
 <p>赋予可执行权限</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">chmod +x post-receive
-</code></pre></td></tr></table>
-</div>
-</div><p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sudo chown root:root /www/wwwroot/dtz9.net
-</code></pre></td></tr></table>
-</div>
-</div><h6 id="这一步到底需不需要我已经忘了请自行尝试">这一步到底需不需要我已经忘了，请自行尝试。</h6>
+<pre><code class="language-shell">chmod +x post-receive
+</code></pre>
+<p>每当blog仓库有push更新，Git钩子可以自动将更新拷贝到网站目录中去，使网站内容更新。我们还需要修改网站文件夹<code>/www/wwwroot/dtz9.net</code>的所有权为我所拥有</p>
+<pre><code class="language-shell">sudo chown root:root /www/wwwroot/dtz9.net
+</code></pre>
+<h6 id="这一步到底需不需要我已经忘了请自行尝试">这一步到底需不需要我已经忘了，请自行尝试。</h6>
 <p><strong>Win 10 本地配置仓库并使用</strong></p>
 <p>如果本地系统已经有git可以直接编译下面的命令运行，如果没有请自行安装调试。命令提示符下运行：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> D:/hugo/blog
+<pre><code class="language-shell">cd D:/hugo/blog
 hugo
-<span class="nb">cd</span> public
+cd public
 git init
 git add --all
-git commit -m <span class="s2">&#34;Initial blog repo&#34;</span>
+git commit -m &quot;Initial blog repo&quot;
 git remote add origin root@您的IP:/root/blog.git
 git remote set-url origin ssh://root@您的IP:端口/root/blog.git
 git push origin master
-</code></pre></td></tr></table>
-</div>
-</div><p><code>我是这样使用的，每次本地编辑写好文章并预览检查后，直接运行上面的命令完事儿。</code></p>
+</code></pre>
+<p><code>我是这样使用的，每次本地编辑写好文章并预览检查后，直接运行上面的命令完事儿。</code></p>
 <p>说明：</p>
 <p>第一行    不解释，如果你只是在本地调试修改主题可能会新建一个目录，像这样：<code>D:/hugo/test</code></p>
 <p>第二行    渲染生成最新的静态文件用于推送到服务器</p>
@@ -3086,7 +2897,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[这本来是几天前就想说的事情。 原因是有一天看评论后台，突然发现好多评论都被当作“垃圾评……]]></summary>
+    <summary type="html"><![CDATA[这本来是几天前就想说的事情。 原因是有一天看评论后台，突然发现好多评论都被当作“垃圾评]]></summary>
             
                 <content type="html"><![CDATA[<p>这本来是几天前就想说的事情。</p>
 <p>原因是有一天看评论后台，突然发现好多评论都被当作“垃圾评论”标记了，也就是说有些朋友的评论在没有被我允许的情况下暂时是不会显示在评论区的。当然，这并不是说你的评论不符合我的审美和态度，而是不符合评论系统的标准。这就比较麻烦了，因为我本人是不喜欢言论审查的，我更希望没有审查。有的朋友可能会说，那你关掉审查不就完了，抱歉，我左右不了系统，只能向系统妥协。</p>
@@ -3167,7 +2978,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[什么是免费开源的分布式微博客社交网络？ 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站……]]></summary>
+    <summary type="html"><![CDATA[什么是免费开源的分布式微博客社交网络？ 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站]]></summary>
             
                 <content type="html"><![CDATA[<p>什么是免费开源的分布式微博客社交网络？</p>
 <p>假设我们搭建了一个长毛象站点 <code>tzcafe.com</code> ，当你在这个网站注册，就得到了一个独一无二的 ID 比如：<code>@1078503@tzcafe.com</code>。前半部分 <code>@1078503</code> 代表我在这个站点内独有的一个身份，站内其他人不能再用；后半部分 <code>@tzcafe.com</code> 则是这个站点的地址。</p>
@@ -3236,163 +3047,83 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想……]]></summary>
+    <summary type="html"><![CDATA[闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想]]></summary>
             
                 <content type="html"><![CDATA[<p>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。</p>
 <h2 id="代码高亮">代码高亮</h2>
 <p>就随便找了一个 <a href="https://prismjs.com/">prism.js</a> ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
     ...
-    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;css/prism.css&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="p">/&gt;</span>
-<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    &lt;link href=&quot;css/prism.css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
     ...
-    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;js/prism.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>以上就是引用的方法和效果展示🙂。</p>
+    &lt;script src=&quot;js/prism.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>以上就是引用的方法和效果展示🙂。</p>
 <p>页面上需要下面的代码，才会被高亮。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">pre</span><span class="p">&gt;&lt;</span><span class="nt">code</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;language-css&#34;</span><span class="p">&gt;</span>p { color: red }<span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;&lt;/</span><span class="nt">pre</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>markdown编辑器Typora只需要在编辑代码的时候选择语言就没有问题。其它编辑器环境没有测试。</p>
+<pre><code class="language-html">&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;p { color: red }&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+<p>markdown编辑器Typora只需要在编辑代码的时候选择语言就没有问题。其它编辑器环境没有测试。</p>
 <h2 id="vps内存占用过高">VPS内存占用过高</h2>
 <p>最近VPS出现很多次内存占用高的情况，前次通过修改Nginx的配置得以解决，最近一次直接内存超高服务器卡死了。不得不重启后查看内存占用情况，我使用的内存占用查看方法，Xshell连上VPS：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum install htop -y <span class="o">&amp;&amp;</span> htop
-</code></pre></td></tr></table>
-</div>
-</div><p>经过观察是MySQL占用比较高导致的，Google了一下配置方法，做了一些调整并观察了一段时间，基本解决问题。不同的环境配置不一定一样所以这里就不分享配置参数了，有需要的可以Google相关。</p>
+<pre><code class="language-shell">yum install htop -y &amp;&amp; htop
+</code></pre>
+<p>经过观察是MySQL占用比较高导致的，Google了一下配置方法，做了一些调整并观察了一段时间，基本解决问题。不同的环境配置不一定一样所以这里就不分享配置参数了，有需要的可以Google相关。</p>
 <h2 id="制作加载评论按钮">制作加载评论按钮</h2>
 <p>代码高亮也做了，反正是折腾，于是顺便给首页添加一个<code>加载评论</code>按钮。</p>
 <p>半路出家的选手，玩代码水平差的自己都看不下去，制作过程一波三折总是不完美。最后看到底部的友情链接样式于是就直接拿来修改了😭</p>
 <p><code>css</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">anniu</span> <span class="nt">li</span> <span class="p">{</span>
-  <span class="k">float</span><span class="p">:</span> <span class="kc">left</span>
-<span class="p">}</span>
+<pre><code class="language-css">.anniu li {
+  float: left
+}
 
-<span class="p">.</span><span class="nc">anniu</span> <span class="nt">li</span> <span class="nt">a</span> <span class="p">{</span>
-  <span class="k">background</span><span class="p">:</span> <span class="n">SeaGreen</span><span class="p">;</span>
-  <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="n">SeaGreen</span><span class="p">;</span>
-  <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
-  <span class="k">text-align</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
-  <span class="k">margin-left</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">margin-bottom</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">border-radius</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">300</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="p">:</span> <span class="mi">35</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">white-space</span><span class="p">:</span> <span class="kc">nowrap</span><span class="p">;</span>
-  <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span>
-  <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-  <span class="k">font-size</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span>
-<span class="p">}</span>
+.anniu li a {
+  background: SeaGreen;
+  border: 1px solid SeaGreen;
+  display: block;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  padding: 0 4px;
+  border-radius: 2px;
+  width: 300px;
+  color: #fff;
+  line-height: 35px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 14px
+}
 
-<span class="p">.</span><span class="nc">anniu</span> <span class="nt">li</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-  <span class="k">background</span><span class="p">:</span> <span class="n">LightPink</span><span class="p">;</span>
-  <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="n">LightPink</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><code>页面引入</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&#34;0&#34;</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;padding: 12px 13px 10px 0px;list-style-type:none;&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;anniu&#34;</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-                <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}#comment&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;font-family:Microsoft YaHei; serif;&#34;</span><span class="p">&gt;</span>加 载 评 论<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-                <span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
-            <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-          <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
-        <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>仅供参考，不保证任何环境都能完美实现。</p>
+.anniu li a:hover {
+  color: #fff;
+  background: LightPink;
+  border: 1px solid LightPink;
+}
+</code></pre>
+<p><code>页面引入</code></p>
+<pre><code class="language-html">&lt;div align=&quot;center&quot;&gt;
+    &lt;table border=&quot;0&quot; align=&quot;center&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;ul style=&quot;padding: 12px 13px 10px 0px;list-style-type:none;&quot; class=&quot;anniu&quot;&gt;
+            &lt;li&gt;
+                &lt;b&gt;
+                    &lt;a href=&quot;{{ .Permalink }}#comment&quot; style=&quot;font-family:Microsoft YaHei; serif;&quot;&gt;加 载 评 论&lt;/a&gt;
+                &lt;/b&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+</code></pre>
+<p>仅供参考，不保证任何环境都能完美实现。</p>
 <p>本来<code>width</code>准备设置到<code>700px</code>的，想法是越宽越能方便用户点击，发现手机端不合适，于是设置了<code>300px</code>，有问题欢迎报错和交流😏</p>
 <h2 id="调整页脚友情链接样式">调整页脚友情链接样式</h2>
 <p>以上按钮比较满意，那就再顺手把友情链接表格样式一起调整一下，去掉了超链接的下划线，通过修改表格背景和边框颜色实现了无边框😭，没办法，弱鸡只会这么玩哈哈。欢迎交换首页链接，要求必须首页，必须是页脚位置且醒目😏，网站类型原则上不限制，但看我心情🐶。有专用的内页<a href="https://dtz9.net/links/">博客友链</a>，对于首页友链符合要求的可以申请首页友链。最后再说一句，欢迎随便交换友情链接😁</p>
@@ -3445,7 +3176,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[前几天刚说完日更，就消失了几天，罪过罪过！ 好吧，我承认工作的人保持博客日更确实很困难……]]></summary>
+    <summary type="html"><![CDATA[前几天刚说完日更，就消失了几天，罪过罪过！ 好吧，我承认工作的人保持博客日更确实很困难]]></summary>
             
                 <content type="html"><![CDATA[<p>前几天刚说完日更，就消失了几天，罪过罪过！</p>
 <p>好吧，我承认工作的人保持博客日更确实很困难，但努努力还是有可能经常更新的，只能这么说了。这几天太累了，回到家只想葛优躺😉。</p>
@@ -3506,7 +3237,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[这是一部由顾长卫导演拍摄于2004年的电影，也是他的处女之作。 电影讲述生活在二十世纪……]]></summary>
+    <summary type="html"><![CDATA[这是一部由顾长卫导演拍摄于2004年的电影，也是他的处女之作。 电影讲述生活在二十世纪]]></summary>
             
                 <content type="html"><![CDATA[<p>这是一部由顾长卫导演拍摄于2004年的电影，也是他的处女之作。</p>
 <p>电影讲述生活在二十世纪七八十年代河南安阳（剧中称鹤阳）的一个极为平凡的五口之家，在一段时期内各人发生的故事。主线人物是家中姐姐（张静初饰）、哥哥（冯𬍛饰）和弟弟（吕玉来饰）。在安阳和开封取景拍摄。</p>
@@ -3572,7 +3303,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[喜欢逛博客真是一个好习惯，经常会发现一些有意思的话语。今天的标题就来自于某位博主的博……]]></summary>
+    <summary type="html"><![CDATA[喜欢逛博客真是一个好习惯，经常会发现一些有意思的话语。今天的标题就来自于某位博主的博]]></summary>
             
                 <content type="html"><![CDATA[<p>喜欢逛博客真是一个好习惯，经常会发现一些有意思的话语。今天的标题就来自于某位博主的博客描述，非常抱歉当时忘记保存或者说添加一个标签了，所以无法提供围观链接。</p>
 <p>是的，穷则思变差则思勤。穷则思变就不要想了，并不是什么事情努力了就一定会有结果的，所以改变现状的事情想想就算了，该干嘛还得干嘛。我始终相信，做事情都是水到渠成的，一个行业或者说一个工作环境待得越久对自己越有利。有限范围内的调整或许能改变现状提升自我，但变的太彻底不一定就是好事情。</p>
@@ -3644,7 +3375,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[先看几张图片，来自我的 iPhone 6S 。 炎炎夏日，可以在家门口看到如此的鲜花朵朵，这日子还是很美……]]></summary>
+    <summary type="html"><![CDATA[先看几张图片，来自我的 iPhone 6S 。 炎炎夏日，可以在家门口看到如此的鲜花朵朵，这日子还是很美]]></summary>
             
                 <content type="html"><![CDATA[<p>先看几张图片，来自我的 iPhone 6S 。</p>
 <p><img src="https://img.1078503.org/imgs/2019/07/5f75748588daf224.jpg" alt=""><img src="https://img.1078503.org/imgs/2019/07/faaa73bcd22fa681.jpg" alt="">
@@ -3708,7 +3439,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[其实我已经不算是年轻人了🤭。 最近有点累，然后回到家打开电脑发现群里面的小伙伴们都跟打……]]></summary>
+    <summary type="html"><![CDATA[其实我已经不算是年轻人了🤭。 最近有点累，然后回到家打开电脑发现群里面的小伙伴们都跟打]]></summary>
             
                 <content type="html"><![CDATA[<p>其实我已经不算是年轻人了🤭。</p>
 <p>最近有点累，然后回到家打开电脑发现群里面的小伙伴们都跟打了鸡血一样的兴奋🤩，有的人甚至凌晨三点四点都还没有入睡。其实我也不算是一个经常早睡的人，大多数时候是习惯性晚睡的。但有一点，是离不开电子产品的。“年轻人，别再熬夜了，真的会死”。</p>
@@ -3793,7 +3524,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[视频从一台win98系统的电脑说起，带着我们回到了1998年。 这一年前后诞生了很多在……]]></summary>
+    <summary type="html"><![CDATA[视频从一台win98系统的电脑说起，带着我们回到了1998年。 这一年前后诞生了很多在]]></summary>
             
                 <content type="html"><![CDATA[<iframe height=498 width=100% src='http://player.youku.com/embed/XNDAzNTUzNDQ1Ng==' frameborder=0 allowfullscreen></iframe>
 视频从一台win98系统的电脑说起，带着我们回到了1998年。
@@ -3855,7 +3586,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[不只是转载还有对事物的看法 学生们通过文学作品和牧师讲授性爱，结果喜忧参半。 在一个普通……]]></summary>
+    <summary type="html"><![CDATA[不只是转载还有对事物的看法 学生们通过文学作品和牧师讲授性爱，结果喜忧参半。 在一个普通]]></summary>
             
                 <content type="html"><![CDATA[<p>不只是转载还有对事物的看法</p>
 <p><strong>学生们通过文学作品和牧师讲授性爱，结果喜忧参半。</strong></p>
@@ -3970,7 +3701,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[有多少人像我一样？ 一言不合就折腾代码，哪里不爽改哪里🤭。 今晚只做了一件事，把网址结构……]]></summary>
+    <summary type="html"><![CDATA[有多少人像我一样？ 一言不合就折腾代码，哪里不爽改哪里🤭。 今晚只做了一件事，把网址结构]]></summary>
             
                 <content type="html"><![CDATA[<p>有多少人像我一样？</p>
 <p>一言不合就折腾代码，哪里不爽改哪里🤭。</p>
@@ -4032,7 +3763,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[不只是转载还有对事物的看法 一辆小轿车究竟能装多少个人呢？😁 看了这个视频我强烈的想要去……]]></summary>
+    <summary type="html"><![CDATA[不只是转载还有对事物的看法 一辆小轿车究竟能装多少个人呢？😁 看了这个视频我强烈的想要去]]></summary>
             
                 <content type="html"><![CDATA[<p>不只是转载还有对事物的看法</p>
 <hr>
@@ -4100,7 +3831,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[不只是转载还有对事务的看法。 刚刚看到这张图片，莫名喜感🤭 就是说蚊子要出来咬人啦~~ 说……]]></summary>
+    <summary type="html"><![CDATA[不只是转载还有对事务的看法。 刚刚看到这张图片，莫名喜感🤭 就是说蚊子要出来咬人啦~~ 说]]></summary>
             
                 <content type="html"><![CDATA[<p>不只是转载还有对事务的看法。</p>
 <hr>
@@ -4161,7 +3892,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[最近垃圾分类的话题很火，各种言论到处乱飞，成为了网友们茶余饭后的谈资。 为什么要进行垃……]]></summary>
+    <summary type="html"><![CDATA[最近垃圾分类的话题很火，各种言论到处乱飞，成为了网友们茶余饭后的谈资。 为什么要进行垃]]></summary>
             
                 <content type="html"><![CDATA[<p>最近垃圾分类的话题很火，各种言论到处乱飞，成为了网友们茶余饭后的谈资。</p>
 <h4 id="为什么要进行垃圾分类">为什么要进行垃圾分类</h4>
@@ -4242,7 +3973,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[文/新浪财经意见领袖专栏作家 周天勇 这是作者有关中国城市和农村住宅高楼化进程的系列文章……]]></summary>
+    <summary type="html"><![CDATA[文/新浪财经意见领袖专栏作家 周天勇 这是作者有关中国城市和农村住宅高楼化进程的系列文章]]></summary>
             
                 <content type="html"><![CDATA[<p>文/新浪财经意见领袖专栏作家 <a href="http://finance.sina.com.cn/zl/author.d.html?uid=1785075601">周天勇</a></p>
 <p>这是作者有关中国城市和农村住宅高楼化进程的系列文章，笔者将以《中国人民以后都要居住在几十层的高楼上吗？》为总题，陆续发表之一《国外多是城乡再造，我们却是大拆大建》、之二《几十层楼住宅建设的七大问题》、之三《我们的住宅楼为什么会越建越高？》和之四《城乡房地建设体制怎么改革，方式怎么扭转？》。</p>
@@ -4314,7 +4045,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[老规矩，先上图： 说说这段时间我怎么了，为什么这么久没有更新？ 原因是手上唯一的笔记本电……]]></summary>
+    <summary type="html"><![CDATA[老规矩，先上图： 说说这段时间我怎么了，为什么这么久没有更新？ 原因是手上唯一的笔记本电]]></summary>
             
                 <content type="html"><![CDATA[<p>老规矩，先上图：</p>
 <p><img src="https://img.1078503.org/imgs/2019/07/cecbd783ccda9e80.jpg" alt=""></p>
@@ -4367,7 +4098,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[是的，这几天放空了自己。 每天睡到九点醒，慢悠悠的收拾一下自己然后出门做事，罪过罪过。……]]></summary>
+    <summary type="html"><![CDATA[是的，这几天放空了自己。 每天睡到九点醒，慢悠悠的收拾一下自己然后出门做事，罪过罪过。]]></summary>
             
                 <content type="html"><![CDATA[<p>是的，这几天放空了自己。</p>
 <iframe height=480 width=650 src='http://player.youku.com/embed/XMzI1MzkwMDg2OA==' frameborder=0 'allowfullscreen'></iframe>
@@ -4421,7 +4152,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。 今天带……]]></summary>
+    <summary type="html"><![CDATA[开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。 今天带]]></summary>
             
                 <content type="html"><![CDATA[<p>开始前先来一张图镇楼
 <img src="https://img.1078503.org/imgs/2019/06/b9e2f2d79e9e4b1c.jpg" alt=""></p>
@@ -4500,7 +4231,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[是的，并不能直接显示，需要在您的设备中安装字体。 有的站点是直接在线加载的，但是考虑到……]]></summary>
+    <summary type="html"><![CDATA[是的，并不能直接显示，需要在您的设备中安装字体。 有的站点是直接在线加载的，但是考虑到]]></summary>
             
                 <content type="html"><![CDATA[<p>是的，并不能直接显示，需要在您的设备中安装字体。</p>
 <p>有的站点是直接在线加载的，但是考虑到汉字字库一般较大，即使动态加载也会严重拖慢加载速度，所以只对font-family做一个声明支持Noto Serif CJK SC。</p>
@@ -4572,7 +4303,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[图片来自网络，侵删。 一次愉快的苹果客服电话沟通过程 前几天我的iPhone突然提示我输……]]></summary>
+    <summary type="html"><![CDATA[图片来自网络，侵删。 一次愉快的苹果客服电话沟通过程 前几天我的iPhone突然提示我输]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/06/a8d594657e3f7d26.jpg" alt=""></p>
 <p>图片来自网络，侵删。</p>
@@ -4647,7 +4378,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[表妹又打电话叫我帮她把车开去做钣金油漆了。 写这个标题没有歧视女性的意思，事实上很多女……]]></summary>
+    <summary type="html"><![CDATA[表妹又打电话叫我帮她把车开去做钣金油漆了。 写这个标题没有歧视女性的意思，事实上很多女]]></summary>
             
                 <content type="html"><![CDATA[<p>表妹又打电话叫我帮她把车开去做钣金油漆了。</p>
 <p>写这个标题没有歧视女性的意思，事实上很多女司机水平还不错。但总的来说，我见过太多奇葩女司机了，相信大家也在各种视频中见过女司机的强大技能，专治各种不服。当然，女司机只是一个称呼，泛指那些驾驶技术不过硬也不虚心求教还堂而皇之招摇过市的人群，包括男司机。我经常在路上见到那些龟速前进还占两个车道的牛人，还不能超他的车，否则他是肯定会追上来别你一下的。都说安全驾驶，但这类驾驶员也太安全了，挡道不说还逞能。我只想说，注意素质。</p>
@@ -4734,7 +4465,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[已经是付费会员了，为啥还得再掏钱买东西 此标题文章 请看这里 这文章说的太隐晦了，直接说国……]]></summary>
+    <summary type="html"><![CDATA[已经是付费会员了，为啥还得再掏钱买东西 此标题文章 请看这里 这文章说的太隐晦了，直接说国]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/06/ac648c17bca0ab28.jpg" alt=""></p>
 <h4 id="已经是付费会员了为啥还得再掏钱买东西">已经是付费会员了，为啥还得再掏钱买东西</h4>
@@ -4815,7 +4546,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[配图来自网络，侵删 以下消息转载自 万维读者网 版权归原作者所有，不代表本博客观点立场 ​ 除……]]></summary>
+    <summary type="html"><![CDATA[配图来自网络，侵删 以下消息转载自 万维读者网 版权归原作者所有，不代表本博客观点立场 ​ 除]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/06/c139170da4e934d3.jpeg" alt=""></p>
 <p>配图来自<a href="http://www.sohu.com/a/220056322_714642">网络</a>，侵删</p>
@@ -4884,7 +4615,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[有很多朋友喜欢看油管视频，我也喜欢看。 独乐乐不如众乐乐，没事儿的时候分享一些好看的视……]]></summary>
+    <summary type="html"><![CDATA[有很多朋友喜欢看油管视频，我也喜欢看。 独乐乐不如众乐乐，没事儿的时候分享一些好看的视]]></summary>
             
                 <content type="html"><![CDATA[<p>有很多朋友喜欢看油管视频，我也喜欢看。</p>
 <p>独乐乐不如众乐乐，没事儿的时候分享一些好看的视频给大家吧。</p>
@@ -4944,7 +4675,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[感觉自己这几天变懒了。 说好的坚持打字发博客检查了一下发现也没什么成果，人有的时候就是……]]></summary>
+    <summary type="html"><![CDATA[感觉自己这几天变懒了。 说好的坚持打字发博客检查了一下发现也没什么成果，人有的时候就是]]></summary>
             
                 <content type="html"><![CDATA[<p>感觉自己这几天变懒了。</p>
 <p>说好的坚持打字发博客检查了一下发现也没什么成果，人有的时候就是这样，不鞭打一下永远都是在给自己找借口偷懒。时间嘛，这个东西就像女人的乳沟，挤挤总会有的，何况男人们都喜欢摸奶，越摸沟就更深了。</p>
@@ -5000,7 +4731,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[图片来自网络，如果您是图片所有者可以联系我加上备注和链接。 说这是深圳电动出租车充电时……]]></summary>
+    <summary type="html"><![CDATA[图片来自网络，如果您是图片所有者可以联系我加上备注和链接。 说这是深圳电动出租车充电时]]></summary>
             
                 <content type="html"><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/06/27edbe5fae97f090.jpg" alt=""></p>
 <p>图片来自网络，如果您是图片所有者可以联系我加上备注和链接。</p>
@@ -5069,7 +4800,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节……]]></summary>
+    <summary type="html"><![CDATA[遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节]]></summary>
             
                 <content type="html"><![CDATA[<p>遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节是缺失的。并不是我一开始以为的拿来就可以用的，很多问题需要自己去解决。</p>
 <p>这对于新手来说还真是个麻烦，也算是一个痛苦的学习和了解的过程。在这里提醒准备搞和想搞静态博客的朋友，从来就没有伸手就来的东西，只有通过学习和付出才能有所收获。</p>
@@ -5148,7 +4879,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[从电子屏幕手中夺回大脑 电脑屏幕让大脑停转，所以想要保持思考，必须远离电子屏幕。 手机放……]]></summary>
+    <summary type="html"><![CDATA[从电子屏幕手中夺回大脑 电脑屏幕让大脑停转，所以想要保持思考，必须远离电子屏幕。 手机放]]></summary>
             
                 <content type="html"><![CDATA[<h4 id="从电子屏幕手中夺回大脑">从电子屏幕手中夺回大脑</h4>
 <blockquote>
@@ -5212,7 +4943,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[FeedDemon心灵博客重制版 RSS分在线阅读和本地阅读。 在线的服务有很多，并且很……]]></summary>
+    <summary type="html"><![CDATA[FeedDemon心灵博客重制版 RSS分在线阅读和本地阅读。 在线的服务有很多，并且很]]></summary>
             
                 <content type="html"><![CDATA[<h4 id="feeddemon心灵博客重制版httpblogdngznetrssfeeddemonhtm"><a href="http://blog.dngz.net/rssfeeddemon.htm">FeedDemon心灵博客重制版</a></h4>
 <p><img src="https://ae01.alicdn.com/kf/HTB1bwhabG1s3KVjSZFAq6x_ZXXax.jpg" alt=""></p>
@@ -5285,7 +5016,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[是的，我也换主题了，一次大的改版。 拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是……]]></summary>
+    <summary type="html"><![CDATA[是的，我也换主题了，一次大的改版。 拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是]]></summary>
             
                 <content type="html"><![CDATA[<p>是的，我也换主题了，一次大的改版。</p>
 <p>拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是喜欢的，因为排版布局清晰。
@@ -5377,7 +5108,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[回家按惯例打开笔记本准备看一些新闻和博客。 关于关注的很多信息源的浏览方式 说起来起因是……]]></summary>
+    <summary type="html"><![CDATA[回家按惯例打开笔记本准备看一些新闻和博客。 关于关注的很多信息源的浏览方式 说起来起因是]]></summary>
             
                 <content type="html"><![CDATA[<p>回家按惯例打开笔记本准备看一些新闻和博客。</p>
 <h4 id="关于关注的很多信息源的浏览方式">关于关注的很多信息源的浏览方式</h4>
@@ -5488,7 +5219,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[上了一些不应该浏览的网站之后，系统通知中心就每隔几分钟弹一些通知广告。 原以为只有国人……]]></summary>
+    <summary type="html"><![CDATA[上了一些不应该浏览的网站之后，系统通知中心就每隔几分钟弹一些通知广告。 原以为只有国人]]></summary>
             
                 <content type="html"><![CDATA[<p>上了一些不应该浏览的网站之后，系统通知中心就每隔几分钟弹一些通知广告。</p>
 <p>原以为只有国人喜欢搞这种事情，没想到老外也玩这种套路。那感觉实在是不怎么爽，就像喝粥的时候里面发现一颗老鼠屎一样...</p>
@@ -5551,7 +5282,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[刚刚被下面这条消息吸引了眼球，我很好奇日本人这个神奇的人类群体是从哪里发展起源的。特……]]></summary>
+    <summary type="html"><![CDATA[刚刚被下面这条消息吸引了眼球，我很好奇日本人这个神奇的人类群体是从哪里发展起源的。特]]></summary>
             
                 <content type="html"><![CDATA[<p>刚刚被下面这条消息吸引了眼球，我很好奇日本人这个神奇的人类群体是从哪里发展起源的。特别是那些好看又可爱的日本小姐姐，陪伴我度过了多少个寂寞的夜晚呢。本着对喜欢的人的关注和在乎的心理，请看原文：</p>
 <blockquote>
@@ -5610,7 +5341,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[再过一会儿就是2019年6月1日了。 祝大家节日快乐！所有大孩子们。 是的，每个人都有一……]]></summary>
+    <summary type="html"><![CDATA[再过一会儿就是2019年6月1日了。 祝大家节日快乐！所有大孩子们。 是的，每个人都有一]]></summary>
             
                 <content type="html"><![CDATA[<p>再过一会儿就是2019年6月1日了。
 祝大家节日快乐！所有大孩子们。</p>
@@ -5666,7 +5397,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[早上的太阳很快就会升起，但是现在的我依然没有入睡。 这是为什么呢？感冒了... 这些天过……]]></summary>
+    <summary type="html"><![CDATA[早上的太阳很快就会升起，但是现在的我依然没有入睡。 这是为什么呢？感冒了... 这些天过]]></summary>
             
                 <content type="html"><![CDATA[<p>早上的太阳很快就会升起，但是现在的我依然没有入睡。
 这是为什么呢？感冒了...</p>
@@ -5737,7 +5468,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[作者: 夏知凉 注：暂时找不到作者原文链接，来源也是转载就不贴了。作者或粉丝知道原文链接……]]></summary>
+    <summary type="html"><![CDATA[作者: 夏知凉 注：暂时找不到作者原文链接，来源也是转载就不贴了。作者或粉丝知道原文链接]]></summary>
             
                 <content type="html"><![CDATA[<p>作者: 夏知凉<br>
 注：暂时找不到作者原文链接，来源也是转载就不贴了。作者或粉丝知道原文链接的可以评论告知我添加。</p>
@@ -5843,7 +5574,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[◎片 名 天注定 ◎译 名 A Touch of Sin ◎年 代 2013 ◎地 区 中国 ◎类 别 剧情 ◎语 言 汉语普通话 ◎字 幕 中字 ◎片……]]></summary>
+    <summary type="html"><![CDATA[◎片 名 天注定 ◎译 名 A Touch of Sin ◎年 代 2013 ◎地 区 中国 ◎类 别 剧情 ◎语 言 汉语普通话 ◎字 幕 中字 ◎片]]></summary>
             
                 <content type="html"><![CDATA[<p>◎片　　名　天注定</p>
 <p>◎译　　名　A Touch of Sin</p>
@@ -5941,7 +5672,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[这篇文章来自 杨钦元博客 之所以转载是觉得写的很好，说出了很多人的痛点。 很喜欢文章说到的……]]></summary>
+    <summary type="html"><![CDATA[这篇文章来自 杨钦元博客 之所以转载是觉得写的很好，说出了很多人的痛点。 很喜欢文章说到的]]></summary>
             
                 <content type="html"><![CDATA[<p>这篇文章来自 <a href="http://yangqinyuan.com/essay/xd.html">杨钦元博客</a></p>
 <p>之所以转载是觉得写的很好，说出了很多人的痛点。
@@ -6022,7 +5753,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[为什么网约车司机已经成为稀缺资源 点我看这条新闻 杭州2男子买卖比特币被刑拘 涉非法吸收公……]]></summary>
+    <summary type="html"><![CDATA[为什么网约车司机已经成为稀缺资源 点我看这条新闻 杭州2男子买卖比特币被刑拘 涉非法吸收公]]></summary>
             
                 <content type="html"><![CDATA[<h4 id="为什么网约车司机已经成为稀缺资源">为什么网约车司机已经成为稀缺资源</h4>
 <p><a href="https://www.tmtpost.com/3959776.html">点我看这条新闻</a></p>
@@ -6078,7 +5809,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[汽车之家消息，新款北汽勇士三门版（短轴距）车型将于5月26日在北京通州漷县越野基地举……]]></summary>
+    <summary type="html"><![CDATA[汽车之家消息，新款北汽勇士三门版（短轴距）车型将于5月26日在北京通州漷县越野基地举]]></summary>
             
                 <content type="html"><![CDATA[<p><a href="https://www.autohome.com.cn/news/201905/936362.html">汽车之家消息</a>，新款北汽勇士三门版（短轴距）车型将于5月26日在北京通州漷县越野基地举办越野大赛并于当日正式上市。</p>
 <p><img src="https://img.1078503.org/imgs/2019/06/817698c6e2544bdf.jpg" alt=""></p>
@@ -6144,7 +5875,7 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[（该文写于4月29日）29日，国家卫健委举办新闻发布会，介绍2018年儿童青少年近视……]]></summary>
+    <summary type="html"><![CDATA[（该文写于4月29日）29日，国家卫健委举办新闻发布会，介绍2018年儿童青少年近视]]></summary>
             
                 <content type="html"><![CDATA[<p>（该文写于4月29日）29日，国家卫健委举办新闻发布会，介绍2018年儿童青少年近视调查结果。据介绍，监测发现，中国学生近视相关危害因素广泛存在。比如，67%的学生每天户外活动时间不足2小时，29%的学生不足1个小时，73%的学生每天睡眠时间不达标（4月29日《微博话题》）</p>
 <p>国家卫健委宣布“73%的学生每天睡眠时间不达标”，大家一定会认为这个问题非常严重。但如果你直接去小学高年级课堂、中学课堂做个调查，你一定会发现问题更加严重，因为这个比例犹如“失业率”，也是被大大压缩过的。</p>
@@ -6206,79 +5937,36 @@ git push origin master
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VP……]]></summary>
+    <summary type="html"><![CDATA[5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VP]]></summary>
             
                 <content type="html"><![CDATA[<p>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。</p>
 <p>VuLtr开新机器的内核太旧了…</p>
 <h4 id="升级到最新版第三方内核库">升级到最新版第三方内核库</h4>
 <p>查看内核版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
-</code></pre></td></tr></table>
-</div>
-</div><p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
+<pre><code class="language-shell">uname -sr
+</code></pre>
+<p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
 <p>CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+<pre><code class="language-shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
-</code></pre></td></tr></table>
-</div>
-</div><p>安装最新的主线稳定内核：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum --enablerepo<span class="o">=</span>elrepo-kernel install kernel-ml
-</code></pre></td></tr></table>
-</div>
-</div><p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
-</code></pre></td></tr></table>
-</div>
-</div><p>此时我们第三方内核库的升级操作就完成了。
+</code></pre>
+<p>安装最新的主线稳定内核：</p>
+<pre><code class="language-shell">yum --enablerepo=elrepo-kernel install kernel-ml
+</code></pre>
+<p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
+<pre><code class="language-shell">uname -sr
+</code></pre>
+<p>此时我们第三方内核库的升级操作就完成了。
 为了让新安装的内核成为<strong>默认启动选项</strong>，请修改 GRUB 配置：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">vim /etc/default/grub
-</code></pre></td></tr></table>
-</div>
-</div><p>如果你的系统没有vim编辑器请先安装:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">yum install vim
-</code></pre></td></tr></table>
-</div>
-</div><p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">grub2-mkconfig -o /boot/grub2/grub.cfg
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
+<pre><code class="language-shell">vim /etc/default/grub
+</code></pre>
+<p>如果你的系统没有vim编辑器请先安装:</p>
+<pre><code class="language-shell">yum install vim
+</code></pre>
+<p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
+<pre><code class="language-shell">grub2-mkconfig -o /boot/grub2/grub.cfg
+</code></pre>
+<p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
 <p>参考：<a href="https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html">https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html</a></p>
 <h4 id="开启bbr">开启BBR</h4>
 <p>参考： <a href="https://teddysun.com/489.html">https://teddysun.com/489.html</a></p>
@@ -6298,102 +5986,48 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 <li>
 <p>打包VPS1网站目录：</p>
 <p>进入网站目录</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/ 
-</code></pre></td></tr></table>
-</div>
-</div><p>打包dtz9.net文件夹为1078503.tar.gz</p>
+<pre><code class="language-shell">cd /www/wwwroot/ 
+</code></pre>
+<p>打包dtz9.net文件夹为1078503.tar.gz</p>
 </li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
-</code></pre></td></tr></table>
-</div>
-</div><ol>
+<pre><code class="language-shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
+</code></pre>
+<ol>
 <li>导出VPS1 Mysql 数据库：</li>
 </ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
-</code></pre></td></tr></table>
-</div>
-</div><p>用户名是数据库用户名，导出数据库为1078503.sql</p>
+<pre><code class="language-shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
+</code></pre>
+<p>用户名是数据库用户名，导出数据库为1078503.sql</p>
 <p>我在这一步就没有操作成功，后来是面板导出数据库再导入新的数据库才完成。我估计是编译错误，或许就应该直接写成下面这样，供您参考，比如我的数据库名和用户名都是一样的：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
+<pre><code class="language-shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
+</code></pre>
+<p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
 <ol>
 <li>
 <p>VPS2 上wget获取远程文件</p>
 <p>进入网站目录</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/
-</code></pre></td></tr></table>
-</div>
-</div><p>从VPS1上获取文件,下载数据包到VPS2</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.tar.gz 
-</code></pre></td></tr></table>
-</div>
-</div><p>解压1078503.tar.gz</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">tar zxvf 1078503.tar.gz   
-</code></pre></td></tr></table>
-</div>
-</div></li>
+<pre><code class="language-shell">cd /www/wwwroot/
+</code></pre>
+<p>从VPS1上获取文件,下载数据包到VPS2</p>
+<pre><code class="language-shell">wget https://dtz9.net/1078503.tar.gz 
+</code></pre>
+<p>解压1078503.tar.gz</p>
+<pre><code class="language-shell">tar zxvf 1078503.tar.gz   
+</code></pre>
+</li>
 <li>
 <p>VPS2上MySQL数据导入</p>
 </li>
 </ol>
 <p>请先在PHPMyAdmin新建相应数据库和用户（<strong>与原数据库、用户同名</strong>）
 下载数据包到VPS2</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">wget https://dtz9.net/1078503.sql 
-</code></pre></td></tr></table>
-</div>
-</div><p>还原数据库</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
-</code></pre></td></tr></table>
-</div>
-</div><p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
+<pre><code class="language-shell">wget https://dtz9.net/1078503.sql 
+</code></pre>
+<p>还原数据库</p>
+<pre><code class="language-shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
+</code></pre>
+<p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
 <hr>
 <p>以我这种懒人的心性我本以为这就可以了，结果发现远不是想想的那么容易结束的，后来发现了各种不完善的地方。比如我在宝塔面板下放了好几个网站，而且都开启了SSL，最后在熬到早上四点左右才全部解决玩所有已知的问题，因为熬夜头大就没有做记录了。</p>
 <p>但还有一个问题困惑着我：我是用这台机器搭的梯子访问这台机器上的wordpress也就是本站会出现不能连接的问题，另一个wordpress就没有这个问题。</p>
@@ -6453,7 +6087,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[如果您不是Chrome浏览器的深度使用者，那么我建议你没必要折腾此款插件。 如果你跟我……]]></summary>
+    <summary type="html"><![CDATA[如果您不是Chrome浏览器的深度使用者，那么我建议你没必要折腾此款插件。 如果你跟我]]></summary>
             
                 <content type="html"><![CDATA[<p>如果您不是Chrome浏览器的深度使用者，那么我建议你没必要折腾此款插件。
 如果你跟我一样长期使用chrome浏览器，我觉得你很需要 <a href="https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj">Checker Plus for Gmail™</a> 这款扩展程序。</p>
@@ -6512,7 +6146,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[说点题外话。 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。 物是人非，听到了一……]]></summary>
+    <summary type="html"><![CDATA[说点题外话。 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。 物是人非，听到了一]]></summary>
             
                 <content type="html"><![CDATA[<p>说点题外话。
 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。
@@ -6631,7 +6265,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[很高心昨天收到了Google的邮件： 很惊喜！我一个不到一个月的新站，而且才有11篇文……]]></summary>
+    <summary type="html"><![CDATA[很高心昨天收到了Google的邮件： 很惊喜！我一个不到一个月的新站，而且才有11篇文]]></summary>
             
                 <content type="html"><![CDATA[<p>很高心昨天收到了Google的邮件：</p>
 <p><img src="https://img.1078503.org/imgs/2019/06/32614575e59d80cf.jpg" alt=""></p>
@@ -6689,7 +6323,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[特朗普推特宣布加征关税，据说全球股市震荡... 对，你没看错，只是据说，我才懒得考证呢……]]></summary>
+    <summary type="html"><![CDATA[特朗普推特宣布加征关税，据说全球股市震荡... 对，你没看错，只是据说，我才懒得考证呢]]></summary>
             
                 <content type="html"><![CDATA[<h4 id="特朗普推特宣布加征关税据说全球股市震荡">特朗普推特宣布加征关税，据说全球股市震荡...</h4>
 <p>对，你没看错，只是据说，我才懒得考证呢！我！又！没！钱！炒！股！</p>
@@ -6778,7 +6412,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[今天的标题来自于这里：http://www.liuyingqiang.com/pos……]]></summary>
+    <summary type="html"><![CDATA[今天的标题来自于这里：http://www.liuyingqiang.com/pos]]></summary>
             
                 <content type="html"><![CDATA[<p>今天的标题来自于这里：http://www.liuyingqiang.com/post/531.html   这不重要，重要的是我突然想说些什么。</p>
 <p>最近一直在想我为什么要把这个博客做起来，有没有意义。
@@ -6858,7 +6492,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[自宫版”Google中国搜寻引擎计划正式宣告失败 Google昨日（4月30日）在一份……]]></summary>
+    <summary type="html"><![CDATA[自宫版”Google中国搜寻引擎计划正式宣告失败 Google昨日（4月30日）在一份]]></summary>
             
                 <content type="html"><![CDATA[<ul>
 <li>
@@ -6950,7 +6584,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[标题可能跟博文关系不是很大。 阮一峰在今天的文章中说到： 能够获得暴利的职业，都有一个共……]]></summary>
+    <summary type="html"><![CDATA[标题可能跟博文关系不是很大。 阮一峰在今天的文章中说到： 能够获得暴利的职业，都有一个共]]></summary>
             
                 <content type="html"><![CDATA[<p>标题可能跟博文关系不是很大。</p>
 <p>阮一峰在今天的文章中说到：</p>
@@ -7018,7 +6652,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[猎豹新CS10，值得买吗？ 今天看到一款新车，叫猎豹新CS10，看命名难道还有老款猎豹……]]></summary>
+    <summary type="html"><![CDATA[猎豹新CS10，值得买吗？ 今天看到一款新车，叫猎豹新CS10，看命名难道还有老款猎豹]]></summary>
             
                 <content type="html"><![CDATA[<h4 id="猎豹新cs10值得买吗">猎豹新CS10，值得买吗？</h4>
 <p>今天看到一款新车，叫猎豹新CS10，看命名难道还有老款猎豹CS10？没有考证，也没必要去考证，完全不关心。</p>
@@ -7083,7 +6717,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[非处女们，就算你说出一万个理由，理由都带花了，把我驳倒了，但也仅仅是驳倒了这篇文章。……]]></summary>
+    <summary type="html"><![CDATA[非处女们，就算你说出一万个理由，理由都带花了，把我驳倒了，但也仅仅是驳倒了这篇文章。]]></summary>
             
                 <content type="html"><![CDATA[<p>非处女们，就算你说出一万个理由，理由都带花了，把我驳倒了，但也仅仅是驳倒了这篇文章。 
 你也改变不了一个“非处女，绝对不娶”，这个在男人心里根深蒂固的思想 　 
