@@ -1,0 +1,34 @@
+---
+label: blog
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: number
+  name: slug
+  label: slug
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: boolean
+  name: toc
+  label: toc
+- type: boolean
+  name: autoCollapseToc
+  label: autoCollapseToc
+- type: boolean
+  name: math
+  label: math
+- type: boolean
+  name: comment
+  label: comment
