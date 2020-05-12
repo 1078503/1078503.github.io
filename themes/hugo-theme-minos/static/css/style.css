@@ -163,6 +163,7 @@ body {
 .logo-text {
   width: auto;
   color: #000;
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 57px;
@@ -450,7 +451,8 @@ a.article-title:hover,
   margin-bottom: 10px;
 }
 .article-title {
-  font-size: 2em;
+  font-size: 1.8em;
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
   font-weight: 700;
   line-height: 1em;
 }
