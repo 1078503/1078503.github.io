@@ -3,6 +3,10 @@ git add -A
 git commit -m "update"
 git push -u origin master
 
+git rm -r --cached "hugo-theme-minos" 
+git commit -m "灰色文件夹恢复"
+git push -u origin master
+
 git pull origin master
 
 git remote add origin git@github.com:1078503/blog.git
