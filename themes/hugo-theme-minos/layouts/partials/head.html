@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ .Title }}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    {{ partial "meta.html" . }}
+    {{ partial "og.html" . }}
+
+    {{- with .OutputFormats.Get "rss" -}}
+    <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{- end }}
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="{{ "webfonts/ptserif/main.css" | absURL }}" rel='stylesheet' type='text/css'>
+    <link href="{{ "webfonts/source-code-pro/main.css" | absURL }}" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+    {{ range .Site.Params.customCss -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+
+    {{ hugo.Generator }}
+
+    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//status.ditou.org/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+</head>
