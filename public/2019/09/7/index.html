@@ -107,8 +107,8 @@
         </div>
         <br>
         <div class="article-entry" itemprop="articleBody">
-            <p>今天需要为博客换一个服务器，原因是<a href="https://www.vultr.com/?ref=7997010">vultr</a>的余额即将耗尽。</p>
-<p>虽然<a href="https://www.vultr.com/?ref=7997010">vultr</a>的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。</p>
+            <p>今天需要为博客换一个服务器，原因是<a href="https://www.vultr.com/?ref=7997010" target="_blank" rel="noopener">vultr</a>的余额即将耗尽。</p>
+<p>虽然<a href="https://www.vultr.com/?ref=7997010" target="_blank" rel="noopener">vultr</a>的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。</p>
 <p>真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别的先不管，拿到IP第一时间看路由：https://tools.ipip.net/traceroute.php 。完成后看最后面的数字，一般在200以内就是很好的了，当然大家一般都是使用美西线路。不放心的话最好本地还是ping一下IP看看。</p>
 <p>以上是为了验证IP在国内是否可用，为下一步继续配置系统做准备。</p>
 <p>终端(比如xshell)连接到服务器运行<code>uname -r</code> 得到当前的系统版本：</p>
@@ -118,7 +118,7 @@
 </code></pre>
 <p>如果你需要开启并使用BBR加速，就需要升级内核到最新版本；如果你需要使用docker更需要升级。</p>
 <p>最新稳定版内核查看地址：https://www.kernel.org/</p>
-<p>如果能一步就安装最新内核并开启 BBR 那最方便了，我先想到<a href="https://teddysun.com/489.html">秋水逸冰</a>大佬的脚本，跑一下看看：</p>
+<p>如果能一步就安装最新内核并开启 BBR 那最方便了，我先想到<a href="https://teddysun.com/489.html" target="_blank" rel="noopener">秋水逸冰</a>大佬的脚本，跑一下看看：</p>
 <pre><code class="language-shell">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh
 </code></pre>
 <p>跑完<code>uname -r</code>验证一下：</p>

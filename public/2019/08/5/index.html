@@ -131,7 +131,7 @@
 <p>hugo是由Go语言编写的，开发团队已经编译好一个文件，您只需要下载它被把它加入系统环境变量就可以在本地运行调试了。官方说明已经写的很清楚了：https://gohugo.io/getting-started/installing</p>
 <p>照着步骤做的方法：</p>
 <h4 id="1在c盘创建文件夹--chugobin">1.在C盘创建文件夹 ： <code>C:\Hugo\bin</code></h4>
-<h4 id="2将下载httpsgithubcomgohugoiohugoreleasesdownloadv0572hugo_0572_windows-64bitzip的最新版可执行文件解压到这个文件夹更多版本您可以参考这里httpsgithubcomgohugoiohugoreleases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases">这里</a>。</h4>
+<h4 id="2将下载httpsgithubcomgohugoiohugoreleasesdownloadv0572hugo_0572_windows-64bitzip的最新版可执行文件解压到这个文件夹更多版本您可以参考这里httpsgithubcomgohugoiohugoreleases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip" target="_blank" rel="noopener">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener">这里</a>。</h4>
 <h4 id="3解压后得到三个文件我们需要用到的是hugoexe这个可执行文件我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行方法如下">3.解压后得到三个文件，我们需要用到的是<code>hugo.exe</code>这个可执行文件，我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行。方法如下：</h4>
 <ul>
 <li>右键单击“ **开始”**按钮。</li>
@@ -210,12 +210,12 @@
 </code></pre>
 <p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
 <h4 id="7托管到github">7.托管到GitHub</h4>
-<p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
+<p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/" target="_blank" rel="noopener">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
 <h4 id="8部署到vps">8.部署到VPS</h4>
 <p>最简单的方法，跟上面的虚拟主机上传方法类似就不说明了。</p>
 <p>正在使用的方法，git仓库同步推送。这就回到了文章开头说到的部分，我在这一步研究了很久，分享出来给需要的朋友参考。</p>
 <p><strong>VPS上的仓库和配置</strong></p>
-<p>如果您是使用宝塔面板，Nginx配置文件不用管，新建网站就可以直接使用或者使用已经为博客准备好的宝塔面板对应的网站配置。没有使用任何面板就需要安装Nginx并编辑配置文件，请参考这个<a href="https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/">链接</a>。</p>
+<p>如果您是使用宝塔面板，Nginx配置文件不用管，新建网站就可以直接使用或者使用已经为博客准备好的宝塔面板对应的网站配置。没有使用任何面板就需要安装Nginx并编辑配置文件，请参考这个<a href="https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/" target="_blank" rel="noopener">链接</a>。</p>
 <p>SSH连接到VPS</p>
 <p>在远程主机配置git仓库，因为我使用的centos7自带git所以可以直接使用，如果你的系统没有的话请自行安装。
 比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)</p>

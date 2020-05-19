@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 18 May 2020 22:33:36 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2020 02:08:53 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://ditou.org/index.xml" />
         
@@ -330,7 +330,7 @@
 <p>我喜欢逛博客，因此，博客能否订阅对我来说完全影响了我对一个博客的印象。大多数博主会为rss订阅用户输出全文，这是很好的事情，非常有利于文章的传播。当然，是否输出全文并不重要，有时候输出摘要也是一件很可取的方式。我要的其实是通过订阅发现更新的过程，大多数时候我还是非常愿意打开原文链接的，毕竟很多样式在阅读器里面显示并不完整。所以，我会在未读文章列表直接右键新标签一次打开很多未读的新文章，然后一个一个网页去爬。博客里面看世界，不同区域不同的人的视角和生活成为了在这个艰难的日子里与外界接触的唯一方式。</p>
 <p>不是说不输出RSS就不好，毕竟那是大家的自由，但，真的很累！很影响心情的好吧，打开，没有更新，再打开，老样子，时间久了也就停留在书签栏很少去看了。不过，那也没什么，不除草也是你的自由，也是我的自由。但是，我更愿意去看博友们的评论，去跟大家交流。如果，连这一点交流都没有了的话，我怕我也就与社会失去联系了，存在感真的很重要。</p>
 <h2 id="建国后街上的招牌为什么那么丑">建国后，街上的招牌为什么那么丑？</h2>
-<p>这是一个标题党。原文在<a href="http://artispoison.com/019">这里</a>，表现形式是一期播客，通过语音的形式聊香港的招牌文化。</p>
+<p>这是一个标题党。原文在<a href="http://artispoison.com/019" target="_blank" rel="noopener">这里</a>，表现形式是一期播客，通过语音的形式聊香港的招牌文化。</p>
 <p>如果说招牌丑不丑的话，真没什么意义，丑吗？丑。为什么？文化单一，缺乏包容吧？</p>
 <p>你有什么看法？</p>
 <p>播主在页面为大家准备了很多关于文字设计相关的链接和作品，有兴趣的朋友可以研究研究。</p>
@@ -396,7 +396,7 @@
 <p>精简浏览器书签栏，把一些好的添加进网址站。</p>
 <p>目前大部分整理完成，分类真难。继续跟书签栏战斗~</p>
 <h2 id="解决博客外链不在新标签打开的问题">解决博客外链不在新标签打开的问题</h2>
-<p>以我的能力，要么自己查文档改代码，要么直接找一个适合的主题。由于hugo更新频繁版本过多，之前能使用的config文件换个版本就发现失效，放弃，还是去找一个更好的主题吧！由于hugo新版本改变过大，有点摸不着头脑，为了更新而更新，换上新版的hugo，以这个为前提试用了几款主题，最终选用目前看到的这款主题 <a href="https://github.com/dillonzq/LoveIt">LoveIt</a> 。基本满足了，剩下的就是继续摸鱼了🦑。</p>
+<p>以我的能力，要么自己查文档改代码，要么直接找一个适合的主题。由于hugo更新频繁版本过多，之前能使用的config文件换个版本就发现失效，放弃，还是去找一个更好的主题吧！由于hugo新版本改变过大，有点摸不着头脑，为了更新而更新，换上新版的hugo，以这个为前提试用了几款主题，最终选用目前看到的这款主题 <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener">LoveIt</a> 。基本满足了，剩下的就是继续摸鱼了🦑。</p>
 <h2 id="顺便又一次更换了域名">顺便又一次更换了域名</h2>
 <p>没错，一不高兴我就把博客域名换了，ditou.org 。这域名肯定是砸我手里了，就拿来写博客最合适嘿嘿。顺便也就把博客名称换了，就叫低头族。我们都是低着头的人，除了电脑就是手机，很难抬头。针对这个域名，起名的话你有更好的建议吗？欢迎赐名！</p>
 <h2 id="新闻">新闻</h2>
@@ -455,15 +455,15 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>起因是看见这位博主提到的静态博客管理办法： <a href="https://blog.jxtsai.info/post/hugo-and-forestry/" title="https://blog.jxtsai.info/post/hugo-and-forestry/">https://blog.jxtsai.info/post/hugo-and-forestry/</a> 。</p>
+                    <description><![CDATA[<p>起因是看见这位博主提到的静态博客管理办法： <a href="https://blog.jxtsai.info/post/hugo-and-forestry/" title="https://blog.jxtsai.info/post/hugo-and-forestry/" target="_blank" rel="noopener">https://blog.jxtsai.info/post/hugo-and-forestry/</a> 。</p>
 <p>静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。</p>
 <p>要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。</p>
 <h2 id="首先来复习一下什么是git">首先来复习一下什么是git</h2>
-<p>维基百科：<a href="https://zh.wikipedia.org/wiki/Git" title="https://zh.wikipedia.org/wiki/Git">https://zh.wikipedia.org/wiki/Git</a></p>
+<p>维基百科：<a href="https://zh.wikipedia.org/wiki/Git" title="https://zh.wikipedia.org/wiki/Git" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/Git</a></p>
 <p><code>git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程</code></p>
 <p>关键词：分布式版本控制。</p>
 <p>说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。</p>
-<p>那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：<a href="https://www.jianshu.com/p/662d9bb9cadc" title="https://www.jianshu.com/p/662d9bb9cadc">https://www.jianshu.com/p/662d9bb9cadc</a></p>
+<p>那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：<a href="https://www.jianshu.com/p/662d9bb9cadc" title="https://www.jianshu.com/p/662d9bb9cadc" target="_blank" rel="noopener">https://www.jianshu.com/p/662d9bb9cadc</a></p>
 <p>静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。</p>
 <h2 id="github与forestry互通">Github与Forestry互通</h2>
 <p>接下来就是搞定Github与Forestry互通，搞定后界面是这样的：</p>
@@ -478,14 +478,14 @@
 <p><img src="https://img.1078503.org/imgs/2020/02/4bd94957d63751e9.png" alt=""></p>
 <p>我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。</p>
 <h2 id="github上配置webhook与vps服务器互通">GitHub上配置webhook与VPS服务器互通</h2>
-<p>可以参考这个页面：<a href="https://dtz9.net/2019/11/4/" title="https://dtz9.net/2019/11/4/">https://dtz9.net/2019/11/4/</a></p>
+<p>可以参考这个页面：<a href="https://dtz9.net/2019/11/4/" title="https://dtz9.net/2019/11/4/" target="_blank" rel="noopener">https://dtz9.net/2019/11/4/</a></p>
 <p>设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。</p>
 <p>到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。</p>
 <h2 id="vps服务器上运行hugo定时任务">VPS服务器上运行hugo定时任务</h2>
 <p>并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？</p>
-<p>Centos 7系统上安装运行hugo可以参考这个页面：<a href="https://www.jianshu.com/p/bb2d483f4caf" title="https://www.jianshu.com/p/bb2d483f4caf">https://www.jianshu.com/p/bb2d483f4caf</a></p>
+<p>Centos 7系统上安装运行hugo可以参考这个页面：<a href="https://www.jianshu.com/p/bb2d483f4caf" title="https://www.jianshu.com/p/bb2d483f4caf" target="_blank" rel="noopener">https://www.jianshu.com/p/bb2d483f4caf</a></p>
 <p>如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。</p>
-<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://dtz9.net/2019/08/5/" title="https://dtz9.net/2019/08/5/">https://dtz9.net/2019/08/5/</a></p>
+<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://dtz9.net/2019/08/5/" title="https://dtz9.net/2019/08/5/" target="_blank" rel="noopener">https://dtz9.net/2019/08/5/</a></p>
 <p>如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：</p>
 <pre><code> cd /www/wwwroot/dtz9.net 
  hugo 
@@ -694,7 +694,7 @@ Total in 6202 ms
 <p>微软已为Windows 10用户的Microsoft Store添加了新的主题包。新主题包名为“Natural Hearts PREMIUM”，包含18张高质量4K壁纸，内容展示了自然形成的心形，罕见而妙趣横生，需要注意的是这些图像仅可以用作桌面墙纸。</p>
 <p><img src="https://img.1078503.org/imgs/2020/02/4905d4f931f48a2a.jpg" alt=""></p>
 <p><img src="https://img.1078503.org/imgs/2020/02/feee952fc3803357.jpg" alt=""></p>
-<p>“Natural Hearts PREMIUM”主题包<a href="https://www.microsoft.com/en-us/p/natural-hearts-premium/9nv13wmmqv65?activetab=pivot:overviewtab#">获取地址</a>。</p>
+<p>“Natural Hearts PREMIUM”主题包<a href="https://www.microsoft.com/en-us/p/natural-hearts-premium/9nv13wmmqv65?activetab=pivot:overviewtab#" target="_blank" rel="noopener">获取地址</a>。</p>
 ]]></description>
                 
                 
@@ -849,7 +849,7 @@ Total in 6202 ms
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>我在<a href="https://dtz9.net/2019/09/2/">之前的文章</a>中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，早上升起的太阳。活着的意义和希望就是见到明天的太阳。今天有幸看到了马未都老师的视频，主题讲的就是“人生的意义”。重要的是你自己的存在，其它问题或东西其实都不重要。以下是<a href="https://www.youtube.com/watch?v=IcNZqZGdL7c">观看视频</a>做的小记：</p>
+                    <description><![CDATA[<p>我在<a href="https://dtz9.net/2019/09/2/" target="_blank" rel="noopener">之前的文章</a>中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，早上升起的太阳。活着的意义和希望就是见到明天的太阳。今天有幸看到了马未都老师的视频，主题讲的就是“人生的意义”。重要的是你自己的存在，其它问题或东西其实都不重要。以下是<a href="https://www.youtube.com/watch?v=IcNZqZGdL7c" target="_blank" rel="noopener">观看视频</a>做的小记：</p>
 <p>人生的乐趣，它就是你生理上的乐趣（吃喝拉撒）。</p>
 <p>人生中第一个痛苦来自于疾病（发烧感冒），人一生是躲过无数次可能置于你死地的疾病活过来的，你的痛苦也来自于医生告诉你的信息。癌症与嵒症。精神上的痛苦。</p>
 <p>首先为自己活着，其次是亲人，再次为朋友，最后还要为社会活着，做出应有的贡献。这就是人生的意义。</p>
@@ -968,7 +968,7 @@ Total in 6202 ms
 <p><img src="https://img.1078503.org/imgs/2019/12/2492c9253033896d.png" alt=""></p>
 <p>每个女人都是一道风景。</p>
 <h2 id="视频推荐">视频推荐</h2>
-<p>【油管】<a href="https://www.youtube.com/watch?v=NabeAZE-OF0">越哥说电影《熊的故事》</a></p>
+<p>【油管】<a href="https://www.youtube.com/watch?v=NabeAZE-OF0" target="_blank" rel="noopener">越哥说电影《熊的故事》</a></p>
 <p>最喜欢那句“大自然一直都是自然的，不自然的是我们人类自己”。</p>
 ]]></description>
                 
@@ -1348,13 +1348,13 @@ Total in 6202 ms
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>今天博友<a href="https://blog.shanbu.fun/">云中君</a>反馈，说他的博客又抽风了。</p>
+                    <description><![CDATA[<p>今天博友<a href="https://blog.shanbu.fun/" target="_blank" rel="noopener">云中君</a>反馈，说他的博客又抽风了。</p>
 <p>原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。</p>
-<p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a href="https://github.com/">GitHub</a>等一些平台可以使用，但我觉得换个方式可能会更好也说不定？</p>
-<p>他是通过<a href="https://gridea.dev/">Gridea</a>客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。</p>
+<p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>等一些平台可以使用，但我觉得换个方式可能会更好也说不定？</p>
+<p>他是通过<a href="https://gridea.dev/" target="_blank" rel="noopener">Gridea</a>客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。</p>
 <p>那么，接下来就来完成这个工作，让他与我分享这个资源吧。</p>
 <h2 id="1确保gridea同步推送接口使用github">1.确保Gridea同步推送接口使用GitHub</h2>
-<p>这里我因为不使用该客户端所以不做说明，因为它的<a href="https://gridea.dev/">官网</a>已经介绍的非常详细了。</p>
+<p>这里我因为不使用该客户端所以不做说明，因为它的<a href="https://gridea.dev/" target="_blank" rel="noopener">官网</a>已经介绍的非常详细了。</p>
 <h2 id="2宝塔面板新建网站并启用">2.宝塔面板新建网站并启用</h2>
 <p>我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。</p>
 <p>CentOS 7 安装方法：<code>yum install git</code> ，其它系统请自行搜索和研究安装方式。</p>
@@ -1435,7 +1435,7 @@ fi
 <p><code>Secret</code> 密钥同上</p>
 <p>按图示检查设置好后保存。</p>
 <h2 id="5gridea中修改或新建文件写文章也可以同步推送后验证">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</h2>
-<p><a href="https://blog.shanbu.fun/">云中君</a>的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
+<p><a href="https://blog.shanbu.fun/" target="_blank" rel="noopener">云中君</a>的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
 <p><img src="https://img.1078503.org/imgs/2019/11/37ad8cf5521924b0.png" alt=""></p>
 <p>画了个难看的箭头请无视😂。</p>
 <p>通过上面的操作所有工作已经完成，接下来写博客就好。Gridea客户端正常同步后访问博客域名就能验证操作是否有效。注意由于涉及到服务器与GitHub仓库的通信，偶尔可能会有拉取不成功或缓慢的情况，这取决于你的服务器与GitHub之间的通信线路是否阻塞。不过，这种情况几乎可以忽略不计，除非你的服务器在国内。</p>
@@ -1684,14 +1684,14 @@ fi
 <p>上映日期：1993-01-22</p>
 <p>片长：150 分钟 / HongKong：148 分钟</p>
 <p>又名：LordofEastChinaSea</p>
-<p>IMDb 链接：<a href="http://www.imdb.com/title/tt0105381">tt0105381</a></p>
+<p>IMDb 链接：<a href="http://www.imdb.com/title/tt0105381" target="_blank" rel="noopener">tt0105381</a></p>
 <p>豆瓣评分：7.9</p>
 <p>岁月风云之上海皇帝 BD 国粤双语中字 - 内容介绍：</p>
 <p>　　小贩陆云生（吕良伟饰）常为邻里抱不平，被租界总探氏黄金荣（郑则仕饰）妻阿桂姐（斯琴高娃饰）所赏识。未几，陆破获宋教仁被刺案真相，令黄名声大噪。黄对陆赏识，却招侯飞妒忌。陆、黄出面调息了军阀袁啸军劫取法国鸦片事件，发了财，变为大亨。由于黄误打了督军卢永祥之子，陆又去东北军军长毕树政处求情，还搭进了名妓老六（刘嘉玲饰），无奈卢、毕进一步勒索，被陆寻机反击。1927 年，陆目睹国共反目，他反对镇压工人武装与屠杀共产党人；为了不被国民党利用，他打入商界，以经济力量与国民党抗衡......</p>
 <p><img src="https://img.1078503.org/imgs/2019/11/b0c5dde334d2f388.png" alt=""></p>
 <p><img src="https://img.1078503.org/imgs/2019/10/c69543b94e1b042a.png" alt=""></p>
 <p><img src="https://img.1078503.org/imgs/2019/10/962e77c11ba2af87.png" alt=""></p>
-<p>网盘种子<a href="https://72k.us/file/21353226-404425079">下载</a>     解压密码：<code>ditou.org</code></p>
+<p>网盘种子<a href="https://72k.us/file/21353226-404425079" target="_blank" rel="noopener">下载</a>     解压密码：<code>ditou.org</code></p>
 ]]></description>
                 
                 
@@ -1739,7 +1739,7 @@ fi
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
                     <description><![CDATA[<p>HostMem主要提供洛杉矶KVM VPS，数据中心为QN。开的机器按小时扣费，流量单独计算。可以购买流量包按需使用，对于个人用户来说大大节省了使用成本。</p>
-<p>官网：<a href="https://www.hostmem.com/?ref=1078503">https://www.hostmem.com</a></p>
+<p>官网：<a href="https://www.hostmem.com/?ref=1078503" target="_blank" rel="noopener">https://www.hostmem.com</a></p>
 <p>使用官方提供的优惠码“NOW80”享受八折优惠，最低配方案 1核/1GB内存/20GB SSD硬盘/100Mbps峰值带宽，月费用1.8美金。当然，还有更低的优惠码，请自行搜索。</p>
 <p><img src="https://img.1078503.org/imgs/2019/10/ae9eaa0386a4e178.jpg" alt=""></p>
 <p>商家支持微信和支付宝付款，网站为中英双语版本对中文用户非常友好并且有中文客服。</p>
@@ -1753,7 +1753,7 @@ fi
 <p>我分析了一下，长期使用的话只要商家不放弃这个机龄计划，我的博客流量几乎不需要额外的流量包了。</p>
 <p>另外，该商家支持付费更换IP。</p>
 <p>速度测试：https://la-qn.lg.hostmem.com/</p>
-<p>官网：<a href="https://www.hostmem.com/?ref=1078503">https://www.hostmem.com</a></p>
+<p>官网：<a href="https://www.hostmem.com/?ref=1078503" target="_blank" rel="noopener">https://www.hostmem.com</a></p>
 <p>有疑问可以在评论区留言或者在官网后台提交工单咨询。</p>
 ]]></description>
                 
@@ -1801,7 +1801,7 @@ fi
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>有一条新闻是这样的，说力帆实业（集团）股份有限公司成立债委会，债委会成立的背后，是力帆汽车惨淡的销量，以及高筑的债台。来源：<a href="https://www.thepaper.cn/newsDetail_forward_4733636">澎湃新闻</a></p>
+                    <description><![CDATA[<p>有一条新闻是这样的，说力帆实业（集团）股份有限公司成立债委会，债委会成立的背后，是力帆汽车惨淡的销量，以及高筑的债台。来源：<a href="https://www.thepaper.cn/newsDetail_forward_4733636" target="_blank" rel="noopener">澎湃新闻</a></p>
 <p>为什么会这样？过去很多国产汽车品牌被寄予厚望，国人寄希望于汽车行业能够带领中国走向世界走向辉煌。汽车工业可以说是中国制造的开端，这才多少年就玩不下去了？联想到今年的几家国产汽车制造商纷纷爆出危机，不免让人心生失望。</p>
 <p>问题出在哪里呢？作为一个在汽车行业熬了很多年的人，首先说说对国产汽车的认同感。说真话，我很不喜欢国产汽车。这没办法，质量跟价值摆在那里。市场的认同是理性的，不会因为爱国就放弃自己的利益，所以大多数人认同合资品牌或者进口车。由此，在贸易战各行各业危机四伏的状况下，国产汽车销量下滑也就顺理成章了。当然，都在下滑，只是国产品牌抵御风险的能力明显不够嘛~毕竟，就那么点底子，还不一定都放在主业。</p>
 <p>其实呢，大多仔细调查都会有不务正业的嫌疑。造车的不专心造车去搞金融搞房地产的比比皆是，看看你身边这样不务正业没有品牌精神的企业和公司不都是这样吗？当然，这里面的道道是很复杂的。归根结底都是为了利益最大化，只是，多元化经营真不是那么容易玩的。</p>
@@ -1865,7 +1865,7 @@ fi
 <p>注意了，由于到中国的线路和机器性能不好，建站肯定是不适合的，不过没有流量限制哦。</p>
 <p>因为价格便宜拿来当玩具绝对物超所值。</p>
 <p>据说经常断货，要的抓紧，没有了就要等一等了。</p>
-<p>官网链接：<a href="https://invs.ru/?refbill=7524">https://invs.ru/</a></p>
+<p>官网链接：<a href="https://invs.ru/?refbill=7524" target="_blank" rel="noopener">https://invs.ru/</a></p>
 <p>注册账号验证邮箱后登陆</p>
 <p><img src="https://img.1078503.org/imgs/2019/10/eb8c69421967d707.jpg" alt=""></p>
 <p><img src="https://img.1078503.org/imgs/2019/10/711a6c3e92cc9e63.jpg" alt=""></p>
@@ -1933,7 +1933,7 @@ fi
 <p>上映日期: 2016-03-11(中国大陆) / 2014-06(上海电影节)</p>
 <p>片长: 94分钟</p>
 <p>又名: Wang Mao</p>
-<p>IMDb链接: <a href="http://www.imdb.com/title/tt5606614">tt5606614</a></p>
+<p>IMDb链接: <a href="http://www.imdb.com/title/tt5606614" target="_blank" rel="noopener">tt5606614</a></p>
 <blockquote>
 <p>《我不是王毛》由赵小溪执导，李海江担任编剧，王大治、郭金杰、葛晓凤、苏丽、罗京民、徐箭、林永健联合主演喜剧片。 
 影片主要讲述了一个少林寺学武归来的屌丝男主，为了能够迎娶白富美，酿酒老板家的女儿杏儿，几次卖身参军最后成功逆袭的故事。
@@ -2018,11 +2018,11 @@ fi
 </ul>
 <h3 id="安装">安装</h3>
 <ul>
-<li>常规安装请参考帮助文档：<a href="https://www.xiaoz.me/doc/doc-imgurl">https://www.xiaoz.me/doc/</a></li>
+<li>常规安装请参考帮助文档：<a href="https://www.xiaoz.me/doc/doc-imgurl" target="_blank" rel="noopener">https://www.xiaoz.me/doc/</a></li>
 <li>宝塔面板安装ImgURL参考：https://www.xiaoz.me/archives/12081</li>
 </ul>
 <p><strong>GitHub</strong>：https://github.com/helloxz/imgurl.git</p>
-<p>​    博主本人使用它自建的个人博客专用图床（<a href="https://img.1078503.org">https://img.1078503.org</a>）已经有一段时间了，感觉非常的好用和方便。</p>
+<p>​    博主本人使用它自建的个人博客专用图床（<a href="https://img.1078503.org" target="_blank" rel="noopener">https://img.1078503.org</a>）已经有一段时间了，感觉非常的好用和方便。</p>
 <h4 id="为什么要自建图床">为什么要自建图床</h4>
 <p>​    众所周知，各类动态博客都支持后台上传图片在日志中使用。但一直以来我遇到的最大的麻烦，就是经常的折腾过程中会存在迁移过程中的未知错误和图片保存备份的困难。使用图床获取一个外链地址就方便多了，日志中除了文本以外的调用使用绝对地址链接能有效的避免一些尴尬，因为你只需要保存或备份文章数据就行了。体现在动态博客中就是备份数据库，不用去管上传的图片目录，这样可以有效降低迁移的难度和复杂程度。</p>
 <p>​    记得有博友说过，一个网页的简洁优雅，不是不断的做减法能够实现的，而是要有效的做加法。这也是我为什么更愿意使用hugo静态博客生成器的道理，过程操作起来看似复杂，但体现在页面上就是那么的简洁优雅。当然，我做的并不好。至少我自己喜欢😍。</p>
@@ -2083,7 +2083,7 @@ fi
 <p>有时候想想，放弃一些东西或许能收获另一些东西也不一定吧！源自于不敢尝试不敢迈出那一步，这应该就是我觉得不开心的原因了。</p>
 <p>到底要不要改变我很纠结，我真是一个很消极的人，玛德。也只能埋怨几句，走一步看一步了。</p>
 <p>本来29号这天有很多想说的，一忙就放在这里了。今天（10月1号）回过来再想写发现并没有那么多想说的了。这算是一篇很水很水的日志了，就这样吧！</p>
-<p>国庆了，大家都是在家里还是出门游玩了？我没打算出去玩，家里看看电视玩玩电脑打法一下时间，多补补觉好了。这几天捡了个漏，注册了一个域名（<a href="https://ditou.org">ditou.org</a>）。简单好记我喜欢，关键还比较短小嘿嘿😂。之前有朋友说我的博客域名不好记什么的，所以我才想着重新注册一个的，结果就有了它。感谢那位朋友！不过，我不打算拿来放博客，感觉有些浪费了。拿大佬做好的社区源码跑起来了，博客用来写文字记录心迹，社区就用来发技术专业性较强的东西和资源吧，也便于交流。</p>
+<p>国庆了，大家都是在家里还是出门游玩了？我没打算出去玩，家里看看电视玩玩电脑打法一下时间，多补补觉好了。这几天捡了个漏，注册了一个域名（<a href="https://ditou.org" target="_blank" rel="noopener">ditou.org</a>）。简单好记我喜欢，关键还比较短小嘿嘿😂。之前有朋友说我的博客域名不好记什么的，所以我才想着重新注册一个的，结果就有了它。感谢那位朋友！不过，我不打算拿来放博客，感觉有些浪费了。拿大佬做好的社区源码跑起来了，博客用来写文字记录心迹，社区就用来发技术专业性较强的东西和资源吧，也便于交流。</p>
 <p>扯得乱七八糟不说了，以后不能这样瞎胡闹了，还是要认真的写点东西。</p>
 <h5 id="老规矩">老规矩：</h5>
 <p><img src="https://img.1078503.org/imgs/2019/09/87db4efae80bb5e9.jpg" alt=""></p>
@@ -2133,8 +2133,8 @@ fi
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>今天需要为博客换一个服务器，原因是<a href="https://www.vultr.com/?ref=7997010">vultr</a>的余额即将耗尽。</p>
-<p>虽然<a href="https://www.vultr.com/?ref=7997010">vultr</a>的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。</p>
+                    <description><![CDATA[<p>今天需要为博客换一个服务器，原因是<a href="https://www.vultr.com/?ref=7997010" target="_blank" rel="noopener">vultr</a>的余额即将耗尽。</p>
+<p>虽然<a href="https://www.vultr.com/?ref=7997010" target="_blank" rel="noopener">vultr</a>的服务一直都很稳，但是另一家的余额还有一些不能浪费是吧！（其实就是穷。）等我去用它几个月争取早日把余额用完。</p>
 <p>真正的云VPS虚拟机就是好，开起来很快就完工了，真正是数秒完成，vultr家的每次创建都还需要等一会儿呢。别的先不管，拿到IP第一时间看路由：https://tools.ipip.net/traceroute.php 。完成后看最后面的数字，一般在200以内就是很好的了，当然大家一般都是使用美西线路。不放心的话最好本地还是ping一下IP看看。</p>
 <p>以上是为了验证IP在国内是否可用，为下一步继续配置系统做准备。</p>
 <p>终端(比如xshell)连接到服务器运行<code>uname -r</code> 得到当前的系统版本：</p>
@@ -2144,7 +2144,7 @@ fi
 </code></pre>
 <p>如果你需要开启并使用BBR加速，就需要升级内核到最新版本；如果你需要使用docker更需要升级。</p>
 <p>最新稳定版内核查看地址：https://www.kernel.org/</p>
-<p>如果能一步就安装最新内核并开启 BBR 那最方便了，我先想到<a href="https://teddysun.com/489.html">秋水逸冰</a>大佬的脚本，跑一下看看：</p>
+<p>如果能一步就安装最新内核并开启 BBR 那最方便了，我先想到<a href="https://teddysun.com/489.html" target="_blank" rel="noopener">秋水逸冰</a>大佬的脚本，跑一下看看：</p>
 <pre><code class="language-shell">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh
 </code></pre>
 <p>跑完<code>uname -r</code>验证一下：</p>
@@ -2213,7 +2213,7 @@ fi
                     <description><![CDATA[<p>真是傻人有傻福。</p>
 <p>我感觉就是自己抱怨了几句，昨晚回到家就发现Google正常收录了我的文章，今天发现主页收录也更新了。看来，搜索引擎也怕我水文章？哈哈。也算是最近一个月以来心里稍微能安心一点的时刻了，至少，已经在慢慢好转了。</p>
 <p>回顾一下，自从大的改版后收录就一直不正常，加上错误的屏蔽了机器人的抓取能正常收录就真的是见了鬼了。屋漏偏逢连夜雨，这个时间段还发现被采集站采集，简直要抓狂。</p>
-<p>幸好！过了这么久在我快没有耐心的时候Google恢复了我的收录。并且，有<a href="https://shanbu.fun/">细心的小伙伴</a>帮我发现了采集站域名居然被墙了！当时我心里那个开心啊，让你得瑟，遭报应了吧？我观察了一下对方的站点，应该是对评论的控制不加管理造成的域名被封锁。</p>
+<p>幸好！过了这么久在我快没有耐心的时候Google恢复了我的收录。并且，有<a href="https://shanbu.fun/" target="_blank" rel="noopener">细心的小伙伴</a>帮我发现了采集站域名居然被墙了！当时我心里那个开心啊，让你得瑟，遭报应了吧？我观察了一下对方的站点，应该是对评论的控制不加管理造成的域名被封锁。</p>
 <p>早前我的文章标题搜索排名一直是在采集站后面的，甚至不显示。随着收录的恢复，标题搜索排名效果立竿见影，毕竟我是首发站，只要我的收录能正常，搜索引擎不会傻到分辨不出谁先发谁后发。</p>
 <p>因此，总结出的经验是一旦发现站点搜索不正常多半是收录出了问题。我觉得原理应该是这样的，诚如很多站长说的一样，你该发文章的继续发保持耐心。时间会证明一切，等着慢慢恢复吧！</p>
 <h5 id="老规矩">老规矩：</h5>
@@ -2321,8 +2321,8 @@ fi
 <p><img src="https://img.1078503.org/imgs/2019/09/47a21bae401eafa0.jpg" alt="">
 英国电视剧《<em><strong>The Prisoner</strong></em>》（中文翻译：<strong>密谍</strong>或<strong>六号特殊犯人</strong>）开场中 Patrick McGoohan 驾驶的 lotus <em>seven</em>.</p>
 <p>相关视频链接：</p>
-<p><a href="https://www.youtube.com/watch?v=o5VyQraSc3M">买堆垃圾拼起来 居然跑得比布加迪还快？</a> 【油管】</p>
-<p><a href="https://www.youtube.com/watch?v=F0btJhizRXA">1964 Lotus Super Seven: A Lightweight Legacy</a> 【油管】</p>
+<p><a href="https://www.youtube.com/watch?v=o5VyQraSc3M" target="_blank" rel="noopener">买堆垃圾拼起来 居然跑得比布加迪还快？</a> 【油管】</p>
+<p><a href="https://www.youtube.com/watch?v=F0btJhizRXA" target="_blank" rel="noopener">1964 Lotus Super Seven: A Lightweight Legacy</a> 【油管】</p>
 ]]></description>
                 
                 
@@ -2651,7 +2651,7 @@ fi
 <p>hugo是由Go语言编写的，开发团队已经编译好一个文件，您只需要下载它被把它加入系统环境变量就可以在本地运行调试了。官方说明已经写的很清楚了：https://gohugo.io/getting-started/installing</p>
 <p>照着步骤做的方法：</p>
 <h4 id="1在c盘创建文件夹--chugobin">1.在C盘创建文件夹 ： <code>C:\Hugo\bin</code></h4>
-<h4 id="2将下载httpsgithubcomgohugoiohugoreleasesdownloadv0572hugo_0572_windows-64bitzip的最新版可执行文件解压到这个文件夹更多版本您可以参考这里httpsgithubcomgohugoiohugoreleases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases">这里</a>。</h4>
+<h4 id="2将下载httpsgithubcomgohugoiohugoreleasesdownloadv0572hugo_0572_windows-64bitzip的最新版可执行文件解压到这个文件夹更多版本您可以参考这里httpsgithubcomgohugoiohugoreleases">2.将<a href="https://github.com/gohugoio/hugo/releases/download/v0.57.2/hugo_0.57.2_Windows-64bit.zip" target="_blank" rel="noopener">下载</a>的最新版可执行文件解压到这个文件夹。更多版本您可以参考<a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener">这里</a>。</h4>
 <h4 id="3解压后得到三个文件我们需要用到的是hugoexe这个可执行文件我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行方法如下">3.解压后得到三个文件，我们需要用到的是<code>hugo.exe</code>这个可执行文件，我们需要做的就是将这个文件加入系统环境变量用于在命令行窗口执行。方法如下：</h4>
 <ul>
 <li>右键单击“ **开始”**按钮。</li>
@@ -2730,12 +2730,12 @@ fi
 </code></pre>
 <p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
 <h4 id="7托管到github">7.托管到GitHub</h4>
-<p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
+<p>这是省钱的方法，免掉了虚拟主机的费用，甚至域名都可以暂时使用<code>1078503.github.io</code>这样的。具体部署到GitHub的方法同样请自行搜索研究，小白推荐使用<a href="https://desktop.github.com/" target="_blank" rel="noopener">Github Desktop</a>，更直观省事儿。不只是GitHub，类似的服务还有很多。</p>
 <h4 id="8部署到vps">8.部署到VPS</h4>
 <p>最简单的方法，跟上面的虚拟主机上传方法类似就不说明了。</p>
 <p>正在使用的方法，git仓库同步推送。这就回到了文章开头说到的部分，我在这一步研究了很久，分享出来给需要的朋友参考。</p>
 <p><strong>VPS上的仓库和配置</strong></p>
-<p>如果您是使用宝塔面板，Nginx配置文件不用管，新建网站就可以直接使用或者使用已经为博客准备好的宝塔面板对应的网站配置。没有使用任何面板就需要安装Nginx并编辑配置文件，请参考这个<a href="https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/">链接</a>。</p>
+<p>如果您是使用宝塔面板，Nginx配置文件不用管，新建网站就可以直接使用或者使用已经为博客准备好的宝塔面板对应的网站配置。没有使用任何面板就需要安装Nginx并编辑配置文件，请参考这个<a href="https://bivectorfoil.github.io/post/deploy-personal-blogs-on-vps/" target="_blank" rel="noopener">链接</a>。</p>
 <p>SSH连接到VPS</p>
 <p>在远程主机配置git仓库，因为我使用的centos7自带git所以可以直接使用，如果你的系统没有的话请自行安装。
 比如在root目录下生成blog.git,并编辑post-receive(没有的话生成一个)</p>
@@ -2856,7 +2856,7 @@ git push origin master
 <p>集数：8</p>
 <p>对于本片，肯定是话题不少的，关于男权女权。男权世界女人不满意，被压抑甚至奴役，同时女人在渴望获得释放和自由的时候往往会被男人利用。但究竟是男人利用了女人呢？还是女人利用了男人？其实谁也说不清楚，搞那么清楚干什么，大家都开心就好。对女主黑木香这样的女人应该不会有男人不喜欢吧，我觉得真实的女人最美。这社会，多少女人逢场作戏玩弄男人，以为自己会快乐，或许最终却玩弄了自己。</p>
 <p>多的不说了，一些关键词：<code>村西透</code>、<code>黑木香</code>、<code>Netflix</code>。不能再多了，不敢剧透怕被打哈哈。记住，这片子是传记故事改编的电视剧，所以很精彩。</p>
-<p>网上搜罗的资源：<a href="http://u21353226.ctfile.net/fs/21353226-392853240">请自行享用</a>。解压密码：dtz9.net</p>
+<p>网上搜罗的资源：<a href="http://u21353226.ctfile.net/fs/21353226-392853240" target="_blank" rel="noopener">请自行享用</a>。解压密码：dtz9.net</p>
 <h5 id="本站不提供下载分享仅供学习交流所有资源来自互联网并且本站不对任何内容和法律条款负责">本站不提供下载，分享仅供学习交流。所有资源来自互联网并且本站不对任何内容和法律条款负责。</h5>
 ]]></description>
                 
@@ -2924,10 +2924,10 @@ git push origin master
 <p>除此之外，单纯作为一个网络服务来说，Mastodon 本身也有它的价值。首先，它界面设计比较简洁清爽，没有广告，没有会员，没有认证……如果受够了新浪微博里免费用户处处受限的体验，或许是时候转用 mastodon 了。</p>
 <p>使用过新浪微博的人可能都有过这种经历：在新浪微博里发的内容，显示发送成功了，但是却一直 0 阅读量，这可能是因为内容里包含了谁也说不清到底是什么的关键词，被限制了——而在长毛象站点，没有内容预审；又或是刷首页时间线时，来来回回都是一些不知为什么会出现的内容，有时候还是很久以前的旧内容，在长毛象站点则会完全按照时间先后来展示内容……</p>
 <p><img src="https://img.1078503.org/imgs/2019/08/5d0c9959cfff6da2.jpg" alt=""></p>
-<p>总之，<a href="https://kaix.in/">KAIX.IN</a> 刚刚搭建了一个 mastodon 站点，主要是用来自己使用，作为个人参与到 mastodon 网络里的一个固定入口——博主说或许这才是 mastodon 的「正确用法」。</p>
+<p>总之，<a href="https://kaix.in/" target="_blank" rel="noopener">KAIX.IN</a> 刚刚搭建了一个 mastodon 站点，主要是用来自己使用，作为个人参与到 mastodon 网络里的一个固定入口——博主说或许这才是 mastodon 的「正确用法」。</p>
 <p>但是同时博主也<code>开放了注册</code>，<strong>欢迎对阅读、电影、烹饪、咖啡等话题感兴趣的人一起在本地站内交流</strong>。不过（当然是我多虑了）暂时打算只接受 50 人左右注册，服务器上还有其他站点，人数再多就支撑不住了。</p>
-<p>注册地址在这里：<a href="https://tzcafe.com/invite/KoqEt6hH">https://tzcafe.com</a>。需要体验的小伙伴可以尽情注册享用，我在该站的账号是<code>@1078503@tzcafe.com</code></p>
-<h5 id="本文转载自-kaixinhttpskaixin0001mastodon-为了阅读顺畅部分文字有修改感谢原作者的奉献">本文转载自 <a href="https://kaix.in/0001/mastodon">kaix.in</a> ，为了阅读顺畅部分文字有修改，感谢原作者的奉献。</h5>
+<p>注册地址在这里：<a href="https://tzcafe.com/invite/KoqEt6hH" target="_blank" rel="noopener">https://tzcafe.com</a>。需要体验的小伙伴可以尽情注册享用，我在该站的账号是<code>@1078503@tzcafe.com</code></p>
+<h5 id="本文转载自-kaixinhttpskaixin0001mastodon-为了阅读顺畅部分文字有修改感谢原作者的奉献">本文转载自 <a href="https://kaix.in/0001/mastodon" target="_blank" rel="noopener">kaix.in</a> ，为了阅读顺畅部分文字有修改，感谢原作者的奉献。</h5>
 ]]></description>
                 
                 
@@ -2982,7 +2982,7 @@ git push origin master
                 
                     <description><![CDATA[<p>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。</p>
 <h2 id="代码高亮">代码高亮</h2>
-<p>就随便找了一个 <a href="https://prismjs.com/">prism.js</a> ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：</p>
+<p>就随便找了一个 <a href="https://prismjs.com/" target="_blank" rel="noopener">prism.js</a> ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：</p>
 <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3057,7 +3057,7 @@ git push origin master
 <p>仅供参考，不保证任何环境都能完美实现。</p>
 <p>本来<code>width</code>准备设置到<code>700px</code>的，想法是越宽越能方便用户点击，发现手机端不合适，于是设置了<code>300px</code>，有问题欢迎报错和交流😏</p>
 <h2 id="调整页脚友情链接样式">调整页脚友情链接样式</h2>
-<p>以上按钮比较满意，那就再顺手把友情链接表格样式一起调整一下，去掉了超链接的下划线，通过修改表格背景和边框颜色实现了无边框😭，没办法，弱鸡只会这么玩哈哈。欢迎交换首页链接，要求必须首页，必须是页脚位置且醒目😏，网站类型原则上不限制，但看我心情🐶。有专用的内页<a href="https://dtz9.net/links/">博客友链</a>，对于首页友链符合要求的可以申请首页友链。最后再说一句，欢迎随便交换友情链接😁</p>
+<p>以上按钮比较满意，那就再顺手把友情链接表格样式一起调整一下，去掉了超链接的下划线，通过修改表格背景和边框颜色实现了无边框😭，没办法，弱鸡只会这么玩哈哈。欢迎交换首页链接，要求必须首页，必须是页脚位置且醒目😏，网站类型原则上不限制，但看我心情🐶。有专用的内页<a href="https://dtz9.net/links/" target="_blank" rel="noopener">博客友链</a>，对于首页友链符合要求的可以申请首页友链。最后再说一句，欢迎随便交换友情链接😁</p>
 ]]></description>
                 
                 
@@ -3112,7 +3112,7 @@ git push origin master
 <p><img src="https://img.1078503.org/imgs/2019/08/259b9a3c022b4229.jpg" alt=""></p>
 <hr>
 <h5 id="消息">消息：</h5>
-<h4 id="运营商叫停不限量套餐背后经营压力下摆脱价格战投5ghttpwwwbjnewscomcnfinance20190803611093html"><a href="http://www.bjnews.com.cn/finance/2019/08/03/611093.html">运营商叫停不限量套餐背后：经营压力下摆脱价格战投5G</a></h4>
+<h4 id="运营商叫停不限量套餐背后经营压力下摆脱价格战投5ghttpwwwbjnewscomcnfinance20190803611093html"><a href="http://www.bjnews.com.cn/finance/2019/08/03/611093.html" target="_blank" rel="noopener">运营商叫停不限量套餐背后：经营压力下摆脱价格战投5G</a></h4>
 <p>这是今天看到的一条消息。我是电信用户，所以很关心资费问题，大约2017年开始使用电信的199十全十美套餐。这条消息的出现令我比较担忧以后的政策变化，说实话这套餐内的手机流量一般我是很难用超的，40G限速我可能每月最多用到不到10G，那是相当的浪费啊。考虑一直使用也是为了买个安心，我每月多给你电信一点钱换你让我随便使用你的服务，但不要乱扣费，早些年电信扣费混乱是很严重的。</p>
 ]]></description>
                 
@@ -3169,11 +3169,11 @@ git push origin master
 <p>这就像那个时代很多人的命运一样，很多的无奈。我们每个人都被时代左右着命运，每个年代都有各自的无奈。关于爱情关于事业也关乎生活。放在当下，很多影子都可以在电影中寻找到共鸣，因为它是那么的真实。</p>
 <p>喜欢老电影，因为我总能在里面找到事物的本质并产生共鸣。这些年过去了，很多事情依然如故，或许这就是人性。</p>
 <p>参考：</p>
-<p>1.<a href="https://zh.wikipedia.org/wiki/%E5%AD%94%E9%9B%80_(%E7%94%B5%E5%BD%B1)">维基百科词条</a></p>
-<p>2.<a href="https://movie.douban.com/subject/1309004/">豆瓣电影</a></p>
+<p>1.<a href="https://zh.wikipedia.org/wiki/%E5%AD%94%E9%9B%80_%28%E7%94%B5%E5%BD%B1%29" target="_blank" rel="noopener">维基百科词条</a></p>
+<p>2.<a href="https://movie.douban.com/subject/1309004/" target="_blank" rel="noopener">豆瓣电影</a></p>
 <hr>
 <h5 id="博文推荐">博文推荐</h5>
-<h3 id="两个月减-10kg聊聊这件事httpswwwbarretleecomblog20190728my-way-to-lose-weight"><a href="https://www.barretlee.com/blog/2019/07/28/my-way-to-lose-weight/">两个月减 10kg，聊聊这件事</a></h3>
+<h3 id="两个月减-10kg聊聊这件事httpswwwbarretleecomblog20190728my-way-to-lose-weight"><a href="https://www.barretlee.com/blog/2019/07/28/my-way-to-lose-weight/" target="_blank" rel="noopener">两个月减 10kg，聊聊这件事</a></h3>
 <p>一句话总结，胖子要减肥🤭。我本人三十出头，然而已经有了大肚腩😭，不过，援引一位女性朋友对我说过的话，她说她喜欢有点肚子的男人。我随口说那看样子我要减肥，把肚子减掉，然后就收获了一顿暴打和埋怨。这是不是就是我至今打光棍儿的原因？😏我就纳了闷儿了，有肚子的男人意味着肚子里有货？有墨水还是有财富？我都不占，要肚子何用。</p>
 ]]></description>
                 
@@ -3228,10 +3228,10 @@ git push origin master
 <p>这正是我喜欢逛博客的原因，逛的越多收获越多。大多数博客都是一个个体，指向了真实世界里的某一个人。博主更新的文章基本能代表他关注的兴趣点，可能某一个人某一篇文章分享的兴趣点正好是我感兴趣的。集思广益，总能收获更多。</p>
 <p>今天就写这么多，<strong>以后我会保持在文章末尾的时候分享一些博文直达链接。有时候可能是视频，有时候可能是图片。</strong></p>
 <hr>
-<p>今天为大家推荐一位UP主：<a href="https://www.youtube.com/channel/UCi7SRwf5UjG4_ALGyOIHFFA/playlists">况露</a> （直达油管往期播放列表）</p>
-<p>晚上回到家正好看到他最新一期的更新：<a href="https://www.youtube.com/watch?v=jkXb66SOtro">油管直达链接</a></p>
+<p>今天为大家推荐一位UP主：<a href="https://www.youtube.com/channel/UCi7SRwf5UjG4_ALGyOIHFFA/playlists" target="_blank" rel="noopener">况露</a> （直达油管往期播放列表）</p>
+<p>晚上回到家正好看到他最新一期的更新：<a href="https://www.youtube.com/watch?v=jkXb66SOtro" target="_blank" rel="noopener">油管直达链接</a></p>
 <p>（科学上网的小伙伴应该都喜欢直接在油管看视频吧？只是国内用户访问会影响体验，那就动动小手点直达链接观看吧！）</p>
-<p>国内用户请观看B站同步更新：<a href="https://www.bilibili.com/video/av61140058?zw">直达链接</a></p>
+<p>国内用户请观看B站同步更新：<a href="https://www.bilibili.com/video/av61140058?zw" target="_blank" rel="noopener">直达链接</a></p>
 <iframe height=498 width=100% src="//player.bilibili.com/player.html?aid=61140058&cid=106370428&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 关注他已经很久了，很喜欢他之前一个人单车骑行搭帐篷露营的纪录片，非常的精彩。
 <p>追剧厌倦了的小伙伴可以考虑换一下口味，看看普通人骑行过程中的风景。</p>
@@ -3297,7 +3297,7 @@ git push origin master
 <p>这几天气温高的厉害，大家要防暑降温哦。希望这几朵花儿能够让你烦躁的心情变的宁静一点点。</p>
 <p>傍晚乌云压顶，消息说另一个县大雨降临，我们这里降雨不到半小时。不过，今晚应该凉爽很多了，可以睡一个安稳觉了。只是，很多地方只怕是水灾不断吧？</p>
 <p><img src="https://img.1078503.org/imgs/2019/07/9e7ff7dd9e8fdf7a.jpg" alt=""></p>
-<p><strong>图片处理软件：<a href="https://www.dotpdn.com/downloads/pdn.html">paint.net</a></strong></p>
+<p><strong>图片处理软件：<a href="https://www.dotpdn.com/downloads/pdn.html" target="_blank" rel="noopener">paint.net</a></strong></p>
 <p>这个软件是我的新玩具🙂，欢迎交流。</p>
 <p>另外，今天不发美女了。就这几张图已经很大了，页面加载估计会有点慢😏。</p>
 <p>在这个炎热的夏天，有空调的工作环境或许还好，该干嘛干嘛就完了。对于那些广大的没有空调的工作环境的小伙伴该是多么的难熬？我已经把能协调的工作移到了傍晚和加班完成，深夜回家睡觉，每天上午一般也是在家休息或者打酱油。不知道小伙伴们是怎么度过的呢？</p>
@@ -3435,7 +3435,7 @@ git push origin master
 <p>我的第一个个人主页应该就是诞生在2001年，感谢那时候我的计算机老师的鼓励。当时国内已经有很多免费的html空间了，不过那时候我就把主页放在了国外的服务器上，这么多年过去了，我早已忘记它长什么样子了。不过，今天我在Google上搜索排查了一下，提供免费空间的网站居然还在，只是我的账户想不起来了，就算想起来估计也是不存在了吧？</p>
 <p>我要说的是98年的电脑和生活习惯，这在视频中也有提到。世界就是一个轮回，技术上二十年已经有了很多的飞越，但很多东西本质上并没有太大的变化。</p>
 <hr>
-<h4 id="一个轻量级的企业wiki和团队知识分享平台mm-wiki搭建教程httpswwwmoeratscomarchives949"><a href="https://www.moerats.com/archives/949/">一个轻量级的企业Wiki和团队知识分享平台：MM-Wiki搭建教程</a></h4>
+<h4 id="一个轻量级的企业wiki和团队知识分享平台mm-wiki搭建教程httpswwwmoeratscomarchives949"><a href="https://www.moerats.com/archives/949/" target="_blank" rel="noopener">一个轻量级的企业Wiki和团队知识分享平台：MM-Wiki搭建教程</a></h4>
 <p><img src="https://img.1078503.org/imgs/2019/07/a0df449aa7df3d0d.png" alt=""></p>
 <p>**Github地址：**<a href="https://github.com/phachon/mm-wiki">https://github.com/phachon/mm-wiki</a></p>
 ]]></description>
@@ -3489,7 +3489,7 @@ git push origin master
 <p>在一个普通的莫斯科公寓里，一个男孩和一个女孩坐在沙发上。两者都不超过16岁。空气中弥漫着淡淡的白葡萄酒气味和尴尬。在男孩的耳朵里是一个无线耳机 ，他的父亲和朋友正在通过隐藏的摄像头观察这对情侣，并提出何时采取行动的建议。但就在他开始亲吻之前，这条耳机线路突然死了，其中一个“助手”将咖啡洒在了设备上。儿子被迫单独行动。</p>
 <p>当连接重新建立时，我们看到同一个女孩，但现在戴着面纱和婚纱。她的男朋友（也和以前一样）握着她的手，看起来像一只被车头灯夹住的兔子 - 这清楚地表明这个女孩最终怀孕了，这个男孩，作为“适当的绅士”，不得不嫁给她。</p>
 <p>这是俄罗斯说唱团体Kasta和拉脱维亚摇滚乐队Brainstorm联合制作的一段视频片段，用于他们的歌曲“关于性爱”，敦促家长注意孩子的性教育，以避免一天早上醒来意外怀孕和离婚，注定不被看好的婚姻。</p>
-<h5 id="由于国内没有找到相关视频油管视频加载影响网页访问请在这里httpswwwyoutubecomwatchv2vrofxqfijg观看上述视频编辑执迷不悟httpsdtz9net">由于国内没有找到相关视频，油管视频加载影响网页访问，请<a href="https://www.youtube.com/watch?v=2vROfxQfIjg">在这里</a>观看上述视频。编辑：<a href="https://dtz9.net/">执迷不悟</a></h5>
+<h5 id="由于国内没有找到相关视频油管视频加载影响网页访问请在这里httpswwwyoutubecomwatchv2vrofxqfijg观看上述视频编辑执迷不悟httpsdtz9net">由于国内没有找到相关视频，油管视频加载影响网页访问，请<a href="https://www.youtube.com/watch?v=2vROfxQfIjg" target="_blank" rel="noopener">在这里</a>观看上述视频。编辑：<a href="https://dtz9.net/" target="_blank" rel="noopener">执迷不悟</a></h5>
 <h2 id="背景"><strong>背景</strong></h2>
 <p>俄罗斯没有推荐的性教育材料，除了一本关于十一年级学生的一般健康和福利的教科书中的一小部分。相反，学校学生对异性，避孕和无保护性行为风险的了解来自商业，电影，电子游戏，色情以及最可怕的同学等智慧。</p>
 <p>与此同时，孩子们很尴尬地询问他们的父母，而父母又非常乐意将责任转移给老师。根据研究中心（VTsIOM）的一项民意调查，超过60％的俄罗斯人支持在学校引入性教育。</p>
@@ -3533,7 +3533,7 @@ git push origin master
 <p><img src="https://img.1078503.org/imgs/2019/07/d1c7b3379555b487.jpg" alt=""></p>
 <p>“Kinky Russia”在线社区的公关专家Yana Zadorozhnaya说，所有这些都在成年人的特别会议和讲座中进行了讨论。她说性技术远非主要话题。</p>
 <p>“首先，我们教授性文化，包括保护和尊重。毕竟，成年人在指导孩子之前也需要学习这些东西，“Yana说，并且很难不同意她的看法。</p>
-<h6 id="本文转载自-russia-beyondhttpswwwrbthcomlifestyle330658-russia-handle-sex-education-由google翻译所得部分词组有篡改不保证词义准确">本文转载自 <a href="https://www.rbth.com/lifestyle/330658-russia-handle-sex-education">RUSSIA BEYOND</a> ，由Google翻译所得，部分词组有篡改🤭，不保证词义准确。</h6>
+<h6 id="本文转载自-russia-beyondhttpswwwrbthcomlifestyle330658-russia-handle-sex-education-由google翻译所得部分词组有篡改不保证词义准确">本文转载自 <a href="https://www.rbth.com/lifestyle/330658-russia-handle-sex-education" target="_blank" rel="noopener">RUSSIA BEYOND</a> ，由Google翻译所得，部分词组有篡改🤭，不保证词义准确。</h6>
 <hr>
 <p>个人觉得中国的小孩子们还不是一样的困惑...</p>
 <p>你的性知识是怎么获得的？</p>
@@ -3599,7 +3599,7 @@ git push origin master
 <p>今晚只做了一件事，把网址结构从 /20190714.html 这样的改到了 /2019/07/1/ 这种纯目录结构，个人感觉好看也便于管理。如果继续使用之前的目录结构，以后时间长了根目录列表可能会很长很长，这样找个文件或者排查错误就会无从下手。现在的结构应该是好很多了，解释一下就是 <strong>域名/年/月/id排序</strong>，那么就是以月为单位id排序的思路，每个月一个文件夹的静态网页目录存放形式。这下心里的担忧暂时可以放下了。</p>
 <p>不过，我这样暴力改变网址结构有一个损失就是很多以前的文章链接失效了。本来可以做一些补充的，但考虑到没多少内容也就无所谓了，长痛不如短痛。</p>
 <p>另外，disqus的评论通过csv重新导入了，未来24小时可能会有一些死链，待后台更新完成应该就不存在了。</p>
-<p>关于RSS更新，<a href="http://blog.dngz.net/">心灵博客</a>留言通知我有乱码问题，干脆就重新导入了一份代码，本地测试正常，不知道其它环境是否还有未知错误。是的，重新输出RSS以及改变了网址结构，订阅过的朋友可能会收到全部帖子的订阅更新，造成的不适还请原谅。</p>
+<p>关于RSS更新，<a href="http://blog.dngz.net/" target="_blank" rel="noopener">心灵博客</a>留言通知我有乱码问题，干脆就重新导入了一份代码，本地测试正常，不知道其它环境是否还有未知错误。是的，重新输出RSS以及改变了网址结构，订阅过的朋友可能会收到全部帖子的订阅更新，造成的不适还请原谅。</p>
 <h4 id="深夜美娇娘">深夜美娇娘</h4>
 <p>那么，老规矩又来了🤭希望美女的容颜能够安抚你躁动的心情😏</p>
 <p><img src="https://img.1078503.org/imgs/2019/07/6f3bc68365b6b2af.jpg" alt=""></p>
@@ -3663,7 +3663,7 @@ git push origin master
 <hr>
 <h4 id="博文推荐">博文推荐</h4>
 <p>勇哥不愧是大神，从专业角度分析了我对电脑性能的理解，符合我够用就行的理念👍</p>
-<p>王志勇：<a href="http://www.auiou.com/relevant/00001414.jsp">图拉丁精神：家庭组装N台、N台电脑的最简单好用的方案</a></p>
+<p>王志勇：<a href="http://www.auiou.com/relevant/00001414.jsp" target="_blank" rel="noopener">图拉丁精神：家庭组装N台、N台电脑的最简单好用的方案</a></p>
 <h4 id="美娇娘">美娇娘</h4>
 <p>感觉好多天没发布性感美女了，不搞一张吸引一下眼球我怕流量越来越少了🤭
 今天来张猛一点的😏</p>
@@ -3723,7 +3723,7 @@ git push origin master
 <p>“全国蚊子出没预报”综合分析了气象要素和蚊子生长的环境特点，将预报等级分别为较少、正常、较多和多四个等级。预计，未来三天华东沿海地区、华中地区和西南地区雨水频繁，气象条件适宜蚊子生长，蚊子较多。今天（12日）夜里到明天（13日）清晨，江苏、浙江、江西、湖北、湖南、贵州、重庆、云南等10余个省市将上演“驱蚊大战”，公众需注意采取防蚊措施。而内蒙、新疆、青海等地气象条件不利于蚊子出没，蚊子相对较少。</p>
 <p>全国蚊子出没预报产品是2018年江苏省气象服务中心推出的一款健康气象预报产品，该产品采用了全国智能网格实况分析产品和精细化预报产品作为技术支撑，将天气实况数据精确到每小时，范围涉及2.5公里。</p>
 <p>今年，蚊子出没预报2.0版本正式上线，在去年的基础上进行优化。用户除了可以查询所在地的蚊子出没实况数据，以及三天内逐三小时气象条件对蚊子出没影响的趋势预报，还可以定制个性化蚊子预报提醒，有效避开蚊子密集区域，并提供有效驱蚊时段。同时，新增”疯狂的蚊子”小游戏，增加产品的趣味性。</p>
-<p>是不是有点意思？详细来源请看这里：<a href="https://www.cnbeta.com/articles/tech/867319.htm">cnBeta</a>  文章里面可是有与蚊子作斗争的方法哦🙂</p>
+<p>是不是有点意思？详细来源请看这里：<a href="https://www.cnbeta.com/articles/tech/867319.htm" target="_blank" rel="noopener">cnBeta</a>  文章里面可是有与蚊子作斗争的方法哦🙂</p>
 ]]></description>
                 
                 
@@ -3785,8 +3785,8 @@ git push origin master
 <p>最近一百年产生了大量的工业垃圾，很多是无法短期类降解的，今后数百年都会影响着人类赖以生存的地球。</p>
 <h4 id="目前的垃圾分类指引">目前的垃圾分类指引</h4>
 <p><img src="https://img.1078503.org/imgs/2019/07/71656f964b265ced.jpg" alt="">
-表格截图来自<a href="https://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%88%86%E9%A1%9E">维基百科</a>页面，不保证准确性。</p>
-<p>其中，以 <strong><a href="http://sh.bendibao.com/news/2019219/202376.shtm">上海市生活垃圾管理条例</a></strong> 为例，现阶段公布了一些管理办法，个人认为还有很多不足有待完善。不过，这是一个好的开始，有总比没有好。</p>
+表格截图来自<a href="https://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%88%86%E9%A1%9E" target="_blank" rel="noopener">维基百科</a>页面，不保证准确性。</p>
+<p>其中，以 <strong><a href="http://sh.bendibao.com/news/2019219/202376.shtm" target="_blank" rel="noopener">上海市生活垃圾管理条例</a></strong> 为例，现阶段公布了一些管理办法，个人认为还有很多不足有待完善。不过，这是一个好的开始，有总比没有好。</p>
 <h4 id="对未来的担忧">对未来的担忧</h4>
 <p>对垃圾进行分类不可避免就会产生垃圾处理的问题，是回收二次利用还是简单填埋之？还是部分采取焚烧的措施？</p>
 <p>回到垃圾的产生，生活垃圾产生不可避免，但求能从教育和生活习惯上减少垃圾的产生。比如，杜绝铺张浪费。工业化进程产生的垃圾才是真正威胁地球和人类的根本原因。</p>
@@ -3795,11 +3795,11 @@ git push origin master
 <p>国内目前强化垃圾分类处理，肯定会催生一个行业并产生大量的利益。首先，很多之前依赖垃圾回收生存和发大财的人群的利益肯定会受到影响甚至重新洗牌！不信我们继续观察。未来拾荒者人群何去何从？垃圾到底是属于谁的问题肯定会冒出来。自古提倡官不与民争利，但肯定会有人打着政府的名义强行垄断市场为经济利益服务。比如现在在农村等基层怨声很大的殡葬服务问题，未来还会继续蔓延到垃圾分类处理领域。</p>
 <p>如果一项措施实质上只为经济利益做了服务，而没有实际上改善生存环境，那么我们就认为这个事情还是需要继续讨论和研究并得到改善。不好的需要摒弃，好的才需要推广。应该让有知识有能力的人主导并主持专业领域的事务，公共事业管理需要为社会服务，解决社会问题。如果未来又产生一个或几个大的商业帝国，那么，这个事情本质上就不会朝向人们希望的方向发展了。</p>
 <p>相关链接：</p>
-<p><a href="https://www.cnbeta.com/articles/tech/866505.htm">上海惊现“垃圾分类检查员“职位：日薪400、还包住宿</a></p>
-<p><a href="http://www.ftchinese.com/story/001083436?archive">从德国“垃圾分类”谈起</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/55110096">了解国外“垃圾分类”怎么进行</a></p>
-<p><a href="https://www.jiemian.com/article/2885685.html">“限塑令”十年都没搞成，上海新推垃圾分类能行吗？</a></p>
-<p><a href="http://dof.hainan.gov.cn/gyfw/kpzx/201001/t20100119_1000357.html">触目惊心的海洋垃圾</a></p>
+<p><a href="https://www.cnbeta.com/articles/tech/866505.htm" target="_blank" rel="noopener">上海惊现“垃圾分类检查员“职位：日薪400、还包住宿</a></p>
+<p><a href="http://www.ftchinese.com/story/001083436?archive" target="_blank" rel="noopener">从德国“垃圾分类”谈起</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/55110096" target="_blank" rel="noopener">了解国外“垃圾分类”怎么进行</a></p>
+<p><a href="https://www.jiemian.com/article/2885685.html" target="_blank" rel="noopener">“限塑令”十年都没搞成，上海新推垃圾分类能行吗？</a></p>
+<p><a href="http://dof.hainan.gov.cn/gyfw/kpzx/201001/t20100119_1000357.html" target="_blank" rel="noopener">触目惊心的海洋垃圾</a></p>
 ]]></description>
                 
                 
@@ -3846,20 +3846,20 @@ git push origin master
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>文/新浪财经意见领袖专栏作家 <a href="http://finance.sina.com.cn/zl/author.d.html?uid=1785075601">周天勇</a></p>
+                    <description><![CDATA[<p>文/新浪财经意见领袖专栏作家 <a href="http://finance.sina.com.cn/zl/author.d.html?uid=1785075601" target="_blank" rel="noopener">周天勇</a></p>
 <p>这是作者有关中国城市和农村住宅高楼化进程的系列文章，笔者将以《中国人民以后都要居住在几十层的高楼上吗？》为总题，陆续发表之一《国外多是城乡再造，我们却是大拆大建》、之二《几十层楼住宅建设的七大问题》、之三《我们的住宅楼为什么会越建越高？》和之四《城乡房地建设体制怎么改革，方式怎么扭转？》。</p>
 <ol>
-<li><a href="http://finance.sina.com.cn/zl/china/2019-06-27/zl-ihytcerk9747410.shtml">未来中国十几亿居民都要住在几十层高的楼宇中吗？</a></li>
-<li><a href="http://finance.sina.com.cn/zl/china/2019-07-01/zl-ihytcitk8887541.shtml">几十层楼住宅建设的七大问题</a></li>
-<li><a href="http://finance.sina.com.cn/zl/china/2019-07-08/zl-ihytcitm0392730.shtml">中国的住宅楼为什么会越建越高</a></li>
+<li><a href="http://finance.sina.com.cn/zl/china/2019-06-27/zl-ihytcerk9747410.shtml" target="_blank" rel="noopener">未来中国十几亿居民都要住在几十层高的楼宇中吗？</a></li>
+<li><a href="http://finance.sina.com.cn/zl/china/2019-07-01/zl-ihytcitk8887541.shtml" target="_blank" rel="noopener">几十层楼住宅建设的七大问题</a></li>
+<li><a href="http://finance.sina.com.cn/zl/china/2019-07-08/zl-ihytcitm0392730.shtml" target="_blank" rel="noopener">中国的住宅楼为什么会越建越高</a></li>
 </ol>
 <p>目前已经更新到第三篇，稍后应该还会有最后一篇也是最重要的一篇出炉，我会继续关注。</p>
 <p>关于住房，各年龄阶层的人都会有自己的想法和见解。有的人农村有宅基地，迫于工作和生活的压力不得不城市买房置业，有的小伙伴工作自由财务相对宽松但也不免落了俗套选择了城市生活。我就不一样了，农村单身大龄男屌丝表示自己只能住在农村的房子里，买不起房又不愿意在城市里租房居住。唯一欣慰的是我家离城市很近，开车上下班还是蛮方便的。当然，我确实喜欢住在农村自己的房子里，空气好又宽敞，房子周围有山有水还有鸟叫。不知道有没有人会羡慕呢？哈哈</p>
 <p>关于房子，城市和城郊生活，你更倾向于哪一种呢？欢迎发表你的想法和见解。如果你为此写一篇文章并发表在自己的博客那是最好的了，不过，请记得提醒我阅读哦。</p>
 <hr>
 <p>博文推荐：</p>
-<p><a href="http://www.wangpei.net/2019/a-weibo-post-can-change-the-world/">不要说人微言轻，发声可以改变这一切</a></p>
-<p><a href="https://hesay.me/posts/flowerss/">『flowerss』支持即时预览的 Telegram RSS Bot</a></p>
+<p><a href="http://www.wangpei.net/2019/a-weibo-post-can-change-the-world/" target="_blank" rel="noopener">不要说人微言轻，发声可以改变这一切</a></p>
+<p><a href="https://hesay.me/posts/flowerss/" target="_blank" rel="noopener">『flowerss』支持即时预览的 Telegram RSS Bot</a></p>
 <hr>
 <p>今日份美女：</p>
 <p><img src="https://img.1078503.org/imgs/2019/07/9f49cceb24e4051f.jpg" alt=""></p>
@@ -4014,12 +4014,12 @@ git push origin master
 <img src="https://img.1078503.org/imgs/2019/06/b9e2f2d79e9e4b1c.jpg" alt=""></p>
 <p>昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。</p>
 <p>今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。</p>
-<p>图床源码使用的是 <a href="https://imgurl.org/">ImgURL</a>  ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客<a href="https://www.xiaoz.me/">在这里</a>。</p>
+<p>图床源码使用的是 <a href="https://imgurl.org/" target="_blank" rel="noopener">ImgURL</a>  ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客<a href="https://www.xiaoz.me/" target="_blank" rel="noopener">在这里</a>。</p>
 <h4 id="说说这个图床源码的特点很方便实用">说说这个图床源码的特点，很方便实用。</h4>
 <ul>
 <li>图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。</li>
 <li>支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了...</li>
-<li>支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M+的体积，每次图片加载都超级慢，因为之前使用的是 <a href="https://sm.ms/">sm.ms</a> 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k+，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。</li>
+<li>支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M+的体积，每次图片加载都超级慢，因为之前使用的是 <a href="https://sm.ms/" target="_blank" rel="noopener">sm.ms</a> 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k+，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。</li>
 <li>图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。</li>
 <li>作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。</li>
 </ul>
@@ -4086,19 +4086,19 @@ git push origin master
                 
                     <description><![CDATA[<p>是的，并不能直接显示，需要在您的设备中安装字体。</p>
 <p>有的站点是直接在线加载的，但是考虑到汉字字库一般较大，即使动态加载也会严重拖慢加载速度，所以只对font-family做一个声明支持Noto Serif CJK SC。</p>
-<p>具体怎么在设备中安装思源宋体您可以移步<a href="https://sspai.com/post/38705">这里</a>，介绍的非常详细。</p>
+<p>具体怎么在设备中安装思源宋体您可以移步<a href="https://sspai.com/post/38705" target="_blank" rel="noopener">这里</a>，介绍的非常详细。</p>
 <p>另外在页脚也有注明和链接。</p>
 <p>今天最大的变化是评论区完全能够正常使用了。
-解决了墙内不能使用disqus的问题，相关方案在<a href="https://github.com/fooleap/disqus-php-api">这里</a>。但是请注意，有一些小坑，配置过程中请严格检查相关代码和设置。估计原作者也是为了设置一个门槛防止大规模滥用而引起注意，造成大家都不能用的后果就不好了。</p>
+解决了墙内不能使用disqus的问题，相关方案在<a href="https://github.com/fooleap/disqus-php-api" target="_blank" rel="noopener">这里</a>。但是请注意，有一些小坑，配置过程中请严格检查相关代码和设置。估计原作者也是为了设置一个门槛防止大规模滥用而引起注意，造成大家都不能用的后果就不好了。</p>
 <p>如果您有什么疑问或建议可以在评论区提出，我们大家一起讨论。</p>
 <p>一些有趣的新闻：</p>
 <hr>
 <h4 id="承载了第一批网民回忆的那些网站-已经开始404了">承载了第一批网民回忆的那些网站 已经开始404了</h4>
-<p>此标题文章 <a href="http://www.wenxuecity.com/news/2019/06/18/8421867.html?tg_rhash=2cd85981dee380">请看这里</a></p>
+<p>此标题文章 <a href="http://www.wenxuecity.com/news/2019/06/18/8421867.html?tg_rhash=2cd85981dee380" target="_blank" rel="noopener">请看这里</a></p>
 <h4 id="中国的丝绸技术是如何被泄露出去的">中国的丝绸技术是如何被泄露出去的？</h4>
-<p>比标题文章 <a href="https://new.qq.com/omn/20190215/20190215B06L4T.html">请看这楼</a></p>
+<p>比标题文章 <a href="https://new.qq.com/omn/20190215/20190215B06L4T.html" target="_blank" rel="noopener">请看这楼</a></p>
 <h4 id="国家地理频道纪录片宇宙时空之旅">国家地理频道纪录片：宇宙时空之旅</h4>
-<p>这是一部纪录片，你可以移步 <a href="http://open.163.com/special/opencourse/aspacetimeodyssey.html">这里观看</a></p>
+<p>这是一部纪录片，你可以移步 <a href="http://open.163.com/special/opencourse/aspacetimeodyssey.html" target="_blank" rel="noopener">这里观看</a></p>
 ]]></description>
                 
                 
@@ -4305,7 +4305,7 @@ git push origin master
                 
                     <description><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/06/ac648c17bca0ab28.jpg" alt=""></p>
 <h4 id="已经是付费会员了为啥还得再掏钱买东西">已经是付费会员了，为啥还得再掏钱买东西</h4>
-<p>此标题文章 <a href="https://www.cnbeta.com/articles/tech/858201.htm">请看这里</a></p>
+<p>此标题文章 <a href="https://www.cnbeta.com/articles/tech/858201.htm" target="_blank" rel="noopener">请看这里</a></p>
 <p>这文章说的太隐晦了，直接说国内的服务打折了不就完了。
 单说一个影视会员，以前我本人狂热，到最后国内所有在线视频网站的影视会员我都付费。
 到最后结果显而易见，每个月的开支是不少的，但实际上你每个月相关服务的享受次数并不算太多，毕竟不是每天都这么闲的。
@@ -4316,10 +4316,10 @@ git push origin master
 <p>一些其它有趣的新闻：</p>
 <hr>
 <h4 id="奥克斯空调应该靠质量取胜而不是空谈爱国">奥克斯空调应该靠质量取胜而不是空谈爱国！</h4>
-<p>此标题文章 <a href="http://club.kdnet.net/dispbbs.asp?id=13329650&amp;boardid=1">请看这里</a></p>
+<p>此标题文章 <a href="http://club.kdnet.net/dispbbs.asp?id=13329650&amp;boardid=1" target="_blank" rel="noopener">请看这里</a></p>
 <p>我也觉得作者说的对，奥克斯扯民族大义真的很low，你企业有问题就是有问题，跟时机和爱国没有任何关系，早干嘛去了？</p>
 <h4 id="高考生午睡无人叫醒致英语缺考江西省西山学校赔偿26万元">高考生午睡无人叫醒致英语缺考，江西省西山学校赔偿2.6万元</h4>
-<p>此标题文章 <a href="https://www.jiemian.com/article/3225153.html?tg_rhash=d6ec1e9e422486">请看这里</a></p>
+<p>此标题文章 <a href="https://www.jiemian.com/article/3225153.html?tg_rhash=d6ec1e9e422486" target="_blank" rel="noopener">请看这里</a></p>
 <p>就这学校也赔钱，怎么教书育人？这是个人时间管理问题，关学校老师家长什么事儿？别扯还是小孩子，在你们面前一辈子都是晚辈。</p>
 ]]></description>
                 
@@ -4380,8 +4380,8 @@ git push origin master
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
                     <description><![CDATA[<p><img src="https://img.1078503.org/imgs/2019/06/c139170da4e934d3.jpeg" alt=""></p>
-<p>配图来自<a href="http://www.sohu.com/a/220056322_714642">网络</a>，侵删</p>
-<p>以下消息转载自 <a href="http://news.creaders.net/china/2019/06/16/2102989.html">万维读者网</a>  版权归原作者所有，不代表本博客观点立场</p>
+<p>配图来自<a href="http://www.sohu.com/a/220056322_714642" target="_blank" rel="noopener">网络</a>，侵删</p>
+<p>以下消息转载自 <a href="http://news.creaders.net/china/2019/06/16/2102989.html" target="_blank" rel="noopener">万维读者网</a>  版权归原作者所有，不代表本博客观点立场</p>
 <hr>
 <p>​       除了科创板的消息刷屏之外，还有一个人的讲话也被刷屏了，这就是中国银保监会的主席郭树清，他在讲话中再次拉响警报。郭树清强调，必须正视一些地方房地产金融化问题。近些年来，中国一些城市的住户部门杠杆率急速攀升，相当大比例的居民家庭负债率达到难以持续的水平。更严重的是，新增储蓄资源一半左右投入到房地产领域。房地产业过度融资，不仅挤占其他产业信贷资源，也容易助长房地产的投资投机行为，使其泡沫化问题更趋严重。</p>
 <p>　　他举例说，当你买一套房子自己居住，意味着你每个月都有一笔等额的市场租金收入，同时有一笔等额的消费支出，也意味着你的住房生产出等额的增加值；如果你再买一套住房出租，同样有收入和产出。但是当你买了房子只用于投资或投机，并不出租，那就是一堆闲置的水泥、钢筋和砖头。历史证明，凡是过度依赖房地产实现和维持经济繁荣的国家，最终都要付出沉重代价。</p>
@@ -4396,7 +4396,7 @@ git push origin master
 <p>　　第二个动作，在居民端开始去杠杆，也就是说未来对于房贷业务肯定会进一步管控，房贷去杠杆比企业端简单一些，就是让新增房贷少于归还数量，居民端杠杆率就会下降。但也要知道，今日的房价和十几年前不再同一水平线上，也就是说之前好几笔房贷才能赶上今天的一笔房贷，所以一旦居民端开始去杠杆，新增房贷必然会大幅降低。到时候也可能会误伤刚需。</p>
 <p>　　所以我们还是那个建议，等房子落户，等房子给孩子上学的刚需，就尽量赶紧买，否则后面你可能会越来越难申请贷款，而买房还想投资的，就不要再动这个脑筋了。如今的房地产已经变成了单行线，钱只要进去了恐怕就很难再出来。</p>
 <hr>
-<p>以上消息转载自 <a href="http://news.creaders.net/china/2019/06/16/2102989.html">万维读者网</a>  版权归原作者所有，不代表本博客观点立场</p>
+<p>以上消息转载自 <a href="http://news.creaders.net/china/2019/06/16/2102989.html" target="_blank" rel="noopener">万维读者网</a>  版权归原作者所有，不代表本博客观点立场</p>
 ]]></description>
                 
                 
@@ -4553,7 +4553,7 @@ git push origin master
 <p>图片来自网络，如果您是图片所有者可以联系我加上备注和链接。</p>
 <p>说这是深圳电动出租车充电时的场景，看着真让人揪心。不免让我产生一个奇怪的疑问，新能源到底是为了什么？挣几个钱真的是太不容易了，时间都浪费在不必要的事情上面了，值得反思。</p>
 <h4 id="起底最大地下钱庄案流水上万亿贪腐诈骗黑金洗白出境">起底“最大地下钱庄案”：流水上万亿，贪腐诈骗黑金洗白出境</h4>
-<p>新闻来源：<a href="https://www.thepaper.cn/newsDetail_forward_3678300">澎湃新闻</a> ←相关新闻请点此进入查看</p>
+<p>新闻来源：<a href="https://www.thepaper.cn/newsDetail_forward_3678300" target="_blank" rel="noopener">澎湃新闻</a> ←相关新闻请点此进入查看</p>
 <p>从了解到的情况看，种菠菜的队伍任然在发展壮大，地下钱庄只会越来越红火。想想也是，国人就喜欢搞这些灰色产业加上一些华而不实的东西，上面的人赚钱下面的人遭殃，坑的就是你不用怀疑。完全就是被金钱奴役，被社会绑架，有什么办法呢，没有钱寸步难行。很多人迫于家长里短孩子老婆的压力不得不违背自己的良心和意愿，然后更多人的人会效仿。这是个看实力的社会...</p>
 ]]></description>
                 
@@ -4621,7 +4621,7 @@ git push origin master
 当我这次重新启用dtz9.net这个域名开博客的时候，我立即投入了markdown的怀抱。在本地使用markdown编辑器边写文章边排版，编辑器我可以想使用什么样的都可以，可以选择的范围还是很多的。这就解决了随时随地写文章的麻烦，只是不能很方便的立即发布，很多情况下是这样的。比如，我没带电脑的时候我会使用手机上的编辑器码字，这时候只能等回到电脑旁边的时候才能更新发布。但这又有什么关系呢？晚一点发布并不能给我带来多么强大的不适，相反，我还可能有足够的机会在发布前检查或者修饰一下这样也是不错的。尽管很多时候我不一定会这样做，但有这个机会不是吗？</p>
 <p>有朋友说你使用markdown编辑器之后复制粘贴进wordpress后台也很简单的。我不喜欢！因为wordpress本身一开始就不支持md文档，即便启用插件支持markdown之后还是有很多奇奇怪怪的兼容性问题。综合比对之后我还是觉得原生支持markdown的静态博客框架更适合我，最后我在众多（就那么几个）框架里面选择了hugo，不图别的，为她开发的主题越来越多也更加漂亮。
 花点时间了解她是值得的。</p>
-<p>所以就有了现在大家看到的样子，一个左右分栏左边栏固定的样式。当然选择这个主题也是因为受到<a href="http://blog.dngz.net/">心灵博客</a>的影响，因为我很喜欢每次打开她的博客的时候那种既视感，就是感觉舒服。刚好hugo主题网站上面看到一个类似的就尝试着拿来自己用了。</p>
+<p>所以就有了现在大家看到的样子，一个左右分栏左边栏固定的样式。当然选择这个主题也是因为受到<a href="http://blog.dngz.net/" target="_blank" rel="noopener">心灵博客</a>的影响，因为我很喜欢每次打开她的博客的时候那种既视感，就是感觉舒服。刚好hugo主题网站上面看到一个类似的就尝试着拿来自己用了。</p>
 <p>当然，还测试过很多主题，或多或少都不符合我的胃口就弃用了。
 另外考虑到很多朋友说的评论的问题，最后放弃了disqus，然后就有了现在出现的来必力评论系统。还算不错，很多登录方式可以使用，只是有一个每次下拉到评论需要等待加载的过程。不过，我已经看到有人说可以提前加载的，等有空的时候研究研究。</p>
 <p>关于本地同步到远程服务器，我还是选择了最简单的 WinSCP。先这样用着，因为这样省心。</p>
@@ -4694,7 +4694,7 @@ git push origin master
 <p>等着吧，灵感马上就来。如果怕灵感丢掉，找纸笔。</p>
 <p>不需要多，每天一小时就够了。</p>
 </blockquote>
-<p>作者：王跃琨    原文请看：<a href="https://frankseptillion.com/2019/05/13/%E4%BB%8E%E7%94%B5%E5%AD%90%E5%B1%8F%E5%B9%95%E6%89%8B%E4%B8%AD%E5%A4%BA%E5%9B%9E%E5%A4%A7%E8%84%91/">这里</a></p>
+<p>作者：王跃琨    原文请看：<a href="https://frankseptillion.com/2019/05/13/%e4%bb%8e%e7%94%b5%e5%ad%90%e5%b1%8f%e5%b9%95%e6%89%8b%e4%b8%ad%e5%a4%ba%e5%9b%9e%e5%a4%a7%e8%84%91/" target="_blank" rel="noopener">这里</a></p>
 <p><code>基本上同意博主的观点。现代人对电子屏幕的依赖越来越大了，已经大到丧失了自我的地步。合理的利用电子设备利用手机、电脑、电视等，可以获取知识可以娱乐，但如果沉迷，那么回馈给你的也只能是沉沦！生活是由很多个面组成的，不能只享受简单的几个面，多面人生才精彩绝伦！</code></p>
 <hr>
 <p><strong>有趣的视频</strong></p>
@@ -4746,21 +4746,21 @@ git push origin master
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<h4 id="feeddemon心灵博客重制版httpblogdngznetrssfeeddemonhtm"><a href="http://blog.dngz.net/rssfeeddemon.htm">FeedDemon心灵博客重制版</a></h4>
+                    <description><![CDATA[<h4 id="feeddemon心灵博客重制版httpblogdngznetrssfeeddemonhtm"><a href="http://blog.dngz.net/rssfeeddemon.htm" target="_blank" rel="noopener">FeedDemon心灵博客重制版</a></h4>
 <p><img src="https://ae01.alicdn.com/kf/HTB1bwhabG1s3KVjSZFAq6x_ZXXax.jpg" alt=""></p>
 <p>RSS分在线阅读和本地阅读。
 在线的服务有很多，并且很多支持全平台。但是，本地阅读的需要还是有的，你有必要尝试一下 FeedDemon心灵博客重制版，相信你肯定会爱上它的。</p>
 <p>转到心灵博客就可以得到了：<a href="http://blog.dngz.net/rssfeeddemon.htm">http://blog.dngz.net/rssfeeddemon.htm</a></p>
 <hr>
 <h5 id="一些有趣的新闻">一些有趣的新闻</h5>
-<h4 id="色情仍然是推动互联网发展的原动力吗httpswwwbbccomzhongwensimpbusiness-48525977"><a href="https://www.bbc.com/zhongwen/simp/business-48525977">色情仍然是推动互联网发展的原动力吗？</a></h4>
+<h4 id="色情仍然是推动互联网发展的原动力吗httpswwwbbccomzhongwensimpbusiness-48525977"><a href="https://www.bbc.com/zhongwen/simp/business-48525977" target="_blank" rel="noopener">色情仍然是推动互联网发展的原动力吗？</a></h4>
 <p>​       偷偷告诉你，我一开始翻墙就是为了浏览色情，嘻嘻~大家不都是这样么？当然，我们现在找了个理由，技术交流。很多好文章教程在墙外，对的，是这样的。</p>
-<h4 id="hbo-的切尔诺贝利成为评分最高的电视剧httpswwwsolidotorgstorysid60893"><a href="https://www.solidot.org/story?sid=60893">HBO 的《切尔诺贝利》成为评分最高的电视剧</a></h4>
-<p>​      <a href="https://zh.wikipedia.org/wiki/%E5%88%87%E5%B0%94%E8%AF%BA%E8%B4%9D%E5%88%A9%E6%A0%B8%E4%BA%8B%E6%95%85">切尔诺贝利事故</a>是历史上最严重的核电事故，其影响持续至今。</p>
-<h4 id="被朋友圈定位毁掉的年轻女孩httpstiebabaiducomp6150497025red_tag1531739427"><a href="https://tieba.baidu.com/p/6150497025?red_tag=1531739427">被朋友圈定位毁掉的年轻女孩</a></h4>
+<h4 id="hbo-的切尔诺贝利成为评分最高的电视剧httpswwwsolidotorgstorysid60893"><a href="https://www.solidot.org/story?sid=60893" target="_blank" rel="noopener">HBO 的《切尔诺贝利》成为评分最高的电视剧</a></h4>
+<p>​      <a href="https://zh.wikipedia.org/wiki/%e5%88%87%e5%b0%94%e8%af%ba%e8%b4%9d%e5%88%a9%e6%a0%b8%e4%ba%8b%e6%95%85" target="_blank" rel="noopener">切尔诺贝利事故</a>是历史上最严重的核电事故，其影响持续至今。</p>
+<h4 id="被朋友圈定位毁掉的年轻女孩httpstiebabaiducomp6150497025red_tag1531739427"><a href="https://tieba.baidu.com/p/6150497025?red_tag=1531739427" target="_blank" rel="noopener">被朋友圈定位毁掉的年轻女孩</a></h4>
 <h2 id="heading"></h2>
 <p>​       太可怕了...辛亏我是轻度手机使用者。</p>
-<h4 id="女子因情投江热心小伙奋力救援上了岸才发现这是我前女友httptiebabaiducomp6154198211"><a href="http://tieba.baidu.com/p/6154198211">女子因情投江，热心小伙奋力救援，上了岸才发现：这是我前女友？</a></h4>
+<h4 id="女子因情投江热心小伙奋力救援上了岸才发现这是我前女友httptiebabaiducomp6154198211"><a href="http://tieba.baidu.com/p/6154198211" target="_blank" rel="noopener">女子因情投江，热心小伙奋力救援，上了岸才发现：这是我前女友？</a></h4>
 <p>​       对的，电视剧都不敢这么演。永远是在看评论的时候最欢乐，哈哈。</p>
 ]]></description>
                 
@@ -4832,7 +4832,7 @@ git push origin master
 <p>分享一下我日常使用的markdown编辑器：Typora
 我的日常电脑是Windows 10，我相信在Windows上Typora应该是最实用的markdown编辑器了，尤其是大量文章编辑输入和写作方面确实方便。
 <img src="https://img.1078503.org/imgs/2019/06/7903172912626702.jpg" alt=""></p>
-<p>另外，你如果对静态博客感兴趣，又不喜欢复杂的操作，你可以尝试一下图形界面的 <a href="https://gridea.dev/">Gridea</a>
+<p>另外，你如果对静态博客感兴趣，又不喜欢复杂的操作，你可以尝试一下图形界面的 <a href="https://gridea.dev/" target="_blank" rel="noopener">Gridea</a>
 除了手机，全平台电脑系统支持哦
 <img src="https://img.1078503.org/imgs/2019/06/895135837dff8756.png" alt=""></p>
 <p>你甚至可以不用花费主机和域名费用就可以开始在网上写博客了，托管在GitHub上或者coding上。
@@ -5069,8 +5069,8 @@ git push origin master
 <blockquote>
 <p>日本研究团队成功完成了绳文人的全基因组解读，推断绳文人是在 3.8 万～1.8 万年前从大陆集团中分离出来的。绳文人是大约 1.6 万年前至 3000 年前生活在日本列岛上的人群。通过对绳文人基因组的完全解读，探寻日本人起源的研究有望加速。诞生于非洲大陆的现代人类在 4 万～5 万年前进入东亚地区。部分人经过西南诸岛、朝鲜半岛、库页岛等迁往日本列岛。这些古人通过狩猎和采集生活，广泛分布于日本各地。自 3000 年前之后又有弥生人这一新的人类集团从大陆迁到日本，不断推进与绳文人的混血。</p>
 </blockquote>
-<p>原文<a href="https://www.solidot.org/story?sid=60833">链接</a>
-相关<a href="http://cn.nikkei.com/industry/scienceatechnology/35772-2019-05-31-05-00-10.html">链接</a></p>
+<p>原文<a href="https://www.solidot.org/story?sid=60833" target="_blank" rel="noopener">链接</a>
+相关<a href="http://cn.nikkei.com/industry/scienceatechnology/35772-2019-05-31-05-00-10.html" target="_blank" rel="noopener">链接</a></p>
 <p>我很奇怪，里面说从非洲走出的人类普遍分布于东亚地区，那么，是不是可以理解成中国人的祖先很大部分也是来自于非洲呢？接受和看过太多关于华夏文明的研究和历史，这个研究完全开发了我对中国人来历的认知。</p>
 <p>日本人的研究还是比较客观的吧，他们承认3000多年前有部分大陆人移居日本各岛，只是他们称为弥生人。这又是个什么人群和种族？</p>
 ]]></description>
@@ -5179,12 +5179,12 @@ git push origin master
 计划中一开始打算继续写博客的时候，就想着无论如何都要坚持写作，哪怕是流水账碎碎念也是要写的。但事实是根本没有什么产出，更不要谈学习到多少新的东西了。先打自己三十大板，，惩罚自己虚度的光阴。</p>
 <p>反思也反思过了，说说计划。
 先说前几天遇到的事情，百度贴吧发了个回复，然后被永久封禁了账号？知道我说了什么了吗？起因是有个人发帖吧问网易博客还是啥的不能用了怎么办，我就回复他自己建一个，然后就没有然后了，第二天我发现我的账号已经不能用了。有的人可能会问，你试着解封了吗？呵呵，我回答你，没有必要。在一个崇尚网络自由的人眼里，账号只是一个账号，给我用我可以用，但不给我用我也就真的就不会用了。毕竟，生活还在继续，并不是没你不能，有很多途径可以学习交流，而且比你们这些大公司平台要开放的多。</p>
-<p>由于以上的经历，当然还有很多以前遇到的这类恶心人的事情，我计划从基础开始写建立博客的教程或者说过程记录。之前说过<a href="https://dtz9.net/358.html">独立博客才刚刚开始</a>，我觉得可以继续这个话题了。</p>
+<p>由于以上的经历，当然还有很多以前遇到的这类恶心人的事情，我计划从基础开始写建立博客的教程或者说过程记录。之前说过<a href="https://dtz9.net/358.html" target="_blank" rel="noopener">独立博客才刚刚开始</a>，我觉得可以继续这个话题了。</p>
 <blockquote>
 <p>独立博客或者网站就像一所房子，一切都是自己精心挑选布置建立起来的。通过这所房子你可以邀请朋友来家里做客，双方都会留下深刻的印象，在家里也可以自由的沟通并不会受到外界过多的干扰。而且朋友带到你家里的礼物你可以享受很久，比如一瓶红酒一本书。这就是有意义的地方，独立博客可以承担的功能就像一所房子带给你的一样。</p>
 </blockquote>
 <p>这是我在之前那篇文章中写下的话。今天我想说的是，交朋友很难，十年如一日的朋友就更少了，在如今这个信息如此发达的年代，我们反而没什么朋友了。如果，你想交朋友，想跟人交流学习分享，为什么不自己建立一个博客呢？建立一个博客其实并没有那么难，难在你是否愿意享受这种在博客圈子里交流的成就感，当有一天你认识了很多人并了解了他们，你或许会和我一样喜欢逛博客。喜欢从他们的博客中学习到很多你之前从来没有接触过的东西，有些是技术有些是思想，甚至有些就是你感兴趣的或者行业内的分享。</p>
-<p>建立一个博客有多么容易呢？就像这个演示：<a href="https://github.dtz9.net/">https://github.dtz9.net/</a><br>
+<p>建立一个博客有多么容易呢？就像这个演示：<a href="https://github.dtz9.net/" target="_blank" rel="noopener">https://github.dtz9.net/</a><br>
 你甚至可以做到不花一分钱，你要做的只是花费你的心思和时间，就像做家务一样那么的有必要而已。加油！</p>
 <p>有些东西，我喜欢去各大平台，但有些东西，还是留在博客吧。毕竟，你创造的内容该有个地方存放并分享和获得深度的交流。</p>
 <p>本打算在写这篇文章前立一个提纲，然后去完成它，后来想想算了，本就没打算说什么技术性强一点的内容，只是一篇随笔也就这样吧，想到哪里说到哪里，这样也蛮好的。</p>
@@ -5378,7 +5378,7 @@ git push origin master
 　　最佳外语片(提名)</p>
 <hr>
 <p>网盘链接：https://pan.baidu.com/s/1YCojPvieeweytDLflNwyaA 提取码：et99</p>
-<p>Chrome浏览器有相关插件直接获取下载地址通过 <a href="https://www.freedownloadmanager.org/zh/">freedownloadmanager</a> 这类第三方软件直接下载</p>
+<p>Chrome浏览器有相关插件直接获取下载地址通过 <a href="https://www.freedownloadmanager.org/zh/" target="_blank" rel="noopener">freedownloadmanager</a> 这类第三方软件直接下载</p>
 <p>更多相关链接：
 <a href="http://www.hao6v.com/dy/2014-03-11/22791.html">http://www.hao6v.com/dy/2014-03-11/22791.html</a>
 <a href="https://www.ygdy8.com/html/gndy/dyzz/20140329/44757.html">https://www.ygdy8.com/html/gndy/dyzz/20140329/44757.html</a></p>
@@ -5430,7 +5430,7 @@ git push origin master
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>这篇文章来自 <a href="http://yangqinyuan.com/essay/xd.html">杨钦元博客</a></p>
+                    <description><![CDATA[<p>这篇文章来自 <a href="http://yangqinyuan.com/essay/xd.html" target="_blank" rel="noopener">杨钦元博客</a></p>
 <p>之所以转载是觉得写的很好，说出了很多人的痛点。
 很喜欢文章说到的“问题拖得越久，越难完成”这个观点。</p>
 <p>以下原文：</p>
@@ -5507,15 +5507,15 @@ git push origin master
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
                     <description><![CDATA[<h4 id="为什么网约车司机已经成为稀缺资源">为什么网约车司机已经成为稀缺资源</h4>
-<p><a href="https://www.tmtpost.com/3959776.html">点我看这条新闻</a></p>
+<p><a href="https://www.tmtpost.com/3959776.html" target="_blank" rel="noopener">点我看这条新闻</a></p>
 <h4 id="杭州2男子买卖比特币被刑拘-涉非法吸收公众存款">杭州2男子买卖比特币被刑拘 涉非法吸收公众存款</h4>
-<p><a href="http://www.bjnews.com.cn/video/2019/05/22/581853.html">点我看这条新闻</a></p>
+<p><a href="http://www.bjnews.com.cn/video/2019/05/22/581853.html" target="_blank" rel="noopener">点我看这条新闻</a></p>
 <h4 id="中美贸易战的真正根源">中美贸易战的真正根源</h4>
-<p><a href="https://cn.nytimes.com/business/20180327/china-us-trade/?utm_source=RSS&amp;tg_rhash=61ddd137a7a7be">点我看这条新闻</a></p>
+<p><a href="https://cn.nytimes.com/business/20180327/china-us-trade/?utm_source=RSS&amp;tg_rhash=61ddd137a7a7be" target="_blank" rel="noopener">点我看这条新闻</a></p>
 <h4 id="国家市场监管总局谈浏览器主页劫持将会同相关部门治理">国家市场监管总局谈“浏览器主页劫持”：将会同相关部门治理</h4>
-<p><a href="https://www.cnbeta.com/articles/tech/849589.htm?tg_rhash=9dd6dc102a3ce1">点我看这条新闻</a></p>
+<p><a href="https://www.cnbeta.com/articles/tech/849589.htm?tg_rhash=9dd6dc102a3ce1" target="_blank" rel="noopener">点我看这条新闻</a></p>
 <h4 id="一个支架回扣一万这不是谋财而是索命">一个支架回扣一万，这不是谋财而是索命</h4>
-<p><a href="http://club.kdnet.net/dispbbs.asp?id=13295688&amp;boardid=1">点我看这条新闻</a></p>
+<p><a href="http://club.kdnet.net/dispbbs.asp?id=13295688&amp;boardid=1" target="_blank" rel="noopener">点我看这条新闻</a></p>
 <p>懒到怀疑人生...有时候我就这样~没办法的。</p>
 ]]></description>
                 
@@ -5557,7 +5557,7 @@ git push origin master
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p><a href="https://www.autohome.com.cn/news/201905/936362.html">汽车之家消息</a>，新款北汽勇士三门版（短轴距）车型将于5月26日在北京通州漷县越野基地举办越野大赛并于当日正式上市。</p>
+                    <description><![CDATA[<p><a href="https://www.autohome.com.cn/news/201905/936362.html" target="_blank" rel="noopener">汽车之家消息</a>，新款北汽勇士三门版（短轴距）车型将于5月26日在北京通州漷县越野基地举办越野大赛并于当日正式上市。</p>
 <p><img src="https://img.1078503.org/imgs/2019/06/817698c6e2544bdf.jpg" alt=""></p>
 <p>图片以及消息来源：汽车之家</p>
 <p>这玩意儿，男人的玩具，大多数人都玩得起的。别奢求品质做工，能带你出去再把你带回来就可以了，开出去野吧。</p>
@@ -5565,7 +5565,7 @@ git push origin master
 <p>不多说，先看汽车之家的图片：
 <img src="https://img.1078503.org/imgs/2019/06/d1356332d77e67c5.jpg" alt=""></p>
 <p>如果说北汽勇士是男人的玩具，那么新宝马7系就应该是有钱男人的玩具。</p>
-<p>永远是在看评论的时候才感觉自己离她不是那么的遥远：<a href="https://www.autohome.com.cn/comment/Articlecomment.aspx?articleid=936493">评论链接</a></p>
+<p>永远是在看评论的时候才感觉自己离她不是那么的遥远：<a href="https://www.autohome.com.cn/comment/Articlecomment.aspx?articleid=936493" target="_blank" rel="noopener">评论链接</a></p>
 ]]></description>
                 
                 
@@ -5628,7 +5628,7 @@ git push origin master
 <p>几天前，我在小区门口看到几个四年级的孩子竟然使用拉杆箱书包，一位送孩子上学的母亲告诉我，孩子的书包都在七、八斤重的样子，背在肩上实在是够呛。可以想象其教辅书有多少？去年广州日报《“小书包”的秘密：小学生书包有多重？放了些什么？》一文曾报道，在记者抽取的样本中，小学生的书包大多集中在2.5~4千克，最轻的1.5千克，最重的7.1千克。</p>
 <p>有关中小学生书包太沉的话题，我在十年前曾撰写《周济部长，您只需做减轻书包这一件事》一文，并在全国“两会”期间发布，在人民网、新华网引发热议。可惜，教育部长换了好几个，中小学生书包的重量却并未减下来，十年前提到的拉杆箱书包，至今仍在被使用。</p>
 <p>**学校老师弄了那么多的教辅书，孩子们就有做不完的作业，又怎么能保障他们的睡眠时间呢？**因为你老师布置的作业太多，家长也不能不让孩子做。而因为应试教育深入骨髓，老师必须考虑升学率，也不能不搞“题海战术”，何况滥发的教辅书中，学校、老师还能分得“一杯羹”。因此担心，教育部拿什么确保小学生每天10小时、初中生每天9小时睡眠时间？但无论怎么说，这种害人的教育模式都该休矣</p>
-<p>来源：<a href="http://blog.sina.com.cn/s/blog_4969c6830102yldb.html">新浪博客</a></p>
+<p>来源：<a href="http://blog.sina.com.cn/s/blog_4969c6830102yldb.html" target="_blank" rel="noopener">新浪博客</a></p>
 ]]></description>
                 
                 
@@ -5821,7 +5821,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
                     <description><![CDATA[<p>如果您不是Chrome浏览器的深度使用者，那么我建议你没必要折腾此款插件。
-如果你跟我一样长期使用chrome浏览器，我觉得你很需要 <a href="https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj">Checker Plus for Gmail™</a> 这款扩展程序。</p>
+如果你跟我一样长期使用chrome浏览器，我觉得你很需要 <a href="https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj" target="_blank" rel="noopener">Checker Plus for Gmail™</a> 这款扩展程序。</p>
 <p><img src="https://img.1078503.org/imgs/2019/06/6650e6e63145cce0.jpg" alt=""></p>
 <p>事情的起因是我之前使用的扩展程序并没有新邮件通知，导致我经常错过朋友们发送的邮件，有时候忙起来可能第二天才会想起来查看邮箱并处理或回复邮件。然后我就找了找，因此发现了 Checker Plus for Gmail™ 。看看了更新时间，2019年是有更新的，发现这是一款已经提供了很多年的扩展程序，而我之前使用的官方发布的扩展程序最后更新居然是2012年？</p>
 <p><img src="https://img.1078503.org/imgs/2019/06/246a3f01bee4d215.jpg" alt=""></p>
@@ -5920,7 +5920,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 </blockquote>
 <p>原文地址：<a href="http://www.midousir.com/2018/10/oxc000014c/">http://www.midousir.com/2018/10/oxc000014c/</a>   感谢原文博主的分享和无私奉献。</p>
 <p>根据博主的经验，我直接使用了第二种方法。
-我使用的PE系统：<a href="http://www.wepe.com.cn/">微PE</a></p>
+我使用的PE系统：<a href="http://www.wepe.com.cn/" target="_blank" rel="noopener">微PE</a></p>
 <p>如我所愿，一切都恢复正常了。</p>
 <p>让朋友自己去万能的淘宝发一块新的电池吧！最好顺便升级一下内存和固态硬盘，这电脑还是可以放家里当上网本用用的。因为毕竟本人还在使用的主力机器是ThinkPad X201，比朋友的笔记本年纪大多了！</p>
 <p>最后。这真的是一篇跟笔记本电脑关系不大的文章。</p>
@@ -6213,14 +6213,14 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 </blockquote>
 <p>消息来源：<a href="http://www.wenxuecity.com/news/2019/05/01/8273195.html?tg_rhash=2cd85981dee380">http://www.wenxuecity.com/news/2019/05/01/8273195.html?tg_rhash=2cd85981dee380</a> 
 部分错别词有修改。
-相关链接：<a href="https://tw.news.yahoo.com/%E6%83%B3%E9%87%8D%E6%96%B0%E9%80%B2%E8%BB%8D%E5%A4%A7%E9%99%B8%E5%8D%BB%E5%A4%B1%E6%95%97%E4%BA%86-google%E5%AE%A3%E5%B8%83%E4%B8%AD%E5%9C%8B%E7%89%88%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E-%E8%83%8E%E6%AD%BB%E8%85%B9%E4%B8%AD-082635583.html">https://tw.news.yahoo.com/%E6%83%B3%E9%87%8D%E6%96%B0%E9%80%B2%E8%BB%8D%E5%A4%A7%E9%99%B8%E5%8D%BB%E5%A4%B1%E6%95%97%E4%BA%86-google%E5%AE%A3%E5%B8%83%E4%B8%AD%E5%9C%8B%E7%89%88%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E-%E8%83%8E%E6%AD%BB%E8%85%B9%E4%B8%AD-082635583.html</a></p>
+相关链接：<a href="https://tw.news.yahoo.com/%e6%83%b3%e9%87%8d%e6%96%b0%e9%80%b2%e8%bb%8d%e5%a4%a7%e9%99%b8%e5%8d%bb%e5%a4%b1%e6%95%97%e4%ba%86-google%e5%ae%a3%e5%b8%83%e4%b8%ad%e5%9c%8b%e7%89%88%e6%90%9c%e5%b0%8b%e5%bc%95%e6%93%8e-%e8%83%8e%e6%ad%bb%e8%85%b9%e4%b8%ad-082635583.html" target="_blank" rel="noopener">https://tw.news.yahoo.com/%E6%83%B3%E9%87%8D%E6%96%B0%E9%80%B2%E8%BB%8D%E5%A4%A7%E9%99%B8%E5%8D%BB%E5%A4%B1%E6%95%97%E4%BA%86-google%E5%AE%A3%E5%B8%83%E4%B8%AD%E5%9C%8B%E7%89%88%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E-%E8%83%8E%E6%AD%BB%E8%85%B9%E4%B8%AD-082635583.html</a></p>
 <p>五个字形容：哈哈哈哈哈！</p>
 <ul>
 <li>
-<h4 id="古巴俄罗斯美国欧盟等各方就委内瑞拉政变发声表态httpswwwthepapercnnewsdetail_forward_3378648tg_rhashf089b0540d68f4"><a href="https://www.thepaper.cn/newsDetail_forward_3378648?tg_rhash=f089b0540d68f4">古巴、俄罗斯、美国、欧盟等各方就“委内瑞拉政变”发声表态</a></h4>
+<h4 id="古巴俄罗斯美国欧盟等各方就委内瑞拉政变发声表态httpswwwthepapercnnewsdetail_forward_3378648tg_rhashf089b0540d68f4"><a href="https://www.thepaper.cn/newsDetail_forward_3378648?tg_rhash=f089b0540d68f4" target="_blank" rel="noopener">古巴、俄罗斯、美国、欧盟等各方就“委内瑞拉政变”发声表态</a></h4>
 </li>
 </ul>
-<p>继续关注事态发展  <a href="https://www.google.com/search?newwindow=1&amp;biw=1280&amp;bih=667&amp;tbm=nws&amp;ei=WKfNXOuGOIvqwQOuzoagCQ&amp;q=%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89&amp;oq=%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89&amp;gs_l=psy-ab.3...0.0.0.262539.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.EcSfU9NuyYQ">实时新闻</a></p>
+<p>继续关注事态发展  <a href="https://www.google.com/search?newwindow=1&amp;biw=1280&amp;bih=667&amp;tbm=nws&amp;ei=WKfNXOuGOIvqwQOuzoagCQ&amp;q=%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89&amp;oq=%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89&amp;gs_l=psy-ab.3...0.0.0.262539.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.EcSfU9NuyYQ" target="_blank" rel="noopener">实时新闻</a></p>
 <ul>
 <li>
 <h4 id="逾期90天以上债权拟全面归为不良-中小银行压力更大">逾期90天以上债权拟全面归为不良 中小银行压力更大</h4>
@@ -6292,7 +6292,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 <blockquote>
 <p>能够获得暴利的职业，都有一个共同特点：可扩展性（scaling）：一次劳动可以服务成千上万的人。</p>
 <p>软件、电影、游戏行业都具有可扩展性，作品的生产成本是固定的，但可以被消费无数次，所以有巨大的获利空间，创造出许许多多的富豪。另一方面，理发师、厨师、出租车司机一次劳动，只能服务少数几个人，就不具有可扩展性，很难获得暴利，生存得很辛苦。</p>
-<p>最近，我读到美国一个风险投资家的<a href="https://andrewchen.co/professional-blogging/">文章</a>。他说了一句发人深思的话：</p>
+<p>最近，我读到美国一个风险投资家的<a href="https://andrewchen.co/professional-blogging/" target="_blank" rel="noopener">文章</a>。他说了一句发人深思的话：</p>
 <blockquote>
 <p>&quot;写作是最具可扩展性的活动。你呆在家里，不去参加活动/会议，只是在网上写下自己的想法，然后你就具有了最好的可扩展性。&quot;</p>
 </blockquote>
