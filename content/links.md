@@ -19,5 +19,5 @@ date: 2019-04-06
 | [生活的左上角](https://bwskyer.com/) |    [梦幻辰风](https://www.mhcf.net/)     |     [王志勇](http://www.auiou.com/)     |        [Debug客栈](https://www.debuginn.cn/)        |  [牧羊人](https://www.shephe.com/)   |
 |     [乌帮图](https://wbt5.com/)      | [风萧萧兮易水寒](https://www.fiisi.com/) | [蓝天个人博客](http://www.along168.cn/) |     [ChrAlpha 的幻想乡](https://chralpha.com/)      |   [TSBBLOG](https://tsb2blog.com/)   |
 | [大缺缺](https://www.daqueque.com/)  |    [Ray's Blog](https://raycoder.me/)    |    [明天的乌云](https://tmr.js.org/)    | [M-x Chris-An-Emacser](https://chriszheng.science/) | [木法传](https://www.mofazhuan.com/) |
-|   [攻城狮笔记](http://qumac.com/)    | [LFhacks.com](https://www.lfhacks.com/)  |    [不吐不快](https://mianao.info/)     |           [浮游笔记](https://fffou.com/)            |                                      |
+|   [攻城狮笔记](http://qumac.com/)    | [LFhacks.com](https://www.lfhacks.com/)  |    [不吐不快](https://mianao.info/)     |           [浮游笔记](https://fffou.com/)            |    [不一止集](http://buyivi.xyz/)    |
 
