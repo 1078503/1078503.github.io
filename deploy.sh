@@ -18,6 +18,9 @@ export https_proxy=http://127.0.0.1:1081
 git config --global http.https://github.com.proxy http://127.0.0.1:10809
 git config --global https.https://github.com.proxy http://127.0.0.1:10809
 
+git config --global http.proxy http://127.0.0.1:10809
+git config --global https.proxy http://127.0.0.1:10809
+
 export ALL_PROXY=socks5://127.0.0.1:1080
 
 unset http_proxy
