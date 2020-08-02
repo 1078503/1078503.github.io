@@ -20,5 +20,5 @@ date: 2019-04-06
 |     [乌帮图](https://wbt5.com/)      | [风萧萧兮易水寒](https://www.fiisi.com/) | [蓝天个人博客](http://www.along168.cn/) |     [ChrAlpha 的幻想乡](https://chralpha.com/)      |   [TSBBLOG](https://tsb2blog.com/)   |
 | [大缺缺](https://www.daqueque.com/)  |    [Ray's Blog](https://raycoder.me/)    |    [明天的乌云](https://tmr.js.org/)    | [M-x Chris-An-Emacser](https://chriszheng.science/) | [木法传](https://www.mofazhuan.com/) |
 |   [攻城狮笔记](http://qumac.com/)    | [LFhacks.com](https://www.lfhacks.com/)  |    [不吐不快](https://mianao.info/)     |           [浮游笔记](https://fffou.com/)            |    [不一止集](http://buyivi.xyz/)    |
-|    [Mine4ever](https://cxcat.cn/)    |                                          |                                         |                                                     |                                      |
+|    [Mine4ever](https://cxcat.cn/)    |       [BORBER](https://borber.cn/)       |                                         |                                                     |                                      |
 
