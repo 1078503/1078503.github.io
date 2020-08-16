@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">低头族</title>
     <subtitle type="html">个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</subtitle>
-    <updated>2020-08-02T23:15:59+08:00</updated>
+    <updated>2020-08-16T20:25:32+08:00</updated>
     <id>https://ditou.org/</id>
     <link rel="alternate" type="text/html" href="https://ditou.org/" />
     <link rel="self" type="application/atom+xml" href="https://ditou.org/atom.xml" />
@@ -16,6 +16,67 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+        <entry>
+            <title type="text">天气太热了</title>
+            <link rel="alternate" type="text/html" href="https://ditou.org/2020/08/1/" />
+            <id>https://ditou.org/2020/08/1/</id>
+            <updated>2020-08-16T20:21:30+08:00</updated>
+            <published>2020-08-16T20:21:30+08:00</published>
+            <author>
+                    <name>执迷不悟</name>
+                    <uri>https://ditou.org/</uri>
+                    <email>1078503@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[最近天气太热了。 相比前段时间暴雨洪水肆虐时候的气温，甚是怀恋啊！ 原谅我忽略了受灾群众]]></summary>
+            
+                <content type="html"><![CDATA[<p>最近天气太热了。</p>
+<p>相比前段时间暴雨洪水肆虐时候的气温，甚是怀恋啊！</p>
+<p>原谅我忽略了受灾群众们的苦难，虽然这种想法很低级，但很实际不是吗？还是希望每天能下点雨降降温，不需要很大的暴雨，只要能让温度稍微下来一点就是很好的了。</p>
+<p>我没有那个生活和工作条件，没办法像那些坐在空调房里工作的人那样舒适的干活，我的工作场景基本都是顶着日头干活，何其苦逼，何其不幸。大多数时候我只能在清晨和傍晚选择气温不太高的时候工作，中午的时候找个有空调的地方待着休息，避免自己在中午干活造成身体不适，中暑或者过于劳累。</p>
+<p>还好最近算是淡季，不太忙，闲时休息忙时合理安排工作时间还算可以。但这样总会牺牲一些业务，为的也是保重身体。</p>
+<p>只是，这样收入会少很多。</p>
+<p>但，总比挣完钱再拿去医院好的多，身体是革命的本钱吧？</p>
+<h2 id="美好的风景">美好的风景</h2>
+<p><img src="https://img.1078503.org/imgs/2020/08/1f812009bd554759.jpeg" alt=""></p>
+<p>某日忙里偷闲山中游玩一图。</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/categories/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/tags/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/tags/%E9%AB%98%E6%B8%A9/" term="高温" label="高温" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">一不小心接近两个月没有更新了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/07/1/" />
