@@ -120,7 +120,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 839px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .outer:before,
@@ -131,7 +131,7 @@ body {
 .outer:after {
   clear: both;
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   .outer {
     padding: 0 20px;
   }
@@ -316,7 +316,7 @@ a.article-title:hover,
 .main-nav-link {
   font-weight: 600;
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   .main-nav-link {
     float: none;
     text-align: center;
@@ -331,7 +331,7 @@ a.article-title:hover,
 #main-nav-toggle:before {
   content: "\f0c9";
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   #main-nav-toggle {
     display: block;
   }
@@ -339,7 +339,7 @@ a.article-title:hover,
 #logo {
   float: left;
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   #logo {
     float: none;
     margin: 0 auto;
@@ -350,7 +350,7 @@ a.article-title:hover,
 #sub-nav {
   float: right;
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   #main-nav,
   #sub-nav {
     display: none;
@@ -361,7 +361,7 @@ a.article-title:hover,
   top: 15px;
   padding: 20px 15px;
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   #search-form-wrap {
     text-align: center;
   }
@@ -374,7 +374,7 @@ a.article-title:hover,
 .search-form:after {
   clear: both;
 }
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 800px) {
   .search-form {
     display: inline-block;
   }
