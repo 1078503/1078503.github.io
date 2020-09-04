@@ -23,10 +23,72 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 25 Aug 2020 01:46:51 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2020 21:12:42 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://ditou.org/index.xml" />
         
+        
+            <item>
+                <title>最近关注的一些有趣的东西</title>
+                <link>https://ditou.org/2020/09/1/</link>
+                <guid isPermaLink="true">https://ditou.org/2020/09/1/</guid>
+                <pubDate>Fri, 04 Sep 2020 21:05:24 +0800</pubDate>
+                
+                    <author>1078503@gmail.com (执迷不悟)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<h2 id="随便一说">随便一说</h2>
+<p>本来是要说说湖南永州那个被刑拘的孩子的，但观察几天后发现新闻来源避重就轻，很多关键因素根本没有提及。我在这里更是不方便随意揣测了，因为缺少一些常规「人情世故」的相关信息，在不了解真实情况的条件下随意发表观点想想还是不太明智。</p>
+<p>那就分享一点最近关注的一些有趣的东西吧！</p>
+<h2 id="直角引号">「直角引号」</h2>
+<p>某天想到要输入“引号”的问题，看到网上大家使用「直角引号」貌似更美观。</p>
+<p>一开始并不知道我使用的输入法怎样设置，才能实现输入直角引号的功能。搜索很多次后看到有说 linux 里面需要修改某个全局文件即可实现，当我打开这个文件查看，发现文件里面已经默认有这个相关项了。我的 sunpinyin 输入法只需要在输入直角引号的时候按 “]” 键就可以了，真的是相当的方便。参考链接在<a href="https://www.xianmin.org/post/linux-fcitx-punc/" target="_blank" rel="noopener">这里</a>。</p>
+<h2 id="软件推荐">软件推荐</h2>
+<h4 id="listen-1-音乐播放器">Listen 1 音乐播放器</h4>
+<p>Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。</p>
+<p>它支持以下方式使用：</p>
+<p><img src="https://img.1078503.org/imgs/2020/08/f3112eadc721e93f.png" alt=""></p>
+<p><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">传送门</a></p>
+<p>在我的 ubuntu 20.04 Gnome桌面上的效果：</p>
+<p><img src="https://img.1078503.org/imgs/2020/08/c722cb7ea3cfd131.png" alt=""></p>
+<p><img src="https://img.1078503.org/imgs/2020/08/58c00d60cbeb0198.png" alt=""></p>
+<p>虽然有一些瑕疵，不算完美，但这种方便实用的简洁真的很适合我。其它系统未作测试请自行尝试体验，想必也不会太差。</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://ditou.org/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://ditou.org/tags/%E7%9B%B4%E8%A7%92%E5%BC%95%E5%8F%B7/">直角引号</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://ditou.org/tags/listen-1-%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/">Listen 1 音乐播放器</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>天气太热了</title>

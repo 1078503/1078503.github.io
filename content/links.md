@@ -5,7 +5,7 @@ date: 2019-04-06
 ---
 **随意的收录一些个人博客和主页**🤦‍。
 
-欢迎在评论区留言申请加入列表。如果你乐意，还可以在这个页面展示您的博客：[https://dtz9.org/](https://dtz9.org/)
+欢迎在评论区留言申请加入列表。
 
 ***
 
@@ -20,5 +20,5 @@ date: 2019-04-06
 |     [乌帮图](https://wbt5.com/)      | [风萧萧兮易水寒](https://www.fiisi.com/) | [蓝天个人博客](http://www.along168.cn/) |     [ChrAlpha 的幻想乡](https://chralpha.com/)      |   [TSBBLOG](https://tsb2blog.com/)   |
 | [大缺缺](https://www.daqueque.com/)  |    [Ray's Blog](https://raycoder.me/)    |    [明天的乌云](https://tmr.js.org/)    | [M-x Chris-An-Emacser](https://chriszheng.science/) | [木法传](https://www.mofazhuan.com/) |
 |   [攻城狮笔记](http://qumac.com/)    | [LFhacks.com](https://www.lfhacks.com/)  |    [不吐不快](https://mianao.info/)     |           [浮游笔记](https://fffou.com/)            |    [不一止集](http://buyivi.xyz/)    |
-|    [Mine4ever](https://cxcat.cn/)    |       [BORBER](https://borber.cn/)       |                                         |                                                     |                                      |
+|    [Mine4ever](https://cxcat.cn/)    |       [BORBER](https://borber.cn/)       |  [ 浮白载笔](http://www.winature.com/)  |                                                     |                                      |
 

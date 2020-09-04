@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">低头族</title>
     <subtitle type="html">个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</subtitle>
-    <updated>2020-08-25T01:46:50+08:00</updated>
+    <updated>2020-09-04T21:12:42+08:00</updated>
     <id>https://ditou.org/</id>
     <link rel="alternate" type="text/html" href="https://ditou.org/" />
     <link rel="self" type="application/atom+xml" href="https://ditou.org/atom.xml" />
@@ -16,6 +16,73 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+        <entry>
+            <title type="text">最近关注的一些有趣的东西</title>
+            <link rel="alternate" type="text/html" href="https://ditou.org/2020/09/1/" />
+            <id>https://ditou.org/2020/09/1/</id>
+            <updated>2020-09-04T21:05:24+08:00</updated>
+            <published>2020-09-04T21:05:24+08:00</published>
+            <author>
+                    <name>执迷不悟</name>
+                    <uri>https://ditou.org/</uri>
+                    <email>1078503@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[随便一说 本来是要说说湖南永州那个被刑拘的孩子的，但观察几天后发现新闻来源避重就轻，很]]></summary>
+            
+                <content type="html"><![CDATA[<h2 id="随便一说">随便一说</h2>
+<p>本来是要说说湖南永州那个被刑拘的孩子的，但观察几天后发现新闻来源避重就轻，很多关键因素根本没有提及。我在这里更是不方便随意揣测了，因为缺少一些常规「人情世故」的相关信息，在不了解真实情况的条件下随意发表观点想想还是不太明智。</p>
+<p>那就分享一点最近关注的一些有趣的东西吧！</p>
+<h2 id="直角引号">「直角引号」</h2>
+<p>某天想到要输入“引号”的问题，看到网上大家使用「直角引号」貌似更美观。</p>
+<p>一开始并不知道我使用的输入法怎样设置，才能实现输入直角引号的功能。搜索很多次后看到有说 linux 里面需要修改某个全局文件即可实现，当我打开这个文件查看，发现文件里面已经默认有这个相关项了。我的 sunpinyin 输入法只需要在输入直角引号的时候按 “]” 键就可以了，真的是相当的方便。参考链接在<a href="https://www.xianmin.org/post/linux-fcitx-punc/" target="_blank" rel="noopener">这里</a>。</p>
+<h2 id="软件推荐">软件推荐</h2>
+<h4 id="listen-1-音乐播放器">Listen 1 音乐播放器</h4>
+<p>Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。</p>
+<p>它支持以下方式使用：</p>
+<p><img src="https://img.1078503.org/imgs/2020/08/f3112eadc721e93f.png" alt=""></p>
+<p><a href="https://listen1.github.io/listen1/" target="_blank" rel="noopener">传送门</a></p>
+<p>在我的 ubuntu 20.04 Gnome桌面上的效果：</p>
+<p><img src="https://img.1078503.org/imgs/2020/08/c722cb7ea3cfd131.png" alt=""></p>
+<p><img src="https://img.1078503.org/imgs/2020/08/58c00d60cbeb0198.png" alt=""></p>
+<p>虽然有一些瑕疵，不算完美，但这种方便实用的简洁真的很适合我。其它系统未作测试请自行尝试体验，想必也不会太差。</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/categories/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/tags/%E7%9B%B4%E8%A7%92%E5%BC%95%E5%8F%B7/" term="直角引号" label="直角引号" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/tags/listen-1-%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" term="Listen 1 音乐播放器" label="Listen 1 音乐播放器" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">天气太热了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/08/1/" />
