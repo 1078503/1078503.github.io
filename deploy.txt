@@ -43,5 +43,6 @@ sudo vim /etc/apt/apt.conf
 
 在文件末尾加入下面这行
 Acquire::http::Proxy "http://127.0.0.1:8888";
+Acquire::https::Proxy "http://127.0.0.1:8888";
 #################################
 m7612w5v
