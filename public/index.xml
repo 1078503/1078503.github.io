@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>低头族</title>
+        <title>近视眼逛博客</title>
         <link>https://ditou.org/</link>
         <description>个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</description>
         <generator>Hugo 0.68.3 https://gohugo.io/</generator>
@@ -23,10 +23,67 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 27 Sep 2020 21:26:53 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2020 22:25:55 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://ditou.org/index.xml" />
         
+        
+            <item>
+                <title>重回近视眼逛博客</title>
+                <link>https://ditou.org/2020/10/1/</link>
+                <guid isPermaLink="true">https://ditou.org/2020/10/1/</guid>
+                <pubDate>Fri, 30 Oct 2020 22:14:56 +0800</pubDate>
+                
+                    <author>1078503@gmail.com (执迷不悟)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>这个博客很多天没有更新了。</p>
+<p>最近一直都是这样，已经说了很多次快长草了，所以，以后就不说了。</p>
+<p>之所以今天会更新，是因为自从换了域名和博客名称，总感觉回不到过去喜欢逛博客更新博客的状态了。因此，今天决定还是换回以前的名称「近视眼逛博客」好了。一来，这是一开始写博客就命名的名称，还是保持初心比较好。二来，我还是觉得叫这个名字比较合理。域名就继续保持不变：ditou.org 。</p>
+<p>因为没有太多的时间，博客应该还是会佛系更新，重在分享，不求数量。</p>
+<p>静态博客天然的会存在一些不太先进的地方，比如分类和搜索。因为一些技术的问题，实现起来比较有难度。虽然 hugo 有一些主题的设计者已经考虑到这些问题并且补足了这些不足，但对于不是技术流的我使用起来比较吃力，不管从美观性还是维护方面都不适合日常使用。但用来做专题分享又感觉格外的合适，尤其是静态页面的访问速度方面优势还是很明显的。</p>
+<p>但我又想有一个日常碎碎念的地方，类似微博推特这样想发点什么就发点什么。可能比较凌乱，但需要回顾的时候可以搜索。手头也有闲置的域名，于是，我把这些闲置的域名又拿来搭建了一个小社区：<a href="https://dtz9.net/" target="_blank" rel="noopener">DTZ9.NET</a>。这个域名和社区程序有些朋友可能之前见过，我就不多说了，有兴趣的朋友可以一起交流。最后说一句，因为是三大顶级域名同时注册的，所以后缀换到 .com 和 .org 都是会转到 <a href="https://dtz9.net/" target="_blank" rel="noopener">DTZ9.NET</a> 的。我比较懒，也想不出社区名称，所以就直接写域名了。</p>
+<p>话不多说，请欣赏下面的风景。</p>
+<h2 id="美好的风景">美好的风景</h2>
+<p>算了，老想着看美女没意思，看它吧：</p>
+<p><img src="https://img.1078503.org/imgs/2020/10/3891adc01f20a7fa.png" alt="">
+来源：<a href="https://www.youtube.com/watch?v=RLAFem5LFZY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=RLAFem5LFZY</a></p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://ditou.org/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://ditou.org/tags/%E8%BF%91%E8%A7%86%E7%9C%BC%E9%80%9B%E5%8D%9A%E5%AE%A2/">近视眼逛博客</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://ditou.org/tags/dtz9.net/">DTZ9.NET</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>最近关注的一些有趣的东西</title>
@@ -587,7 +644,7 @@
 <h2 id="解决博客外链不在新标签打开的问题">解决博客外链不在新标签打开的问题</h2>
 <p>以我的能力，要么自己查文档改代码，要么直接找一个适合的主题。由于hugo更新频繁版本过多，之前能使用的config文件换个版本就发现失效，放弃，还是去找一个更好的主题吧！由于hugo新版本改变过大，有点摸不着头脑，为了更新而更新，换上新版的hugo，以这个为前提试用了几款主题，最终选用目前看到的这款主题 <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener">LoveIt</a> 。基本满足了，剩下的就是继续摸鱼了🦑。</p>
 <h2 id="顺便又一次更换了域名">顺便又一次更换了域名</h2>
-<p>没错，一不高兴我就把博客域名换了，ditou.org 。这域名肯定是砸我手里了，就拿来写博客最合适嘿嘿。顺便也就把博客名称换了，就叫低头族。我们都是低着头的人，除了电脑就是手机，很难抬头。针对这个域名，起名的话你有更好的建议吗？欢迎赐名！</p>
+<p>没错，一不高兴我就把博客域名换了，ditou.org 。这域名肯定是砸我手里了，就拿来写博客最合适嘿嘿。顺便也就把博客名称换了，就叫近视眼逛博客。我们都是低着头的人，除了电脑就是手机，很难抬头。针对这个域名，起名的话你有更好的建议吗？欢迎赐名！</p>
 <h2 id="新闻">新闻</h2>
 <p>加州民主党议员 Evan Low 提出了类似前民主党候选人杨安泽（Andrew Yang)的全民基本收入相似的提案“The California Universal Basic Income Program”：给加州绝大部分成年人每个月一千美元。Evan Low 是杨安泽竞选团队的联合主席，虽然杨安泽因初选失利而退出，但他的全民基本收入得到了许多人的支持。杨安泽认为，由于人工智能和自动化，大规模失业正在到来。全民基本收入设计作为应对大规模失业的缓冲。Low 提案所需要的资金来自于加州的增值税。</p>
 <h2 id="美好的风景">美好的风景</h2>

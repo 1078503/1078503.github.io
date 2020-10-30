@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://ditou.org/"
-title = "低头族"
+title = "近视眼逛博客"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）

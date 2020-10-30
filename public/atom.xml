@@ -2,9 +2,9 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <title type="text">低头族</title>
+    <title type="text">近视眼逛博客</title>
     <subtitle type="html">个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</subtitle>
-    <updated>2020-09-27T21:26:53+08:00</updated>
+    <updated>2020-10-30T22:25:55+08:00</updated>
     <id>https://ditou.org/</id>
     <link rel="alternate" type="text/html" href="https://ditou.org/" />
     <link rel="self" type="application/atom+xml" href="https://ditou.org/atom.xml" />
@@ -16,6 +16,68 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+        <entry>
+            <title type="text">重回近视眼逛博客</title>
+            <link rel="alternate" type="text/html" href="https://ditou.org/2020/10/1/" />
+            <id>https://ditou.org/2020/10/1/</id>
+            <updated>2020-10-30T22:14:56+08:00</updated>
+            <published>2020-10-30T22:14:56+08:00</published>
+            <author>
+                    <name>执迷不悟</name>
+                    <uri>https://ditou.org/</uri>
+                    <email>1078503@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[这个博客很多天没有更新了。 最近一直都是这样，已经说了很多次快长草了，所以，以后就不说]]></summary>
+            
+                <content type="html"><![CDATA[<p>这个博客很多天没有更新了。</p>
+<p>最近一直都是这样，已经说了很多次快长草了，所以，以后就不说了。</p>
+<p>之所以今天会更新，是因为自从换了域名和博客名称，总感觉回不到过去喜欢逛博客更新博客的状态了。因此，今天决定还是换回以前的名称「近视眼逛博客」好了。一来，这是一开始写博客就命名的名称，还是保持初心比较好。二来，我还是觉得叫这个名字比较合理。域名就继续保持不变：ditou.org 。</p>
+<p>因为没有太多的时间，博客应该还是会佛系更新，重在分享，不求数量。</p>
+<p>静态博客天然的会存在一些不太先进的地方，比如分类和搜索。因为一些技术的问题，实现起来比较有难度。虽然 hugo 有一些主题的设计者已经考虑到这些问题并且补足了这些不足，但对于不是技术流的我使用起来比较吃力，不管从美观性还是维护方面都不适合日常使用。但用来做专题分享又感觉格外的合适，尤其是静态页面的访问速度方面优势还是很明显的。</p>
+<p>但我又想有一个日常碎碎念的地方，类似微博推特这样想发点什么就发点什么。可能比较凌乱，但需要回顾的时候可以搜索。手头也有闲置的域名，于是，我把这些闲置的域名又拿来搭建了一个小社区：<a href="https://dtz9.net/" target="_blank" rel="noopener">DTZ9.NET</a>。这个域名和社区程序有些朋友可能之前见过，我就不多说了，有兴趣的朋友可以一起交流。最后说一句，因为是三大顶级域名同时注册的，所以后缀换到 .com 和 .org 都是会转到 <a href="https://dtz9.net/" target="_blank" rel="noopener">DTZ9.NET</a> 的。我比较懒，也想不出社区名称，所以就直接写域名了。</p>
+<p>话不多说，请欣赏下面的风景。</p>
+<h2 id="美好的风景">美好的风景</h2>
+<p>算了，老想着看美女没意思，看它吧：</p>
+<p><img src="https://img.1078503.org/imgs/2020/10/3891adc01f20a7fa.png" alt="">
+来源：<a href="https://www.youtube.com/watch?v=RLAFem5LFZY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=RLAFem5LFZY</a></p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/categories/%E9%9A%8F%E7%AC%94/" term="随笔" label="随笔" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/tags/%E8%BF%91%E8%A7%86%E7%9C%BC%E9%80%9B%E5%8D%9A%E5%AE%A2/" term="近视眼逛博客" label="近视眼逛博客" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://ditou.org/tags/dtz9.net/" term="DTZ9.NET" label="DTZ9.NET" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">最近关注的一些有趣的东西</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/09/1/" />
@@ -620,7 +682,7 @@
 <h2 id="解决博客外链不在新标签打开的问题">解决博客外链不在新标签打开的问题</h2>
 <p>以我的能力，要么自己查文档改代码，要么直接找一个适合的主题。由于hugo更新频繁版本过多，之前能使用的config文件换个版本就发现失效，放弃，还是去找一个更好的主题吧！由于hugo新版本改变过大，有点摸不着头脑，为了更新而更新，换上新版的hugo，以这个为前提试用了几款主题，最终选用目前看到的这款主题 <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener">LoveIt</a> 。基本满足了，剩下的就是继续摸鱼了🦑。</p>
 <h2 id="顺便又一次更换了域名">顺便又一次更换了域名</h2>
-<p>没错，一不高兴我就把博客域名换了，ditou.org 。这域名肯定是砸我手里了，就拿来写博客最合适嘿嘿。顺便也就把博客名称换了，就叫低头族。我们都是低着头的人，除了电脑就是手机，很难抬头。针对这个域名，起名的话你有更好的建议吗？欢迎赐名！</p>
+<p>没错，一不高兴我就把博客域名换了，ditou.org 。这域名肯定是砸我手里了，就拿来写博客最合适嘿嘿。顺便也就把博客名称换了，就叫近视眼逛博客。我们都是低着头的人，除了电脑就是手机，很难抬头。针对这个域名，起名的话你有更好的建议吗？欢迎赐名！</p>
 <h2 id="新闻">新闻</h2>
 <p>加州民主党议员 Evan Low 提出了类似前民主党候选人杨安泽（Andrew Yang)的全民基本收入相似的提案“The California Universal Basic Income Program”：给加州绝大部分成年人每个月一千美元。Evan Low 是杨安泽竞选团队的联合主席，虽然杨安泽因初选失利而退出，但他的全民基本收入得到了许多人的支持。杨安泽认为，由于人工智能和自动化，大规模失业正在到来。全民基本收入设计作为应对大规模失业的缓冲。Low 提案所需要的资金来自于加州的增值税。</p>
 <h2 id="美好的风景">美好的风景</h2>
@@ -806,7 +868,7 @@ Total in 6202 ms
             <title type="text">害怕作息毫无规律</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/02/4/" />
             <id>https://ditou.org/2020/02/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2020-02-15T23:05:39+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -858,7 +920,7 @@ Total in 6202 ms
             <title type="text">我喜欢有些阳光和风景，总能照耀和宽慰人们的心灵</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/02/3/" />
             <id>https://ditou.org/2020/02/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2020-02-07T19:06:57+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -915,7 +977,7 @@ Total in 6202 ms
             <title type="text">如果你是老板我回去复工你害怕吗</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/02/2/" />
             <id>https://ditou.org/2020/02/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2020-02-04T22:54:18+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -977,7 +1039,7 @@ Total in 6202 ms
             <title type="text">除下草不然怕你们以为我被隔离了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/02/1/" />
             <id>https://ditou.org/2020/02/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2020-02-02T16:49:50+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1037,7 +1099,7 @@ Total in 6202 ms
             <title type="text">【随笔】回顾2019</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/01/1/" />
             <id>https://ditou.org/2020/01/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2020-01-01T00:29:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1095,7 +1157,7 @@ Total in 6202 ms
             <title type="text">【分享】人生的意义</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/12/5/" />
             <id>https://ditou.org/2019/12/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-12-25T23:18:15+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1158,7 +1220,7 @@ Total in 6202 ms
             <title type="text">【随笔】更换域名</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/12/4/" />
             <id>https://ditou.org/2019/12/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-12-17T23:04:02+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1211,7 +1273,7 @@ Total in 6202 ms
             <title type="text">【随笔】得不到的才不会有持无恐</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/12/3/" />
             <id>https://ditou.org/2019/12/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-12-14T20:03:15+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1277,7 +1339,7 @@ Total in 6202 ms
             <title type="text">【随笔】放弃人生换用Mainroad主题</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/12/2/" />
             <id>https://ditou.org/2019/12/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-12-07T00:38:07+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1334,7 +1396,7 @@ Total in 6202 ms
             <title type="text">【随笔】我为什么取名叫近视眼逛博客</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/12/1/" />
             <id>https://ditou.org/2019/12/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-12-05T00:32:38+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1394,7 +1456,7 @@ Total in 6202 ms
             <title type="text">【随笔】湿冷的冬天</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/8/" />
             <id>https://ditou.org/2019/11/8/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-29T22:43:04+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1451,7 +1513,7 @@ Total in 6202 ms
             <title type="text">【随笔】一头牛168万人民币</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/7/" />
             <id>https://ditou.org/2019/11/7/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-26T01:01:07+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1510,7 +1572,7 @@ Total in 6202 ms
             <title type="text">【随笔】降温了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/6/" />
             <id>https://ditou.org/2019/11/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-24T22:16:21+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1569,7 +1631,7 @@ Total in 6202 ms
             <title type="text">【随笔】收获的季节</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/5/" />
             <id>https://ditou.org/2019/11/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-21T19:53:15+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1639,7 +1701,7 @@ Total in 6202 ms
             <title type="text">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/4/" />
             <id>https://ditou.org/2019/11/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-21T00:42:00+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1813,7 +1875,7 @@ fi
             <title type="text">【随笔】每天唤醒你的是闹钟还是你对这个世界的渴望</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/3/" />
             <id>https://ditou.org/2019/11/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-17T11:35:58+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1873,7 +1935,7 @@ fi
             <title type="text">【随笔】双十一过完了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/2/" />
             <id>https://ditou.org/2019/11/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-12T23:50:47+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1932,7 +1994,7 @@ fi
             <title type="text">【随笔】十一月了哦</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/11/1/" />
             <id>https://ditou.org/2019/11/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-11-01T03:51:20+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -1985,7 +2047,7 @@ fi
             <title type="text">【电影推荐】岁月风云之上海皇帝 BD 国粤双语中字</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/10/6/" />
             <id>https://ditou.org/2019/10/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-10-27T22:24:08+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2054,7 +2116,7 @@ fi
             <title type="text">【分享】HostMem：洛杉矶CN2 GT KVM VPS按小时付费按需使用流量包</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/10/5/" />
             <id>https://ditou.org/2019/10/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-10-27T00:09:17+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2122,7 +2184,7 @@ fi
             <title type="text">【随笔】由力帆汽车债务危机想到的</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/10/4/" />
             <id>https://ditou.org/2019/10/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-10-24T21:23:04+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2185,7 +2247,7 @@ fi
             <title type="text">【分享】俄罗斯便宜VPS最低5元支持微信付款</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/10/3/" />
             <id>https://ditou.org/2019/10/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-10-15T01:01:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2254,7 +2316,7 @@ fi
             <title type="text">【电影推荐】我不是王毛</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/10/2/" />
             <id>https://ditou.org/2019/10/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-10-10T00:39:39+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2329,7 +2391,7 @@ fi
             <title type="text">【分享】ImgURL图床源码</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/10/1/" />
             <id>https://ditou.org/2019/10/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-10-04T17:04:09+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2417,7 +2479,7 @@ fi
             <title type="text">【随笔】无标题但标题要长那就这样吧</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/8/" />
             <id>https://ditou.org/2019/09/8/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-29T23:56:27+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2479,7 +2541,7 @@ fi
             <title type="text">【随笔】新开的VPS一般需要先做些什么</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/7/" />
             <id>https://ditou.org/2019/09/7/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-26T00:23:45+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2561,7 +2623,7 @@ fi
             <title type="text">【随笔】前天刚说完没动力昨晚回家就发现好事情😄</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/6/" />
             <id>https://ditou.org/2019/09/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-19T20:31:29+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2615,7 +2677,7 @@ fi
             <title type="text">【随笔】被降权后很难熬的想法</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/5/" />
             <id>https://ditou.org/2019/09/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-18T01:19:55+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2668,7 +2730,7 @@ fi
             <title type="text">【汽车】一台可以合法上路的赛道车</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/4/" />
             <id>https://ditou.org/2019/09/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-16T02:10:17+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2747,7 +2809,7 @@ fi
             <title type="text">【随笔】好久没有来自Google搜索的来路访问了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/3/" />
             <id>https://ditou.org/2019/09/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-12T00:41:40+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2814,7 +2876,7 @@ fi
             <title type="text">【随笔】活着的意义和希望是什么</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/2/" />
             <id>https://ditou.org/2019/09/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-09T22:52:13+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2878,7 +2940,7 @@ fi
             <title type="text">【随笔】这年头跑路的比跑步的还多</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/09/1/" />
             <id>https://ditou.org/2019/09/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-09-07T21:30:02+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -2936,7 +2998,7 @@ fi
             <title type="text">【随笔】忙碌之余追了一部剧值得推荐</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/6/" />
             <id>https://ditou.org/2019/08/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-08-30T23:20:50+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3013,7 +3075,7 @@ fi
             <title type="text">【分享】使用hugo搭建静态博客</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/5/" />
             <id>https://ditou.org/2019/08/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-08-24T03:37:20+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3231,7 +3293,7 @@ git push origin master
             <title type="text">【随笔】在后台放出来好几条“垃圾评论”</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/4/" />
             <id>https://ditou.org/2019/08/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-08-16T02:17:28+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3312,7 +3374,7 @@ git push origin master
             <title type="text">【分享】Mastodon：一个免费开源的分布式微博客社交网络</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/3/" />
             <id>https://ditou.org/2019/08/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-08-11T20:15:51+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3381,7 +3443,7 @@ git push origin master
             <title type="text">【网站维护】一些简单满意的调整</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/2/" />
             <id>https://ditou.org/2019/08/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-08-06T18:33:12+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3510,7 +3572,7 @@ git push origin master
             <title type="text">【随笔】日更很难只能证明一下存在感了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/08/1/" />
             <id>https://ditou.org/2019/08/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-08-03T23:27:14+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3571,7 +3633,7 @@ git push origin master
             <title type="text">【电影】顾长卫导演作品《孔雀》</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/12/" />
             <id>https://ditou.org/2019/07/12/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-30T00:10:12+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3637,7 +3699,7 @@ git push origin master
             <title type="text">【随笔】穷则思变差则思勤</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/11/" />
             <id>https://ditou.org/2019/07/11/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-29T01:42:39+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3709,7 +3771,7 @@ git push origin master
             <title type="text">【随笔】鲜花盛开的季节，可是太热了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/10/" />
             <id>https://ditou.org/2019/07/10/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-25T22:26:34+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3773,7 +3835,7 @@ git push origin master
             <title type="text">【随笔】有多少年轻人是习惯性晚睡的？</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/9/" />
             <id>https://ditou.org/2019/07/9/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-21T18:45:40+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3858,7 +3920,7 @@ git push origin master
             <title type="text">【分享】二十年前的Win98电脑</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/8/" />
             <id>https://ditou.org/2019/07/8/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-17T15:56:01+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -3920,7 +3982,7 @@ git push origin master
             <title type="text">【分享】俄罗斯如何处理性教育？</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/7/" />
             <id>https://ditou.org/2019/07/7/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-15T21:50:16+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4035,7 +4097,7 @@ git push origin master
             <title type="text">【随笔】自从有了博客折腾是日常习惯</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/6/" />
             <id>https://ditou.org/2019/07/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-14T23:30:15+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4097,7 +4159,7 @@ git push origin master
             <title type="text">【分享】如果给你一辆房车你准备怎么去玩</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/5/" />
             <id>https://ditou.org/2019/07/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-14T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4165,7 +4227,7 @@ git push origin master
             <title type="text">【分享】蚊子要出来咬人啦</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/4/" />
             <id>https://ditou.org/2019/07/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-13T13:13:24+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4226,7 +4288,7 @@ git push origin master
             <title type="text">【随笔】中国的垃圾分类任重道远</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/3/" />
             <id>https://ditou.org/2019/07/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-11T17:56:23+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4307,7 +4369,7 @@ git push origin master
             <title type="text">【精彩博文】周天勇：未来中国十几亿居民都要住在几十层高的楼宇中吗？</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/2/" />
             <id>https://ditou.org/2019/07/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-09T13:14:12+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4379,7 +4441,7 @@ git push origin master
             <title type="text">【随笔】我胡汉三又回来了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/07/1/" />
             <id>https://ditou.org/2019/07/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-07-06T22:33:32+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4432,7 +4494,7 @@ git push origin master
             <title type="text">【随笔】感觉累了就放空自己</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/16/" />
             <id>https://ditou.org/2019/06/16/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-24T13:01:22+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4486,7 +4548,7 @@ git push origin master
             <title type="text">【网站维护】未雨绸缪启用自建图床</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/15/" />
             <id>https://ditou.org/2019/06/15/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-21T22:22:36+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4565,7 +4627,7 @@ git push origin master
             <title type="text">【网站维护】增加了对思源宋体的支持</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/14/" />
             <id>https://ditou.org/2019/06/14/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-20T14:43:24+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4637,7 +4699,7 @@ git push origin master
             <title type="text">【随笔】一次愉快的苹果客服电话沟通过程</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/13/" />
             <id>https://ditou.org/2019/06/13/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-19T21:10:56+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4712,7 +4774,7 @@ git push origin master
             <title type="text">【随笔】祝天下女司机早日出师</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/12/" />
             <id>https://ditou.org/2019/06/12/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-19T18:21:01+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4799,7 +4861,7 @@ git push origin master
             <title type="text">【新闻】已经是付费会员了，为啥还得再掏钱买东西</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/11/" />
             <id>https://ditou.org/2019/06/11/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-18T14:22:19+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4880,7 +4942,7 @@ git push origin master
             <title type="text">【新闻】中国官方再次拉响房地产警报</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/10/" />
             <id>https://ditou.org/2019/06/10/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-17T15:35:29+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -4949,7 +5011,7 @@ git push origin master
             <title type="text">【视频分享】油管视频分享之野人哥哥</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/9/" />
             <id>https://ditou.org/2019/06/9/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-17T14:44:36+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5009,7 +5071,7 @@ git push origin master
             <title type="text">【随笔】不日常的日常随笔</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/8/" />
             <id>https://ditou.org/2019/06/8/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-15T23:27:46+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5065,7 +5127,7 @@ git push origin master
             <title type="text">【新闻】开局一张图其它全靠编</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/7/" />
             <id>https://ditou.org/2019/06/7/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-14T13:22:10+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5134,7 +5196,7 @@ git push origin master
             <title type="text">【网站维护】经过几天的努力终于把静态博客搞上线了</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/6/" />
             <id>https://ditou.org/2019/06/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-12T17:52:54+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5213,7 +5275,7 @@ git push origin master
             <title type="text">【精彩博文】从电子屏幕手中夺回大脑</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/5/" />
             <id>https://ditou.org/2019/06/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-08T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5277,7 +5339,7 @@ git push origin master
             <title type="text">【电脑】重磅推荐之 FeedDemon心灵博客重制版</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/4/" />
             <id>https://ditou.org/2019/06/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-06T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5350,7 +5412,7 @@ git push origin master
             <title type="text">【网站维护】一些变化</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/3/" />
             <id>https://ditou.org/2019/06/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-06T01:10:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5442,7 +5504,7 @@ git push origin master
             <title type="text">【随笔】今晚遇到两件令我不怎么开心的事情</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/2/" />
             <id>https://ditou.org/2019/06/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-04T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5553,7 +5615,7 @@ git push origin master
             <title type="text">【电脑】Win10关闭系统通知中心广告</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/06/1/" />
             <id>https://ditou.org/2019/06/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-06-02T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5616,7 +5678,7 @@ git push origin master
             <title type="text">【新闻】基因分析揭开日本人起源之谜</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/19/" />
             <id>https://ditou.org/2019/05/19/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-31T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5675,7 +5737,7 @@ git push origin master
             <title type="text">【随笔】六一快乐</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/18/" />
             <id>https://ditou.org/2019/05/18/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-31T01:10:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5731,7 +5793,7 @@ git push origin master
             <title type="text">【随笔】建立一个博客其实并没有那么难</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/17/" />
             <id>https://ditou.org/2019/05/17/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-29T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5802,7 +5864,7 @@ git push origin master
             <title type="text">【精彩博文】听说你事事都不想吃亏</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/16/" />
             <id>https://ditou.org/2019/05/16/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-28T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -5908,7 +5970,7 @@ git push origin master
             <title type="text">【电影】经典高分剧情《天注定》</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/15/" />
             <id>https://ditou.org/2019/05/15/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-26T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6006,7 +6068,7 @@ git push origin master
             <title type="text">【精彩博文】低垂的果实</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/14/" />
             <id>https://ditou.org/2019/05/14/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-25T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6087,7 +6149,7 @@ git push origin master
             <title type="text">【[新闻看点】20190523&#34;</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/12/" />
             <id>https://ditou.org/2019/05/12/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-23T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6143,7 +6205,7 @@ git push origin master
             <title type="text">【汽车看点】20190523</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/13/" />
             <id>https://ditou.org/2019/05/13/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-23T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6209,7 +6271,7 @@ git push origin master
             <title type="text">【精彩博文】周蓬安：中小学生睡眠不足，这种害人教育该休矣</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/11/" />
             <id>https://ditou.org/2019/05/11/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-22T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6271,7 +6333,7 @@ git push origin master
             <title type="text">【网站维护】忍不住换到了洛杉矶机房</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/10/" />
             <id>https://ditou.org/2019/05/10/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-21T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6421,7 +6483,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【电脑】今天为chrome介绍一款扩展程序</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/9/" />
             <id>https://ditou.org/2019/05/9/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-17T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6480,7 +6542,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【随笔】朋友的笔记本电脑</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/8/" />
             <id>https://ditou.org/2019/05/8/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-14T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6599,7 +6661,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【网站维护】Google通过了我的Adsense账户</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/7/" />
             <id>https://ditou.org/2019/05/7/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-12T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6657,7 +6719,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【新闻看点】20190510</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/6/" />
             <id>https://ditou.org/2019/05/6/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-10T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6746,7 +6808,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【随笔】独立博客才刚刚开始</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/5/" />
             <id>https://ditou.org/2019/05/5/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-07T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6826,7 +6888,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【新闻看点】20190504</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/4/" />
             <id>https://ditou.org/2019/05/4/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-04T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6918,7 +6980,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【分享】写作是最具可扩展性的活动</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/3/" />
             <id>https://ditou.org/2019/05/3/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-03T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -6986,7 +7048,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【汽车】猎豹新CS10，值得买吗？</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/2/" />
             <id>https://ditou.org/2019/05/2/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-02T01:16:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
@@ -7051,7 +7113,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
             <title type="text">【转载】给处女的一个忠告！</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2019/05/1/" />
             <id>https://ditou.org/2019/05/1/</id>
-            <updated>2020-06-26T03:17:55+08:00</updated>
+            <updated>2020-10-06T21:29:12+08:00</updated>
             <published>2019-05-02T01:10:33+08:00</published>
             <author>
                     <name>执迷不悟</name>
