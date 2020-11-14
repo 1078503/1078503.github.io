@@ -113,9 +113,11 @@ docker-compose --version
 
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 
-Bt-Panel: http://185.249.221.226:23333/11c4afef/
-username: bytzp1gx
-password: 0349e974
+外网面板地址: http://172.247.123.25:8888/51ba59df
+内网面板地址: http://172.247.123.25:8888/51ba59df
+username: zzenmo0j
+password: b5b20ea5
+
 
 
 #################################################
@@ -138,6 +140,9 @@ wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.c
 wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh
 chmod +x superbench.sh
 ./superbench.sh
+
+
+docker run -d --restart=always --name v2ray -v /etc/v2ray:/etc/v2ray -p 5211:5211 v2fly/v2fly-core v2ray -config=/etc/v2ray/config.json
 
 #################################################
 查询从本地到服务器的路由表状态
