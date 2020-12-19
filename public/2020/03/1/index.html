@@ -232,28 +232,32 @@
     </center>
 </div>
         </section>
-        <footer id="footer">
+        <div class="outer">
+    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
+        <li><a href="https://dtz9.com/" target="_blank">低头族中文社区</a></li>
+        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
+    </ul>
+</div>
+<footer id="footer">
     <div class="outer">
+        <hr style=" border: 1px dashed #ddd;">
         <div id="footer-info" class="inner">
             &copy; 2019 - 2020 执迷不悟
             <br />
-            <a href="https://gohugo.io" target="_blank">Hugo</a> 生成的博客 | 主题： <a
-                href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml"
-                target="_blank">RSS</a>
+            <a href="https://gohugo.io" target="_blank">Hugo</a> 生成的博客 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank">RSS</a>
         </div>
     </div>
     
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css"
-        integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"
-        integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 
     
     <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function () {
+        document.getElementById('main-nav-toggle').addEventListener('click', function() {
             var header = document.getElementById('header');
             if (header.classList.contains('mobile-on')) {
                 header.classList.remove('mobile-on');
