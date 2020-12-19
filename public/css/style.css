@@ -1306,26 +1306,25 @@ pre .php .xml {
 #backtop a {
     /* back to top button */
     text-align: center;
-    line-height: 50px;
-    font-size: 10px;
-    width: 50px;
-    height: 50px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     /* 小按钮到浏览器底边的距离 */
-    right: 60px;
+    right: 40px;
     /* 小按钮到浏览器右边框的距离 */
-    color: rgb(64, 120, 192);
+    color: black;
     /* 小按钮中文字的颜色 */
     z-index: 1000;
-    background: #fff;
+    background: #7B87FF99;
     /* 小按钮底色 */
     padding: auto;
     /* 小按钮中文字到按钮边缘的距离 */
-    border-radius: 50px;
+    border-radius: 30px;
     /* 小按钮圆角的弯曲程度（半径）*/
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
     font-weight: bold;
     /* 小按钮中文字的粗细 */
     text-decoration: none !important;
@@ -1334,7 +1333,7 @@ pre .php .xml {
 
 #backtop a:hover {
     /* 小按钮上有鼠标悬停时 */
-    background: rgba(64, 120, 192, 0.8);
+    background: red;
     /* 小按钮的底色 */
     color: #fff;
     /* 文字颜色 */
