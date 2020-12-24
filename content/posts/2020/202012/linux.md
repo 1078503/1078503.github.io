@@ -16,7 +16,6 @@ toc: false
 autoCollapseToc: true
 math: false
 comment: true
-draft: true
 
 ---
 首先需要说明的是，我现在日常使用的桌面系统已经从 Ubuntu 切换到 Kubuntu 了。是的，看名称大概也能猜到 Kubuntu 是 Ubuntu 的衍生版本。区别在于 Kubuntu 是 KDE 的桌面环境，这个桌面环境有一个非常 Nice 的名字：Plasma 。使用这个桌面环境我觉得最大的好处是不需要折腾桌面环境，特别是针对刚刚从 Windows 切换过来的用户，开箱即用做的还算可以。Plasma 在很多发行版上都有对应的支持，例如 OpenSUSE 。
