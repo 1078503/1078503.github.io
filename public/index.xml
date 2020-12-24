@@ -10,7 +10,7 @@
         <title>近视眼逛博客</title>
         <link>https://ditou.org/</link>
         <description>个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</description>
-        <generator>Hugo 0.68.3 https://gohugo.io/</generator>
+        <generator>Hugo 0.78.2 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 25 Dec 2020 01:02:40 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 25 Dec 2020 01:20:39 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://ditou.org/index.xml" />
         
@@ -951,9 +951,13 @@ Total in 6202 ms
                                 
                                 
                                 
+                                    <category domain="https://ditou.org/tags/">Tags</category>
+                                
                             
                                 
                                 
+                                
+                                    <category domain="https://ditou.org/tags/">Tags</category>
                                 
                             
                         
@@ -3776,7 +3780,7 @@ git push origin master
 <hr>
 <h4 id="一个轻量级的企业wiki和团队知识分享平台mm-wiki搭建教程httpswwwmoeratscomarchives949"><a href="https://www.moerats.com/archives/949/" target="_blank" rel="noopener">一个轻量级的企业Wiki和团队知识分享平台：MM-Wiki搭建教程</a></h4>
 <p><img src="https://img.1078503.org/imgs/2019/07/a0df449aa7df3d0d.png" alt=""></p>
-<p>**Github地址：**<a href="https://github.com/phachon/mm-wiki">https://github.com/phachon/mm-wiki</a></p>
+<p><strong>Github地址：</strong><a href="https://github.com/phachon/mm-wiki">https://github.com/phachon/mm-wiki</a></p>
 ]]></description>
                 
                 

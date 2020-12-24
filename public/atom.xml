@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">近视眼逛博客</title>
     <subtitle type="html">个人博客，背后是一个喜欢逛博客日常摸鱼打发时间的人。</subtitle>
-    <updated>2020-12-25T01:02:40+08:00</updated>
+    <updated>2020-12-25T01:20:39+08:00</updated>
     <id>https://ditou.org/</id>
     <link rel="alternate" type="text/html" href="https://ditou.org/" />
     <link rel="self" type="application/atom+xml" href="https://ditou.org/atom.xml" />
@@ -15,7 +15,7 @@
                 <email>1078503@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.78.2">Hugo</generator>
         <entry>
             <title type="text">我为什么使用 Linux 作为桌面系统</title>
             <link rel="alternate" type="text/html" href="https://ditou.org/2020/12/1/" />
@@ -1004,9 +1004,13 @@ Total in 6202 ms
                             
                             
                             
+                                <category scheme="https://ditou.org/tags/" term="Tags" label="Tags" />
+                            
                         
                             
                             
+                            
+                                <category scheme="https://ditou.org/tags/" term="Tags" label="Tags" />
                             
                         
                     
@@ -4039,7 +4043,7 @@ git push origin master
 <hr>
 <h4 id="一个轻量级的企业wiki和团队知识分享平台mm-wiki搭建教程httpswwwmoeratscomarchives949"><a href="https://www.moerats.com/archives/949/" target="_blank" rel="noopener">一个轻量级的企业Wiki和团队知识分享平台：MM-Wiki搭建教程</a></h4>
 <p><img src="https://img.1078503.org/imgs/2019/07/a0df449aa7df3d0d.png" alt=""></p>
-<p>**Github地址：**<a href="https://github.com/phachon/mm-wiki">https://github.com/phachon/mm-wiki</a></p>
+<p><strong>Github地址：</strong><a href="https://github.com/phachon/mm-wiki">https://github.com/phachon/mm-wiki</a></p>
 ]]></content>
             
             
