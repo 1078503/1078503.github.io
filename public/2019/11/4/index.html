@@ -109,12 +109,12 @@
 <li>启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用</li>
 </ul>
 <h2 id="3宝塔面板使用webhook插件">3.宝塔面板使用webhook插件</h2>
-<p><img src="https://img.1078503.org/imgs/2019/11/c3fe9bfa4196d113.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/c3fe9bfa4196d113.png" alt=""></p>
 <p>如上图。</p>
 <p>在宝塔面板的<code>软件商店</code>中搜索<code>webhook</code>安装并启用，在webhook插件的设置中添加一个调用条目：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/12fecd83901de133.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/12fecd83901de133.png" alt=""></p>
 <p>编辑该条目的shell命令并保存：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
 <p>命令内容参考：</p>
 <pre><code class="language-shell">#!/bin/bash
 echo &quot;&quot;
@@ -160,16 +160,16 @@ fi
 </code></pre>
 <p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
 <p><code>②https://github.com/1078503/blog.git</code> ：你的GitHub仓库对应的拉取地址。</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
 <p>查看密钥：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/faf73f831b0ce66e.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/faf73f831b0ce66e.png" alt=""></p>
 <h2 id="4github配置webhook调用">4.GitHub配置webhook调用</h2>
 <p>打开GitHub对应仓库的<code>Settings</code>：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/ef2f6ddf8ec3c79a.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/ef2f6ddf8ec3c79a.png" alt=""></p>
 <p>找到webhooks并Add webhook：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/de16c8f206705c3d.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/de16c8f206705c3d.png" alt=""></p>
 <p>如下图填写相关信息并保持：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/decba050e45dffa7.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/decba050e45dffa7.png" alt=""></p>
 <p><code>Payload URL</code>：<code> http://IP:端口/hook?access_key=密钥&amp;param=目录名</code></p>
 <p>IP:端口：修改为宝塔面板对应的</p>
 <p>密钥：为宝塔面板中webhook条目“查看密钥”获得的密钥，前文图中箭头所指。</p>
@@ -181,7 +181,7 @@ fi
 <p>按图示检查设置好后保存。</p>
 <h2 id="5gridea中修改或新建文件写文章也可以同步推送后验证">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</h2>
 <p><a href="https://blog.shanbu.fun/" target="_blank" rel="noopener">云中君</a>的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
-<p><img src="https://img.1078503.org/imgs/2019/11/37ad8cf5521924b0.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/37ad8cf5521924b0.png" alt=""></p>
 <p>画了个难看的箭头请无视😂。</p>
 <p>通过上面的操作所有工作已经完成，接下来写博客就好。Gridea客户端正常同步后访问博客域名就能验证操作是否有效。注意由于涉及到服务器与GitHub仓库的通信，偶尔可能会有拉取不成功或缓慢的情况，这取决于你的服务器与GitHub之间的通信线路是否阻塞。不过，这种情况几乎可以忽略不计，除非你的服务器在国内。</p>
 <p>最后，突然想到我自己使用的hugo静态博客其实也可以这样推送更新，原理是一样的，我只是绕过了GitHub仓库直接与服务器的git仓库通信而已。我之前没有把博客直接放在GitHub上面提供访问是因为听多了经常抽风的传闻，所以直接放在了VPS上。另外还有独立博客中“独立”二字的考虑。</p>
