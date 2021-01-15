@@ -124,9 +124,10 @@ body,
 }
 
 body {
+    font-family: 'FontAwesome';
     background: #fff;
-    background-color: #f1f1f1;
-    font: 14px sans-serif;
+    background-color: #f0f0f0;
+    font-size: 13px;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -323,7 +324,7 @@ a.article-title:hover,
 }
 
 #header {
-    font-size: 14px;
+    font-size: 10px;
     position: relative;
     border-bottom: 1px solid #ddd;
 }
@@ -446,7 +447,7 @@ a.article-title:hover,
     width: 150px;
     border: none;
     float: left;
-    font-size: 14px;
+    font-size: 10px;
     background: none;
     color: #111;
     outline: none;
@@ -965,7 +966,7 @@ a.article-title:hover,
 .article-entry pre,
 .article-entry .highlight {
     margin: 0;
-    font-size: 14px;
+    font-size: 10px;
     background: #23241f;
     padding: 15px 0;
     overflow: auto;
@@ -1083,7 +1084,7 @@ a.article-title:hover,
 .article-entry .gist .gist-file .gist-meta {
     background: highlight-background;
     color: highlight-comment;
-    font: 0.85em font-sans;
+    font: 0.85em sans-serif;
     text-shadow: 0 0;
     padding: 0;
     margin-top: 1em;
