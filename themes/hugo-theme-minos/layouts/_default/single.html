@@ -4,11 +4,7 @@
     <div id="container">
         {{ partial "header.html" . }}
         <section id="main" class="outer">
-            {{ partial "article.html" . }}
-            {{ if and (not .Params.nocomment) .Site.DisqusShortname }}
-            {{ template "_internal/disqus.html" . }}
-            {{ end }}
-            {{ partial "pinglun.html" . }}
+            {{ partial "article.html" . }} {{ if and (not .Params.nocomment) .Site.DisqusShortname }} {{ template "_internal/disqus.html" . }} {{ end }} {{ partial "pinglun.html" . }}
         </section>
         {{ partial "footer.html" . }}
     </div>
