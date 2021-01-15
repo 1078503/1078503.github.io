@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 14 Jan 2021 02:12:15 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 15 Jan 2021 20:25:21 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://ditou.org/index.xml" />
         
@@ -136,7 +136,7 @@
 <p>之所以今天会更新，是因为自从换了域名和博客名称，总感觉回不到过去喜欢逛博客更新博客的状态了。因此，今天决定还是换回以前的名称「近视眼逛博客」好了。一来，这是一开始写博客就命名的名称，还是保持初心比较好。二来，我还是觉得叫这个名字比较合理。域名就继续保持不变：ditou.org 。</p>
 <p>因为没有太多的时间，博客应该还是会佛系更新，重在分享，不求数量。</p>
 <p>静态博客天然的会存在一些不太先进的地方，比如分类和搜索。因为一些技术的问题，实现起来比较有难度。虽然 hugo 有一些主题的设计者已经考虑到这些问题并且补足了这些不足，但对于不是技术流的我使用起来比较吃力，不管从美观性还是维护方面都不适合日常使用。但用来做专题分享又感觉格外的合适，尤其是静态页面的访问速度方面优势还是很明显的。</p>
-<p>但我又想有一个日常碎碎念的地方，类似微博推特这样想发点什么就发点什么。可能比较凌乱，但需要回顾的时候可以搜索。手头也有闲置的域名，于是，我把这些闲置的域名又拿来搭建了一个小社区：<a href="https://dtz9.net/" target="_blank" rel="noopener">DTZ9.NET</a>。这个域名和社区程序有些朋友可能之前见过，我就不多说了，有兴趣的朋友可以一起交流。最后说一句，因为是三大顶级域名同时注册的，所以后缀换到 .com 和 .org 都是会转到 <a href="https://dtz9.net/" target="_blank" rel="noopener">DTZ9.NET</a> 的。我比较懒，也想不出社区名称，所以就直接写域名了。</p>
+<p>但我又想有一个日常碎碎念的地方，类似微博推特这样想发点什么就发点什么。可能比较凌乱，但需要回顾的时候可以搜索。手头也有闲置的域名，于是，我把这些闲置的域名又拿来搭建了一个小社区：<a href="https://dtz9.com/" target="_blank" rel="noopener">DTZ9.COM</a>。这个域名和社区程序有些朋友可能之前见过，我就不多说了，有兴趣的朋友可以一起交流。最后说一句，因为是三大顶级域名同时注册的，所以后缀换到 .com 和 .org 都是会转到 <a href="https://dtz9.com/" target="_blank" rel="noopener">DTZ9.COM</a> 的。我比较懒，也想不出社区名称，所以就直接写域名了。</p>
 <p>话不多说，请欣赏下面的风景。</p>
 <h2 id="美好的风景">美好的风景</h2>
 <p>算了，老想着看美女没意思，看它吧：</p>
@@ -817,14 +817,14 @@
 <p><img src="https://img.dtz9.com/imgs/2020/02/4bd94957d63751e9.png" alt=""></p>
 <p>我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。</p>
 <h2 id="github上配置webhook与vps服务器互通">GitHub上配置webhook与VPS服务器互通</h2>
-<p>可以参考这个页面：<a href="https://dtz9.net/2019/11/4/" title="https://dtz9.net/2019/11/4/" target="_blank" rel="noopener">https://dtz9.net/2019/11/4/</a></p>
+<p>可以参考这个页面：<a href="https://ditou.org/2019/11/4/" title="https://ditou.org/2019/11/4/" target="_blank" rel="noopener">https://ditou.org/2019/11/4/</a></p>
 <p>设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。</p>
 <p>到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。</p>
 <h2 id="vps服务器上运行hugo定时任务">VPS服务器上运行hugo定时任务</h2>
 <p>并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？</p>
 <p>Centos 7系统上安装运行hugo可以参考这个页面：<a href="https://www.jianshu.com/p/bb2d483f4caf" title="https://www.jianshu.com/p/bb2d483f4caf" target="_blank" rel="noopener">https://www.jianshu.com/p/bb2d483f4caf</a></p>
 <p>如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。</p>
-<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://dtz9.net/2019/08/5/" title="https://dtz9.net/2019/08/5/" target="_blank" rel="noopener">https://dtz9.net/2019/08/5/</a></p>
+<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://ditou.org/2019/08/5/" title="https://ditou.org/2019/08/5/" target="_blank" rel="noopener">https://ditou.org/2019/08/5/</a></p>
 <p>如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：</p>
 <pre><code> cd /www/wwwroot/dtz9.net 
  hugo 
@@ -1192,7 +1192,7 @@ Total in 6202 ms
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>我在<a href="https://dtz9.net/2019/09/2/" target="_blank" rel="noopener">之前的文章</a>中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，早上升起的太阳。活着的意义和希望就是见到明天的太阳。今天有幸看到了马未都老师的视频，主题讲的就是“人生的意义”。重要的是你自己的存在，其它问题或东西其实都不重要。以下是<a href="https://www.youtube.com/watch?v=IcNZqZGdL7c" target="_blank" rel="noopener">观看视频</a>做的小记：</p>
+                    <description><![CDATA[<p>我在<a href="https://ditou.org/2019/09/2/" target="_blank" rel="noopener">之前的文章</a>中说到活着的意义和希望，那么，活着的希望是什么呢？最后我发了一张图片，早上升起的太阳。活着的意义和希望就是见到明天的太阳。今天有幸看到了马未都老师的视频，主题讲的就是“人生的意义”。重要的是你自己的存在，其它问题或东西其实都不重要。以下是<a href="https://www.youtube.com/watch?v=IcNZqZGdL7c" target="_blank" rel="noopener">观看视频</a>做的小记：</p>
 <p>人生的乐趣，它就是你生理上的乐趣（吃喝拉撒）。</p>
 <p>人生中第一个痛苦来自于疾病（发烧感冒），人一生是躲过无数次可能置于你死地的疾病活过来的，你的痛苦也来自于医生告诉你的信息。癌症与嵒症。精神上的痛苦。</p>
 <p>首先为自己活着，其次是亲人，再次为朋友，最后还要为社会活着，做出应有的贡献。这就是人生的意义。</p>
@@ -3069,7 +3069,7 @@ fi
 <pre><code class="language-shell">hugo
 </code></pre>
 <p>是不是很简单？如果你配置文件没问题的话就是这么简单，同样还可以带一些参数：</p>
-<pre><code class="language-shell">hugo --theme=hugo-theme-zozo --baseUrl=&quot;https://dtz9.net/&quot;
+<pre><code class="language-shell">hugo --theme=hugo-theme-zozo --baseUrl=&quot;https://ditou.org/&quot;
 </code></pre>
 <p>生成的静态文件在<code>public</code>文件夹，这就是上面提到的博客根目录。将这个目录里面的文件打包上传到对应的虚拟主机根目录就可以访问浏览了。当然很多人不这么用。</p>
 <h4 id="7托管到github">7.托管到GitHub</h4>
@@ -3400,7 +3400,7 @@ git push origin master
 <p>仅供参考，不保证任何环境都能完美实现。</p>
 <p>本来<code>width</code>准备设置到<code>700px</code>的，想法是越宽越能方便用户点击，发现手机端不合适，于是设置了<code>300px</code>，有问题欢迎报错和交流😏</p>
 <h2 id="调整页脚友情链接样式">调整页脚友情链接样式</h2>
-<p>以上按钮比较满意，那就再顺手把友情链接表格样式一起调整一下，去掉了超链接的下划线，通过修改表格背景和边框颜色实现了无边框😭，没办法，弱鸡只会这么玩哈哈。欢迎交换首页链接，要求必须首页，必须是页脚位置且醒目😏，网站类型原则上不限制，但看我心情🐶。有专用的内页<a href="https://dtz9.net/links/" target="_blank" rel="noopener">博客友链</a>，对于首页友链符合要求的可以申请首页友链。最后再说一句，欢迎随便交换友情链接😁</p>
+<p>以上按钮比较满意，那就再顺手把友情链接表格样式一起调整一下，去掉了超链接的下划线，通过修改表格背景和边框颜色实现了无边框😭，没办法，弱鸡只会这么玩哈哈。欢迎交换首页链接，要求必须首页，必须是页脚位置且醒目😏，网站类型原则上不限制，但看我心情🐶。有专用的内页<a href="https://ditou.org/links/" target="_blank" rel="noopener">博客友链</a>，对于首页友链符合要求的可以申请首页友链。最后再说一句，欢迎随便交换友情链接😁</p>
 ]]></description>
                 
                 
@@ -3832,7 +3832,7 @@ git push origin master
 <p>在一个普通的莫斯科公寓里，一个男孩和一个女孩坐在沙发上。两者都不超过16岁。空气中弥漫着淡淡的白葡萄酒气味和尴尬。在男孩的耳朵里是一个无线耳机 ，他的父亲和朋友正在通过隐藏的摄像头观察这对情侣，并提出何时采取行动的建议。但就在他开始亲吻之前，这条耳机线路突然死了，其中一个“助手”将咖啡洒在了设备上。儿子被迫单独行动。</p>
 <p>当连接重新建立时，我们看到同一个女孩，但现在戴着面纱和婚纱。她的男朋友（也和以前一样）握着她的手，看起来像一只被车头灯夹住的兔子 - 这清楚地表明这个女孩最终怀孕了，这个男孩，作为“适当的绅士”，不得不嫁给她。</p>
 <p>这是俄罗斯说唱团体Kasta和拉脱维亚摇滚乐队Brainstorm联合制作的一段视频片段，用于他们的歌曲“关于性爱”，敦促家长注意孩子的性教育，以避免一天早上醒来意外怀孕和离婚，注定不被看好的婚姻。</p>
-<h5 id="由于国内没有找到相关视频油管视频加载影响网页访问请在这里httpswwwyoutubecomwatchv2vrofxqfijg观看上述视频编辑执迷不悟httpsdtz9net">由于国内没有找到相关视频，油管视频加载影响网页访问，请<a href="https://www.youtube.com/watch?v=2vROfxQfIjg" target="_blank" rel="noopener">在这里</a>观看上述视频。编辑：<a href="https://dtz9.net/" target="_blank" rel="noopener">执迷不悟</a></h5>
+<h5 id="由于国内没有找到相关视频油管视频加载影响网页访问请在这里httpswwwyoutubecomwatchv2vrofxqfijg观看上述视频编辑执迷不悟httpsditouorg">由于国内没有找到相关视频，油管视频加载影响网页访问，请<a href="https://www.youtube.com/watch?v=2vROfxQfIjg" target="_blank" rel="noopener">在这里</a>观看上述视频。编辑：<a href="https://ditou.org/" target="_blank" rel="noopener">执迷不悟</a></h5>
 <h2 id="背景"><strong>背景</strong></h2>
 <p>俄罗斯没有推荐的性教育材料，除了一本关于十一年级学生的一般健康和福利的教科书中的一小部分。相反，学校学生对异性，避孕和无保护性行为风险的了解来自商业，电影，电子游戏，色情以及最可怕的同学等智慧。</p>
 <p>与此同时，孩子们很尴尬地询问他们的父母，而父母又非常乐意将责任转移给老师。根据研究中心（VTsIOM）的一项民意调查，超过60％的俄罗斯人支持在学校引入性教育。</p>
@@ -5522,7 +5522,7 @@ git push origin master
 计划中一开始打算继续写博客的时候，就想着无论如何都要坚持写作，哪怕是流水账碎碎念也是要写的。但事实是根本没有什么产出，更不要谈学习到多少新的东西了。先打自己三十大板，，惩罚自己虚度的光阴。</p>
 <p>反思也反思过了，说说计划。
 先说前几天遇到的事情，百度贴吧发了个回复，然后被永久封禁了账号？知道我说了什么了吗？起因是有个人发帖吧问网易博客还是啥的不能用了怎么办，我就回复他自己建一个，然后就没有然后了，第二天我发现我的账号已经不能用了。有的人可能会问，你试着解封了吗？呵呵，我回答你，没有必要。在一个崇尚网络自由的人眼里，账号只是一个账号，给我用我可以用，但不给我用我也就真的就不会用了。毕竟，生活还在继续，并不是没你不能，有很多途径可以学习交流，而且比你们这些大公司平台要开放的多。</p>
-<p>由于以上的经历，当然还有很多以前遇到的这类恶心人的事情，我计划从基础开始写建立博客的教程或者说过程记录。之前说过<a href="https://dtz9.net/358.html" target="_blank" rel="noopener">独立博客才刚刚开始</a>，我觉得可以继续这个话题了。</p>
+<p>由于以上的经历，当然还有很多以前遇到的这类恶心人的事情，我计划从基础开始写建立博客的教程或者说过程记录。之前说过<a href="https://ditou.org/358.html" target="_blank" rel="noopener">独立博客才刚刚开始</a>，我觉得可以继续这个话题了。</p>
 <blockquote>
 <p>独立博客或者网站就像一所房子，一切都是自己精心挑选布置建立起来的。通过这所房子你可以邀请朋友来家里做客，双方都会留下深刻的印象，在家里也可以自由的沟通并不会受到外界过多的干扰。而且朋友带到你家里的礼物你可以享受很久，比如一瓶红酒一本书。这就是有意义的地方，独立博客可以承担的功能就像一所房子带给你的一样。</p>
 </blockquote>
@@ -6089,7 +6089,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 <pre><code class="language-shell">cd /www/wwwroot/
 </code></pre>
 <p>从VPS1上获取文件,下载数据包到VPS2</p>
-<pre><code class="language-shell">wget https://dtz9.net/1078503.tar.gz 
+<pre><code class="language-shell">wget https://ditou.org/1078503.tar.gz 
 </code></pre>
 <p>解压1078503.tar.gz</p>
 <pre><code class="language-shell">tar zxvf 1078503.tar.gz   
@@ -6101,7 +6101,7 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 </ol>
 <p>请先在PHPMyAdmin新建相应数据库和用户（<strong>与原数据库、用户同名</strong>）
 下载数据包到VPS2</p>
-<pre><code class="language-shell">wget https://dtz9.net/1078503.sql 
+<pre><code class="language-shell">wget https://ditou.org/1078503.sql 
 </code></pre>
 <p>还原数据库</p>
 <pre><code class="language-shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql

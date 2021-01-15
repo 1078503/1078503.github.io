@@ -116,14 +116,14 @@
 <p><img src="https://img.dtz9.com/imgs/2020/02/4bd94957d63751e9.png" alt=""></p>
 <p>我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。</p>
 <h2 id="github上配置webhook与vps服务器互通">GitHub上配置webhook与VPS服务器互通</h2>
-<p>可以参考这个页面：<a href="https://dtz9.net/2019/11/4/" title="https://dtz9.net/2019/11/4/" target="_blank" rel="noopener">https://dtz9.net/2019/11/4/</a></p>
+<p>可以参考这个页面：<a href="https://ditou.org/2019/11/4/" title="https://ditou.org/2019/11/4/" target="_blank" rel="noopener">https://ditou.org/2019/11/4/</a></p>
 <p>设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。</p>
 <p>到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。</p>
 <h2 id="vps服务器上运行hugo定时任务">VPS服务器上运行hugo定时任务</h2>
 <p>并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？</p>
 <p>Centos 7系统上安装运行hugo可以参考这个页面：<a href="https://www.jianshu.com/p/bb2d483f4caf" title="https://www.jianshu.com/p/bb2d483f4caf" target="_blank" rel="noopener">https://www.jianshu.com/p/bb2d483f4caf</a></p>
 <p>如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。</p>
-<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://dtz9.net/2019/08/5/" title="https://dtz9.net/2019/08/5/" target="_blank" rel="noopener">https://dtz9.net/2019/08/5/</a></p>
+<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://ditou.org/2019/08/5/" title="https://ditou.org/2019/08/5/" target="_blank" rel="noopener">https://ditou.org/2019/08/5/</a></p>
 <p>如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：</p>
 <pre><code> cd /www/wwwroot/dtz9.net 
  hugo 
@@ -324,7 +324,8 @@ Total in 6202 ms
         <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
         <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
         <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" title="哥斯拉" target="_blank">哥斯拉</a></li>
+        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
+        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
     </ul>
 </div>
 <footer id="footer">

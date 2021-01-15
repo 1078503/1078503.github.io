@@ -9,7 +9,7 @@ toc: false
 
 联系我： ![](https://ditou.org/1078503@gmail.com.gif)
 
-电报群：[进入](https://t.me/link1078503) | 一个社区：[DTZ9.NET](https://dtz9.net/)
+电报群：[进入](https://t.me/link1078503) | 一个社区：[DTZ9.COM](https://dtz9.com/)
 
 ## 更新日志
 
