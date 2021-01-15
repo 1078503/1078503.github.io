@@ -78,18 +78,14 @@
             <a href="/2019/11/4/" class="article-date">
                 <time datetime='2019-11-21T00:42:00.000&#43;08:00' itemprop="datePublished">2019-11-21</time>
             </a>
-            
-            
+             
             <div class="post-categories">
                 <div class="article-category">
-                    
-                    
-                    <a class="article-category-link" href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a>
-                    
+                     
+                    <a class="article-category-link" href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a> 
                 </div>
             </div>
-            
-            
+             
         </div>
         <br>
         <div class="article-entry" itemprop="articleBody">
@@ -189,9 +185,8 @@ fi
 
         </div>
 
-        
-        
-        <div class="article-toc" style="display:none;">
+         
+        <div class="article-toc" style="display:none;" >
             <h3></h3>
             <nav id="TableOfContents">
   <ol>
@@ -203,10 +198,7 @@ fi
   </ol>
 </nav>
         </div>
-        
-        
-
-        
+          
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
         <script>
             (function() {
@@ -214,11 +206,11 @@ fi
                 if ($toc.length > 0) {
                     var $window = $(window);
 
-                    function onScroll(){
+                    function onScroll() {
                         var currentScroll = $window.scrollTop();
                         var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
                         var id = "";
-                        h.each(function (i, e) {
+                        h.each(function(i, e) {
                             e = $(e);
                             if (e.offset().top - 10 <= currentScroll) {
                                 id = e.attr('id');
@@ -227,10 +219,10 @@ fi
                         var active = $toc.find('a.active');
                         if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
 
-                        active.each(function (i, e) {
+                        active.each(function(i, e) {
                             $(e).removeClass('active').siblings('ul').hide();
                         });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
                             $(e).children('a').addClass('active').siblings('ul').show();
                         });
                     }
@@ -244,10 +236,7 @@ fi
                 }
             })();
         </script>
-        
-
-
-        
+         
         <footer class="article-footer">
             <ul class="article-tag-list">
                 
@@ -307,8 +296,7 @@ fi
 </nav>
 
 
-</article>
-  <div class="article-inner">
+</article>  <div class="article-inner">
     <a href="https://dtz9.com/d/19" target="_blank">
         <img border="0" src="/banner.png" />
     </a>
