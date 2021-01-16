@@ -32,5 +32,3 @@ fields:
 - type: boolean
   name: comment
   label: comment
-pages:
-- content/posts/2020/202012/linux.md
