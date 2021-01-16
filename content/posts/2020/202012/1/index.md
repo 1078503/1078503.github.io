@@ -3,7 +3,7 @@ title: 我为什么使用 Linux 作为桌面系统
 date: 2020-12-24T22:40:00+08:00
 lastmod: 2020-12-25T00:15:00+08:00
 slug: 1
-image: "cover.png"
+image: cover.png
 tags:
 - 网络孤岛
 - KDE
