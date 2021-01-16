@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on 近视眼逛博客</title>
+    <link>https://ditou.org/tags/github/</link>
+    <description>Recent content in github on 近视眼逛博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 20 Feb 2020 10:06:00 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>研究hugo&#43;Github&#43;Forestry</title>
+      <link>https://ditou.org/2020/02/5/</link>
+      <pubDate>Thu, 20 Feb 2020 10:06:00 +0800</pubDate>
+      
+      <guid>https://ditou.org/2020/02/5/</guid>
+      <description>起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。
+静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。
+要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。
+首先来复习一下什么是git 维基百科：https://zh.wikipedia.org/wiki/Git
+git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程
+关键词：分布式版本控制。
+说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。
+那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：https://www.jianshu.com/p/662d9bb9cadc
+静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。
+Github与Forestry互通 接下来就是搞定Github与Forestry互通，搞定后界面是这样的：
+静态博客有了后台管理和创建文章是不是就方便多了？这样就能随时随地愉快的更新了哦。
+设置方面需要注意的地方，Forestry： GitHub有两个项目需要设置： 不出意外，搞定这些基本就能工作了，更多Forestry的用法看看设置里面的说明基本就能玩好了，比如：
+我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。
+GitHub上配置webhook与VPS服务器互通 可以参考这个页面：https://ditou.org/2019/11/4/
+设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。
+到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。
+VPS服务器上运行hugo定时任务 并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？
+Centos 7系统上安装运行hugo可以参考这个页面：https://www.jianshu.com/p/bb2d483f4caf
+如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。
+如果你不会，可以先学会在本地使用hugo，参考这个页面：https://ditou.org/2019/08/5/
+如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：
+ cd /www/wwwroot/dtz9.net hugo cd ~  执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：
+Building sites … | ZH-CN +------------------+-------+ Pages | 385 Paginator pages | 71 Non-page files | 0 Static files | 80 Processed images | 0 Aliases | 148 Sitemaps | 1 Cleaned | 0 Total in 6202 ms 总结一下 我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。</description>
+    </item>
+    
+    <item>
+      <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
+      <link>https://ditou.org/2019/11/4/</link>
+      <pubDate>Thu, 21 Nov 2019 00:42:00 +0800</pubDate>
+      
+      <guid>https://ditou.org/2019/11/4/</guid>
+      <description>今天博友云中君反馈，说他的博客又抽风了。
+原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
+这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？
+他是通过Gridea客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。
+那么，接下来就来完成这个工作，让他与我分享这个资源吧。
+1.确保Gridea同步推送接口使用GitHub 这里我因为不使用该客户端所以不做说明，因为它的官网已经介绍的非常详细了。
+2.宝塔面板新建网站并启用 我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。
+CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究安装方式。
+需要注意的地方：
+ 域名需要解析到宝塔面板所在服务器的IP 启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用  3.宝塔面板使用webhook插件 如上图。
+在宝塔面板的软件商店中搜索webhook安装并启用，在webhook插件的设置中添加一个调用条目：
+编辑该条目的shell命令并保存：
+命令内容参考：
+#!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !</description>
+    </item>
+    
+  </channel>
+</rss>

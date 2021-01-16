@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prism.js on 近视眼逛博客</title>
+    <link>https://ditou.org/tags/prism.js/</link>
+    <description>Recent content in prism.js on 近视眼逛博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 06 Aug 2019 18:33:12 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/prism.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【网站维护】一些简单满意的调整</title>
+      <link>https://ditou.org/2019/08/2/</link>
+      <pubDate>Tue, 06 Aug 2019 18:33:12 +0800</pubDate>
+      
+      <guid>https://ditou.org/2019/08/2/</guid>
+      <description>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。
+代码高亮 就随便找了一个 prism.js ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; ... &amp;lt;link href=&amp;#34;css/prism.css&amp;#34; rel=&amp;#34;stylesheet&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; ... &amp;lt;script src=&amp;#34;js/prism.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 以上就是引用的方法和效果展示🙂。
+页面上需要下面的代码，才会被高亮。
+&amp;lt;pre&amp;gt;&amp;lt;code class=&amp;#34;language-css&amp;#34;&amp;gt;p { color: red }&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt; markdown编辑器Typora只需要在编辑代码的时候选择语言就没有问题。其它编辑器环境没有测试。
+VPS内存占用过高 最近VPS出现很多次内存占用高的情况，前次通过修改Nginx的配置得以解决，最近一次直接内存超高服务器卡死了。不得不重启后查看内存占用情况，我使用的内存占用查看方法，Xshell连上VPS：
+yum install htop -y &amp;amp;&amp;amp; htop 经过观察是MySQL占用比较高导致的，Google了一下配置方法，做了一些调整并观察了一段时间，基本解决问题。不同的环境配置不一定一样所以这里就不分享配置参数了，有需要的可以Google相关。
+制作加载评论按钮 代码高亮也做了，反正是折腾，于是顺便给首页添加一个加载评论按钮。
+半路出家的选手，玩代码水平差的自己都看不下去，制作过程一波三折总是不完美。最后看到底部的友情链接样式于是就直接拿来修改了😭
+css
+.anniu li { float: left } .anniu li a { background: SeaGreen; border: 1px solid SeaGreen; display: block; text-align: center; margin-left: 15px; margin-bottom: 5px; padding: 0 4px; border-radius: 2px; width: 300px; color: #fff; line-height: 35px; white-space: nowrap; overflow: hidden; text-decoration: none; font-size: 14px } .</description>
+    </item>
+    
+  </channel>
+</rss>

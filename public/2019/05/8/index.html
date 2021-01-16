@@ -1,129 +1,325 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='说点题外话。 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。 物是人非，听到了一些消息，让我颇为感慨！出于隐私我就不说具体是什么了。
+见面是因为他要给下面这台车贴威固(英文：V-KOOL)太阳膜：
+对了，路虎大揽胜！Nice！因此就有机会近距离接触了这台很多男人的dream car。
+上图！
+骚气的副驾车门门板。
+有点乱，正在施工中。
+爬进了后排，看看中控仪表。
+迫不及待爬进主驾摸摸方向盘，这可是有自动调节的方向盘和座椅哦。另外仪表简直是无可挑剔！
+多媒体中心，凸面屏哦。
+顺便给屏幕也贴上保护膜。
+盖上盖子，这里绝对是驾驶员放手机的好地方！
+中控。是的，物理按键旋钮少到了极限，基本都是触摸操作。值得一提的是屏幕UI媲美iPad，简直就是放了两台平板电脑在仪表台上哈哈！
+下车吧！这辈子怕是买不起了吧？买得起也用不起啊！
+最后再留恋一下大揽胜性感的屁股，这才是这台车我最喜欢的地方。嗯~对！就是这样。
+ 该说说正事儿了。 跟朋友聊天中说到电脑，然后就自然的说到他的古董机进不了系统了，里面还有一些资料没有备份，他很需要。 如此，那我就试试呗！虽然我一个屌丝电脑水平一般但助人为乐的精神还是有的。
+这是一台DELL，型号是 INSPIRON 14 N4050。进不了系统开机遇到的问题是这样的： 很明显这是电池故障，没有读过大学的我都能看明白的故障码，哈哈。这哥们儿也是有意思，一块电池用了这么多年&amp;hellip;不过也说明了DELL的品质！按F1键继续后得到故障码是这个：oxc000014c
+好了，到了解决问题的时候了，上Google！得到一个靠谱的解决办法：
+ 办法一：
+PE优盘一个，关机进PE系统，利用PE的引导修复工具（Ctrl&#43;F）对系统引导盘进行修复，然后重启选择**{最近一次正确引导}**启动，可能就行了。这里没有PE的朋友比较麻烦，还得自己用U盘量产一个PE系统盘，我也是刚好手里得U盘有PE系统，所以就试了，但是没用。
+无奈只好继续找办法，于是找到了下面这个方法，电脑起死回生。
+办法二：
+先关机进PE系统，然后进系统盘，找到C:\Windows\System32\config\RegBack这个路径，路径文件夹下有个SYSTEM文件，复制黏贴到上级目录config里面，选择覆盖，至此工作完成，开机重启电脑，OK，进入系统，妥妥的，没问题。
+**原理：**一般进不去系统是引导的问题或者就是系统文件损坏的问题，而windows下面system32的config下面是整个系统的配置文件，大多问题都出在这里，所以平时大家没事可以备份一下这个文件，然后这里面的RegBack文件就是一个备份文件，出了问题直接从里面复制相应的问题进行替换就行了。
+ 原文地址：http://www.midousir.com/2018/10/oxc000014c/ 感谢原文博主的分享和无私奉献。
+根据博主的经验，我直接使用了第二种方法。 我使用的PE系统：微PE
+如我所愿，一切都恢复正常了。
+让朋友自己去万能的淘宝发一块新的电池吧！最好顺便升级一下内存和固态硬盘，这电脑还是可以放家里当上网本用用的。因为毕竟本人还在使用的主力机器是ThinkPad X201，比朋友的笔记本年纪大多了！
+最后。这真的是一篇跟笔记本电脑关系不大的文章。'><title>【随笔】朋友的笔记本电脑</title>
 
-<head>
-    <title>【随笔】朋友的笔记本电脑 | 近视眼逛博客</title>
+<link rel='canonical' href='https://ditou.org/2019/05/8/'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="/scss/style.min.css"><link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+<script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script><meta property='og:title' content='【随笔】朋友的笔记本电脑'>
+<meta property='og:description' content='说点题外话。 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。 物是人非，听到了一些消息，让我颇为感慨！出于隐私我就不说具体是什么了。
+见面是因为他要给下面这台车贴威固(英文：V-KOOL)太阳膜：
+对了，路虎大揽胜！Nice！因此就有机会近距离接触了这台很多男人的dream car。
+上图！
+骚气的副驾车门门板。
+有点乱，正在施工中。
+爬进了后排，看看中控仪表。
+迫不及待爬进主驾摸摸方向盘，这可是有自动调节的方向盘和座椅哦。另外仪表简直是无可挑剔！
+多媒体中心，凸面屏哦。
+顺便给屏幕也贴上保护膜。
+盖上盖子，这里绝对是驾驶员放手机的好地方！
+中控。是的，物理按键旋钮少到了极限，基本都是触摸操作。值得一提的是屏幕UI媲美iPad，简直就是放了两台平板电脑在仪表台上哈哈！
+下车吧！这辈子怕是买不起了吧？买得起也用不起啊！
+最后再留恋一下大揽胜性感的屁股，这才是这台车我最喜欢的地方。嗯~对！就是这样。
+ 该说说正事儿了。 跟朋友聊天中说到电脑，然后就自然的说到他的古董机进不了系统了，里面还有一些资料没有备份，他很需要。 如此，那我就试试呗！虽然我一个屌丝电脑水平一般但助人为乐的精神还是有的。
+这是一台DELL，型号是 INSPIRON 14 N4050。进不了系统开机遇到的问题是这样的： 很明显这是电池故障，没有读过大学的我都能看明白的故障码，哈哈。这哥们儿也是有意思，一块电池用了这么多年&amp;hellip;不过也说明了DELL的品质！按F1键继续后得到故障码是这个：oxc000014c
+好了，到了解决问题的时候了，上Google！得到一个靠谱的解决办法：
+ 办法一：
+PE优盘一个，关机进PE系统，利用PE的引导修复工具（Ctrl&#43;F）对系统引导盘进行修复，然后重启选择**{最近一次正确引导}**启动，可能就行了。这里没有PE的朋友比较麻烦，还得自己用U盘量产一个PE系统盘，我也是刚好手里得U盘有PE系统，所以就试了，但是没用。
+无奈只好继续找办法，于是找到了下面这个方法，电脑起死回生。
+办法二：
+先关机进PE系统，然后进系统盘，找到C:\Windows\System32\config\RegBack这个路径，路径文件夹下有个SYSTEM文件，复制黏贴到上级目录config里面，选择覆盖，至此工作完成，开机重启电脑，OK，进入系统，妥妥的，没问题。
+**原理：**一般进不去系统是引导的问题或者就是系统文件损坏的问题，而windows下面system32的config下面是整个系统的配置文件，大多问题都出在这里，所以平时大家没事可以备份一下这个文件，然后这里面的RegBack文件就是一个备份文件，出了问题直接从里面复制相应的问题进行替换就行了。
+ 原文地址：http://www.midousir.com/2018/10/oxc000014c/ 感谢原文博主的分享和无私奉献。
+根据博主的经验，我直接使用了第二种方法。 我使用的PE系统：微PE
+如我所愿，一切都恢复正常了。
+让朋友自己去万能的淘宝发一块新的电池吧！最好顺便升级一下内存和固态硬盘，这电脑还是可以放家里当上网本用用的。因为毕竟本人还在使用的主力机器是ThinkPad X201，比朋友的笔记本年纪大多了！
+最后。这真的是一篇跟笔记本电脑关系不大的文章。'>
+<meta property='og:url' content='https://ditou.org/2019/05/8/'>
+<meta property='og:site_name' content='近视眼逛博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='零距离触摸了2019款路虎揽胜' /><meta property='article:tag' content='DELL电池损坏' /><meta property='article:tag' content='汽车' /><meta property='article:tag' content='电脑' /><meta property='article:tag' content='随笔' /><meta property='article:published_time' content='2019-05-14T01:16:33&#43;08:00'/><meta property='article:modified_time' content='2019-05-14T01:16:33&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta name="twitter:title" content="【随笔】朋友的笔记本电脑">
+<meta name="twitter:description" content="说点题外话。 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。 物是人非，听到了一些消息，让我颇为感慨！出于隐私我就不说具体是什么了。
+见面是因为他要给下面这台车贴威固(英文：V-KOOL)太阳膜：
+对了，路虎大揽胜！Nice！因此就有机会近距离接触了这台很多男人的dream car。
+上图！
+骚气的副驾车门门板。
+有点乱，正在施工中。
+爬进了后排，看看中控仪表。
+迫不及待爬进主驾摸摸方向盘，这可是有自动调节的方向盘和座椅哦。另外仪表简直是无可挑剔！
+多媒体中心，凸面屏哦。
+顺便给屏幕也贴上保护膜。
+盖上盖子，这里绝对是驾驶员放手机的好地方！
+中控。是的，物理按键旋钮少到了极限，基本都是触摸操作。值得一提的是屏幕UI媲美iPad，简直就是放了两台平板电脑在仪表台上哈哈！
+下车吧！这辈子怕是买不起了吧？买得起也用不起啊！
+最后再留恋一下大揽胜性感的屁股，这才是这台车我最喜欢的地方。嗯~对！就是这样。
+ 该说说正事儿了。 跟朋友聊天中说到电脑，然后就自然的说到他的古董机进不了系统了，里面还有一些资料没有备份，他很需要。 如此，那我就试试呗！虽然我一个屌丝电脑水平一般但助人为乐的精神还是有的。
+这是一台DELL，型号是 INSPIRON 14 N4050。进不了系统开机遇到的问题是这样的： 很明显这是电池故障，没有读过大学的我都能看明白的故障码，哈哈。这哥们儿也是有意思，一块电池用了这么多年&amp;hellip;不过也说明了DELL的品质！按F1键继续后得到故障码是这个：oxc000014c
+好了，到了解决问题的时候了，上Google！得到一个靠谱的解决办法：
+ 办法一：
+PE优盘一个，关机进PE系统，利用PE的引导修复工具（Ctrl&#43;F）对系统引导盘进行修复，然后重启选择**{最近一次正确引导}**启动，可能就行了。这里没有PE的朋友比较麻烦，还得自己用U盘量产一个PE系统盘，我也是刚好手里得U盘有PE系统，所以就试了，但是没用。
+无奈只好继续找办法，于是找到了下面这个方法，电脑起死回生。
+办法二：
+先关机进PE系统，然后进系统盘，找到C:\Windows\System32\config\RegBack这个路径，路径文件夹下有个SYSTEM文件，复制黏贴到上级目录config里面，选择覆盖，至此工作完成，开机重启电脑，OK，进入系统，妥妥的，没问题。
+**原理：**一般进不去系统是引导的问题或者就是系统文件损坏的问题，而windows下面system32的config下面是整个系统的配置文件，大多问题都出在这里，所以平时大家没事可以备份一下这个文件，然后这里面的RegBack文件就是一个备份文件，出了问题直接从里面复制相应的问题进行替换就行了。
+ 原文地址：http://www.midousir.com/2018/10/oxc000014c/ 感谢原文博主的分享和无私奉献。
+根据博主的经验，我直接使用了第二种方法。 我使用的PE系统：微PE
+如我所愿，一切都恢复正常了。
+让朋友自己去万能的淘宝发一块新的电池吧！最好顺便升级一下内存和固态硬盘，这电脑还是可以放家里当上网本用用的。因为毕竟本人还在使用的主力机器是ThinkPad X201，比朋友的笔记本年纪大多了！
+最后。这真的是一篇跟笔记本电脑关系不大的文章。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditou.org' />
+    </head>
+    <body class="article-page keep-sidebar">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐕</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Feed</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
     
-    
-    
-
-        <meta property="og:title" content="【随笔】朋友的笔记本电脑" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh" />
-    <meta property="og:url" content="https://ditou.org/2019/05/8/" />
-    
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
-    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    <header class="article-category">
+        
+            <a href="/categories/%E9%9A%8F%E7%AC%94/" >
+                随笔
+            </a>
+        
+    </header>
     
 
-    <meta name="generator" content="Hugo 0.78.2" />
+    <h2 class="article-title">
+        <a href="/2019/05/8/">【随笔】朋友的笔记本电脑</a>
+    </h2>
 
-    <link href="https://fonts.loli.net/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
 
-    <script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script>
-</head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div id="header-inner" class="inner">
-            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
-            <a id="logo" class="logo-text" href="https://ditou.org/" style="color: teal;">近视眼逛博客</a>
-            <nav id="main-nav">
-                
-                <a class="main-nav-link" href="/categories">分类</a>
-                
-                <a class="main-nav-link" href="/tags">标签</a>
-                
-                <a class="main-nav-link" href="/about">关于</a>
-                
-                <a class="main-nav-link" href="/links">友链</a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-            </nav>
-            <nav id="sub-nav">
-                <div id="search-form-wrap">
-                </div>
-            </nav>
-        </div>
-    </div>
+        <time class="article-time--published">2019-5-14</time>
+    </footer></div>
 </header>
 
-        <section id="main" class="outer">
-            <article class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        <header class="article-header">
-            <h1 class="article-title" itemprop="name">【随笔】朋友的笔记本电脑</h1>
-        </header>
-        
-        <div class="article-meta">
-            <a href="/2019/05/8/" class="article-date">
-                <time datetime='2019-05-14T01:16:33.000&#43;08:00' itemprop="datePublished">2019-05-14</time>
-            </a>
-             
-            <div class="post-categories">
-                <div class="article-category">
-                     
-                    <a class="article-category-link" href="https://ditou.org//categories/%E9%9A%8F%E7%AC%94">随笔</a> 
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <div class="article-entry" itemprop="articleBody">
-            <p>说点题外话。
+    <section class="article-content">
+    <p>说点题外话。
 昨天见到了很久没见过的朋友，以前的同事，很多年的那种。
 物是人非，听到了一些消息，让我颇为感慨！出于隐私我就不说具体是什么了。</p>
 <p>见面是因为他要给下面这台车贴威固(英文：V-KOOL)太阳膜：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/4836db61ee74a2f9.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/4836db61ee74a2f9.png" alt=""  /></p>
 <p>对了，路虎大揽胜！Nice！因此就有机会近距离接触了这台很多男人的dream car。</p>
 <p>上图！</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/0c5fff05dbaada53.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/0c5fff05dbaada53.png" alt=""  /></p>
 <p>骚气的副驾车门门板。</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/33e1ce17e52ad450.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/33e1ce17e52ad450.png" alt=""  /></p>
 <p>有点乱，正在施工中。</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/4b6f8d397c9ca1be.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/4b6f8d397c9ca1be.png" alt=""  /></p>
 <p>爬进了后排，看看中控仪表。</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/e6853a5a8185cbbc.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/e6853a5a8185cbbc.png" alt=""  /></p>
 <p>迫不及待爬进主驾摸摸方向盘，这可是有自动调节的方向盘和座椅哦。另外仪表简直是无可挑剔！</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/73aa00641fb3ae95.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/73aa00641fb3ae95.png" alt=""  /></p>
 <p>多媒体中心，凸面屏哦。</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/30684f8dd965eb72.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/30684f8dd965eb72.png" alt=""  /></p>
 <p>顺便给屏幕也贴上保护膜。</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/e657c23363a62c4b.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/e657c23363a62c4b.png" alt=""  /></p>
 <p>盖上盖子，这里绝对是驾驶员放手机的好地方！</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/d49001727b091147.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/d49001727b091147.png" alt=""  /></p>
 <p>中控。是的，物理按键旋钮少到了极限，基本都是触摸操作。值得一提的是屏幕UI媲美iPad，简直就是放了两台平板电脑在仪表台上哈哈！</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/46976f341726afa1.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/46976f341726afa1.png" alt=""  /></p>
 <p>下车吧！这辈子怕是买不起了吧？买得起也用不起啊！</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/7938ec9b58a7265b.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/7938ec9b58a7265b.png" alt=""  /></p>
 <p>最后再留恋一下大揽胜性感的屁股，这才是这台车我最喜欢的地方。嗯~对！就是这样。</p>
 <hr>
 <p>该说说正事儿了。
 跟朋友聊天中说到电脑，然后就自然的说到他的古董机进不了系统了，里面还有一些资料没有备份，他很需要。
 如此，那我就试试呗！虽然我一个屌丝电脑水平一般但助人为乐的精神还是有的。</p>
 <p>这是一台DELL，型号是 INSPIRON 14 N4050。进不了系统开机遇到的问题是这样的：
-<img src="https://img.dtz9.com/imgs/2019/06/4bbaf06e7a7070d4.png" alt=""></p>
-<p>很明显这是电池故障，没有读过大学的我都能看明白的故障码，哈哈。这哥们儿也是有意思，一块电池用了这么多年...不过也说明了DELL的品质！按F1键继续后得到故障码是这个：oxc000014c</p>
-<p><img src="https://img.dtz9.com/imgs/2019/06/b6edb24cc86a3062.png" alt=""></p>
+<img src="https://img.dtz9.com/imgs/2019/06/4bbaf06e7a7070d4.png" alt=""  /></p>
+<p>很明显这是电池故障，没有读过大学的我都能看明白的故障码，哈哈。这哥们儿也是有意思，一块电池用了这么多年&hellip;不过也说明了DELL的品质！按F1键继续后得到故障码是这个：oxc000014c</p>
+<p><img src="https://img.dtz9.com/imgs/2019/06/b6edb24cc86a3062.png" alt=""  /></p>
 <p>好了，到了解决问题的时候了，上Google！得到一个靠谱的解决办法：</p>
 <blockquote>
 <p>办法一：</p>
@@ -135,118 +331,55 @@
 </blockquote>
 <p>原文地址：<a href="http://www.midousir.com/2018/10/oxc000014c/">http://www.midousir.com/2018/10/oxc000014c/</a>   感谢原文博主的分享和无私奉献。</p>
 <p>根据博主的经验，我直接使用了第二种方法。
-我使用的PE系统：<a href="http://www.wepe.com.cn/" target="_blank" rel="noopener">微PE</a></p>
+我使用的PE系统：<a class="link" href="http://www.wepe.com.cn/"  target="_blank" rel="noopener"
+    >微PE</a></p>
 <p>如我所愿，一切都恢复正常了。</p>
 <p>让朋友自己去万能的淘宝发一块新的电池吧！最好顺便升级一下内存和固态硬盘，这电脑还是可以放家里当上网本用用的。因为毕竟本人还在使用的主力机器是ThinkPad X201，比朋友的笔记本年纪大多了！</p>
 <p>最后。这真的是一篇跟笔记本电脑关系不大的文章。</p>
 
-        </div>
+</section>
 
-         
-        <div class="article-toc" style="display:none;" >
-            <h3></h3>
-            <nav id="TableOfContents"></nav>
-        </div>
-          
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-        <script>
-            (function() {
-                var $toc = $('#TableOfContents');
-                if ($toc.length > 0) {
-                    var $window = $(window);
 
-                    function onScroll() {
-                        var currentScroll = $window.scrollTop();
-                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
-                        var id = "";
-                        h.each(function(i, e) {
-                            e = $(e);
-                            if (e.offset().top - 10 <= currentScroll) {
-                                id = e.attr('id');
-                            }
-                        });
-                        var active = $toc.find('a.active');
-                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-                        active.each(function(i, e) {
-                            $(e).removeClass('active').siblings('ul').hide();
-                        });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
-                            $(e).children('a').addClass('active').siblings('ul').show();
-                        });
-                    }
-
-                    $window.on('scroll', onScroll);
-                    $(document).ready(function() {
-                        $toc.find('a').parent('li').find('ul').hide();
-                        onScroll();
-                        document.getElementsByClassName('article-toc')[0].style.display = '';
-                    });
-                }
-            })();
-        </script>
-         
-        <footer class="article-footer">
-            <ul class="article-tag-list">
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9B%B6%E8%B7%9D%E7%A6%BB%E8%A7%A6%E6%91%B8%E4%BA%862019%E6%AC%BE%E8%B7%AF%E8%99%8E%E6%8F%BD%E8%83%9C">零距离触摸了2019款路虎揽胜
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/dell%E7%94%B5%E6%B1%A0%E6%8D%9F%E5%9D%8F">DELL电池损坏
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E6%B1%BD%E8%BD%A6">汽车
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%94%B5%E8%84%91">电脑
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9A%8F%E7%AC%94">随笔
-                    </a>
-                </li>
-                
-            </ul>
-        </footer>
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </div>
-    
-<nav id="article-nav">
-    
-    <a href="/2019/05/9/" id="article-nav-newer" class="article-nav-link-wrap">
-        <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            【电脑】今天为chrome介绍一款扩展程序
-        </div>
-    </a>
-    
-    
-    <a href="/2019/05/7/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">【网站维护】Google通过了我的Adsense账户&nbsp;<span>&gt;</span></div>
-    </a>
-    
-</nav>
+            <a href="/tags/%E9%9B%B6%E8%B7%9D%E7%A6%BB%E8%A7%A6%E6%91%B8%E4%BA%862019%E6%AC%BE%E8%B7%AF%E8%99%8E%E6%8F%BD%E8%83%9C/">零距离触摸了2019款路虎揽胜</a>
+        
+            <a href="/tags/dell%E7%94%B5%E6%B1%A0%E6%8D%9F%E5%9D%8F/">DELL电池损坏</a>
+        
+            <a href="/tags/%E6%B1%BD%E8%BD%A6/">汽车</a>
+        
+            <a href="/tags/%E7%94%B5%E8%84%91/">电脑</a>
+        
+            <a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a>
+        
+    </section>
 
 
-</article>  <div class="article-inner">
-    <a href="https://dtz9.com/d/19" target="_blank">
-        <img border="0" src="/banner.png" />
-    </a>
-</div>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
 <div align="center">
-    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦
     </font>
-</div>
-<div style="background-color: #f9f9f9;">
+</div><br>
+<div class="disqus-container">
     <center>
-        <div id="comment" style="width: 96%;">
+        <div id="comment">
             <script>
                 var disq = new iDisqus('comment', {
                     forum: '1078503',
@@ -260,57 +393,124 @@
         </div>
     </center>
 </div>
-        </section>
-        <div class="outer" style="font-size: 10px;">
-    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
-        <li><a href="http://www.jetli.com.cn/" target="_blank">博客志</a></li>
-        <li><a href="https://dtz9.com/" target="_blank">低头族</a></li>
-        <li><a href="http://www.xlanda.net/" target="_blank">我的天</a></li>
-        <li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a></li>
-        <li><a href="https://www.goakay.com/" target="_blank">GoaKay</a></li>
-        <li><a href="https://cyhour.com/" target="_blank">沙唐桔</a></li>
-        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
-        <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
-        <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
-        <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
-        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
-    </ul>
-</div>
-<footer id="footer">
-    <div class="outer">
-        <hr style=" border: 1px dashed #ddd;">
-        <div id="footer-info" class="inner">
-            &copy; 2019 - 2021 近视眼逛博客 | 由 <a href="https://gohugo.io" target="_blank">Hugo</a> 生成 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank" title="使用RSS阅读器订阅本站">RSS</a>            |
-            <a rel="me" href="https://1w1.in/@ditou" target="_blank" title="去中心化的微博替代品">Mastodon</a>
-        </div>
-    </div>
-    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
 
     
-    <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function() {
-            var header = document.getElementById('header');
-            if (header.classList.contains('mobile-on')) {
-                header.classList.remove('mobile-on');
-            } else {
-                header.classList.add('mobile-on');
-            }
-        });
-    </script>
+
+    <footer class="site-footer">
+    <p><a>友情链接：</a>
+    
+        &nbsp;<a href="http://www.jetli.com.cn/" target="_blank">博客志</a>&nbsp;
+        &nbsp;<a href="https://dtz9.com/" target="_blank">低头族</a>&nbsp;
+        &nbsp;<a href="http://www.xlanda.net/" target="_blank">我的天</a>&nbsp;
+        &nbsp;<a href="http://blog.dngz.net/" target="_blank">心灵博客</a>&nbsp;
+        &nbsp;<a href="https://www.goakay.com/" target="_blank">GoaKay</a>&nbsp;
+        &nbsp;<a href="https://cyhour.com/" target="_blank">沙唐桔</a>&nbsp;
+        &nbsp;<a href="https://www.lfhacks.com/" target="_blank">LFhacks</a>&nbsp;
+        &nbsp;<a href="https://wbt5.com/" target="_blank">乌帮图</a>&nbsp;
+        &nbsp;<a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a>&nbsp;
+        &nbsp;<a href="http://qumac.com/" target="_blank">攻城狮笔记</a>&nbsp;
+        &nbsp;<a href="http://gojira.net" target="_blank">哥斯拉</a>&nbsp;
+        &nbsp;<a href="https://ditou.org/links" style="color: darkred;">更多友链</a>&nbsp;
+    
+    </p>
+
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2021 近视眼逛博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> . 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
 
-<div id="backtop">
-    <a href="#"><span>&#11014;</span> </a>
-</div>
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
 
     </div>
-</body>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+
+            </main>
+        </div>
+        1<script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script> 
+    </body>
 </html>

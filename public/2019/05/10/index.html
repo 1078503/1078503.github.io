@@ -1,122 +1,275 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。
+VuLtr开新机器的内核太旧了…
+升级到最新版第三方内核库 查看内核版本：
+uname -sr 我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： https://www.kernel.org/
+CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm 安装最新的主线稳定内核：
+yum --enablerepo=elrepo-kernel install kernel-ml 安装完成后 reboot 命令重启机器，继续SSH进入检查最新内核版本：
+uname -sr 此时我们第三方内核库的升级操作就完成了。 为了让新安装的内核成为默认启动选项，请修改 GRUB 配置：
+vim /etc/default/grub 如果你的系统没有vim编辑器请先安装:
+yum install vim 之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 Insert 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 Esc 键，之后输入 :wq 回车就保存好了。接下来运行下面的命令来重新创建内核配置：
+grub2-mkconfig -o /boot/grub2/grub.cfg reboot重启后验证最新的内核是否已作为默认内核。
+参考：https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html
+开启BBR 参考： https://teddysun.com/489.html
+搭个梯子 此页无法显示，请联系系统管理员。
+安装宝塔面板 宝塔Linux面板安装教程 – 5月15日更新 – 6.9.4正式版：https://www.bt.cn/bbs/thread-19376-1-1.html
+参考文档 http://docs.bt.cn/'><title>【网站维护】忍不住换到了洛杉矶机房</title>
 
-<head>
-    <title>【网站维护】忍不住换到了洛杉矶机房 | 近视眼逛博客</title>
+<link rel='canonical' href='https://ditou.org/2019/05/10/'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="/scss/style.min.css"><link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+<script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script><meta property='og:title' content='【网站维护】忍不住换到了洛杉矶机房'>
+<meta property='og:description' content='5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。
+VuLtr开新机器的内核太旧了…
+升级到最新版第三方内核库 查看内核版本：
+uname -sr 我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： https://www.kernel.org/
+CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm 安装最新的主线稳定内核：
+yum --enablerepo=elrepo-kernel install kernel-ml 安装完成后 reboot 命令重启机器，继续SSH进入检查最新内核版本：
+uname -sr 此时我们第三方内核库的升级操作就完成了。 为了让新安装的内核成为默认启动选项，请修改 GRUB 配置：
+vim /etc/default/grub 如果你的系统没有vim编辑器请先安装:
+yum install vim 之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 Insert 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 Esc 键，之后输入 :wq 回车就保存好了。接下来运行下面的命令来重新创建内核配置：
+grub2-mkconfig -o /boot/grub2/grub.cfg reboot重启后验证最新的内核是否已作为默认内核。
+参考：https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html
+开启BBR 参考： https://teddysun.com/489.html
+搭个梯子 此页无法显示，请联系系统管理员。
+安装宝塔面板 宝塔Linux面板安装教程 – 5月15日更新 – 6.9.4正式版：https://www.bt.cn/bbs/thread-19376-1-1.html
+参考文档 http://docs.bt.cn/'>
+<meta property='og:url' content='https://ditou.org/2019/05/10/'>
+<meta property='og:site_name' content='近视眼逛博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='vultr升级第三方内核库' /><meta property='article:tag' content='网站维护' /><meta property='article:tag' content='Vultr洛杉矶机房' /><meta property='article:published_time' content='2019-05-21T01:16:33&#43;08:00'/><meta property='article:modified_time' content='2019-05-21T01:16:33&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta name="twitter:title" content="【网站维护】忍不住换到了洛杉矶机房">
+<meta name="twitter:description" content="5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。
+VuLtr开新机器的内核太旧了…
+升级到最新版第三方内核库 查看内核版本：
+uname -sr 我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： https://www.kernel.org/
+CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm 安装最新的主线稳定内核：
+yum --enablerepo=elrepo-kernel install kernel-ml 安装完成后 reboot 命令重启机器，继续SSH进入检查最新内核版本：
+uname -sr 此时我们第三方内核库的升级操作就完成了。 为了让新安装的内核成为默认启动选项，请修改 GRUB 配置：
+vim /etc/default/grub 如果你的系统没有vim编辑器请先安装:
+yum install vim 之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 Insert 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 Esc 键，之后输入 :wq 回车就保存好了。接下来运行下面的命令来重新创建内核配置：
+grub2-mkconfig -o /boot/grub2/grub.cfg reboot重启后验证最新的内核是否已作为默认内核。
+参考：https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html
+开启BBR 参考： https://teddysun.com/489.html
+搭个梯子 此页无法显示，请联系系统管理员。
+安装宝塔面板 宝塔Linux面板安装教程 – 5月15日更新 – 6.9.4正式版：https://www.bt.cn/bbs/thread-19376-1-1.html
+参考文档 http://docs.bt.cn/"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditou.org' />
+    </head>
+    <body class="article-page keep-sidebar">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐕</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Feed</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
     
-    
-    
-
-        <meta property="og:title" content="【网站维护】忍不住换到了洛杉矶机房" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh" />
-    <meta property="og:url" content="https://ditou.org/2019/05/10/" />
-    
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
-    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    <header class="article-category">
+        
+            <a href="/categories/%E5%BB%BA%E7%AB%99/" >
+                建站
+            </a>
+        
+    </header>
     
 
-    <meta name="generator" content="Hugo 0.78.2" />
+    <h2 class="article-title">
+        <a href="/2019/05/10/">【网站维护】忍不住换到了洛杉矶机房</a>
+    </h2>
 
-    <link href="https://fonts.loli.net/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
 
-    <script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script>
-</head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div id="header-inner" class="inner">
-            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
-            <a id="logo" class="logo-text" href="https://ditou.org/" style="color: teal;">近视眼逛博客</a>
-            <nav id="main-nav">
-                
-                <a class="main-nav-link" href="/categories">分类</a>
-                
-                <a class="main-nav-link" href="/tags">标签</a>
-                
-                <a class="main-nav-link" href="/about">关于</a>
-                
-                <a class="main-nav-link" href="/links">友链</a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-            </nav>
-            <nav id="sub-nav">
-                <div id="search-form-wrap">
-                </div>
-            </nav>
-        </div>
-    </div>
+        <time class="article-time--published">2019-5-21</time>
+    </footer></div>
 </header>
 
-        <section id="main" class="outer">
-            <article class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        <header class="article-header">
-            <h1 class="article-title" itemprop="name">【网站维护】忍不住换到了洛杉矶机房</h1>
-        </header>
-        
-        <div class="article-meta">
-            <a href="/2019/05/10/" class="article-date">
-                <time datetime='2019-05-21T01:16:33.000&#43;08:00' itemprop="datePublished">2019-05-21</time>
-            </a>
-             
-            <div class="post-categories">
-                <div class="article-category">
-                     
-                    <a class="article-category-link" href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a> 
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <div class="article-entry" itemprop="articleBody">
-            <p>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。</p>
+    <section class="article-content">
+    <p>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。</p>
 <p>VuLtr开新机器的内核太旧了…</p>
 <h4 id="升级到最新版第三方内核库">升级到最新版第三方内核库</h4>
 <p>查看内核版本：</p>
-<pre><code class="language-shell">uname -sr
-</code></pre>
-<p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
+</code></pre></div><p>我的机器Linux内核居然是三点几的，当时没有截图记录，具体的版本号忘了，但最新版的应该到了 5.1.3。查询链接： <a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
 <p>CentOS 7 升级到最新版第三方内核库，启用 ELRepo 仓库：</p>
-<pre><code class="language-shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
-</code></pre>
-<p>安装最新的主线稳定内核：</p>
-<pre><code class="language-shell">yum --enablerepo=elrepo-kernel install kernel-ml
-</code></pre>
-<p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
-<pre><code class="language-shell">uname -sr
-</code></pre>
-<p>此时我们第三方内核库的升级操作就完成了。
+</code></pre></div><p>安装最新的主线稳定内核：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">yum --enablerepo<span class="o">=</span>elrepo-kernel install kernel-ml
+</code></pre></div><p>安装完成后 <strong>reboot</strong> 命令重启机器，继续SSH进入检查最新内核版本：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">uname -sr
+</code></pre></div><p>此时我们第三方内核库的升级操作就完成了。
 为了让新安装的内核成为<strong>默认启动选项</strong>，请修改 GRUB 配置：</p>
-<pre><code class="language-shell">vim /etc/default/grub
-</code></pre>
-<p>如果你的系统没有vim编辑器请先安装:</p>
-<pre><code class="language-shell">yum install vim
-</code></pre>
-<p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
-<pre><code class="language-shell">grub2-mkconfig -o /boot/grub2/grub.cfg
-</code></pre>
-<p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">vim /etc/default/grub
+</code></pre></div><p>如果你的系统没有vim编辑器请先安装:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">yum install vim
+</code></pre></div><p>之后继续上面的修改 GRUB 配置，找到 GRUB_DEFAULT=0 这一项，一般不会是等于0，需要你将他修改为0。方法：按键盘 <strong>Insert</strong> 键，光标移动到0的位置删除之后输入0，写法没有错误的话就可以按 <strong>Esc</strong> 键，之后输入 <strong>:wq</strong> 回车就保存好了。接下来运行下面的命令来重新创建内核配置：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">grub2-mkconfig -o /boot/grub2/grub.cfg
+</code></pre></div><p><strong>reboot</strong>重启后验证最新的内核是否已作为默认内核。</p>
 <p>参考：<a href="https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html">https://www.moidea.info/archives/how-to-upgrade-the-kernel-to-the-latest-version-of-centos-7.html</a></p>
 <h4 id="开启bbr">开启BBR</h4>
 <p>参考： <a href="https://teddysun.com/489.html">https://teddysun.com/489.html</a></p>
@@ -136,166 +289,83 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 <li>
 <p>打包VPS1网站目录：</p>
 <p>进入网站目录</p>
-<pre><code class="language-shell">cd /www/wwwroot/ 
-</code></pre>
-<p>打包dtz9.net文件夹为1078503.tar.gz</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/ 
+</code></pre></div><p>打包dtz9.net文件夹为1078503.tar.gz</p>
 </li>
 </ol>
-<pre><code class="language-shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
-</code></pre>
-<ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">tar zcvf 1078503.tar.gz /www/wwwroot/dtz9.net
+</code></pre></div><ol>
 <li>导出VPS1 Mysql 数据库：</li>
 </ol>
-<pre><code class="language-shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
-</code></pre>
-<p>用户名是数据库用户名，导出数据库为1078503.sql</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u用户名 -p密码 数据库名 &gt; 1078503.sql  
+</code></pre></div><p>用户名是数据库用户名，导出数据库为1078503.sql</p>
 <p>我在这一步就没有操作成功，后来是面板导出数据库再导入新的数据库才完成。我估计是编译错误，或许就应该直接写成下面这样，供您参考，比如我的数据库名和用户名都是一样的：</p>
-<pre><code class="language-shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
-</code></pre>
-<p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mysqldump -u1078503_org -pmima 1078503_org &gt; 1078503.sql
+</code></pre></div><p><strong>第二步：VPS2 恢复、还原数据：</strong></p>
 <ol>
 <li>
 <p>VPS2 上wget获取远程文件</p>
 <p>进入网站目录</p>
-<pre><code class="language-shell">cd /www/wwwroot/
-</code></pre>
-<p>从VPS1上获取文件,下载数据包到VPS2</p>
-<pre><code class="language-shell">wget https://ditou.org/1078503.tar.gz 
-</code></pre>
-<p>解压1078503.tar.gz</p>
-<pre><code class="language-shell">tar zxvf 1078503.tar.gz   
-</code></pre>
-</li>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /www/wwwroot/
+</code></pre></div><p>从VPS1上获取文件,下载数据包到VPS2</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">wget https://ditou.org/1078503.tar.gz 
+</code></pre></div><p>解压1078503.tar.gz</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">tar zxvf 1078503.tar.gz   
+</code></pre></div></li>
 <li>
 <p>VPS2上MySQL数据导入</p>
 </li>
 </ol>
 <p>请先在PHPMyAdmin新建相应数据库和用户（<strong>与原数据库、用户同名</strong>）
 下载数据包到VPS2</p>
-<pre><code class="language-shell">wget https://ditou.org/1078503.sql 
-</code></pre>
-<p>还原数据库</p>
-<pre><code class="language-shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
-</code></pre>
-<p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">wget https://ditou.org/1078503.sql 
+</code></pre></div><p>还原数据库</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mysql -u你新建的用户名 -p用户名密码 你刚才新建的数据库名 &lt; 1078503.sql
+</code></pre></div><p>到此网站转移完毕！搞搞域名DNS完事儿~</p>
 <hr>
 <p>以我这种懒人的心性我本以为这就可以了，结果发现远不是想想的那么容易结束的，后来发现了各种不完善的地方。比如我在宝塔面板下放了好几个网站，而且都开启了SSL，最后在熬到早上四点左右才全部解决玩所有已知的问题，因为熬夜头大就没有做记录了。</p>
 <p>但还有一个问题困惑着我：我是用这台机器搭的梯子访问这台机器上的wordpress也就是本站会出现不能连接的问题，另一个wordpress就没有这个问题。</p>
 <p>最后，还是要学会使用Docker…</p>
 
-        </div>
+</section>
 
-         
-        <div class="article-toc" style="display:none;" >
-            <h3></h3>
-            <nav id="TableOfContents">
-  <ol>
-    <li>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#升级到最新版第三方内核库">升级到最新版第三方内核库</a></li>
-            <li><a href="#开启bbr">开启BBR</a></li>
-            <li><a href="#搭个梯子">搭个梯子</a></li>
-            <li><a href="#安装宝塔面板">安装宝塔面板</a></li>
-            <li><a href="#搬网站">搬网站</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-        </div>
-          
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-        <script>
-            (function() {
-                var $toc = $('#TableOfContents');
-                if ($toc.length > 0) {
-                    var $window = $(window);
 
-                    function onScroll() {
-                        var currentScroll = $window.scrollTop();
-                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
-                        var id = "";
-                        h.each(function(i, e) {
-                            e = $(e);
-                            if (e.offset().top - 10 <= currentScroll) {
-                                id = e.attr('id');
-                            }
-                        });
-                        var active = $toc.find('a.active');
-                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-                        active.each(function(i, e) {
-                            $(e).removeClass('active').siblings('ul').hide();
-                        });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
-                            $(e).children('a').addClass('active').siblings('ul').show();
-                        });
-                    }
-
-                    $window.on('scroll', onScroll);
-                    $(document).ready(function() {
-                        $toc.find('a').parent('li').find('ul').hide();
-                        onScroll();
-                        document.getElementsByClassName('article-toc')[0].style.display = '';
-                    });
-                }
-            })();
-        </script>
-         
-        <footer class="article-footer">
-            <ul class="article-tag-list">
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/vultr%E5%8D%87%E7%BA%A7%E7%AC%AC%E4%B8%89%E6%96%B9%E5%86%85%E6%A0%B8%E5%BA%93">vultr升级第三方内核库
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4">网站维护
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/vultr%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%9C%BA%E6%88%BF">Vultr洛杉矶机房
-                    </a>
-                </li>
-                
-            </ul>
-        </footer>
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </div>
-    
-<nav id="article-nav">
-    
-    <a href="/2019/05/11/" id="article-nav-newer" class="article-nav-link-wrap">
-        <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            【精彩博文】周蓬安：中小学生睡眠不足，这种害人教育该休矣
-        </div>
-    </a>
-    
-    
-    <a href="/2019/05/9/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">【电脑】今天为chrome介绍一款扩展程序&nbsp;<span>&gt;</span></div>
-    </a>
-    
-</nav>
+            <a href="/tags/vultr%E5%8D%87%E7%BA%A7%E7%AC%AC%E4%B8%89%E6%96%B9%E5%86%85%E6%A0%B8%E5%BA%93/">vultr升级第三方内核库</a>
+        
+            <a href="/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
+        
+            <a href="/tags/vultr%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%9C%BA%E6%88%BF/">Vultr洛杉矶机房</a>
+        
+    </section>
 
 
-</article>  <div class="article-inner">
-    <a href="https://dtz9.com/d/19" target="_blank">
-        <img border="0" src="/banner.png" />
-    </a>
-</div>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
 <div align="center">
-    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦
     </font>
-</div>
-<div style="background-color: #f9f9f9;">
+</div><br>
+<div class="disqus-container">
     <center>
-        <div id="comment" style="width: 96%;">
+        <div id="comment">
             <script>
                 var disq = new iDisqus('comment', {
                     forum: '1078503',
@@ -309,57 +379,124 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
         </div>
     </center>
 </div>
-        </section>
-        <div class="outer" style="font-size: 10px;">
-    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
-        <li><a href="http://www.jetli.com.cn/" target="_blank">博客志</a></li>
-        <li><a href="https://dtz9.com/" target="_blank">低头族</a></li>
-        <li><a href="http://www.xlanda.net/" target="_blank">我的天</a></li>
-        <li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a></li>
-        <li><a href="https://www.goakay.com/" target="_blank">GoaKay</a></li>
-        <li><a href="https://cyhour.com/" target="_blank">沙唐桔</a></li>
-        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
-        <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
-        <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
-        <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
-        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
-    </ul>
-</div>
-<footer id="footer">
-    <div class="outer">
-        <hr style=" border: 1px dashed #ddd;">
-        <div id="footer-info" class="inner">
-            &copy; 2019 - 2021 近视眼逛博客 | 由 <a href="https://gohugo.io" target="_blank">Hugo</a> 生成 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank" title="使用RSS阅读器订阅本站">RSS</a>            |
-            <a rel="me" href="https://1w1.in/@ditou" target="_blank" title="去中心化的微博替代品">Mastodon</a>
-        </div>
-    </div>
-    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
 
     
-    <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function() {
-            var header = document.getElementById('header');
-            if (header.classList.contains('mobile-on')) {
-                header.classList.remove('mobile-on');
-            } else {
-                header.classList.add('mobile-on');
-            }
-        });
-    </script>
+
+    <footer class="site-footer">
+    <p><a>友情链接：</a>
+    
+        &nbsp;<a href="http://www.jetli.com.cn/" target="_blank">博客志</a>&nbsp;
+        &nbsp;<a href="https://dtz9.com/" target="_blank">低头族</a>&nbsp;
+        &nbsp;<a href="http://www.xlanda.net/" target="_blank">我的天</a>&nbsp;
+        &nbsp;<a href="http://blog.dngz.net/" target="_blank">心灵博客</a>&nbsp;
+        &nbsp;<a href="https://www.goakay.com/" target="_blank">GoaKay</a>&nbsp;
+        &nbsp;<a href="https://cyhour.com/" target="_blank">沙唐桔</a>&nbsp;
+        &nbsp;<a href="https://www.lfhacks.com/" target="_blank">LFhacks</a>&nbsp;
+        &nbsp;<a href="https://wbt5.com/" target="_blank">乌帮图</a>&nbsp;
+        &nbsp;<a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a>&nbsp;
+        &nbsp;<a href="http://qumac.com/" target="_blank">攻城狮笔记</a>&nbsp;
+        &nbsp;<a href="http://gojira.net" target="_blank">哥斯拉</a>&nbsp;
+        &nbsp;<a href="https://ditou.org/links" style="color: darkred;">更多友链</a>&nbsp;
+    
+    </p>
+
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2021 近视眼逛博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> . 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
 
-<div id="backtop">
-    <a href="#"><span>&#11014;</span> </a>
-</div>
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
 
     </div>
-</body>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+
+            </main>
+        </div>
+        1<script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script> 
+    </body>
 </html>

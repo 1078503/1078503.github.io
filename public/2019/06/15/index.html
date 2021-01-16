@@ -1,104 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。
+今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。
+图床源码使用的是 ImgURL ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客在这里。
+说说这个图床源码的特点，很方便实用。  图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。 支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了&amp;hellip; 支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M&#43;的体积，每次图片加载都超级慢，因为之前使用的是 sm.ms 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k&#43;，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。 图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。 作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。  总的来说目前是我已知的图床源码中最好的选择，如果你知道更好的方案欢迎在评论区留言分享给我。
+这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。
+将内页友链移到了全站左侧可见，要跟我友情的可以报名了。'><title>【网站维护】未雨绸缪启用自建图床</title>
 
-<head>
-    <title>【网站维护】未雨绸缪启用自建图床 | 近视眼逛博客</title>
+<link rel='canonical' href='https://ditou.org/2019/06/15/'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="/scss/style.min.css"><link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+<script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script><meta property='og:title' content='【网站维护】未雨绸缪启用自建图床'>
+<meta property='og:description' content='开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。
+今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。
+图床源码使用的是 ImgURL ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客在这里。
+说说这个图床源码的特点，很方便实用。  图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。 支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了&amp;hellip; 支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M&#43;的体积，每次图片加载都超级慢，因为之前使用的是 sm.ms 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k&#43;，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。 图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。 作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。  总的来说目前是我已知的图床源码中最好的选择，如果你知道更好的方案欢迎在评论区留言分享给我。
+这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。
+将内页友链移到了全站左侧可见，要跟我友情的可以报名了。'>
+<meta property='og:url' content='https://ditou.org/2019/06/15/'>
+<meta property='og:site_name' content='近视眼逛博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='启用自建图床' /><meta property='article:tag' content='ImgURL' /><meta property='article:tag' content='图片压缩' /><meta property='article:tag' content='网站维护' /><meta property='article:published_time' content='2019-06-21T22:22:36&#43;08:00'/><meta property='article:modified_time' content='2019-06-21T22:22:36&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta name="twitter:title" content="【网站维护】未雨绸缪启用自建图床">
+<meta name="twitter:description" content="开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。
+今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。
+图床源码使用的是 ImgURL ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客在这里。
+说说这个图床源码的特点，很方便实用。  图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。 支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了&amp;hellip; 支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M&#43;的体积，每次图片加载都超级慢，因为之前使用的是 sm.ms 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k&#43;，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。 图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。 作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。  总的来说目前是我已知的图床源码中最好的选择，如果你知道更好的方案欢迎在评论区留言分享给我。
+这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。
+将内页友链移到了全站左侧可见，要跟我友情的可以报名了。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditou.org' />
+    </head>
+    <body class="article-page keep-sidebar">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐕</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Feed</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
     
-    
-    
-
-        <meta property="og:title" content="【网站维护】未雨绸缪启用自建图床" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh" />
-    <meta property="og:url" content="https://ditou.org/2019/06/15/" />
-    
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
-    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    <header class="article-category">
+        
+            <a href="/categories/%E5%BB%BA%E7%AB%99/" >
+                建站
+            </a>
+        
+    </header>
     
 
-    <meta name="generator" content="Hugo 0.78.2" />
+    <h2 class="article-title">
+        <a href="/2019/06/15/">【网站维护】未雨绸缪启用自建图床</a>
+    </h2>
 
-    <link href="https://fonts.loli.net/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
 
-    <script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script>
-</head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div id="header-inner" class="inner">
-            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
-            <a id="logo" class="logo-text" href="https://ditou.org/" style="color: teal;">近视眼逛博客</a>
-            <nav id="main-nav">
-                
-                <a class="main-nav-link" href="/categories">分类</a>
-                
-                <a class="main-nav-link" href="/tags">标签</a>
-                
-                <a class="main-nav-link" href="/about">关于</a>
-                
-                <a class="main-nav-link" href="/links">友链</a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-            </nav>
-            <nav id="sub-nav">
-                <div id="search-form-wrap">
-                </div>
-            </nav>
-        </div>
-    </div>
+        <time class="article-time--published">2019-6-21</time>
+    </footer></div>
 </header>
 
-        <section id="main" class="outer">
-            <article class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        <header class="article-header">
-            <h1 class="article-title" itemprop="name">【网站维护】未雨绸缪启用自建图床</h1>
-        </header>
-        
-        <div class="article-meta">
-            <a href="/2019/06/15/" class="article-date">
-                <time datetime='2019-06-21T22:22:36.000&#43;08:00' itemprop="datePublished">2019-06-21</time>
-            </a>
-             
-            <div class="post-categories">
-                <div class="article-category">
-                     
-                    <a class="article-category-link" href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a> 
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <div class="article-entry" itemprop="articleBody">
-            <p>开始前先来一张图镇楼
-<img src="https://img.dtz9.com/imgs/2019/06/b9e2f2d79e9e4b1c.jpg" alt=""></p>
+    <section class="article-content">
+    <p>开始前先来一张图镇楼
+<img src="https://img.dtz9.com/imgs/2019/06/b9e2f2d79e9e4b1c.jpg" alt=""  /></p>
 <p>昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。</p>
 <p>今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。</p>
-<p>图床源码使用的是 <a href="https://imgurl.org/" target="_blank" rel="noopener">ImgURL</a>  ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客<a href="https://www.xiaoz.me/" target="_blank" rel="noopener">在这里</a>。</p>
+<p>图床源码使用的是 <a class="link" href="https://imgurl.org/"  target="_blank" rel="noopener"
+    >ImgURL</a>  ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客<a class="link" href="https://www.xiaoz.me/"  target="_blank" rel="noopener"
+    >在这里</a>。</p>
 <h4 id="说说这个图床源码的特点很方便实用">说说这个图床源码的特点，很方便实用。</h4>
 <ul>
 <li>图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。</li>
-<li>支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了...</li>
-<li>支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M+的体积，每次图片加载都超级慢，因为之前使用的是 <a href="https://sm.ms/" target="_blank" rel="noopener">sm.ms</a> 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k+，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。</li>
+<li>支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了&hellip;</li>
+<li>支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M+的体积，每次图片加载都超级慢，因为之前使用的是 <a class="link" href="https://sm.ms/"  target="_blank" rel="noopener"
+    >sm.ms</a> 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k+，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。</li>
 <li>图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。</li>
 <li>作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。</li>
 </ul>
@@ -106,120 +239,47 @@
 <p>这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。</p>
 <p><strong>将内页友链移到了全站左侧可见，要跟我友情的可以报名了。</strong></p>
 
-        </div>
+</section>
 
-         
-        <div class="article-toc" style="display:none;" >
-            <h3></h3>
-            <nav id="TableOfContents">
-  <ol>
-    <li>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#说说这个图床源码的特点很方便实用">说说这个图床源码的特点，很方便实用。</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-        </div>
-          
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-        <script>
-            (function() {
-                var $toc = $('#TableOfContents');
-                if ($toc.length > 0) {
-                    var $window = $(window);
 
-                    function onScroll() {
-                        var currentScroll = $window.scrollTop();
-                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
-                        var id = "";
-                        h.each(function(i, e) {
-                            e = $(e);
-                            if (e.offset().top - 10 <= currentScroll) {
-                                id = e.attr('id');
-                            }
-                        });
-                        var active = $toc.find('a.active');
-                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-                        active.each(function(i, e) {
-                            $(e).removeClass('active').siblings('ul').hide();
-                        });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
-                            $(e).children('a').addClass('active').siblings('ul').show();
-                        });
-                    }
-
-                    $window.on('scroll', onScroll);
-                    $(document).ready(function() {
-                        $toc.find('a').parent('li').find('ul').hide();
-                        onScroll();
-                        document.getElementsByClassName('article-toc')[0].style.display = '';
-                    });
-                }
-            })();
-        </script>
-         
-        <footer class="article-footer">
-            <ul class="article-tag-list">
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%90%AF%E7%94%A8%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A">启用自建图床
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/imgurl">ImgURL
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9">图片压缩
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4">网站维护
-                    </a>
-                </li>
-                
-            </ul>
-        </footer>
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </div>
-    
-<nav id="article-nav">
-    
-    <a href="/2019/06/16/" id="article-nav-newer" class="article-nav-link-wrap">
-        <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            【随笔】感觉累了就放空自己
-        </div>
-    </a>
-    
-    
-    <a href="/2019/06/14/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">【网站维护】增加了对思源宋体的支持&nbsp;<span>&gt;</span></div>
-    </a>
-    
-</nav>
+            <a href="/tags/%E5%90%AF%E7%94%A8%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/">启用自建图床</a>
+        
+            <a href="/tags/imgurl/">ImgURL</a>
+        
+            <a href="/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/">图片压缩</a>
+        
+            <a href="/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
+        
+    </section>
 
 
-</article>  <div class="article-inner">
-    <a href="https://dtz9.com/d/19" target="_blank">
-        <img border="0" src="/banner.png" />
-    </a>
-</div>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
 <div align="center">
-    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦
     </font>
-</div>
-<div style="background-color: #f9f9f9;">
+</div><br>
+<div class="disqus-container">
     <center>
-        <div id="comment" style="width: 96%;">
+        <div id="comment">
             <script>
                 var disq = new iDisqus('comment', {
                     forum: '1078503',
@@ -233,57 +293,124 @@
         </div>
     </center>
 </div>
-        </section>
-        <div class="outer" style="font-size: 10px;">
-    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
-        <li><a href="http://www.jetli.com.cn/" target="_blank">博客志</a></li>
-        <li><a href="https://dtz9.com/" target="_blank">低头族</a></li>
-        <li><a href="http://www.xlanda.net/" target="_blank">我的天</a></li>
-        <li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a></li>
-        <li><a href="https://www.goakay.com/" target="_blank">GoaKay</a></li>
-        <li><a href="https://cyhour.com/" target="_blank">沙唐桔</a></li>
-        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
-        <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
-        <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
-        <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
-        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
-    </ul>
-</div>
-<footer id="footer">
-    <div class="outer">
-        <hr style=" border: 1px dashed #ddd;">
-        <div id="footer-info" class="inner">
-            &copy; 2019 - 2021 近视眼逛博客 | 由 <a href="https://gohugo.io" target="_blank">Hugo</a> 生成 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank" title="使用RSS阅读器订阅本站">RSS</a>            |
-            <a rel="me" href="https://1w1.in/@ditou" target="_blank" title="去中心化的微博替代品">Mastodon</a>
-        </div>
-    </div>
-    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
 
     
-    <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function() {
-            var header = document.getElementById('header');
-            if (header.classList.contains('mobile-on')) {
-                header.classList.remove('mobile-on');
-            } else {
-                header.classList.add('mobile-on');
-            }
-        });
-    </script>
+
+    <footer class="site-footer">
+    <p><a>友情链接：</a>
+    
+        &nbsp;<a href="http://www.jetli.com.cn/" target="_blank">博客志</a>&nbsp;
+        &nbsp;<a href="https://dtz9.com/" target="_blank">低头族</a>&nbsp;
+        &nbsp;<a href="http://www.xlanda.net/" target="_blank">我的天</a>&nbsp;
+        &nbsp;<a href="http://blog.dngz.net/" target="_blank">心灵博客</a>&nbsp;
+        &nbsp;<a href="https://www.goakay.com/" target="_blank">GoaKay</a>&nbsp;
+        &nbsp;<a href="https://cyhour.com/" target="_blank">沙唐桔</a>&nbsp;
+        &nbsp;<a href="https://www.lfhacks.com/" target="_blank">LFhacks</a>&nbsp;
+        &nbsp;<a href="https://wbt5.com/" target="_blank">乌帮图</a>&nbsp;
+        &nbsp;<a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a>&nbsp;
+        &nbsp;<a href="http://qumac.com/" target="_blank">攻城狮笔记</a>&nbsp;
+        &nbsp;<a href="http://gojira.net" target="_blank">哥斯拉</a>&nbsp;
+        &nbsp;<a href="https://ditou.org/links" style="color: darkred;">更多友链</a>&nbsp;
+    
+    </p>
+
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2021 近视眼逛博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> . 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
 
-<div id="backtop">
-    <a href="#"><span>&#11014;</span> </a>
-</div>
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
 
     </div>
-</body>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+
+            </main>
+        </div>
+        1<script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script> 
+    </body>
 </html>

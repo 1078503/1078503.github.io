@@ -1,101 +1,259 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='今天博友云中君反馈，说他的博客又抽风了。
+原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
+这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？
+他是通过Gridea客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。
+那么，接下来就来完成这个工作，让他与我分享这个资源吧。
+1.确保Gridea同步推送接口使用GitHub 这里我因为不使用该客户端所以不做说明，因为它的官网已经介绍的非常详细了。
+2.宝塔面板新建网站并启用 我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。
+CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究安装方式。
+需要注意的地方：
+ 域名需要解析到宝塔面板所在服务器的IP 启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用  3.宝塔面板使用webhook插件 如上图。
+在宝塔面板的软件商店中搜索webhook安装并启用，在webhook插件的设置中添加一个调用条目：
+编辑该条目的shell命令并保存：
+命令内容参考：
+#!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !'><title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
 
-<head>
-    <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新 | 近视眼逛博客</title>
+<link rel='canonical' href='https://ditou.org/2019/11/4/'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="/scss/style.min.css"><link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+<script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script><meta property='og:title' content='【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新'>
+<meta property='og:description' content='今天博友云中君反馈，说他的博客又抽风了。
+原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
+这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？
+他是通过Gridea客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。
+那么，接下来就来完成这个工作，让他与我分享这个资源吧。
+1.确保Gridea同步推送接口使用GitHub 这里我因为不使用该客户端所以不做说明，因为它的官网已经介绍的非常详细了。
+2.宝塔面板新建网站并启用 我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。
+CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究安装方式。
+需要注意的地方：
+ 域名需要解析到宝塔面板所在服务器的IP 启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用  3.宝塔面板使用webhook插件 如上图。
+在宝塔面板的软件商店中搜索webhook安装并启用，在webhook插件的设置中添加一个调用条目：
+编辑该条目的shell命令并保存：
+命令内容参考：
+#!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !'>
+<meta property='og:url' content='https://ditou.org/2019/11/4/'>
+<meta property='og:site_name' content='近视眼逛博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='分享' /><meta property='article:tag' content='宝塔webhook' /><meta property='article:tag' content='Gridea同步到VPS服务器' /><meta property='article:tag' content='云中君' /><meta property='article:tag' content='webhook' /><meta property='article:tag' content='github' /><meta property='article:tag' content='Gridea' /><meta property='article:published_time' content='2019-11-21T00:42:00&#43;08:00'/><meta property='article:modified_time' content='2019-11-21T00:42:00&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta name="twitter:title" content="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新">
+<meta name="twitter:description" content="今天博友云中君反馈，说他的博客又抽风了。
+原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
+这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？
+他是通过Gridea客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。
+那么，接下来就来完成这个工作，让他与我分享这个资源吧。
+1.确保Gridea同步推送接口使用GitHub 这里我因为不使用该客户端所以不做说明，因为它的官网已经介绍的非常详细了。
+2.宝塔面板新建网站并启用 我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。
+CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究安装方式。
+需要注意的地方：
+ 域名需要解析到宝塔面板所在服务器的IP 启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用  3.宝塔面板使用webhook插件 如上图。
+在宝塔面板的软件商店中搜索webhook安装并启用，在webhook插件的设置中添加一个调用条目：
+编辑该条目的shell命令并保存：
+命令内容参考：
+#!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditou.org' />
+    </head>
+    <body class="article-page keep-sidebar">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐕</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Feed</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
     
-    
-    
-
-        <meta property="og:title" content="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh" />
-    <meta property="og:url" content="https://ditou.org/2019/11/4/" />
-    
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
-    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    <header class="article-category">
+        
+            <a href="/categories/%E5%BB%BA%E7%AB%99/" >
+                建站
+            </a>
+        
+    </header>
     
 
-    <meta name="generator" content="Hugo 0.78.2" />
+    <h2 class="article-title">
+        <a href="/2019/11/4/">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</a>
+    </h2>
 
-    <link href="https://fonts.loli.net/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
 
-    <script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script>
-</head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div id="header-inner" class="inner">
-            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
-            <a id="logo" class="logo-text" href="https://ditou.org/" style="color: teal;">近视眼逛博客</a>
-            <nav id="main-nav">
-                
-                <a class="main-nav-link" href="/categories">分类</a>
-                
-                <a class="main-nav-link" href="/tags">标签</a>
-                
-                <a class="main-nav-link" href="/about">关于</a>
-                
-                <a class="main-nav-link" href="/links">友链</a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-            </nav>
-            <nav id="sub-nav">
-                <div id="search-form-wrap">
-                </div>
-            </nav>
-        </div>
-    </div>
+        <time class="article-time--published">2019-11-21</time>
+    </footer></div>
 </header>
 
-        <section id="main" class="outer">
-            <article class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        <header class="article-header">
-            <h1 class="article-title" itemprop="name">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</h1>
-        </header>
-        
-        <div class="article-meta">
-            <a href="/2019/11/4/" class="article-date">
-                <time datetime='2019-11-21T00:42:00.000&#43;08:00' itemprop="datePublished">2019-11-21</time>
-            </a>
-             
-            <div class="post-categories">
-                <div class="article-category">
-                     
-                    <a class="article-category-link" href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a> 
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <div class="article-entry" itemprop="articleBody">
-            <p>今天博友<a href="https://blog.shanbu.fun/" target="_blank" rel="noopener">云中君</a>反馈，说他的博客又抽风了。</p>
+    <section class="article-content">
+    <p>今天博友<a class="link" href="https://blog.shanbu.fun/"  target="_blank" rel="noopener"
+    >云中君</a>反馈，说他的博客又抽风了。</p>
 <p>原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。</p>
-<p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>等一些平台可以使用，但我觉得换个方式可能会更好也说不定？</p>
-<p>他是通过<a href="https://gridea.dev/" target="_blank" rel="noopener">Gridea</a>客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。</p>
+<p>这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有<a class="link" href="https://github.com/"  target="_blank" rel="noopener"
+    >GitHub</a>等一些平台可以使用，但我觉得换个方式可能会更好也说不定？</p>
+<p>他是通过<a class="link" href="https://gridea.dev/"  target="_blank" rel="noopener"
+    >Gridea</a>客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。</p>
 <p>那么，接下来就来完成这个工作，让他与我分享这个资源吧。</p>
 <h2 id="1确保gridea同步推送接口使用github">1.确保Gridea同步推送接口使用GitHub</h2>
-<p>这里我因为不使用该客户端所以不做说明，因为它的<a href="https://gridea.dev/" target="_blank" rel="noopener">官网</a>已经介绍的非常详细了。</p>
+<p>这里我因为不使用该客户端所以不做说明，因为它的<a class="link" href="https://gridea.dev/"  target="_blank" rel="noopener"
+    >官网</a>已经介绍的非常详细了。</p>
 <h2 id="2宝塔面板新建网站并启用">2.宝塔面板新建网站并启用</h2>
 <p>我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。</p>
 <p>CentOS 7 安装方法：<code>yum install git</code> ，其它系统请自行搜索和研究安装方式。</p>
@@ -105,67 +263,66 @@
 <li>启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用</li>
 </ul>
 <h2 id="3宝塔面板使用webhook插件">3.宝塔面板使用webhook插件</h2>
-<p><img src="https://img.dtz9.com/imgs/2019/11/c3fe9bfa4196d113.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/c3fe9bfa4196d113.png" alt=""  /></p>
 <p>如上图。</p>
 <p>在宝塔面板的<code>软件商店</code>中搜索<code>webhook</code>安装并启用，在webhook插件的设置中添加一个调用条目：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/12fecd83901de133.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/12fecd83901de133.png" alt=""  /></p>
 <p>编辑该条目的shell命令并保存：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""  /></p>
 <p>命令内容参考：</p>
-<pre><code class="language-shell">#!/bin/bash
-echo &quot;&quot;
-#输出当前时间
-date --date='0 days ago' &quot;+%Y-%m-%d %H:%M:%S&quot;
-echo &quot;Start&quot;
-#判断宝塔WebHook参数是否存在
-if [ ! -n &quot;$1&quot; ];
-then
-          echo &quot;param参数错误&quot;
-          echo &quot;End&quot;
-          exit
-fi
-#git项目路径
-gitPath=&quot;①/www/wwwroot/$1&quot;
-#git 网址
-gitHttp=&quot;②https://github.com/1078503/blog.git&quot;
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
+</span><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;&#34;</span>
+<span class="c1">#输出当前时间</span>
+date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> <span class="s2">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
+<span class="nb">echo</span> <span class="s2">&#34;Start&#34;</span>
+<span class="c1">#判断宝塔WebHook参数是否存在</span>
+<span class="k">if</span> <span class="o">[</span> ! -n <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span>
+<span class="k">then</span>
+          <span class="nb">echo</span> <span class="s2">&#34;param参数错误&#34;</span>
+          <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
+          <span class="nb">exit</span>
+<span class="k">fi</span>
+<span class="c1">#git项目路径</span>
+<span class="nv">gitPath</span><span class="o">=</span><span class="s2">&#34;①/www/wwwroot/</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="c1">#git 网址</span>
+<span class="nv">gitHttp</span><span class="o">=</span><span class="s2">&#34;②https://github.com/1078503/blog.git&#34;</span>
 
-echo &quot;Web站点路径：$gitPath&quot;
+<span class="nb">echo</span> <span class="s2">&#34;Web站点路径：</span><span class="nv">$gitPath</span><span class="s2">&#34;</span>
 
-#判断项目路径是否存在
-if [ -d &quot;$gitPath&quot; ]; then
-        cd $gitPath
-        #判断是否存在git目录
-        if [ ! -d &quot;.git&quot; ]; then
-                echo &quot;在该目录下克隆 git&quot;
-                git clone $gitHttp gittemp
+<span class="c1">#判断项目路径是否存在</span>
+<span class="k">if</span> <span class="o">[</span> -d <span class="s2">&#34;</span><span class="nv">$gitPath</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+        <span class="nb">cd</span> <span class="nv">$gitPath</span>
+        <span class="c1">#判断是否存在git目录</span>
+        <span class="k">if</span> <span class="o">[</span> ! -d <span class="s2">&#34;.git&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+                <span class="nb">echo</span> <span class="s2">&#34;在该目录下克隆 git&#34;</span>
+                git clone <span class="nv">$gitHttp</span> gittemp
                 mv gittemp/.git .
                 rm -rf gittemp
-        fi
-        #拉取最新的项目文件
+        <span class="k">fi</span>
+        <span class="c1">#拉取最新的项目文件</span>
         git reset --hard origin/master
         git pull
-        #设置目录权限
-        chown -R www:www $gitPath
-        echo &quot;End&quot;
-        exit
-else
-        echo &quot;该项目路径不存在&quot;
-        echo &quot;End&quot;
-        exit
-fi
-</code></pre>
-<p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
+        <span class="c1">#设置目录权限</span>
+        chown -R www:www <span class="nv">$gitPath</span>
+        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
+        <span class="nb">exit</span>
+<span class="k">else</span>
+        <span class="nb">echo</span> <span class="s2">&#34;该项目路径不存在&#34;</span>
+        <span class="nb">echo</span> <span class="s2">&#34;End&#34;</span>
+        <span class="nb">exit</span>
+<span class="k">fi</span>
+</code></pre></div><p><code>①/www/wwwroot/$1</code>：请将这部分内容修改为你的网站对应的目录，比如你的博客对应的目录是<code>/www/wwwroot/blog.shan.fun/</code>，请直接编辑修改成<code>/www/wwwroot/$1</code>即可。<code>$1</code>请保留以便后面GitHub中配置webhook调用时生效，请勿删除或更改。</p>
 <p><code>②https://github.com/1078503/blog.git</code> ：你的GitHub仓库对应的拉取地址。</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/fdb87be7a455883c.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/fdb87be7a455883c.png" alt=""  /></p>
 <p>查看密钥：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/faf73f831b0ce66e.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/faf73f831b0ce66e.png" alt=""  /></p>
 <h2 id="4github配置webhook调用">4.GitHub配置webhook调用</h2>
 <p>打开GitHub对应仓库的<code>Settings</code>：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/ef2f6ddf8ec3c79a.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/ef2f6ddf8ec3c79a.png" alt=""  /></p>
 <p>找到webhooks并Add webhook：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/de16c8f206705c3d.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/de16c8f206705c3d.png" alt=""  /></p>
 <p>如下图填写相关信息并保持：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/decba050e45dffa7.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/decba050e45dffa7.png" alt=""  /></p>
 <p><code>Payload URL</code>：<code> http://IP:端口/hook?access_key=密钥&amp;param=目录名</code></p>
 <p>IP:端口：修改为宝塔面板对应的</p>
 <p>密钥：为宝塔面板中webhook条目“查看密钥”获得的密钥，前文图中箭头所指。</p>
@@ -176,138 +333,61 @@ fi
 <p><code>Secret</code> 密钥同上</p>
 <p>按图示检查设置好后保存。</p>
 <h2 id="5gridea中修改或新建文件写文章也可以同步推送后验证">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</h2>
-<p><a href="https://blog.shanbu.fun/" target="_blank" rel="noopener">云中君</a>的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
-<p><img src="https://img.dtz9.com/imgs/2019/11/37ad8cf5521924b0.png" alt=""></p>
+<p><a class="link" href="https://blog.shanbu.fun/"  target="_blank" rel="noopener"
+    >云中君</a>的验证方法是在博客页脚添加了我的链接😏，大爱：</p>
+<p><img src="https://img.dtz9.com/imgs/2019/11/37ad8cf5521924b0.png" alt=""  /></p>
 <p>画了个难看的箭头请无视😂。</p>
 <p>通过上面的操作所有工作已经完成，接下来写博客就好。Gridea客户端正常同步后访问博客域名就能验证操作是否有效。注意由于涉及到服务器与GitHub仓库的通信，偶尔可能会有拉取不成功或缓慢的情况，这取决于你的服务器与GitHub之间的通信线路是否阻塞。不过，这种情况几乎可以忽略不计，除非你的服务器在国内。</p>
 <p>最后，突然想到我自己使用的hugo静态博客其实也可以这样推送更新，原理是一样的，我只是绕过了GitHub仓库直接与服务器的git仓库通信而已。我之前没有把博客直接放在GitHub上面提供访问是因为听多了经常抽风的传闻，所以直接放在了VPS上。另外还有独立博客中“独立”二字的考虑。</p>
 <p>参考：https://www.bt.cn/bbs/thread-5348-1-1.html</p>
 
-        </div>
+</section>
 
-         
-        <div class="article-toc" style="display:none;" >
-            <h3></h3>
-            <nav id="TableOfContents">
-  <ol>
-    <li><a href="#1确保gridea同步推送接口使用github">1.确保Gridea同步推送接口使用GitHub</a></li>
-    <li><a href="#2宝塔面板新建网站并启用">2.宝塔面板新建网站并启用</a></li>
-    <li><a href="#3宝塔面板使用webhook插件">3.宝塔面板使用webhook插件</a></li>
-    <li><a href="#4github配置webhook调用">4.GitHub配置webhook调用</a></li>
-    <li><a href="#5gridea中修改或新建文件写文章也可以同步推送后验证">5.Gridea中修改或新建文件（写文章也可以）同步推送后验证</a></li>
-  </ol>
-</nav>
-        </div>
-          
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-        <script>
-            (function() {
-                var $toc = $('#TableOfContents');
-                if ($toc.length > 0) {
-                    var $window = $(window);
 
-                    function onScroll() {
-                        var currentScroll = $window.scrollTop();
-                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
-                        var id = "";
-                        h.each(function(i, e) {
-                            e = $(e);
-                            if (e.offset().top - 10 <= currentScroll) {
-                                id = e.attr('id');
-                            }
-                        });
-                        var active = $toc.find('a.active');
-                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-                        active.each(function(i, e) {
-                            $(e).removeClass('active').siblings('ul').hide();
-                        });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
-                            $(e).children('a').addClass('active').siblings('ul').show();
-                        });
-                    }
-
-                    $window.on('scroll', onScroll);
-                    $(document).ready(function() {
-                        $toc.find('a').parent('li').find('ul').hide();
-                        onScroll();
-                        document.getElementsByClassName('article-toc')[0].style.display = '';
-                    });
-                }
-            })();
-        </script>
-         
-        <footer class="article-footer">
-            <ul class="article-tag-list">
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%88%86%E4%BA%AB">分享
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E5%AE%9D%E5%A1%94webhook">宝塔webhook
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/gridea%E5%90%8C%E6%AD%A5%E5%88%B0vps%E6%9C%8D%E5%8A%A1%E5%99%A8">Gridea同步到VPS服务器
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E4%BA%91%E4%B8%AD%E5%90%9B">云中君
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/webhook">webhook
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/github">github
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/gridea">Gridea
-                    </a>
-                </li>
-                
-            </ul>
-        </footer>
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </div>
-    
-<nav id="article-nav">
-    
-    <a href="/2019/11/5/" id="article-nav-newer" class="article-nav-link-wrap">
-        <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            【随笔】收获的季节
-        </div>
-    </a>
-    
-    
-    <a href="/2019/11/3/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">【随笔】每天唤醒你的是闹钟还是你对这个世界的渴望&nbsp;<span>&gt;</span></div>
-    </a>
-    
-</nav>
+            <a href="/tags/%E5%88%86%E4%BA%AB/">分享</a>
+        
+            <a href="/tags/%E5%AE%9D%E5%A1%94webhook/">宝塔webhook</a>
+        
+            <a href="/tags/gridea%E5%90%8C%E6%AD%A5%E5%88%B0vps%E6%9C%8D%E5%8A%A1%E5%99%A8/">Gridea同步到VPS服务器</a>
+        
+            <a href="/tags/%E4%BA%91%E4%B8%AD%E5%90%9B/">云中君</a>
+        
+            <a href="/tags/webhook/">webhook</a>
+        
+            <a href="/tags/github/">github</a>
+        
+            <a href="/tags/gridea/">Gridea</a>
+        
+    </section>
 
 
-</article>  <div class="article-inner">
-    <a href="https://dtz9.com/d/19" target="_blank">
-        <img border="0" src="/banner.png" />
-    </a>
-</div>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
 <div align="center">
-    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦
     </font>
-</div>
-<div style="background-color: #f9f9f9;">
+</div><br>
+<div class="disqus-container">
     <center>
-        <div id="comment" style="width: 96%;">
+        <div id="comment">
             <script>
                 var disq = new iDisqus('comment', {
                     forum: '1078503',
@@ -321,57 +401,124 @@ fi
         </div>
     </center>
 </div>
-        </section>
-        <div class="outer" style="font-size: 10px;">
-    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
-        <li><a href="http://www.jetli.com.cn/" target="_blank">博客志</a></li>
-        <li><a href="https://dtz9.com/" target="_blank">低头族</a></li>
-        <li><a href="http://www.xlanda.net/" target="_blank">我的天</a></li>
-        <li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a></li>
-        <li><a href="https://www.goakay.com/" target="_blank">GoaKay</a></li>
-        <li><a href="https://cyhour.com/" target="_blank">沙唐桔</a></li>
-        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
-        <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
-        <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
-        <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
-        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
-    </ul>
-</div>
-<footer id="footer">
-    <div class="outer">
-        <hr style=" border: 1px dashed #ddd;">
-        <div id="footer-info" class="inner">
-            &copy; 2019 - 2021 近视眼逛博客 | 由 <a href="https://gohugo.io" target="_blank">Hugo</a> 生成 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank" title="使用RSS阅读器订阅本站">RSS</a>            |
-            <a rel="me" href="https://1w1.in/@ditou" target="_blank" title="去中心化的微博替代品">Mastodon</a>
-        </div>
-    </div>
-    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
 
     
-    <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function() {
-            var header = document.getElementById('header');
-            if (header.classList.contains('mobile-on')) {
-                header.classList.remove('mobile-on');
-            } else {
-                header.classList.add('mobile-on');
-            }
-        });
-    </script>
+
+    <footer class="site-footer">
+    <p><a>友情链接：</a>
+    
+        &nbsp;<a href="http://www.jetli.com.cn/" target="_blank">博客志</a>&nbsp;
+        &nbsp;<a href="https://dtz9.com/" target="_blank">低头族</a>&nbsp;
+        &nbsp;<a href="http://www.xlanda.net/" target="_blank">我的天</a>&nbsp;
+        &nbsp;<a href="http://blog.dngz.net/" target="_blank">心灵博客</a>&nbsp;
+        &nbsp;<a href="https://www.goakay.com/" target="_blank">GoaKay</a>&nbsp;
+        &nbsp;<a href="https://cyhour.com/" target="_blank">沙唐桔</a>&nbsp;
+        &nbsp;<a href="https://www.lfhacks.com/" target="_blank">LFhacks</a>&nbsp;
+        &nbsp;<a href="https://wbt5.com/" target="_blank">乌帮图</a>&nbsp;
+        &nbsp;<a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a>&nbsp;
+        &nbsp;<a href="http://qumac.com/" target="_blank">攻城狮笔记</a>&nbsp;
+        &nbsp;<a href="http://gojira.net" target="_blank">哥斯拉</a>&nbsp;
+        &nbsp;<a href="https://ditou.org/links" style="color: darkred;">更多友链</a>&nbsp;
+    
+    </p>
+
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2021 近视眼逛博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> . 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
 
-<div id="backtop">
-    <a href="#"><span>&#11014;</span> </a>
-</div>
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
 
     </div>
-</body>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+
+            </main>
+        </div>
+        1<script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script> 
+    </body>
 </html>

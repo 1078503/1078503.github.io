@@ -1,0 +1,133 @@
+baseurl: https://ditou.org
+languageCode: zh-CN
+theme: hugo-theme-stack
+paginate: 5
+title: 近视眼逛博客
+
+# Change it to your Disqus shortname before using
+disqusShortname: 1078503
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn
+DefaultContentLanguage: zh-cn
+
+permalinks:
+    posts: /:year/:month/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - posts
+    featuredImageField: image
+    rssFullContent: true
+    favicon:
+
+    footer:
+        since: 2019
+        customText:
+
+    dateFormat:
+        published: 2006-1-02
+        lastUpdated: 2006-1-02 15:04 MST
+
+    sidebar:
+        emoji: 🐕
+        subtitle: 
+        avatar:
+            local: true
+            src: img/avatar.jpg
+
+    article:
+        math: false
+        license:
+            enabled: false
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: true
+        provider: disqus-api
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+            theme: preferred-color-scheme
+
+    widgets:
+        enabled:
+            - tag-cloud
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 30
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: true
+            local: false
+            src: 
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: light
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+menu:
+    main:
+        - identifier: home
+          name: 首页
+          url: /
+          weight: -100
+          pre: home
+
+        - identifier: about
+          name: 关于
+          url: about
+          weight: -90
+          pre: user
+
+        - identifier: feed
+          name: Feed
+          url: index.xml
+          weight: -80
+          pre: rss
+
+        - identifier: links
+          name: 友链
+          url: /links
+          weight: -70
+          pre: link
+
+        
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    highlight:
+        noClasses: false

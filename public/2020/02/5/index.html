@@ -1,151 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。
+静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。
+要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。
+首先来复习一下什么是git 维基百科：https://zh.wikipedia.org/wiki/Git
+git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程
+关键词：分布式版本控制。
+说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。
+那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：https://www.jianshu.com/p/662d9bb9cadc
+静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。
+Github与Forestry互通 接下来就是搞定Github与Forestry互通，搞定后界面是这样的：
+静态博客有了后台管理和创建文章是不是就方便多了？这样就能随时随地愉快的更新了哦。
+设置方面需要注意的地方，Forestry： GitHub有两个项目需要设置： 不出意外，搞定这些基本就能工作了，更多Forestry的用法看看设置里面的说明基本就能玩好了，比如：
+我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。
+GitHub上配置webhook与VPS服务器互通 可以参考这个页面：https://ditou.org/2019/11/4/
+设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。
+到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。
+VPS服务器上运行hugo定时任务 并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？
+Centos 7系统上安装运行hugo可以参考这个页面：https://www.jianshu.com/p/bb2d483f4caf
+如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。
+如果你不会，可以先学会在本地使用hugo，参考这个页面：https://ditou.org/2019/08/5/
+如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：
+ cd /www/wwwroot/dtz9.net hugo cd ~  执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：
+Building sites … | ZH-CN &#43;------------------&#43;-------&#43; Pages | 385 Paginator pages | 71 Non-page files | 0 Static files | 80 Processed images | 0 Aliases | 148 Sitemaps | 1 Cleaned | 0 Total in 6202 ms 总结一下 我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。'><title>研究hugo&#43;Github&#43;Forestry</title>
 
-<head>
-    <title>研究hugo&#43;Github&#43;Forestry | 近视眼逛博客</title>
+<link rel='canonical' href='https://ditou.org/2020/02/5/'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="/scss/style.min.css"><link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+<script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script><meta property='og:title' content='研究hugo&#43;Github&#43;Forestry'>
+<meta property='og:description' content='起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。
+静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。
+要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。
+首先来复习一下什么是git 维基百科：https://zh.wikipedia.org/wiki/Git
+git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程
+关键词：分布式版本控制。
+说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。
+那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：https://www.jianshu.com/p/662d9bb9cadc
+静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。
+Github与Forestry互通 接下来就是搞定Github与Forestry互通，搞定后界面是这样的：
+静态博客有了后台管理和创建文章是不是就方便多了？这样就能随时随地愉快的更新了哦。
+设置方面需要注意的地方，Forestry： GitHub有两个项目需要设置： 不出意外，搞定这些基本就能工作了，更多Forestry的用法看看设置里面的说明基本就能玩好了，比如：
+我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。
+GitHub上配置webhook与VPS服务器互通 可以参考这个页面：https://ditou.org/2019/11/4/
+设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。
+到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。
+VPS服务器上运行hugo定时任务 并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？
+Centos 7系统上安装运行hugo可以参考这个页面：https://www.jianshu.com/p/bb2d483f4caf
+如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。
+如果你不会，可以先学会在本地使用hugo，参考这个页面：https://ditou.org/2019/08/5/
+如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：
+ cd /www/wwwroot/dtz9.net hugo cd ~  执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：
+Building sites … | ZH-CN &#43;------------------&#43;-------&#43; Pages | 385 Paginator pages | 71 Non-page files | 0 Static files | 80 Processed images | 0 Aliases | 148 Sitemaps | 1 Cleaned | 0 Total in 6202 ms 总结一下 我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。'>
+<meta property='og:url' content='https://ditou.org/2020/02/5/'>
+<meta property='og:site_name' content='近视眼逛博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='GitHub' /><meta property='article:tag' content='Forestry' /><meta property='article:published_time' content='2020-02-20T10:06:00&#43;08:00'/><meta property='article:modified_time' content='2020-03-22T20:42:00&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta name="twitter:title" content="研究hugo&#43;Github&#43;Forestry">
+<meta name="twitter:description" content="起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。
+静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。
+要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。
+首先来复习一下什么是git 维基百科：https://zh.wikipedia.org/wiki/Git
+git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程
+关键词：分布式版本控制。
+说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。
+那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：https://www.jianshu.com/p/662d9bb9cadc
+静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。
+Github与Forestry互通 接下来就是搞定Github与Forestry互通，搞定后界面是这样的：
+静态博客有了后台管理和创建文章是不是就方便多了？这样就能随时随地愉快的更新了哦。
+设置方面需要注意的地方，Forestry： GitHub有两个项目需要设置： 不出意外，搞定这些基本就能工作了，更多Forestry的用法看看设置里面的说明基本就能玩好了，比如：
+我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。
+GitHub上配置webhook与VPS服务器互通 可以参考这个页面：https://ditou.org/2019/11/4/
+设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。
+到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。
+VPS服务器上运行hugo定时任务 并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？
+Centos 7系统上安装运行hugo可以参考这个页面：https://www.jianshu.com/p/bb2d483f4caf
+如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。
+如果你不会，可以先学会在本地使用hugo，参考这个页面：https://ditou.org/2019/08/5/
+如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：
+ cd /www/wwwroot/dtz9.net hugo cd ~  执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：
+Building sites … | ZH-CN &#43;------------------&#43;-------&#43; Pages | 385 Paginator pages | 71 Non-page files | 0 Static files | 80 Processed images | 0 Aliases | 148 Sitemaps | 1 Cleaned | 0 Total in 6202 ms 总结一下 我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditou.org' />
+    </head>
+    <body class="article-page keep-sidebar">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐕</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Feed</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
     
-    
-    
-
-        <meta property="og:title" content="研究hugo&#43;Github&#43;Forestry" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh" />
-    <meta property="og:url" content="https://ditou.org/2020/02/5/" />
-    
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
-    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    <header class="article-category">
+        
+            <a href="/categories/%E5%BB%BA%E7%AB%99/" >
+                建站
+            </a>
+        
+    </header>
     
 
-    <meta name="generator" content="Hugo 0.78.2" />
+    <h2 class="article-title">
+        <a href="/2020/02/5/">研究hugo&#43;Github&#43;Forestry</a>
+    </h2>
 
-    <link href="https://fonts.loli.net/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
 
-    <script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script>
-</head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div id="header-inner" class="inner">
-            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
-            <a id="logo" class="logo-text" href="https://ditou.org/" style="color: teal;">近视眼逛博客</a>
-            <nav id="main-nav">
-                
-                <a class="main-nav-link" href="/categories">分类</a>
-                
-                <a class="main-nav-link" href="/tags">标签</a>
-                
-                <a class="main-nav-link" href="/about">关于</a>
-                
-                <a class="main-nav-link" href="/links">友链</a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-            </nav>
-            <nav id="sub-nav">
-                <div id="search-form-wrap">
-                </div>
-            </nav>
-        </div>
-    </div>
+        <time class="article-time--published">2020-2-20</time>
+    </footer></div>
 </header>
 
-        <section id="main" class="outer">
-            <article class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        <header class="article-header">
-            <h1 class="article-title" itemprop="name">研究hugo&#43;Github&#43;Forestry</h1>
-        </header>
-        
-        <div class="article-meta">
-            <a href="/2020/02/5/" class="article-date">
-                <time datetime='2020-02-20T10:06:00.000&#43;08:00' itemprop="datePublished">2020-02-20</time>
-            </a>
-             
-            <div class="post-categories">
-                <div class="article-category">
-                     
-                    <a class="article-category-link" href="https://ditou.org//categories/%E5%BB%BA%E7%AB%99">建站</a> 
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <div class="article-entry" itemprop="articleBody">
-            <p>起因是看见这位博主提到的静态博客管理办法： <a href="https://blog.jxtsai.info/post/hugo-and-forestry/" title="https://blog.jxtsai.info/post/hugo-and-forestry/" target="_blank" rel="noopener">https://blog.jxtsai.info/post/hugo-and-forestry/</a> 。</p>
+    <section class="article-content">
+    <p>起因是看见这位博主提到的静态博客管理办法： <a class="link" href="https://blog.jxtsai.info/post/hugo-and-forestry/"  title="https://blog.jxtsai.info/post/hugo-and-forestry/"
+     target="_blank" rel="noopener"
+    >https://blog.jxtsai.info/post/hugo-and-forestry/</a> 。</p>
 <p>静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。</p>
 <p>要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。</p>
 <h2 id="首先来复习一下什么是git">首先来复习一下什么是git</h2>
-<p>维基百科：<a href="https://zh.wikipedia.org/wiki/Git" title="https://zh.wikipedia.org/wiki/Git" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/Git</a></p>
+<p>维基百科：<a class="link" href="https://zh.wikipedia.org/wiki/Git"  title="https://zh.wikipedia.org/wiki/Git"
+     target="_blank" rel="noopener"
+    >https://zh.wikipedia.org/wiki/Git</a></p>
 <p><code>git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程</code></p>
 <p>关键词：分布式版本控制。</p>
 <p>说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。</p>
-<p>那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：<a href="https://www.jianshu.com/p/662d9bb9cadc" title="https://www.jianshu.com/p/662d9bb9cadc" target="_blank" rel="noopener">https://www.jianshu.com/p/662d9bb9cadc</a></p>
+<p>那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：<a class="link" href="https://www.jianshu.com/p/662d9bb9cadc"  title="https://www.jianshu.com/p/662d9bb9cadc"
+     target="_blank" rel="noopener"
+    >https://www.jianshu.com/p/662d9bb9cadc</a></p>
 <p>静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。</p>
 <h2 id="github与forestry互通">Github与Forestry互通</h2>
 <p>接下来就是搞定Github与Forestry互通，搞定后界面是这样的：</p>
-<p><img src="https://img.dtz9.com/imgs/2020/02/add46b1cf550d00b.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2020/02/add46b1cf550d00b.png" alt=""  /></p>
 <p>静态博客有了后台管理和创建文章是不是就方便多了？这样就能随时随地愉快的更新了哦。</p>
 <h3 id="设置方面需要注意的地方forestry">设置方面需要注意的地方，Forestry：</h3>
-<p><img src="https://img.dtz9.com/imgs/2020/02/7ef1e0745e0201b6.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2020/02/7ef1e0745e0201b6.png" alt=""  /></p>
 <h3 id="github有两个项目需要设置">GitHub有两个项目需要设置：</h3>
-<p><img src="https://img.dtz9.com/imgs/2020/02/dc27096cdae985cc.png" alt=""></p>
-<p><img src="https://img.dtz9.com/imgs/2020/02/48d2977d90377f09.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2020/02/dc27096cdae985cc.png" alt=""  /></p>
+<p><img src="https://img.dtz9.com/imgs/2020/02/48d2977d90377f09.png" alt=""  /></p>
 <p>不出意外，搞定这些基本就能工作了，更多Forestry的用法看看设置里面的说明基本就能玩好了，比如：</p>
-<p><img src="https://img.dtz9.com/imgs/2020/02/4bd94957d63751e9.png" alt=""></p>
+<p><img src="https://img.dtz9.com/imgs/2020/02/4bd94957d63751e9.png" alt=""  /></p>
 <p>我遇到了一个问题，Forestry修改编辑文章保存后，原始文档可以很顺利的推送到GitHub仓库，但Forestry后台并不hugo生成静态网页文件并推送过去。这就麻烦了，如果你是将博客直接托管在GitHub提供访问的话基本不可能。我看有些网友其实也并不是用GitHub提供访问的，毕竟国内很难用，应该有其它途径。我是直接用VPS提供访问的，需要用到webhook和在VPS服务器上安装运行hugo。</p>
 <h2 id="github上配置webhook与vps服务器互通">GitHub上配置webhook与VPS服务器互通</h2>
-<p>可以参考这个页面：<a href="https://ditou.org/2019/11/4/" title="https://ditou.org/2019/11/4/" target="_blank" rel="noopener">https://ditou.org/2019/11/4/</a></p>
+<p>可以参考这个页面：<a class="link" href="https://ditou.org/2019/11/4/"  title="https://ditou.org/2019/11/4/"
+     target="_blank" rel="noopener"
+    >https://ditou.org/2019/11/4/</a></p>
 <p>设置正确后，仓库有了新的更新动作服务器就会收到通知并拉取更新，这样就实现了互通了。由此，就可以很方便的保持本地、GitHub与Forestry三方文件同步，当然，本地与GitHub之间的同步并不是自动的需要手动拉取更新和提交更新。</p>
 <p>到这里，其实只有本地能够运行hugo生成静态网页文件推送到GitHub，然后通知服务器拉取更新提供访问。如果是在Forestry上的编辑和修改，由于我测试中发现Forestry并不能生成静态网页文件推送过来，我的博客网页并不能体现这些编辑修改。</p>
 <h2 id="vps服务器上运行hugo定时任务">VPS服务器上运行hugo定时任务</h2>
 <p>并不清楚Forestry是否支持这一功能，但我想就算它支持我也是不敢依赖的，感觉不靠谱。解决办法很简单，在服务器上安装hugo并添加任务定时运行就可以了。虽然这样在Forestry上的修改并不能实时体现在网页上，但对于博客来说并不在乎那点时间，至少我不在乎。如果你有强迫症，服务器上手动运行一下就是，这样的话也不需要Forestry了，甚至本地都不需要，直接服务器上面运行hugo编辑文字岂不是更好？</p>
-<p>Centos 7系统上安装运行hugo可以参考这个页面：<a href="https://www.jianshu.com/p/bb2d483f4caf" title="https://www.jianshu.com/p/bb2d483f4caf" target="_blank" rel="noopener">https://www.jianshu.com/p/bb2d483f4caf</a></p>
+<p>Centos 7系统上安装运行hugo可以参考这个页面：<a class="link" href="https://www.jianshu.com/p/bb2d483f4caf"  title="https://www.jianshu.com/p/bb2d483f4caf"
+     target="_blank" rel="noopener"
+    >https://www.jianshu.com/p/bb2d483f4caf</a></p>
 <p>如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。</p>
-<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a href="https://ditou.org/2019/08/5/" title="https://ditou.org/2019/08/5/" target="_blank" rel="noopener">https://ditou.org/2019/08/5/</a></p>
+<p>如果你不会，可以先学会在本地使用hugo，参考这个页面：<a class="link" href="https://ditou.org/2019/08/5/"  title="https://ditou.org/2019/08/5/"
+     target="_blank" rel="noopener"
+    >https://ditou.org/2019/08/5/</a></p>
 <p>如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：</p>
 <pre><code> cd /www/wwwroot/dtz9.net 
  hugo 
  cd ~
 </code></pre>
 <p>执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：</p>
-<pre><code class="language-shell">Building sites … 
-                   | ZH-CN  
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">Building sites … 
+                   <span class="p">|</span> ZH-CN  
 +------------------+-------+
-  Pages            |   385
-  Paginator pages  |    71  
-  Non-page files   |     0
-  Static files     |    80
-  Processed images |     0
-  Aliases          |   148
-  Sitemaps         |     1
-  Cleaned          |     0
+  Pages            <span class="p">|</span>   <span class="m">385</span>
+  Paginator pages  <span class="p">|</span>    <span class="m">71</span>  
+  Non-page files   <span class="p">|</span>     <span class="m">0</span>
+  Static files     <span class="p">|</span>    <span class="m">80</span>
+  Processed images <span class="p">|</span>     <span class="m">0</span>
+  Aliases          <span class="p">|</span>   <span class="m">148</span>
+  Sitemaps         <span class="p">|</span>     <span class="m">1</span>
+  Cleaned          <span class="p">|</span>     <span class="m">0</span>
 
-Total in 6202 ms
-</code></pre>
-<h2 id="总结一下">总结一下</h2>
+Total in <span class="m">6202</span> ms
+</code></pre></div><h2 id="总结一下">总结一下</h2>
 <p>我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。</p>
 <h3 id="优点">优点：</h3>
 <ul>
 <li>静态网页的读取效率更高，访问速度优秀</li>
-<li>基本没有网页安全性方面的忧虑（这都三方同步了...），更不会被代码注入，不依赖数据库</li>
+<li>基本没有网页安全性方面的忧虑（这都三方同步了&hellip;），更不会被代码注入，不依赖数据库</li>
 </ul>
 <h3 id="缺点">缺点：</h3>
 <ul>
@@ -168,122 +360,57 @@ Total in 6202 ms
 <p>较早前</p>
 <p>这篇文章我通过Forestry发布后经过观察，<del>事实证明Forestry还是能够自动生成静态网页文件并推送出去的</del>。由此可见，Forestry编辑文章发布依赖它的服务器，免费用户可能需要排队？因此，我的服务器上添加定时任务是正确的做法。</p>
 
-        </div>
+</section>
 
-         
-        <div class="article-toc" style="display:none;" >
-            <h3></h3>
-            <nav id="TableOfContents">
-  <ol>
-    <li><a href="#首先来复习一下什么是git">首先来复习一下什么是git</a></li>
-    <li><a href="#github与forestry互通">Github与Forestry互通</a>
-      <ol>
-        <li><a href="#设置方面需要注意的地方forestry">设置方面需要注意的地方，Forestry：</a></li>
-        <li><a href="#github有两个项目需要设置">GitHub有两个项目需要设置：</a></li>
-      </ol>
-    </li>
-    <li><a href="#github上配置webhook与vps服务器互通">GitHub上配置webhook与VPS服务器互通</a></li>
-    <li><a href="#vps服务器上运行hugo定时任务">VPS服务器上运行hugo定时任务</a></li>
-    <li><a href="#总结一下">总结一下</a>
-      <ol>
-        <li><a href="#优点">优点：</a></li>
-        <li><a href="#缺点">缺点：</a></li>
-        <li><a href="#发布后更新">发布后更新：</a></li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-        </div>
-          
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-        <script>
-            (function() {
-                var $toc = $('#TableOfContents');
-                if ($toc.length > 0) {
-                    var $window = $(window);
 
-                    function onScroll() {
-                        var currentScroll = $window.scrollTop();
-                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
-                        var id = "";
-                        h.each(function(i, e) {
-                            e = $(e);
-                            if (e.offset().top - 10 <= currentScroll) {
-                                id = e.attr('id');
-                            }
-                        });
-                        var active = $toc.find('a.active');
-                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-                        active.each(function(i, e) {
-                            $(e).removeClass('active').siblings('ul').hide();
-                        });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
-                            $(e).children('a').addClass('active').siblings('ul').show();
-                        });
-                    }
-
-                    $window.on('scroll', onScroll);
-                    $(document).ready(function() {
-                        $toc.find('a').parent('li').find('ul').hide();
-                        onScroll();
-                        document.getElementsByClassName('article-toc')[0].style.display = '';
-                    });
-                }
-            })();
-        </script>
-         
-        <footer class="article-footer">
-            <ul class="article-tag-list">
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/hugo">hugo
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/github">GitHub
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/forestry">Forestry
-                    </a>
-                </li>
-                
-            </ul>
-        </footer>
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </div>
-    
-<nav id="article-nav">
-    
-    <a href="/2020/02/6/" id="article-nav-newer" class="article-nav-link-wrap">
-        <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            我又干了啥
-        </div>
-    </a>
-    
-    
-    <a href="/2020/02/4/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">害怕作息毫无规律&nbsp;<span>&gt;</span></div>
-    </a>
-    
-</nav>
+            <a href="/tags/hugo/">hugo</a>
+        
+            <a href="/tags/github/">github</a>
+        
+            <a href="/tags/forestry/">Forestry</a>
+        
+    </section>
 
 
-</article>  <div class="article-inner">
-    <a href="https://dtz9.com/d/19" target="_blank">
-        <img border="0" src="/banner.png" />
-    </a>
-</div>
+    <section class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span class="article-time--modified">
+            最后更新于 2020-3-22 20:42 CST
+        </span>
+    </section></footer>
+
+    
+</article>
+
+     
+        
+    <style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
 <div align="center">
-    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦
     </font>
-</div>
-<div style="background-color: #f9f9f9;">
+</div><br>
+<div class="disqus-container">
     <center>
-        <div id="comment" style="width: 96%;">
+        <div id="comment">
             <script>
                 var disq = new iDisqus('comment', {
                     forum: '1078503',
@@ -297,57 +424,124 @@ Total in 6202 ms
         </div>
     </center>
 </div>
-        </section>
-        <div class="outer" style="font-size: 10px;">
-    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
-        <li><a href="http://www.jetli.com.cn/" target="_blank">博客志</a></li>
-        <li><a href="https://dtz9.com/" target="_blank">低头族</a></li>
-        <li><a href="http://www.xlanda.net/" target="_blank">我的天</a></li>
-        <li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a></li>
-        <li><a href="https://www.goakay.com/" target="_blank">GoaKay</a></li>
-        <li><a href="https://cyhour.com/" target="_blank">沙唐桔</a></li>
-        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
-        <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
-        <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
-        <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
-        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
-    </ul>
-</div>
-<footer id="footer">
-    <div class="outer">
-        <hr style=" border: 1px dashed #ddd;">
-        <div id="footer-info" class="inner">
-            &copy; 2019 - 2021 近视眼逛博客 | 由 <a href="https://gohugo.io" target="_blank">Hugo</a> 生成 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank" title="使用RSS阅读器订阅本站">RSS</a>            |
-            <a rel="me" href="https://1w1.in/@ditou" target="_blank" title="去中心化的微博替代品">Mastodon</a>
-        </div>
-    </div>
-    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
 
     
-    <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function() {
-            var header = document.getElementById('header');
-            if (header.classList.contains('mobile-on')) {
-                header.classList.remove('mobile-on');
-            } else {
-                header.classList.add('mobile-on');
-            }
-        });
-    </script>
+
+    <footer class="site-footer">
+    <p><a>友情链接：</a>
+    
+        &nbsp;<a href="http://www.jetli.com.cn/" target="_blank">博客志</a>&nbsp;
+        &nbsp;<a href="https://dtz9.com/" target="_blank">低头族</a>&nbsp;
+        &nbsp;<a href="http://www.xlanda.net/" target="_blank">我的天</a>&nbsp;
+        &nbsp;<a href="http://blog.dngz.net/" target="_blank">心灵博客</a>&nbsp;
+        &nbsp;<a href="https://www.goakay.com/" target="_blank">GoaKay</a>&nbsp;
+        &nbsp;<a href="https://cyhour.com/" target="_blank">沙唐桔</a>&nbsp;
+        &nbsp;<a href="https://www.lfhacks.com/" target="_blank">LFhacks</a>&nbsp;
+        &nbsp;<a href="https://wbt5.com/" target="_blank">乌帮图</a>&nbsp;
+        &nbsp;<a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a>&nbsp;
+        &nbsp;<a href="http://qumac.com/" target="_blank">攻城狮笔记</a>&nbsp;
+        &nbsp;<a href="http://gojira.net" target="_blank">哥斯拉</a>&nbsp;
+        &nbsp;<a href="https://ditou.org/links" style="color: darkred;">更多友链</a>&nbsp;
+    
+    </p>
+
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2021 近视眼逛博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> . 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
 
-<div id="backtop">
-    <a href="#"><span>&#11014;</span> </a>
-</div>
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
 
     </div>
-</body>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+
+            </main>
+        </div>
+        1<script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script> 
+    </body>
 </html>

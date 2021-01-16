@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gridea on 近视眼逛博客</title>
+    <link>https://ditou.org/tags/gridea/</link>
+    <description>Recent content in Gridea on 近视眼逛博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 21 Nov 2019 00:42:00 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/gridea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
+      <link>https://ditou.org/2019/11/4/</link>
+      <pubDate>Thu, 21 Nov 2019 00:42:00 +0800</pubDate>
+      
+      <guid>https://ditou.org/2019/11/4/</guid>
+      <description>今天博友云中君反馈，说他的博客又抽风了。
+原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
+这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？
+他是通过Gridea客户端写博客并更新同步到仓库的，但Gridea目前并不支持直接同步到自己的私有服务器，据说未来可能会支持FTP方式同步到私有服务器对应的网站目录。但何必这么麻烦，Gridea能同步推送更新到GitHub仓库就很好办。目前大部分使用的服务器都是Linux系统居多，只要服务器支持git就可以使用webhook勾子拉取仓库更新，使服务器对应的网站根目录文件与GitHub仓库保持一致。博客通过私有服务器提供访问应该会相对稳定一些，毕竟我的某个VPS上面就只有我自己的博客使用，并没有其它网站和额外的服务占用这个VPS的资源。
+那么，接下来就来完成这个工作，让他与我分享这个资源吧。
+1.确保Gridea同步推送接口使用GitHub 这里我因为不使用该客户端所以不做说明，因为它的官网已经介绍的非常详细了。
+2.宝塔面板新建网站并启用 我使用的服务器是 CentOS 7 系统，该系统默认自带有git所以可以直接使用。如果你的系统没有请自行安装。
+CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究安装方式。
+需要注意的地方：
+ 域名需要解析到宝塔面板所在服务器的IP 启用https访问需要注册ssl证书并在面板对应的网站正确配置并启用  3.宝塔面板使用webhook插件 如上图。
+在宝塔面板的软件商店中搜索webhook安装并启用，在webhook插件的设置中添加一个调用条目：
+编辑该条目的shell命令并保存：
+命令内容参考：
+#!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !</description>
+    </item>
+    
+    <item>
+      <title>【网站维护】一些变化</title>
+      <link>https://ditou.org/2019/06/3/</link>
+      <pubDate>Thu, 06 Jun 2019 01:10:33 +0800</pubDate>
+      
+      <guid>https://ditou.org/2019/06/3/</guid>
+      <description>是的，我也换主题了，一次大的改版。
+拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是喜欢的，因为排版布局清晰。 但还是经不住这次用到的主题的诱惑，优点我就不说了，好看。 这次增加了一个音乐页面，直接引用网易云音乐，应该是很方便的。我没事儿的时候折腾一下手机，这个页面就会有相应的变化了，表现就是歌单里面不同风格的歌曲。那么，你们有好听的歌推荐吗？或者你喜欢的歌手。
+另外，把友情链接放到了单独的一个页面。 给这个页面命名为“相约2030”，做友情链接互换，也做优秀博客的收录，算是自己的一个导航页面吧。 当然，我内心是希望它能够有一些影响力的，能够吸引更多的人建立独立博客并分享不同行业不同人的生活乐趣。 十年，总会有一点变化的。
+说说这次换主题感觉不足的地方。 我本人是markdown的深度用户，大多数文字图片排版都是在里面完成的，然后复制粘贴进wordpress后台发布。 当然，还需要配合启用 WP Editor.md 插件用于wordpress对markdown的支持。 再上一个主题里面，完全不存在排版格式和样式兼容性的问题，所见即所得。 然而，在这一版主题里面很多markdown的格式样式排版都失效了。这就很尴尬了，我会在接下来的日子里尝试着解决这个问题，但我对CSS等这些不是很精通，弄起来难度肯定是有的。试试吧，如果能解决或许就这样用十年也未尝不可。当然，前提是要能解决这个样式控制的问题。 我分析了一下，这个主题开发出来应该是为了主打文字类的博客，并没有考虑排版样式的兼容。 或者说为了全站文字样式布局高度统一，直接忽略了很多排版样式的输出。
+分享一下我日常使用的markdown编辑器：Typora 我的日常电脑是Windows 10，我相信在Windows上Typora应该是最实用的markdown编辑器了，尤其是大量文章编辑输入和写作方面确实方便。 另外，你如果对静态博客感兴趣，又不喜欢复杂的操作，你可以尝试一下图形界面的 Gridea 除了手机，全平台电脑系统支持哦 你甚至可以不用花费主机和域名费用就可以开始在网上写博客了，托管在GitHub上或者coding上。 非常适合准备以写作为生的朋友。</description>
+    </item>
+    
+  </channel>
+</rss>

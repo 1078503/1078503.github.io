@@ -1,99 +1,256 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='回家按惯例打开笔记本准备看一些新闻和博客。
+关于关注的很多信息源的浏览方式 说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。 问题就出在这里，突然间我发现好多有更新的博客在freshrss阅读器中并不能很好的获取更新。我想了五分钟，突然意识到这个获取rss的方式并不可取。为什么呢？因为每个人的博客使用环境并不一样，输出rss的环境更是千差万别，而且各位博主并没有义务维护自己博客的rss输出。这样，我就很难第一时间获取更新并逛过去浏览相关内容了。
+怎么办呢？我又想了五分钟。做出了一个艰难的决定，那就是人工获取更新。很抱歉不是自己维护rss输出，我没那个技术能力也没那个时间。我的办法就是：把所有关注的博客还有新闻源依旧收藏在浏览器的收藏夹里面。呵呵，最原始的反而是最可靠的不是吗？应该是的。不然怎么办呢&amp;hellip;我发现任何事情简单一点是最舒服的，只要是把它搞的更简单的想法最后往往会变的更复杂。
+是时候着手准备开启静态博客了 另外一件事是博客有个插件提示有新版本可以更新，不假思索我就后台点击升级了。很悲剧，报错了。观察了一下，可能是新版插件跟主题不兼容或者跟其它插件有冲突。无奈，删除了插件。对！没错，简单粗暴。我是不会去排查错误并维护插件的。理由同上，没那技术也没时间。不好用就干掉的毛病不知道算不算是一种毛病呢？
+使用wordpress是因为使用的人多我可以很方便的搜索获取到出问题时的解决方法，是为了省事儿。 之前貌似在哪位大佬的博客聊到过这个话题，关于网页呈现以及加载速度。这个毋庸置疑肯定是html最合适，纯静态没有动态加载，或者说很少的外部加载。
+我再次想了五分钟，为什么不抛弃动态博客呢？ 哈哈，我发现五分钟思考蛮适合我的。
+是的，抛弃了动态博客对应的就是启用静态博客了。 举个栗子：http://www.yini.org/ 秘密花园截图
+这页面很多老网虫是不是很熟悉？我刚上网那会儿她就在了。很佩服园主的毅力和恒心，二十年了啊！请允许我感慨一下，想当年我也是照着她制作了一个个人主页来着，只是这些年过去了，我早就把这事儿给忘了。我的那个页面现在哪里去了，鬼晓得&amp;hellip;当我在五分钟思考时间里的时候我就突然想起了秘密花园。
+当然，如果让我现在做静态页面我是肯定不会花心思做这样的网页的，太难以维护了。 怎么搞？有很多大佬早就已经玩过有些年头了。那就是折腾类似于hugo、hexo这样的静态博客框架。
+好处：
+文章内容每一篇都以markdown文档方式保存，不受环境限制 有很多主题可以很简单的更换，跟wordpress这类跟换主题没有多大的区别，甚至更方便 前期博客可以免费托管在github这类服务上面（国内访问速度有点慢，但可以接受）
+缺点：
+入门有一点难度，新手甚至摸不着门路（我目前就在这个阶段&amp;hellip;） 需要学习的东西多少会有一点，而且不会有太多的教程和资料给你阅读，有也不一定很好找到
+但我认为这肯定是一个趋势，不可逆的趋势。 未来，坚持原创分享的博主慢慢的都会往这个方向发展。 去掉臃肿，去掉繁杂，留下最简单的东西。一台电脑，一个markdown编辑器，配合静态博客框架，把编辑写好的文章快速推送到服务器上面。剩下的事情交给时间去沉淀，然后，我们应该更好的享受工作和生活。
+最后，向大佬也是我的老乡致敬！https://yihui.name/cn/about/ '><title>【随笔】今晚遇到两件令我不怎么开心的事情</title>
 
-<head>
-    <title>【随笔】今晚遇到两件令我不怎么开心的事情 | 近视眼逛博客</title>
+<link rel='canonical' href='https://ditou.org/2019/06/2/'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="/scss/style.min.css"><link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
+<script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
+
+<script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script><meta property='og:title' content='【随笔】今晚遇到两件令我不怎么开心的事情'>
+<meta property='og:description' content='回家按惯例打开笔记本准备看一些新闻和博客。
+关于关注的很多信息源的浏览方式 说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。 问题就出在这里，突然间我发现好多有更新的博客在freshrss阅读器中并不能很好的获取更新。我想了五分钟，突然意识到这个获取rss的方式并不可取。为什么呢？因为每个人的博客使用环境并不一样，输出rss的环境更是千差万别，而且各位博主并没有义务维护自己博客的rss输出。这样，我就很难第一时间获取更新并逛过去浏览相关内容了。
+怎么办呢？我又想了五分钟。做出了一个艰难的决定，那就是人工获取更新。很抱歉不是自己维护rss输出，我没那个技术能力也没那个时间。我的办法就是：把所有关注的博客还有新闻源依旧收藏在浏览器的收藏夹里面。呵呵，最原始的反而是最可靠的不是吗？应该是的。不然怎么办呢&amp;hellip;我发现任何事情简单一点是最舒服的，只要是把它搞的更简单的想法最后往往会变的更复杂。
+是时候着手准备开启静态博客了 另外一件事是博客有个插件提示有新版本可以更新，不假思索我就后台点击升级了。很悲剧，报错了。观察了一下，可能是新版插件跟主题不兼容或者跟其它插件有冲突。无奈，删除了插件。对！没错，简单粗暴。我是不会去排查错误并维护插件的。理由同上，没那技术也没时间。不好用就干掉的毛病不知道算不算是一种毛病呢？
+使用wordpress是因为使用的人多我可以很方便的搜索获取到出问题时的解决方法，是为了省事儿。 之前貌似在哪位大佬的博客聊到过这个话题，关于网页呈现以及加载速度。这个毋庸置疑肯定是html最合适，纯静态没有动态加载，或者说很少的外部加载。
+我再次想了五分钟，为什么不抛弃动态博客呢？ 哈哈，我发现五分钟思考蛮适合我的。
+是的，抛弃了动态博客对应的就是启用静态博客了。 举个栗子：http://www.yini.org/ 秘密花园截图
+这页面很多老网虫是不是很熟悉？我刚上网那会儿她就在了。很佩服园主的毅力和恒心，二十年了啊！请允许我感慨一下，想当年我也是照着她制作了一个个人主页来着，只是这些年过去了，我早就把这事儿给忘了。我的那个页面现在哪里去了，鬼晓得&amp;hellip;当我在五分钟思考时间里的时候我就突然想起了秘密花园。
+当然，如果让我现在做静态页面我是肯定不会花心思做这样的网页的，太难以维护了。 怎么搞？有很多大佬早就已经玩过有些年头了。那就是折腾类似于hugo、hexo这样的静态博客框架。
+好处：
+文章内容每一篇都以markdown文档方式保存，不受环境限制 有很多主题可以很简单的更换，跟wordpress这类跟换主题没有多大的区别，甚至更方便 前期博客可以免费托管在github这类服务上面（国内访问速度有点慢，但可以接受）
+缺点：
+入门有一点难度，新手甚至摸不着门路（我目前就在这个阶段&amp;hellip;） 需要学习的东西多少会有一点，而且不会有太多的教程和资料给你阅读，有也不一定很好找到
+但我认为这肯定是一个趋势，不可逆的趋势。 未来，坚持原创分享的博主慢慢的都会往这个方向发展。 去掉臃肿，去掉繁杂，留下最简单的东西。一台电脑，一个markdown编辑器，配合静态博客框架，把编辑写好的文章快速推送到服务器上面。剩下的事情交给时间去沉淀，然后，我们应该更好的享受工作和生活。
+最后，向大佬也是我的老乡致敬！https://yihui.name/cn/about/ '>
+<meta property='og:url' content='https://ditou.org/2019/06/2/'>
+<meta property='og:site_name' content='近视眼逛博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='freshrss' /><meta property='article:tag' content='静态博客' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='秘密花园' /><meta property='article:tag' content='谢益辉' /><meta property='article:tag' content='随笔' /><meta property='article:tag' content='网站维护' /><meta property='article:published_time' content='2019-06-04T01:16:33&#43;08:00'/><meta property='article:modified_time' content='2019-06-04T01:16:33&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta name="twitter:title" content="【随笔】今晚遇到两件令我不怎么开心的事情">
+<meta name="twitter:description" content="回家按惯例打开笔记本准备看一些新闻和博客。
+关于关注的很多信息源的浏览方式 说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。 问题就出在这里，突然间我发现好多有更新的博客在freshrss阅读器中并不能很好的获取更新。我想了五分钟，突然意识到这个获取rss的方式并不可取。为什么呢？因为每个人的博客使用环境并不一样，输出rss的环境更是千差万别，而且各位博主并没有义务维护自己博客的rss输出。这样，我就很难第一时间获取更新并逛过去浏览相关内容了。
+怎么办呢？我又想了五分钟。做出了一个艰难的决定，那就是人工获取更新。很抱歉不是自己维护rss输出，我没那个技术能力也没那个时间。我的办法就是：把所有关注的博客还有新闻源依旧收藏在浏览器的收藏夹里面。呵呵，最原始的反而是最可靠的不是吗？应该是的。不然怎么办呢&amp;hellip;我发现任何事情简单一点是最舒服的，只要是把它搞的更简单的想法最后往往会变的更复杂。
+是时候着手准备开启静态博客了 另外一件事是博客有个插件提示有新版本可以更新，不假思索我就后台点击升级了。很悲剧，报错了。观察了一下，可能是新版插件跟主题不兼容或者跟其它插件有冲突。无奈，删除了插件。对！没错，简单粗暴。我是不会去排查错误并维护插件的。理由同上，没那技术也没时间。不好用就干掉的毛病不知道算不算是一种毛病呢？
+使用wordpress是因为使用的人多我可以很方便的搜索获取到出问题时的解决方法，是为了省事儿。 之前貌似在哪位大佬的博客聊到过这个话题，关于网页呈现以及加载速度。这个毋庸置疑肯定是html最合适，纯静态没有动态加载，或者说很少的外部加载。
+我再次想了五分钟，为什么不抛弃动态博客呢？ 哈哈，我发现五分钟思考蛮适合我的。
+是的，抛弃了动态博客对应的就是启用静态博客了。 举个栗子：http://www.yini.org/ 秘密花园截图
+这页面很多老网虫是不是很熟悉？我刚上网那会儿她就在了。很佩服园主的毅力和恒心，二十年了啊！请允许我感慨一下，想当年我也是照着她制作了一个个人主页来着，只是这些年过去了，我早就把这事儿给忘了。我的那个页面现在哪里去了，鬼晓得&amp;hellip;当我在五分钟思考时间里的时候我就突然想起了秘密花园。
+当然，如果让我现在做静态页面我是肯定不会花心思做这样的网页的，太难以维护了。 怎么搞？有很多大佬早就已经玩过有些年头了。那就是折腾类似于hugo、hexo这样的静态博客框架。
+好处：
+文章内容每一篇都以markdown文档方式保存，不受环境限制 有很多主题可以很简单的更换，跟wordpress这类跟换主题没有多大的区别，甚至更方便 前期博客可以免费托管在github这类服务上面（国内访问速度有点慢，但可以接受）
+缺点：
+入门有一点难度，新手甚至摸不着门路（我目前就在这个阶段&amp;hellip;） 需要学习的东西多少会有一点，而且不会有太多的教程和资料给你阅读，有也不一定很好找到
+但我认为这肯定是一个趋势，不可逆的趋势。 未来，坚持原创分享的博主慢慢的都会往这个方向发展。 去掉臃肿，去掉繁杂，留下最简单的东西。一台电脑，一个markdown编辑器，配合静态博客框架，把编辑写好的文章快速推送到服务器上面。剩下的事情交给时间去沉淀，然后，我们应该更好的享受工作和生活。
+最后，向大佬也是我的老乡致敬！https://yihui.name/cn/about/ "><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ditou.org' />
+    </head>
+    <body class="article-page keep-sidebar">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🐕</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Feed</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
     
-    
-    
-
-        <meta property="og:title" content="【随笔】今晚遇到两件令我不怎么开心的事情" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh" />
-    <meta property="og:url" content="https://ditou.org/2019/06/2/" />
-    
-
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <link href="https://ditou.org/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
-    <link href="https://ditou.org/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://ditou.org/css/style.css">
+    <header class="article-category">
+        
+            <a href="/categories/%E9%9A%8F%E7%AC%94/" >
+                随笔
+            </a>
+        
+    </header>
     
 
-    <meta name="generator" content="Hugo 0.78.2" />
+    <h2 class="article-title">
+        <a href="/2019/06/2/">【随笔】今晚遇到两件令我不怎么开心的事情</a>
+    </h2>
 
-    <link href="https://fonts.loli.net/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
 
-    <link rel="stylesheet" href="https://api.ditou.org/disqus/dist/iDisqus.min.css">
-    <script src="https://api.ditou.org/disqus/dist/iDisqus.min.js"></script>
 
-    <script async defer data-website-id="f3078441-b3d5-4d51-bc58-6c890c1075e0" src="https://status.ditou.org/umami.js"></script>
-</head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-outer" class="outer">
-        <div id="header-inner" class="inner">
-            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
-            <a id="logo" class="logo-text" href="https://ditou.org/" style="color: teal;">近视眼逛博客</a>
-            <nav id="main-nav">
-                
-                <a class="main-nav-link" href="/categories">分类</a>
-                
-                <a class="main-nav-link" href="/tags">标签</a>
-                
-                <a class="main-nav-link" href="/about">关于</a>
-                
-                <a class="main-nav-link" href="/links">友链</a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-                <a class="main-nav-link" href=""></a>
-                
-            </nav>
-            <nav id="sub-nav">
-                <div id="search-form-wrap">
-                </div>
-            </nav>
-        </div>
-    </div>
+        <time class="article-time--published">2019-6-04</time>
+    </footer></div>
 </header>
 
-        <section id="main" class="outer">
-            <article class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        <header class="article-header">
-            <h1 class="article-title" itemprop="name">【随笔】今晚遇到两件令我不怎么开心的事情</h1>
-        </header>
-        
-        <div class="article-meta">
-            <a href="/2019/06/2/" class="article-date">
-                <time datetime='2019-06-04T01:16:33.000&#43;08:00' itemprop="datePublished">2019-06-04</time>
-            </a>
-             
-            <div class="post-categories">
-                <div class="article-category">
-                     
-                    <a class="article-category-link" href="https://ditou.org//categories/%E9%9A%8F%E7%AC%94">随笔</a> 
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <div class="article-entry" itemprop="articleBody">
-            <p>回家按惯例打开笔记本准备看一些新闻和博客。</p>
+    <section class="article-content">
+    <p>回家按惯例打开笔记本准备看一些新闻和博客。</p>
 <h4 id="关于关注的很多信息源的浏览方式">关于关注的很多信息源的浏览方式</h4>
 <p>说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。
 问题就出在这里，突然间我发现好多有更新的博客在freshrss阅读器中并不能很好的获取更新。我想了五分钟，突然意识到这个获取rss的方式并不可取。为什么呢？因为每个人的博客使用环境并不一样，输出rss的环境更是千差万别，而且各位博主并没有义务维护自己博客的rss输出。这样，我就很难第一时间获取更新并逛过去浏览相关内容了。</p>
-<p>怎么办呢？我又想了五分钟。做出了一个艰难的决定，那就是人工获取更新。很抱歉不是自己维护rss输出，我没那个技术能力也没那个时间。我的办法就是：把所有关注的博客还有新闻源依旧收藏在浏览器的收藏夹里面。呵呵，最原始的反而是最可靠的不是吗？应该是的。不然怎么办呢...我发现任何事情简单一点是最舒服的，<strong>只要是把它搞的更简单的想法最后往往会变的更复杂</strong>。</p>
+<p>怎么办呢？我又想了五分钟。做出了一个艰难的决定，那就是人工获取更新。很抱歉不是自己维护rss输出，我没那个技术能力也没那个时间。我的办法就是：把所有关注的博客还有新闻源依旧收藏在浏览器的收藏夹里面。呵呵，最原始的反而是最可靠的不是吗？应该是的。不然怎么办呢&hellip;我发现任何事情简单一点是最舒服的，<strong>只要是把它搞的更简单的想法最后往往会变的更复杂</strong>。</p>
 <h4 id="是时候着手准备开启静态博客了">是时候着手准备开启静态博客了</h4>
 <p>另外一件事是博客有个插件提示有新版本可以更新，不假思索我就后台点击升级了。很悲剧，报错了。观察了一下，可能是新版插件跟主题不兼容或者跟其它插件有冲突。无奈，删除了插件。对！没错，简单粗暴。我是不会去排查错误并维护插件的。理由同上，没那技术也没时间。不好用就干掉的毛病不知道算不算是一种毛病呢？</p>
 <p>使用wordpress是因为使用的人多我可以很方便的搜索获取到出问题时的解决方法，是为了省事儿。
@@ -102,9 +259,9 @@
 哈哈，我发现五分钟思考蛮适合我的。</p>
 <p>是的，抛弃了动态博客对应的就是启用静态博客了。
 举个栗子：<a href="http://www.yini.org/">http://www.yini.org/</a>
-<img src="https://img.dtz9.com/imgs/2019/06/8d187db2fbd615a6.jpg" alt=""></p>
+<img src="https://img.dtz9.com/imgs/2019/06/8d187db2fbd615a6.jpg" alt=""  /></p>
 <p>秘密花园截图</p>
-<p>这页面很多老网虫是不是很熟悉？我刚上网那会儿她就在了。很佩服园主的毅力和恒心，二十年了啊！请允许我感慨一下，想当年我也是照着她制作了一个个人主页来着，只是这些年过去了，我早就把这事儿给忘了。我的那个页面现在哪里去了，鬼晓得...当我在五分钟思考时间里的时候我就突然想起了秘密花园。</p>
+<p>这页面很多老网虫是不是很熟悉？我刚上网那会儿她就在了。很佩服园主的毅力和恒心，二十年了啊！请允许我感慨一下，想当年我也是照着她制作了一个个人主页来着，只是这些年过去了，我早就把这事儿给忘了。我的那个页面现在哪里去了，鬼晓得&hellip;当我在五分钟思考时间里的时候我就突然想起了秘密花园。</p>
 <p>当然，如果让我现在做静态页面我是肯定不会花心思做这样的网页的，太难以维护了。
 怎么搞？有很多大佬早就已经玩过有些年头了。那就是折腾类似于hugo、hexo这样的静态博客框架。</p>
 <p>好处：</p>
@@ -112,144 +269,61 @@
 有很多主题可以很简单的更换，跟wordpress这类跟换主题没有多大的区别，甚至更方便
 前期博客可以免费托管在github这类服务上面（国内访问速度有点慢，但可以接受）</p>
 <p>缺点：</p>
-<p>入门有一点难度，新手甚至摸不着门路（我目前就在这个阶段...）
+<p>入门有一点难度，新手甚至摸不着门路（我目前就在这个阶段&hellip;）
 需要学习的东西多少会有一点，而且不会有太多的教程和资料给你阅读，有也不一定很好找到</p>
 <p>但我认为这肯定是一个趋势，不可逆的趋势。
 未来，坚持原创分享的博主慢慢的都会往这个方向发展。
 去掉臃肿，去掉繁杂，留下最简单的东西。一台电脑，一个markdown编辑器，配合静态博客框架，把编辑写好的文章快速推送到服务器上面。剩下的事情交给时间去沉淀，然后，我们应该更好的享受工作和生活。</p>
 <p>最后，向大佬也是我的老乡致敬！<a href="https://yihui.name/cn/about/">https://yihui.name/cn/about/</a>
-<img src="https://img.dtz9.com/imgs/2019/06/58bc64e5ec57e8de.jpg" alt=""></p>
+<img src="https://img.dtz9.com/imgs/2019/06/58bc64e5ec57e8de.jpg" alt=""  /></p>
 
-        </div>
+</section>
 
-         
-        <div class="article-toc" style="display:none;" >
-            <h3></h3>
-            <nav id="TableOfContents">
-  <ol>
-    <li>
-      <ol>
-        <li>
-          <ol>
-            <li><a href="#关于关注的很多信息源的浏览方式">关于关注的很多信息源的浏览方式</a></li>
-            <li><a href="#是时候着手准备开启静态博客了">是时候着手准备开启静态博客了</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-        </div>
-          
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-        <script>
-            (function() {
-                var $toc = $('#TableOfContents');
-                if ($toc.length > 0) {
-                    var $window = $(window);
 
-                    function onScroll() {
-                        var currentScroll = $window.scrollTop();
-                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
-                        var id = "";
-                        h.each(function(i, e) {
-                            e = $(e);
-                            if (e.offset().top - 10 <= currentScroll) {
-                                id = e.attr('id');
-                            }
-                        });
-                        var active = $toc.find('a.active');
-                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-                        active.each(function(i, e) {
-                            $(e).removeClass('active').siblings('ul').hide();
-                        });
-                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function(i, e) {
-                            $(e).children('a').addClass('active').siblings('ul').show();
-                        });
-                    }
-
-                    $window.on('scroll', onScroll);
-                    $(document).ready(function() {
-                        $toc.find('a').parent('li').find('ul').hide();
-                        onScroll();
-                        document.getElementsByClassName('article-toc')[0].style.display = '';
-                    });
-                }
-            })();
-        </script>
-         
-        <footer class="article-footer">
-            <ul class="article-tag-list">
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/freshrss">freshrss
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2">静态博客
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/hugo">hugo
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD">秘密花园
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E8%B0%A2%E7%9B%8A%E8%BE%89">谢益辉
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E9%9A%8F%E7%AC%94">随笔
-                    </a>
-                </li>
-                
-                <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://ditou.org//tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4">网站维护
-                    </a>
-                </li>
-                
-            </ul>
-        </footer>
+    <footer class="article-footer">
+    
+    <section class="article-tags">
         
-    </div>
-    
-<nav id="article-nav">
-    
-    <a href="/2019/06/3/" id="article-nav-newer" class="article-nav-link-wrap">
-        <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            【网站维护】一些变化
-        </div>
-    </a>
-    
-    
-    <a href="/2019/06/1/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">【电脑】Win10关闭系统通知中心广告&nbsp;<span>&gt;</span></div>
-    </a>
-    
-</nav>
+            <a href="/tags/freshrss/">freshrss</a>
+        
+            <a href="/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/">静态博客</a>
+        
+            <a href="/tags/hugo/">hugo</a>
+        
+            <a href="/tags/%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD/">秘密花园</a>
+        
+            <a href="/tags/%E8%B0%A2%E7%9B%8A%E8%BE%89/">谢益辉</a>
+        
+            <a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a>
+        
+            <a href="/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
+        
+    </section>
 
 
-</article>  <div class="article-inner">
-    <a href="https://dtz9.com/d/19" target="_blank">
-        <img border="0" src="/banner.png" />
-    </a>
-</div>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
 <div align="center">
-    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦🙂
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项，不一定需要登陆哦
     </font>
-</div>
-<div style="background-color: #f9f9f9;">
+</div><br>
+<div class="disqus-container">
     <center>
-        <div id="comment" style="width: 96%;">
+        <div id="comment">
             <script>
                 var disq = new iDisqus('comment', {
                     forum: '1078503',
@@ -263,57 +337,124 @@
         </div>
     </center>
 </div>
-        </section>
-        <div class="outer" style="font-size: 10px;">
-    <ul style="padding: 12px 13px 10px 0px;" class="shouyeyoulian">
-        <li><a href="http://www.jetli.com.cn/" target="_blank">博客志</a></li>
-        <li><a href="https://dtz9.com/" target="_blank">低头族</a></li>
-        <li><a href="http://www.xlanda.net/" target="_blank">我的天</a></li>
-        <li><a href="http://blog.dngz.net/" target="_blank">心灵博客</a></li>
-        <li><a href="https://www.goakay.com/" target="_blank">GoaKay</a></li>
-        <li><a href="https://cyhour.com/" target="_blank">沙唐桔</a></li>
-        <li><a href="https://www.lfhacks.com/" target="_blank">LFhacks</a></li>
-        <li><a href="https://wbt5.com/" target="_blank">乌帮图</a></li>
-        <li><a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a></li>
-        <li><a href="http://qumac.com/" target="_blank">攻城狮笔记</a></li>
-        <li><a href="http://gojira.net" target="_blank">哥斯拉</a></li>
-        <li><a href="https://ditou.org/links" style="color: darkred;">更多友链</a></li>
-    </ul>
-</div>
-<footer id="footer">
-    <div class="outer">
-        <hr style=" border: 1px dashed #ddd;">
-        <div id="footer-info" class="inner">
-            &copy; 2019 - 2021 近视眼逛博客 | 由 <a href="https://gohugo.io" target="_blank">Hugo</a> 生成 | 主题： <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a> | <a href="/index.xml" target="_blank" title="使用RSS阅读器订阅本站">RSS</a>            |
-            <a rel="me" href="https://1w1.in/@ditou" target="_blank" title="去中心化的微博替代品">Mastodon</a>
-        </div>
-    </div>
-    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
 
     
-    <script>
-        document.getElementById('main-nav-toggle').addEventListener('click', function() {
-            var header = document.getElementById('header');
-            if (header.classList.contains('mobile-on')) {
-                header.classList.remove('mobile-on');
-            } else {
-                header.classList.add('mobile-on');
-            }
-        });
-    </script>
+
+    <footer class="site-footer">
+    <p><a>友情链接：</a>
+    
+        &nbsp;<a href="http://www.jetli.com.cn/" target="_blank">博客志</a>&nbsp;
+        &nbsp;<a href="https://dtz9.com/" target="_blank">低头族</a>&nbsp;
+        &nbsp;<a href="http://www.xlanda.net/" target="_blank">我的天</a>&nbsp;
+        &nbsp;<a href="http://blog.dngz.net/" target="_blank">心灵博客</a>&nbsp;
+        &nbsp;<a href="https://www.goakay.com/" target="_blank">GoaKay</a>&nbsp;
+        &nbsp;<a href="https://cyhour.com/" target="_blank">沙唐桔</a>&nbsp;
+        &nbsp;<a href="https://www.lfhacks.com/" target="_blank">LFhacks</a>&nbsp;
+        &nbsp;<a href="https://wbt5.com/" target="_blank">乌帮图</a>&nbsp;
+        &nbsp;<a href="http://www.along168.cn/" target="_blank">蓝天个人博客</a>&nbsp;
+        &nbsp;<a href="http://qumac.com/" target="_blank">攻城狮笔记</a>&nbsp;
+        &nbsp;<a href="http://gojira.net" target="_blank">哥斯拉</a>&nbsp;
+        &nbsp;<a href="https://ditou.org/links" style="color: darkred;">更多友链</a>&nbsp;
+    
+    </p>
+
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2021 近视眼逛博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> . 
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
 
-<div id="backtop">
-    <a href="#"><span>&#11014;</span> </a>
-</div>
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
 
     </div>
-</body>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+
+            </main>
+        </div>
+        1<script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script> 
+    </body>
 </html>
