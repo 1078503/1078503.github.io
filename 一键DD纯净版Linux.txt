@@ -1,3 +1,7 @@
+内网穿透 https://freefrp.net/ 启动（test.dtz9.com）方法:
+
+cd /home/ado/文档/FRP/frp_0.35.0_linux_amd64/
+./frpc -c ./frpc.ini
 ###############################################
 重装前环境准备
 当前已安装任意由GRUB or GRUB2引导Linux系统(RedHat/CentOS/Debian/Ubuntu/Etc.)

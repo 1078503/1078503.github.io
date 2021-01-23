@@ -7,7 +7,7 @@ slug:
 image: cover.png
 tags:
 categories:
-toc: false
+toc: true
 autoCollapseToc: true
 math: false
 comment: true
