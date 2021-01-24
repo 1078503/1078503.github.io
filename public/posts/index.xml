@@ -237,8 +237,8 @@ Linux 因为市场占有率小，针对它开发基本是不会赚到什么钱�
 静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。
 要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。
 首先来复习一下什么是git 维基百科：https://zh.wikipedia.org/wiki/Git
-git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程
-关键词：分布式版本控制。
+ git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程
+ 关键词：分布式版本控制。
 说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。
 那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：https://www.jianshu.com/p/662d9bb9cadc
 静态博客托管到GitHub网上的教程很多，之所以今天再来复习一下git都是为了让它运行的更优雅，因为之前的操作都是按之前看到的教程按部就班，根本不明白仓库的操作原理。这里不放其它链接和运行命令的具体教程和解释了，很容易就搜索到了。
@@ -254,7 +254,7 @@ Centos 7系统上安装运行hugo可以参考这个页面：https://www.jianshu.
 如果你会在本地比如 Win 系统上使用，那么在服务器上使用基本没什么区别了。
 如果你不会，可以先学会在本地使用hugo，参考这个页面：https://ditou.org/2019/08/5/
 如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：
- cd /www/wwwroot/dtz9.net hugo cd ~  执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：
+cd /www/wwwroot/dtz9.net hugo cd ~ 执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：
 Building sites … | ZH-CN +------------------+-------+ Pages | 385 Paginator pages | 71 Non-page files | 0 Static files | 80 Processed images | 0 Aliases | 148 Sitemaps | 1 Cleaned | 0 Total in 6202 ms 总结一下 我要的其实就是效率，不卡顿，至于推送拉取这些通信消耗的时间基本不在我的考虑范围，只要能稳定靠谱的完成它的任务就可以了。</description>
     </item>
     

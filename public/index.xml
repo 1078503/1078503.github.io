@@ -300,7 +300,9 @@
 &lt;p&gt;维基百科：&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/Git&#34;  title=&#34;https://zh.wikipedia.org/wiki/Git&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://zh.wikipedia.org/wiki/Git&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。最初目的是为更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。git最初的开发动力来自于BitKeeper和Monotone。git最初只是作为一个可以被其他前端（比如Cogito或Stgit）包装的后端而开发的，但后来git内核已经成熟到可以独立地用作版本控制。很多著名的软件都使用git进行版本控制，其中包括Linux内核、X.Org服务器和OLPC内核等项目的开发流程&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;关键词：分布式版本控制。&lt;/p&gt;
 &lt;p&gt;说白了就是需要本地静态博客与GitHub仓库保持同步，同时需要用Forestry管理GitHub仓库里面的文件。&lt;/p&gt;
 &lt;p&gt;那么，本地与GitHub之间同步的优雅姿势就比较重要了。我是使用的 VSCode 来编辑文件和管理GitHub与本地文件的。使用VSCode是因为日常编辑主题文件等习惯使用，另外它本身就集成了终端功能。只要你安装了git就可以使用，这里说明一下我的系统是Win 10。具体GitHub的操作方法可以参考这个页面：&lt;a class=&#34;link&#34; href=&#34;https://www.jianshu.com/p/662d9bb9cadc&#34;  title=&#34;https://www.jianshu.com/p/662d9bb9cadc&#34;
@@ -335,10 +337,9 @@
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://ditou.org/2019/08/5/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如果你跟我一样服务器上使用了宝塔面板，那添加一个定时任务也是so easy了。计划任务里面任务类型选择 shell脚本，脚本任务无非像这样：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; cd /www/wwwroot/dtz9.net 
- hugo 
- cd ~
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /www/wwwroot/dtz9.net 
+hugo 
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;执行周期您请随意，如果你的静态博客配置文件正确的话，这个任务就会很可靠的为你工作了。对于它来说，就是几秒钟的事情：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Building sites … 
                    &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ZH-CN  

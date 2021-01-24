@@ -31,7 +31,7 @@ params:
         lastUpdated: 2006-1-02 15:04 MST
 
     sidebar:
-        emoji: 🐕
+        emoji: 
         subtitle: 
         avatar:
             local: true
@@ -54,13 +54,15 @@ params:
 
     widgets:
         enabled:
+            - archives
             - tag-cloud
 
         archives:
-            limit: 5
+            limit: 1
+            path: /archives
 
         tagCloud:
-            limit: 30
+            limit: 50
 
     opengraph:
         twitter:
