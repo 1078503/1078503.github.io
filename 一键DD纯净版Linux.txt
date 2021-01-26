@@ -117,10 +117,11 @@ docker-compose --version
 
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 
-外网面板地址: http://119.102.223.21:8888/b9f770a4
-内网面板地址: http://192.168.0.108:8888/b9f770a4
-username: argrmydn
-password: c352e6f6
+外网面板地址: http://154.209.72.152:8888/73decc75
+内网面板地址: http://154.209.72.152:8888/73decc75
+username: wekrufft
+password: cdceeee9
+
 
 curl -L https://get.daocloud.io/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 
