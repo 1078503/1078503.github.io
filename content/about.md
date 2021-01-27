@@ -8,7 +8,7 @@ toc: false
 ---
 联系我： ![](https://ditou.org/1078503@gmail.com.gif)
 
-电报群：[进入](https://t.me/link1078503) | 9号地铁站：[DTZ9.COM](https://dtz9.com/)
+电报交流群：[进入](https://t.me/link1078503) | 9号地铁站：[DTZ9.COM](https://dtz9.com/)
 
 ## 更新日志
 
