@@ -1,0 +1,35 @@
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+<div align="center" class="{{ if .Params.image }}has-image {{ end }}main-article">
+    <a href="https://dtz9.com/d/19" target="_blank">
+        <br>
+        ☛ 只为认真写博客的你提供的博客主机
+        <br><br>
+    </a>
+</div>
+<div align="center">
+    <font style="color: red;font-family: sans-serif;font-size: 12px;" align="center">点击评论框“加入讨论”会显示名字邮箱网址选项匿名发言
+    </font>
+</div><br>
+<div class="disqus-container">
+    <center>
+        <div id="comment">
+            <script>
+                var disq = new iDisqus('comment', {
+                    forum: '1078503',
+                    api: 'https://api.ditou.org/disqus/api/',
+                    site: 'https://ditou.org',
+                    mode: 2,
+                    timeout: 3000,
+                    init: true
+                });
+            </script>
+        </div>
+    </center>
+</div>
