@@ -54,7 +54,6 @@ params:
 
     widgets:
         enabled:
-            - archives
             - tag-cloud
 
         archives:
