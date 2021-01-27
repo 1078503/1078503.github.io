@@ -56,10 +56,6 @@ params:
         enabled:
             - tag-cloud
 
-        archives:
-            limit: 1
-            path: /archives
-
         tagCloud:
             limit: 50
 
