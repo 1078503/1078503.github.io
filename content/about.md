@@ -8,7 +8,7 @@ toc: false
 ---
 联系我： ![](https://ditou.org/1078503@gmail.com.gif)
 
-测试文字
+测试文字。
 
 电报交流群：[进入](https://t.me/ditou_org) | 9号站：[9hz.club](https://9hz.club/)
 
