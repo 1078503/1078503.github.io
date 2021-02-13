@@ -1,0 +1,4 @@
+- name: Build Hugo
+  # You may pin to the exact commit or the version.
+  # uses: lowply/build-hugo@d6abd4bd740a38278f858fb383841e5e6af8d985
+  uses: lowply/build-hugo@v0.78.0
