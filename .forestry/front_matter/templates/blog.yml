@@ -32,3 +32,5 @@ fields:
 - type: boolean
   name: comment
   label: comment
+pages:
+- content/posts/2021/202102/3/测试文章.md
