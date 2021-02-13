@@ -10,8 +10,6 @@ toc: false
 
 电报交流群：[进入](https://t.me/ditou_org) | 9号站：[9hz.club](https://9hz.club/)
 
-快速简单金色的快速简单克计算
-
 ## 更新日志
 
 ##### 2021年1月16日
