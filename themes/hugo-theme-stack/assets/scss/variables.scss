@@ -101,7 +101,7 @@ $defaultTagColors: #fff,
 
 :root {
     --article-font-family: var(--base-font-family);
-    --article-font-size: 14px;
+    --article-font-size: 16px;
     @media (max-width: $on-tablet) {
         --article-font-size: 1.6rem;
     }
