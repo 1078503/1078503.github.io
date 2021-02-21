@@ -21,5 +21,5 @@ date: 2019-04-06
 | [生活的左上角](https://bwskyer.com/) |    [梦幻辰风](https://www.mhcf.net/)     |           [王志勇](http://www.auiou.com/)           |    [BORBER](https://borber.cn/)     |
 |  [Ray's Blog](https://raycoder.me/)  | [风萧萧兮易水寒](https://www.fiisi.com/) | [M-x Chris-An-Emacser](https://chriszheng.science/) |   [不一止集](http://buyivi.xyz/)    |
 |  [明天的乌云](https://tmr.js.org/)   |  ~~[三毛的毛](https://www.seoyx.cn/)~~   |            [行者晓路](http://stuit.cn/)             | [大缺缺](https://www.daqueque.com/) |
-|      [ZM沫](http://zmmio.com/)       |                                          |                                                     |                                     |
+|      [ZM沫](http://zmmio.com/)       |       [忆往事](https://yiws.net/)        |                                                     |                                     |
 
