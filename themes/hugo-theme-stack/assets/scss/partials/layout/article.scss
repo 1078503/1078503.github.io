@@ -187,9 +187,8 @@
 }
 
 .article-content {
-    font-family: "Noto Serif SC", serif;
-    font-family: "Ubuntu Mono", monospace;
-    font-size: 1.6rem;
+    font-family: var(--article-font-family);
+    font-size: var(--article-font-size);
     line-height: var(--article-line-height);
 
     & > p {
