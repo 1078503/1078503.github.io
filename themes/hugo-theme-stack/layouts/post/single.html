@@ -9,11 +9,11 @@
 
     {{ partial "article/article.html" . }}
 
-    {{ partial "article/components/related-contents" . }}
+   <!-- {{ partial "article/components/related-contents" . }}
 
     {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}}
-        {{ partial "comments/include" . }}
-    {{ end }}
+        {{ partial "comments/include" . }} 
+    {{ end }} -->
 
     {{ partialCached "footer/footer" . }}
 

@@ -6,7 +6,7 @@ author: 执迷不悟
 toc: false
 
 ---
-联系我： ![](https://ditou.org/1078503@gmail.com.gif)
+联系我： ![](https://1078503.github.io/public/1078503@gmail.com.gif)
 
 电报交流群：[进入](https://t.me/ditou_org) | 9号站：[9hz.club](https://9hz.club/)
 

@@ -2,9 +2,9 @@
 {{ define "main" }}
     {{ partial "article/article.html" . }}
 
-    {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
+   <!-- {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
         {{ partial "comments/include" . }}
-    {{ end }}
+    {{ end }} -->
 
     {{ partialCached "footer/footer" . }}
 
