@@ -90,7 +90,7 @@ menu:
     main:
         - identifier: home
           name: 首页
-          url: /
+          url: 
           weight: -100
           pre: home
 
@@ -108,7 +108,7 @@ menu:
 
         - identifier: links
           name: 友链
-          url: /links
+          url: links
           weight: -70
           pre: link
 
