@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>换域名 on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/</link>
-    <description>Recent content in 换域名 on 近视眼逛博客</description>
+    <title>换域名 on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/</link>
+    <description>Recent content in 换域名 on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 26 Feb 2020 13:30:35 +0000</lastBuildDate><atom:link href="https://ditou.org/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2020 13:30:35 +0000</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/%E6%8D%A2%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我又干了啥</title>
-      <link>https://ditou.org/2020/02/6/</link>
+      <link>https://1078503.github.io/public/2020/02/6/</link>
       <pubDate>Wed, 26 Feb 2020 13:30:35 +0000</pubDate>
       
-      <guid>https://ditou.org/2020/02/6/</guid>
+      <guid>https://1078503.github.io/public/2020/02/6/</guid>
       <description>整理浏览器书签和网址站 精简浏览器书签栏，把一些好的添加进网址站。
 目前大部分整理完成，分类真难。继续跟书签栏战斗~
 解决博客外链不在新标签打开的问题 以我的能力，要么自己查文档改代码，要么直接找一个适合的主题。由于hugo更新频繁版本过多，之前能使用的config文件换个版本就发现失效，放弃，还是去找一个更好的主题吧！由于hugo新版本改变过大，有点摸不着头脑，为了更新而更新，换上新版的hugo，以这个为前提试用了几款主题，最终选用目前看到的这款主题 LoveIt 。基本满足了，剩下的就是继续摸鱼了🦑。

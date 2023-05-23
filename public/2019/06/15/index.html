@@ -8,9 +8,9 @@
 这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。
 将内页友链移到了全站左侧可见，要跟我友情的可以报名了。'><title>【网站维护】未雨绸缪启用自建图床</title>
 
-<link rel='canonical' href='https://ditou.org/2019/06/15/'>
+<link rel='canonical' href='https://1078503.github.io/public/2019/06/15/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><link rel="preconnect" href="//gstatic.loli.net">
+<link rel="stylesheet" href="/public/scss/style.scss"><link rel="preconnect" href="//gstatic.loli.net">
 <link href="//fonts.loli.net/css2?family=Noto+Serif+SC&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="//api.ditou.org/disqus/dist/iDisqus.min.css">
@@ -24,9 +24,9 @@
 说说这个图床源码的特点，很方便实用。  图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。 支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了&amp;hellip; 支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M&#43;的体积，每次图片加载都超级慢，因为之前使用的是 sm.ms 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k&#43;，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。 图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。 作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。  总的来说目前是我已知的图床源码中最好的选择，如果你知道更好的方案欢迎在评论区留言分享给我。
 这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。
 将内页友链移到了全站左侧可见，要跟我友情的可以报名了。'>
-<meta property='og:url' content='https://ditou.org/2019/06/15/'>
-<meta property='og:site_name' content='近视眼逛博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='启用自建图床' /><meta property='article:tag' content='ImgURL' /><meta property='article:tag' content='图片压缩' /><meta property='article:tag' content='网站维护' /><meta property='article:published_time' content='2019-06-21T22:22:36&#43;08:00'/><meta property='article:modified_time' content='2019-06-21T22:22:36&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta property='og:url' content='https://1078503.github.io/public/2019/06/15/'>
+<meta property='og:site_name' content='近视眼逛博客|旧版'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='启用自建图床' /><meta property='article:tag' content='ImgURL' /><meta property='article:tag' content='图片压缩' /><meta property='article:tag' content='网站维护' /><meta property='article:published_time' content='2019-06-21T22:22:36&#43;08:00'/><meta property='article:modified_time' content='2019-06-21T22:22:36&#43;08:00'/><meta property='og:image' content='https://1078503.github.io/public' />
 <meta name="twitter:title" content="【网站维护】未雨绸缪启用自建图床">
 <meta name="twitter:description" content="开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。
 今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。
@@ -34,7 +34,7 @@
 说说这个图床源码的特点，很方便实用。  图片的上传和预览自不用说，上传完成后可以很方便的复制代码，有图片链接、html、markdown以及BBcode四种环境的代码复制支持。 支持URL上传，你可以通过后台把外站的图片链接直接粘贴进去上传到你自己的图床里面。这个功能很赞，对于站长批量更换图床是一个非常好的支持。我的博客因为文章和图片不多，我在本地的markdown原稿中找出所有的图片链接放进后台界面，然后一键上传。再对所有的原稿里的图片做一个个的链接更新就完事儿。我在想那些动不动就几百上千篇文章的博客如果需要换图床该怎么活？要是我怕是会被吓的直接删库跑路了&amp;hellip; 支持图片压缩，需要调用第三方API。这个就更赞了，流量都是银子啊。我之前的文章中有几张图片每张图都是1M&#43;的体积，每次图片加载都超级慢，因为之前使用的是 sm.ms 的公益图床，也就没怎么在乎，大佬们看到了不要骂我，哈哈。我1.5M的图片压缩后大概500k&#43;，我对这个工具已经很满意了。另外，这个压缩的API应该是每月500张图片的限额，大多数人够用了。如果你拿来做公益图床开放给游客上传可能会超量，超过500张限额还需要继续使用压缩服务的话就需要额外付费了。 图片智能鉴黄也是有的，当然误判率一般都会存在，我因为是自用不对外所以这个就用不上了。 作者文档有写支持图片水印，但我并没有找到这个功能的后台支持设置，有可能作者还在开发当中？期待。  总的来说目前是我已知的图床源码中最好的选择，如果你知道更好的方案欢迎在评论区留言分享给我。
 这些更新的目的是为了预防第三方服务不稳定对我的影响，比如之前准备使用的Valine评论方案今天就听说有事故。把一些能够控制的东西放在同一个服务器的好处就是一荣俱荣一损俱损，只要页面能访问所有元素就都能正常加载。如果遇到事故，可以整体快速迁移而不用重新构建服务环境。
 将内页友链移到了全站左侧可见，要跟我友情的可以报名了。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://ditou.org' />
+    <meta name="twitter:image" content='https://1078503.github.io/public' />
     </head>
     <body class="article-page keep-sidebar">
     <script>
@@ -74,7 +74,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                        <img src="/public/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -82,7 +82,7 @@
                 
             </figure>
         
-        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h1 class="site-name"><a href="https://1078503.github.io/public">近视眼逛博客|旧版</a></h1>
         <h2 class="site-description"></h2>
     </header>
 
@@ -92,7 +92,7 @@
         
 
         <li >
-            <a href='/'>
+            <a href='/public/public/'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -111,7 +111,7 @@
         
 
         <li >
-            <a href='/about'>
+            <a href='/public/about'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -129,7 +129,7 @@
         
 
         <li >
-            <a href='/index.xml'>
+            <a href='/public/index.xml'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -148,7 +148,7 @@
         
 
         <li >
-            <a href='/links'>
+            <a href='/public/public/links'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -196,7 +196,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E5%BB%BA%E7%AB%99/" >
+            <a href="/public/categories/%E5%BB%BA%E7%AB%99/" >
                 建站
             </a>
         
@@ -204,7 +204,7 @@
     
 
     <h2 class="article-title">
-        <a href="/2019/06/15/">【网站维护】未雨绸缪启用自建图床</a>
+        <a href="/public/2019/06/15/">【网站维护】未雨绸缪启用自建图床</a>
     </h2>
 
     <footer class="article-time">
@@ -248,13 +248,13 @@
     
     <section class="article-tags">
         
-            <a href="/tags/%E5%90%AF%E7%94%A8%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/">启用自建图床</a>
+            <a href="/public/tags/%E5%90%AF%E7%94%A8%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/">启用自建图床</a>
         
-            <a href="/tags/imgurl/">ImgURL</a>
+            <a href="/public/tags/imgurl/">ImgURL</a>
         
-            <a href="/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/">图片压缩</a>
+            <a href="/public/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/">图片压缩</a>
         
-            <a href="/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
+            <a href="/public/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/">网站维护</a>
         
     </section>
 
@@ -351,7 +351,7 @@
         
             2019 - 
         
-        2021 近视眼逛博客
+        2023 近视眼逛博客|旧版
     </section>
     
     <section class="powerby">
@@ -433,7 +433,7 @@
             </main>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
-    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/public/ts/main.js" defer></script> <script>
     (function () {
         const customFont = document.createElement('link');
         customFont.href = "//fonts.loli.net/css2?family=Lato:wght@300;400;700&display=swap";

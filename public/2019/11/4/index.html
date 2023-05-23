@@ -16,9 +16,9 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
 命令内容参考：
 #!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !'><title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
 
-<link rel='canonical' href='https://ditou.org/2019/11/4/'>
+<link rel='canonical' href='https://1078503.github.io/public/2019/11/4/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><link rel="preconnect" href="//gstatic.loli.net">
+<link rel="stylesheet" href="/public/scss/style.scss"><link rel="preconnect" href="//gstatic.loli.net">
 <link href="//fonts.loli.net/css2?family=Noto+Serif+SC&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="//api.ditou.org/disqus/dist/iDisqus.min.css">
@@ -40,9 +40,9 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
 编辑该条目的shell命令并保存：
 命令内容参考：
 #!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !'>
-<meta property='og:url' content='https://ditou.org/2019/11/4/'>
-<meta property='og:site_name' content='近视眼逛博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='分享' /><meta property='article:tag' content='宝塔webhook' /><meta property='article:tag' content='Gridea同步到VPS服务器' /><meta property='article:tag' content='云中君' /><meta property='article:tag' content='webhook' /><meta property='article:tag' content='github' /><meta property='article:tag' content='Gridea' /><meta property='article:published_time' content='2019-11-21T00:42:00&#43;08:00'/><meta property='article:modified_time' content='2019-11-21T00:42:00&#43;08:00'/><meta property='og:image' content='https://ditou.org' />
+<meta property='og:url' content='https://1078503.github.io/public/2019/11/4/'>
+<meta property='og:site_name' content='近视眼逛博客|旧版'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='分享' /><meta property='article:tag' content='宝塔webhook' /><meta property='article:tag' content='Gridea同步到VPS服务器' /><meta property='article:tag' content='云中君' /><meta property='article:tag' content='webhook' /><meta property='article:tag' content='github' /><meta property='article:tag' content='Gridea' /><meta property='article:published_time' content='2019-11-21T00:42:00&#43;08:00'/><meta property='article:modified_time' content='2019-11-21T00:42:00&#43;08:00'/><meta property='og:image' content='https://1078503.github.io/public' />
 <meta name="twitter:title" content="【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新">
 <meta name="twitter:description" content="今天博友云中君反馈，说他的博客又抽风了。
 原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
@@ -58,7 +58,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
 编辑该条目的shell命令并保存：
 命令内容参考：
 #!/bin/bash echo &amp;#34;&amp;#34; #输出当前时间 date --date=&amp;#39;0 days ago&amp;#39; &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34; echo &amp;#34;Start&amp;#34; #判断宝塔WebHook参数是否存在 if [ ! -n &amp;#34;$1&amp;#34; ]; then echo &amp;#34;param参数错误&amp;#34; echo &amp;#34;End&amp;#34; exit fi #git项目路径 gitPath=&amp;#34;①/www/wwwroot/$1&amp;#34; #git 网址 gitHttp=&amp;#34;②https://github.com/1078503/blog.git&amp;#34; echo &amp;#34;Web站点路径：$gitPath&amp;#34; #判断项目路径是否存在 if [ -d &amp;#34;$gitPath&amp;#34; ]; then cd $gitPath #判断是否存在git目录 if [ !"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://ditou.org' />
+    <meta name="twitter:image" content='https://1078503.github.io/public' />
     </head>
     <body class="article-page keep-sidebar">
     <script>
@@ -98,7 +98,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
                     
                     
                         
-                        <img src="/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
+                        <img src="/public/img/avatar_hu3ececfcbd1649d0e0106963c709adaf9_4510_300x0_resize_q75_box.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -106,7 +106,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
                 
             </figure>
         
-        <h1 class="site-name"><a href="https://ditou.org">近视眼逛博客</a></h1>
+        <h1 class="site-name"><a href="https://1078503.github.io/public">近视眼逛博客|旧版</a></h1>
         <h2 class="site-description"></h2>
     </header>
 
@@ -116,7 +116,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
         
 
         <li >
-            <a href='/'>
+            <a href='/public/public/'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -135,7 +135,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
         
 
         <li >
-            <a href='/about'>
+            <a href='/public/about'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -153,7 +153,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
         
 
         <li >
-            <a href='/index.xml'>
+            <a href='/public/index.xml'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -172,7 +172,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
         
 
         <li >
-            <a href='/links'>
+            <a href='/public/public/links'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -220,7 +220,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
     
     <header class="article-category">
         
-            <a href="/categories/%E5%BB%BA%E7%AB%99/" >
+            <a href="/public/categories/%E5%BB%BA%E7%AB%99/" >
                 建站
             </a>
         
@@ -228,7 +228,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
     
 
     <h2 class="article-title">
-        <a href="/2019/11/4/">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</a>
+        <a href="/public/2019/11/4/">【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</a>
     </h2>
 
     <footer class="article-time">
@@ -272,7 +272,7 @@ CentOS 7 安装方法：yum install git ，其它系统请自行搜索和研究�
 <p>编辑该条目的shell命令并保存：</p>
 <p><img src="https://img.dtz9.com/imgs/2019/11/fd3c9d3f1af3ef16.png" alt=""  /></p>
 <p>命令内容参考：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
 </span><span class="cp"></span><span class="nb">echo</span> <span class="s2">&#34;&#34;</span>
 <span class="c1">#输出当前时间</span>
 date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> <span class="s2">&#34;+%Y-%m-%d %H:%M:%S&#34;</span>
@@ -350,19 +350,19 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
     
     <section class="article-tags">
         
-            <a href="/tags/%E5%88%86%E4%BA%AB/">分享</a>
+            <a href="/public/tags/%E5%88%86%E4%BA%AB/">分享</a>
         
-            <a href="/tags/%E5%AE%9D%E5%A1%94webhook/">宝塔webhook</a>
+            <a href="/public/tags/%E5%AE%9D%E5%A1%94webhook/">宝塔webhook</a>
         
-            <a href="/tags/gridea%E5%90%8C%E6%AD%A5%E5%88%B0vps%E6%9C%8D%E5%8A%A1%E5%99%A8/">Gridea同步到VPS服务器</a>
+            <a href="/public/tags/gridea%E5%90%8C%E6%AD%A5%E5%88%B0vps%E6%9C%8D%E5%8A%A1%E5%99%A8/">Gridea同步到VPS服务器</a>
         
-            <a href="/tags/%E4%BA%91%E4%B8%AD%E5%90%9B/">云中君</a>
+            <a href="/public/tags/%E4%BA%91%E4%B8%AD%E5%90%9B/">云中君</a>
         
-            <a href="/tags/webhook/">webhook</a>
+            <a href="/public/tags/webhook/">webhook</a>
         
-            <a href="/tags/github/">github</a>
+            <a href="/public/tags/github/">github</a>
         
-            <a href="/tags/gridea/">Gridea</a>
+            <a href="/public/tags/gridea/">Gridea</a>
         
     </section>
 
@@ -459,7 +459,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
         
             2019 - 
         
-        2021 近视眼逛博客
+        2023 近视眼逛博客|旧版
     </section>
     
     <section class="powerby">
@@ -541,7 +541,7 @@ date --date<span class="o">=</span><span class="s1">&#39;0 days ago&#39;</span> 
             </main>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
-    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script> <script>
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/public/ts/main.js" defer></script> <script>
     (function () {
         const customFont = document.createElement('link');
         customFont.href = "//fonts.loli.net/css2?family=Lato:wght@300;400;700&display=swap";

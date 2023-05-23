@@ -1,8 +1,8 @@
-baseurl: https://ditou.org
+baseurl: https://1078503.github.io/public
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 5
-title: 近视眼逛博客
+title: 近视眼逛博客|旧版
 
 # Change it to your Disqus shortname before using
 disqusShortname: 1078503

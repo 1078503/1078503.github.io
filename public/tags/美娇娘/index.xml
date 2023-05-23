@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>美娇娘 on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/%E7%BE%8E%E5%A8%87%E5%A8%98/</link>
-    <description>Recent content in 美娇娘 on 近视眼逛博客</description>
+    <title>美娇娘 on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/%E7%BE%8E%E5%A8%87%E5%A8%98/</link>
+    <description>Recent content in 美娇娘 on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jul 2019 23:30:15 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/%E7%BE%8E%E5%A8%87%E5%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2019 23:30:15 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/%E7%BE%8E%E5%A8%87%E5%A8%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【随笔】自从有了博客折腾是日常习惯</title>
-      <link>https://ditou.org/2019/07/6/</link>
+      <link>https://1078503.github.io/public/2019/07/6/</link>
       <pubDate>Sun, 14 Jul 2019 23:30:15 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/07/6/</guid>
+      <guid>https://1078503.github.io/public/2019/07/6/</guid>
       <description>有多少人像我一样？
 一言不合就折腾代码，哪里不爽改哪里🤭。
 今晚只做了一件事，把网址结构从 /20190714.html 这样的改到了 /2019/07/1/ 这种纯目录结构，个人感觉好看也便于管理。如果继续使用之前的目录结构，以后时间长了根目录列表可能会很长很长，这样找个文件或者排查错误就会无从下手。现在的结构应该是好很多了，解释一下就是 域名/年/月/id排序，那么就是以月为单位id排序的思路，每个月一个文件夹的静态网页目录存放形式。这下心里的担忧暂时可以放下了。

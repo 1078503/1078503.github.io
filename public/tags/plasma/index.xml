@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plasma on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/plasma/</link>
-    <description>Recent content in Plasma on 近视眼逛博客</description>
+    <title>Plasma on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/plasma/</link>
+    <description>Recent content in Plasma on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 24 Dec 2020 22:40:00 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/plasma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Dec 2020 22:40:00 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/plasma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我为什么使用 Linux 作为桌面系统</title>
-      <link>https://ditou.org/2020/12/1/</link>
+      <link>https://1078503.github.io/public/2020/12/1/</link>
       <pubDate>Thu, 24 Dec 2020 22:40:00 +0800</pubDate>
       
-      <guid>https://ditou.org/2020/12/1/</guid>
+      <guid>https://1078503.github.io/public/2020/12/1/</guid>
       <description>首先需要说明的是，我现在日常使用的桌面系统已经从 Ubuntu 切换到 Kubuntu 了。是的，看名称大概也能猜到 Kubuntu 是 Ubuntu 的衍生版本。区别在于 Kubuntu 是 KDE 的桌面环境，这个桌面环境有一个非常 Nice 的名字：Plasma 。使用这个桌面环境我觉得最大的好处是不需要折腾桌面环境，特别是针对刚刚从 Windows 切换过来的用户，开箱即用做的还算可以。Plasma 在很多发行版上都有对应的支持，例如 OpenSUSE 。
 回归正题，我为什么使用 Linux 作为桌面系统呢？
 我的电脑太旧了 有的网友可能不知道，我还在使用很多年前的笔记本电脑，而这台电脑是我唯一的电脑。它有一个 12.1 寸的显示器，古老的 i5 CPU ，唯一值得说道的是我给它使用了 8G 的内存和一个 120G 的 SSD 硬盘。它就是 ThinkPad X201 ，大多数人看来它就是一个上网本，因为放到现在来说，它实在算是古董了。

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>网站维护 on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/</link>
-    <description>Recent content in 网站维护 on 近视眼逛博客</description>
+    <title>网站维护 on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/</link>
+    <description>Recent content in 网站维护 on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 06 Aug 2019 18:33:12 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2019 18:33:12 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【网站维护】一些简单满意的调整</title>
-      <link>https://ditou.org/2019/08/2/</link>
+      <link>https://1078503.github.io/public/2019/08/2/</link>
       <pubDate>Tue, 06 Aug 2019 18:33:12 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/08/2/</guid>
+      <guid>https://1078503.github.io/public/2019/08/2/</guid>
       <description>闲来无事，在家看着视频逛着博客，看到很多博客分享代码的时候代码高亮的样式都很不错，想起来自己还没弄呢。
 代码高亮 就随便找了一个 prism.js ，选了一些常用的语言，css+js一共约34kb。想找个js库的cdn来着，没找到合适的，所以决定就这样用吧。将下载的两个文件放入对应的目录，就可以引用了，下面给新手一个引用的简单指引：
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; ... &amp;lt;link href=&amp;#34;css/prism.css&amp;#34; rel=&amp;#34;stylesheet&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; ... &amp;lt;script src=&amp;#34;js/prism.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 以上就是引用的方法和效果展示🙂。
@@ -28,10 +28,10 @@ css
     
     <item>
       <title>【网站维护】未雨绸缪启用自建图床</title>
-      <link>https://ditou.org/2019/06/15/</link>
+      <link>https://1078503.github.io/public/2019/06/15/</link>
       <pubDate>Fri, 21 Jun 2019 22:22:36 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/06/15/</guid>
+      <guid>https://1078503.github.io/public/2019/06/15/</guid>
       <description>开始前先来一张图镇楼 昨天说到增加了对思源宋体的支持，另外还把评论区完善了一下。
 今天带来的变化是启用了自用的图床，老是蹭公益图床也不是个办法，另外目前的VPS资源加载点图片应该还是绰绰有余的。
 图床源码使用的是 ImgURL ← 这个页面本身就是一个公益图床，欢迎去原作者那里围观并对作者表示支持 → 作者的博客在这里。
@@ -42,10 +42,10 @@ css
     
     <item>
       <title>【网站维护】增加了对思源宋体的支持</title>
-      <link>https://ditou.org/2019/06/14/</link>
+      <link>https://1078503.github.io/public/2019/06/14/</link>
       <pubDate>Thu, 20 Jun 2019 14:43:24 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/06/14/</guid>
+      <guid>https://1078503.github.io/public/2019/06/14/</guid>
       <description>是的，并不能直接显示，需要在您的设备中安装字体。
 有的站点是直接在线加载的，但是考虑到汉字字库一般较大，即使动态加载也会严重拖慢加载速度，所以只对font-family做一个声明支持Noto Serif CJK SC。
 具体怎么在设备中安装思源宋体您可以移步这里，介绍的非常详细。
@@ -60,10 +60,10 @@ css
     
     <item>
       <title>【网站维护】经过几天的努力终于把静态博客搞上线了</title>
-      <link>https://ditou.org/2019/06/6/</link>
+      <link>https://1078503.github.io/public/2019/06/6/</link>
       <pubDate>Wed, 12 Jun 2019 17:52:54 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/06/6/</guid>
+      <guid>https://1078503.github.io/public/2019/06/6/</guid>
       <description>遇到了很多的坑，比如说你在网上看到的很多主题的演示和原作者网站演示是不符的，很多细节是缺失的。并不是我一开始以为的拿来就可以用的，很多问题需要自己去解决。
 这对于新手来说还真是个麻烦，也算是一个痛苦的学习和了解的过程。在这里提醒准备搞和想搞静态博客的朋友，从来就没有伸手就来的东西，只有通过学习和付出才能有所收获。
 搞这个hugo静态博客框架，一开始在本地做了大量的测试，总的来说很方便。有朋友说换电脑和设备更新内容不方便，我一开始也是这样以为的，毕竟php博客已经让很多人习惯了在任何环境任何设备上使用。但诟病也很多，大家可能都是在忍受吧，毕竟没有多少更好的选择。
@@ -79,10 +79,10 @@ css
     
     <item>
       <title>【网站维护】一些变化</title>
-      <link>https://ditou.org/2019/06/3/</link>
+      <link>https://1078503.github.io/public/2019/06/3/</link>
       <pubDate>Thu, 06 Jun 2019 01:10:33 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/06/3/</guid>
+      <guid>https://1078503.github.io/public/2019/06/3/</guid>
       <description>是的，我也换主题了，一次大的改版。
 拿掉了那个丑陋不堪的wikiwp主题，虽然我个人是喜欢的，因为排版布局清晰。 但还是经不住这次用到的主题的诱惑，优点我就不说了，好看。 这次增加了一个音乐页面，直接引用网易云音乐，应该是很方便的。我没事儿的时候折腾一下手机，这个页面就会有相应的变化了，表现就是歌单里面不同风格的歌曲。那么，你们有好听的歌推荐吗？或者你喜欢的歌手。
 另外，把友情链接放到了单独的一个页面。 给这个页面命名为“相约2030”，做友情链接互换，也做优秀博客的收录，算是自己的一个导航页面吧。 当然，我内心是希望它能够有一些影响力的，能够吸引更多的人建立独立博客并分享不同行业不同人的生活乐趣。 十年，总会有一点变化的。
@@ -92,10 +92,10 @@ css
     
     <item>
       <title>【随笔】今晚遇到两件令我不怎么开心的事情</title>
-      <link>https://ditou.org/2019/06/2/</link>
+      <link>https://1078503.github.io/public/2019/06/2/</link>
       <pubDate>Tue, 04 Jun 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/06/2/</guid>
+      <guid>https://1078503.github.io/public/2019/06/2/</guid>
       <description>回家按惯例打开笔记本准备看一些新闻和博客。
 关于关注的很多信息源的浏览方式 说起来起因是因为前几天配置使用了freshrss，本以为可以安心的获取信息并逛一逛博客，因为我关注的博客实在太多了。 问题就出在这里，突然间我发现好多有更新的博客在freshrss阅读器中并不能很好的获取更新。我想了五分钟，突然意识到这个获取rss的方式并不可取。为什么呢？因为每个人的博客使用环境并不一样，输出rss的环境更是千差万别，而且各位博主并没有义务维护自己博客的rss输出。这样，我就很难第一时间获取更新并逛过去浏览相关内容了。
 怎么办呢？我又想了五分钟。做出了一个艰难的决定，那就是人工获取更新。很抱歉不是自己维护rss输出，我没那个技术能力也没那个时间。我的办法就是：把所有关注的博客还有新闻源依旧收藏在浏览器的收藏夹里面。呵呵，最原始的反而是最可靠的不是吗？应该是的。不然怎么办呢&amp;hellip;我发现任何事情简单一点是最舒服的，只要是把它搞的更简单的想法最后往往会变的更复杂。
@@ -115,10 +115,10 @@ css
     
     <item>
       <title>【网站维护】忍不住换到了洛杉矶机房</title>
-      <link>https://ditou.org/2019/05/10/</link>
+      <link>https://1078503.github.io/public/2019/05/10/</link>
       <pubDate>Tue, 21 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/05/10/</guid>
+      <guid>https://1078503.github.io/public/2019/05/10/</guid>
       <description>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。
 VuLtr开新机器的内核太旧了…
 升级到最新版第三方内核库 查看内核版本：
@@ -139,10 +139,10 @@ grub2-mkconfig -o /boot/grub2/grub.cfg reboot重启后验证最新的内核是�
     
     <item>
       <title>【网站维护】Google通过了我的Adsense账户</title>
-      <link>https://ditou.org/2019/05/7/</link>
+      <link>https://1078503.github.io/public/2019/05/7/</link>
       <pubDate>Sun, 12 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/05/7/</guid>
+      <guid>https://1078503.github.io/public/2019/05/7/</guid>
       <description>很高心昨天收到了Google的邮件：
 很惊喜！我一个不到一个月的新站，而且才有11篇文章的博主能够受到Google的青睐能不惊喜吗？这算是对我最大的鼓励了。晚上回到家配置好广告代码，大约2小时后，广告正式在博客展示了。
 说说博客的基本情况。域名注册有几个年头了，中间间或使用过没有坚持下去，这次算是鼓足了勇气多少个日夜无眠后决定玩下去，也算是对自己的一种磨练。说说内容，目前已经发布的除了坚持自己写一部分，其它的分享都是有注明来源的。这或许是没有成为减分项的原因？毕竟国内的站长采集搬运是普遍现象，留个原文链接估计都是不肯的。还是尊重原作者比较好吧！知识可以共享，但大家都不容易不是嘛！当然，我肯定也有不足的地方，以后发现了也希望自己能及时改正。

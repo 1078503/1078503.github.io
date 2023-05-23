@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/github/</link>
-    <description>Recent content in github on 近视眼逛博客</description>
+    <title>github on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/github/</link>
+    <description>Recent content in github on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 20 Feb 2020 10:06:00 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2020 10:06:00 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>研究hugo&#43;Github&#43;Forestry</title>
-      <link>https://ditou.org/2020/02/5/</link>
+      <link>https://1078503.github.io/public/2020/02/5/</link>
       <pubDate>Thu, 20 Feb 2020 10:06:00 +0800</pubDate>
       
-      <guid>https://ditou.org/2020/02/5/</guid>
+      <guid>https://1078503.github.io/public/2020/02/5/</guid>
       <description>起因是看见这位博主提到的静态博客管理办法： https://blog.jxtsai.info/post/hugo-and-forestry/ 。
 静态博客发布和管理如果能做到随时随地的话确实很方便，因此对我的吸引力非常大。为了实现这一目标，我来努努力。
 要搞定Forestry与GitHub的互通不难，稍微研究一下就能实现。我比较困惑的是本地与GitHub的通信，说白了是没有仔细系统的学习过git，因此，今天针对这一部分做一个学习。
@@ -40,10 +40,10 @@ Building sites … | ZH-CN +------------------+-------+ Pages | 385 Paginator pa
     
     <item>
       <title>【分享】宝塔面板中通过GitHub同步博客仓库并通过webhook勾子拉取更新</title>
-      <link>https://ditou.org/2019/11/4/</link>
+      <link>https://1078503.github.io/public/2019/11/4/</link>
       <pubDate>Thu, 21 Nov 2019 00:42:00 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/11/4/</guid>
+      <guid>https://1078503.github.io/public/2019/11/4/</guid>
       <description>今天博友云中君反馈，说他的博客又抽风了。
 原因是他将静态博客托管在coding上面，可是今天coding挂了，导致他的博客无法访问。
 这就很蛋疼了，写个博客本来就没几个人看还时不时失联，情何以堪。本来还有GitHub等一些平台可以使用，但我觉得换个方式可能会更好也说不定？

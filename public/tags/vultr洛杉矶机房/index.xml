@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vultr洛杉矶机房 on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/vultr%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%9C%BA%E6%88%BF/</link>
-    <description>Recent content in Vultr洛杉矶机房 on 近视眼逛博客</description>
+    <title>Vultr洛杉矶机房 on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/vultr%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%9C%BA%E6%88%BF/</link>
+    <description>Recent content in Vultr洛杉矶机房 on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 21 May 2019 01:16:33 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/vultr%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%9C%BA%E6%88%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2019 01:16:33 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/vultr%E6%B4%9B%E6%9D%89%E7%9F%B6%E6%9C%BA%E6%88%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【网站维护】忍不住换到了洛杉矶机房</title>
-      <link>https://ditou.org/2019/05/10/</link>
+      <link>https://1078503.github.io/public/2019/05/10/</link>
       <pubDate>Tue, 21 May 2019 01:16:33 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/05/10/</guid>
+      <guid>https://1078503.github.io/public/2019/05/10/</guid>
       <description>5月20日的凌晨狗日的，实在受不了新加坡机房的网络质量一狠心决定搬到洛杉矶。开了VPS做测试自己感觉很满意，以后可能就不需要再搬了吧？本来V记的快照可以快速更换VPS和机房，但我喜欢折腾一下机器，也算是了解一下新的环境，就不按套路来了，顺便记录一下过程。我的系统是CentOS 7。
 VuLtr开新机器的内核太旧了…
 升级到最新版第三方内核库 查看内核版本：

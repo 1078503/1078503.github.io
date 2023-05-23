@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>整理书签 on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/%E6%95%B4%E7%90%86%E4%B9%A6%E7%AD%BE/</link>
-    <description>Recent content in 整理书签 on 近视眼逛博客</description>
+    <title>整理书签 on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/%E6%95%B4%E7%90%86%E4%B9%A6%E7%AD%BE/</link>
+    <description>Recent content in 整理书签 on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 24 Jan 2021 00:51:11 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/%E6%95%B4%E7%90%86%E4%B9%A6%E7%AD%BE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 00:51:11 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/%E6%95%B4%E7%90%86%E4%B9%A6%E7%AD%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>你该整理你的浏览器书签了</title>
-      <link>https://ditou.org/2021/01/1/</link>
+      <link>https://1078503.github.io/public/2021/01/1/</link>
       <pubDate>Sun, 24 Jan 2021 00:51:11 +0800</pubDate>
       
-      <guid>https://ditou.org/2021/01/1/</guid>
+      <guid>https://1078503.github.io/public/2021/01/1/</guid>
       <description>哦豁，拜登登基了，嘿嘿。
 墨茶事件持续发酵，随便翻了一翻，感觉一股网络味儿扑面而来。具体情况细节依然不为外人道也，且看后续发展和报道（多半没有下文不了了之，正常现象）。
 我的想法，现象值得反思，真实情况有待考证。不盲目跟风不打嘴炮，你的良心不只是打几个字就能证明的，想想你在生活中是怎么做的。
@@ -28,10 +28,10 @@
     
     <item>
       <title>我又干了啥</title>
-      <link>https://ditou.org/2020/02/6/</link>
+      <link>https://1078503.github.io/public/2020/02/6/</link>
       <pubDate>Wed, 26 Feb 2020 13:30:35 +0000</pubDate>
       
-      <guid>https://ditou.org/2020/02/6/</guid>
+      <guid>https://1078503.github.io/public/2020/02/6/</guid>
       <description>整理浏览器书签和网址站 精简浏览器书签栏，把一些好的添加进网址站。
 目前大部分整理完成，分类真难。继续跟书签栏战斗~
 解决博客外链不在新标签打开的问题 以我的能力，要么自己查文档改代码，要么直接找一个适合的主题。由于hugo更新频繁版本过多，之前能使用的config文件换个版本就发现失效，放弃，还是去找一个更好的主题吧！由于hugo新版本改变过大，有点摸不着头脑，为了更新而更新，换上新版的hugo，以这个为前提试用了几款主题，最终选用目前看到的这款主题 LoveIt 。基本满足了，剩下的就是继续摸鱼了🦑。

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>开源微博 on 近视眼逛博客</title>
-    <link>https://ditou.org/tags/%E5%BC%80%E6%BA%90%E5%BE%AE%E5%8D%9A/</link>
-    <description>Recent content in 开源微博 on 近视眼逛博客</description>
+    <title>开源微博 on 近视眼逛博客|旧版</title>
+    <link>https://1078503.github.io/public/tags/%E5%BC%80%E6%BA%90%E5%BE%AE%E5%8D%9A/</link>
+    <description>Recent content in 开源微博 on 近视眼逛博客|旧版</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 11 Aug 2019 20:15:51 +0800</lastBuildDate><atom:link href="https://ditou.org/tags/%E5%BC%80%E6%BA%90%E5%BE%AE%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Aug 2019 20:15:51 +0800</lastBuildDate><atom:link href="https://1078503.github.io/public/tags/%E5%BC%80%E6%BA%90%E5%BE%AE%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【分享】Mastodon：一个免费开源的分布式微博客社交网络</title>
-      <link>https://ditou.org/2019/08/3/</link>
+      <link>https://1078503.github.io/public/2019/08/3/</link>
       <pubDate>Sun, 11 Aug 2019 20:15:51 +0800</pubDate>
       
-      <guid>https://ditou.org/2019/08/3/</guid>
+      <guid>https://1078503.github.io/public/2019/08/3/</guid>
       <description>什么是免费开源的分布式微博客社交网络？
 假设我们搭建了一个长毛象站点 tzcafe.com ，当你在这个网站注册，就得到了一个独一无二的 ID 比如：@1078503@tzcafe.com。前半部分 @1078503 代表我在这个站点内独有的一个身份，站内其他人不能再用；后半部分 @tzcafe.com 则是这个站点的地址。
 如果只是在站内发布内容，和同站的网友交流互动。那么这个长毛象站点只能算是一个仿品「新浪微博」。但是事实上长毛象站点特色远不止如此。
